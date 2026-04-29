@@ -29,7 +29,7 @@ _GDELT_BASE = os.getenv("GDELT_BASE_URL", "https://api.gdeltproject.org/api/v2/d
 
 
 @tool
-def gdelt_search(query: str, timespan: str = "30d", max_records: int = 20) -> list[dict]:
+def gdelt_search(query: str, timespan: str = "30d", max_records: int = 20, start_date: str = "", end_date: str = "") -> list[dict]:
     """
     Search the GDELT Document 2.0 API (no API key required).
 
@@ -37,6 +37,8 @@ def gdelt_search(query: str, timespan: str = "30d", max_records: int = 20) -> li
         query:       Search string.
         timespan:    Time window — e.g. '7d', '24h', '30d' (max ~3 months).
         max_records: Max articles to return (GDELT hard cap: 250).
+        start_date:  Optional start date (YYYY-MM-DD). Overrides timespan if provided.
+        end_date:    Optional end date (YYYY-MM-DD). Overrides timespan if provided.
 
     Returns:
         List of raw article dicts from GDELT.
@@ -45,10 +47,15 @@ def gdelt_search(query: str, timespan: str = "30d", max_records: int = 20) -> li
         "query": query,
         "mode": "ArtList",
         "maxrecords": min(max_records, 250),
-        "timespan": timespan,
         "sort": "HybridRel",
         "format": "json",
     }
+    if start_date and end_date:
+        params["startdatetime"] = start_date.replace("-", "") + "000000"
+        params["enddatetime"] = end_date.replace("-", "") + "235959"
+    else:
+        params["timespan"] = timespan
+
     try:
         resp = httpx.get(_GDELT_BASE, params=params, timeout=20)
         resp.raise_for_status()

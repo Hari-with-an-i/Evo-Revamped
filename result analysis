@@ -1,0 +1,111 @@
+\section{Results and Analysis}
+
+The ability of Perception Trend Analysis to identify the shift correctly and formulate factual responses is dependent on the information retrieved by SerApi. It correlates the shifts to the news articles in that time frame to identify the root causes behind it. The following are the evaluation methodologies we employed to cross-verify model outputs.
+
+\subsection{Groundedness and Factual Fidelity
+}
+The LLM-generated narrative report and its correlation with the retrieved News Articles are evaluated here. The Groundedness is a measure of how much of the report is explicitly supported by the raw text snippets retrieved from the SERP API. A hybrid scoring system is used to measure the quality of the LLM generated report:
+
+\begin{enumerate}
+    \item \textbf{Claim Decomposition:} The report is segmented into sentence-level assertions.
+
+    \item \textbf{Evidence Windowing:}Raw text is partitioned into overlapping five-sentence windows to preserve context.
+
+    \item \textbf{NLI Classification:} A specialized cross-encoder evaluates candidate pairs for logical entailment.
+\end{enumerate}
+
+A claim is defined as grounded if it satisfies either the Natural Language Inference (NLI) entailment probability threshold ($P_{NLI} \geq 0.30$) or the cosine similarity threshold ($S_{cos} \geq 0.30$). It was observed in Fig. ~\ref{fig:groundedness_analysis} that utilizing higher baselines (e.g., 0.50) unfairly penalized valid, high-level LLM recommendations by misclassifying them as hallucinations.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\linewidth]{grounded.jpeg}
+    \caption{Groundedness Analysis: The pipeline achieved an overall groundedness score of 83.3\%, with 15 out of 18 claims successfully verified against source data.}
+    \label{fig:groundedness_analysis}
+\end{figure}
+
+\begin{table}[htbp]
+\caption{Query Relevance and Pipeline Metrics}
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Metric Component} & \textbf{Weight} & \textbf{Achieved Score} \\
+\hline
+Overall Query Relevance ($R_q$) & -- & 75\% -- 85\% \\
+\hline
+Semantic Relevance ($S_r$) & 35\% & -- \\
+\hline
+Sub-Question Coverage ($C_s$) & 40\% & $> 80\%$ \\
+\hline
+Specificity Index ($I_s$) & 40\% & (Anti-boilerplate) \\
+\hline
+\end{tabular}
+\label{tab:relevance_metrics}
+\end{center}
+\end{table}
+
+
+The testing pipeline consistently achieved aggregated groundedness scores within the 65\% to 75\% range, as shown in Table ~\ref{tab:relevance_metrics}. Claims involving statistical or factual data demonstrated robust reliability with NLI entailment scores $\geq 0.90$. Conversely, ungrounded claims primarily originated from the ``Mitigation Strategies'' section. In these instances, the model shifted from direct data summation to strategic extrapolation, leading to a decrease in formal groundedness despite the logical relevance of the recommendations. 
+
+\subsection{ Query Relevance and Utility}
+Query relevance refers to how well the response generated addresses the user's query. This is measured through the weighted aggregation of Semantic Relevance(35\%), Sub Question Coverage (40\%) and Specificity Index(40\%) acting as an anti-boilerplate penalty as shown in Fig. ~\ref{fig:query_relevance_dims}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{query.jpeg}
+    \caption{Query Relevance Dimensional Analysis: Comparative scores for Semantic Relevance (0.67), Sub-Question Coverage (0.60), and the Specificity Index (0.89), resulting in an overall Query Relevance score of 0.70.}
+    \label{fig:query_relevance_dims}
+\end{figure}
+
+The testing phase captured scores ranging between 75\% and 85\%. Our workflow proved highly adept at answering expanded sub-questions and regularly achieved coverages greater than 80\%. 
+
+\subsection{Sentiment Alignment: VADER vs. RoBERTa}
+Sentiment analysis forms the foundation to understanding perception shift. Utilizing a dual-model architecture over a single model for sentiment scoring ensures lexical as well as contextual awareness. VADER is a sentiment analysis tool which specializes in social media text and is capable of handling capitalization and modifiers, but fails to grasp the contextual sentiment of a word that includes sarcasm. RoBERTa is a transformed based model that understands the nuances and helps identify the sentiment correctly.
+
+To justify the hybrid model, a subset of the TweetEval dataset($n=374$)\cite{15,16,17} is chosen and Cohen’s Kappa\cite{18} is applied to assess model alignment:
+
+\begin{equation}
+\kappa = \frac{p_o - p_e}{1 - p_e}
+\label{eq:kappa}
+\end{equation}
+
+Where $p_o$ is the relative observed agreement and $p_e$ is the hypothetical probability of chance agreement.
+
+According to the standard scale proposed by Landis and Koch\cite{19}, $\kappa = 0.146$ represents only a "Slight Agreement".
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{sent_1.jpeg}
+    \caption{Violin chat showing distribution of continuous VADER scores across categorical RoBERTa emotions.}
+    \label{fig:sentiment_violin}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{sent_2.jpeg}
+    \caption{Polarity classification confusion matrix comparing VADER and RoBERTa performance on the \textit{tweet\_eval} dataset.}
+    \label{fig:sentiment_confusion}
+\end{figure}
+
+\begin{figure*}[t!]
+    \centering
+    \includegraphics[width=\textwidth]{label.jpeg}
+    \caption{Label-Article Mapping of temporal analysis correlating daily mean VADER sentiment shifts and 7-day rolling averages to significant global news events.}
+    \label{fig:label_mapping_full}
+\end{figure*}
+
+As shown in Fig.~\ref{fig:sentiment_violin} and Fig.~\ref{fig:sentiment_confusion}, RoBERTa captures contextual nuances such as Anger or Optimism that are invisible to VADER's lexical approach. It showcases that VADER is a quantitative baseline while RoBERTa acts as a qualitative baseline for sentiment analysis.
+
+
+We assessed the system's ability to correlate visual sentiment spikes with specific triggering events with the help of a 60-day simulated news cycle. 
+To reduce the impact of noise data, we use a rolling average of 7 days for data smoothing and serve as a dynamic baseline. In Fi    g. \ref{fig:label_mapping_full}, the dashed purple line represents the rolling average while the solid blue line tracks the daily mean sentiment.
+
+To identify spikes or dips, we used Z-score Anomaly Detection:
+
+\begin{equation}
+z = \frac{x - \mu}{\sigma}
+\label{eq:z_score}
+\end{equation}
+where $z$ is the standard score, $x$ is the raw observation (e.g., a specific VADER compound score), $\mu$ represents the mean of the population, and $\sigma$ denotes the standard deviation.
+Any deviation, $d > 2.0$ standard deviations from the 7-day aggregation. 
+
+As depicted in Fig.~\ref{fig:label_mapping_full}, the system successfully identified the Supply Chain Collapse and Regulatory Crackdown through sharp spikes. Conversely, there are false alarms due to minor fluctuations during stable sentiment duration.

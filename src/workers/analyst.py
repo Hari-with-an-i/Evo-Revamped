@@ -611,20 +611,24 @@ def _compose_narrative_summary(
         task = (
             "Produce a verifiable ground truth statement. "
             "Cite the corroboration count and specific domain roots. "
-            "Note whether primary evidence supports or contradicts the claim."
+            "Note whether primary evidence supports or contradicts the claim. "
+            "Explicitly support or debunk the statement based on the facts. "
+            "If the evidence points to a future trend, provide a forecast based on these facts."
         )
     elif ground_truth_tier == "contested":
         task = (
             "Summarise the contested landscape. "
             "For each major perspective, state what it claims and where it diverges "
-            "from the others (fact vs. interpretation). "
-            "Do not declare a winner."
+            "from the others. Based on the facts, evaluate which side has stronger empirical backing "
+            "to support or debunk the core statement, if possible. "
+            "If the evidence points to a future trend, provide a forecast based on these facts."
         )
     else:
         task = (
             "Flag explicitly: the evidence is insufficient or conflicting to reach a verdict. "
             "Present all known perspectives without resolution. "
-            "Explain why a definitive verdict is not possible."
+            "Explain why a definitive verdict is not possible. "
+            "Provide a forecast on how this narrative might evolve based on current facts."
         )
 
     prompt = (
@@ -641,7 +645,7 @@ def _compose_narrative_summary(
             result: _NarrativeSummary = llm.invoke([
                 SystemMessage(content=(
                     "You are a senior investigative journalist writing a narrative intelligence brief. "
-                    "Write no more than 3 paragraphs. Be factual, precise, and impartial."
+                    "Write no more than 3 paragraphs. Be factual, precise, and explicitly analytical."
                 )),
                 HumanMessage(content=prompt),
             ])
@@ -680,7 +684,9 @@ def analyst_node(state: AgentState) -> dict:
     log.info("analyst starting — %d articles, %d clusters", len(articles), len(clusters))
 
     # Step 1: time bucketing
-    buckets, assignments = build_time_buckets(articles)
+    context_summary = state.get("context_summary", {})
+    predefined_periods = context_summary.get("relevant_time_periods") if isinstance(context_summary, dict) else None
+    buckets, assignments = build_time_buckets(articles, predefined_periods=predefined_periods)
     log.info("analyst: %d time buckets created", len(buckets))
 
     # Step 2: Track 1 — sentiment

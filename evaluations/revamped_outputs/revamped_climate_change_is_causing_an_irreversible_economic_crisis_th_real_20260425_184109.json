@@ -1,0 +1,660 @@
+{
+  "messages": [
+    "content='Climate change is causing an irreversible economic crisis that current financial models cannot predict' additional_kwargs={} response_metadata={} id='8b4e6e56-b165-4825-9bfd-5ff5864e099a'"
+  ],
+  "raw_input": "Climate change is causing an irreversible economic crisis that current financial models cannot predict",
+  "input_type": "claim",
+  "claim": "Climate change is causing an irreversible economic crisis that current financial models cannot predict",
+  "entities": [
+    "climate change"
+  ],
+  "timeframe": null,
+  "claim_complexity": "complex",
+  "context_summary": {
+    "who": "experts",
+    "what": "climate change is causing an irreversible economic crisis",
+    "when": "unknown",
+    "relevant_time_periods": [
+      {
+        "start_date": "2020-11-23",
+        "end_date": "2026-02-05",
+        "phase_description": "Warning of climate crisis impact on global economy"
+      }
+    ],
+    "competing_narratives": "",
+    "claim_dimensions": "causal mechanism|timeline accuracy|source credibility|geographical scope"
+  },
+  "retrieved_articles": [
+    {
+      "id": "1175fa0c47c7b0e6",
+      "title": "Flawed economic models mean climate crisis could crash global economy, experts warn | Angela Hultberg",
+      "body": "# Flawed economic models mean climate crisis could crash global economy, experts warn | Angela Hultberg ## LinkedIn respects your privacy LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off LinkedIn. Learn more in our [Cookie Policy](https://www.linkedin.com/legal/cookie-policy). Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your [settings](https://www.linkedin.com/mypreferences/g/guest-cookies). Accept Reject Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s [User Agreement](https://www.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement), [Privacy Policy](https://www.linkedin.com/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy), and [Cookie Policy](https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy). [Skip to main content](https://www.linkedin.com/posts/angela-hultberg-6887714_flawed-economic-models-mean-climate-crisis-activity-7425113",
+      "source_name": "www.linkedin.com",
+      "source_url": "https://www.linkedin.com/posts/angela-hultberg-6887714_flawed-economic-models-mean-climate-crisis-activity-7425113176758824960-O-yN",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "80f792819f3cde54",
+      "title": "Climate crisis could cause global financial crash as economic models fail to capture risk",
+      "body": "# Climate crisis could cause global financial crash as economic models fail to capture risk | The Independent ## Stay up to date with notifications from The Independent Notifications can be managed in browser preferences. Not now Yes please [Jump to content](https://www.independent.co.uk/climate-change/news/global-financial-crash-climate-crisis-damage-b2914291.html#main-content) US Edition Change [UK Edition](https://www.independent.co.uk/?editionSwitcherSource=independent.co.uk)[Asia Edition](https://www.independent.co.uk/asia?editionSwitcherSource=independent.co.uk)[Edición en Español](https://www.independentespanol.com/?editionSwitcherSource=independent.co.uk) [Sign up to our newsletters](https://www.independent.co.uk/newsletters)Support Now [Log in / Register](https://www.independent.co.uk/login?regSourceMethod=Nav+register+CTA) [Independent](https://www.independent.co.uk/) * [Podcasts](https://www.independent.co.uk/podcasts?itm_channel=native&itm_campaign=nov_nav_bar&itm_content=podcasts_button) * [Newsletters](https://www.independent.co.uk/newsletters?itm_channel=native&itm_campaign=nov_nav_bar&itm_content=newsletters_button) Support Now Menu * News[News](h",
+      "source_name": "www.independent.co.uk",
+      "source_url": "https://www.independent.co.uk/climate-change/news/global-financial-crash-climate-crisis-damage-b2914291.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "533d37a0b5da55bc",
+      "title": "Flawed economic models mean climate crisis could crash global economy, experts warn",
+      "body": "# Flawed economic models mean climate crisis could crash global economy, experts warn | Green economy | The Guardian [Skip to main content](https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn#maincontent)[Skip to navigation](https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn#navigation) Close dialogue 1/1 Next image Previous image Toggle caption [Skip to navigation](https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn#navigation) ## Support the Guardian Fund independent journalism [Support from $2.88 a week](https://support.theguardian.com/us/contribute?force-landing-page=2026-04-23_JOINED_WEEKLY_PRICING__US%3AV2_WEEKLY_ANNUAL&product=SupporterPlus&ratePlan=Annual&REFPVID=moeok5cpul528i3t7hbp&INTCMP=header_support_2026-04-23_JOINED_WEEKLY_PRICING__US_V2_WEEKLY_ANNUAL&acquisitionData=%7B%22source%22%3A%22GUARDIAN_WEB%22%2C%22componentId%22%3A%22header_support_2026-04-23_JOINED_WEEKLY_PRICING__US_V2_WEEKLY_ANNUAL%22%2C%22componentType",
+      "source_name": "www.theguardian.com",
+      "source_url": "https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn",
+      "published_at": null,
+      "outlet_type": "mainstream",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "c633388ba57425dc",
+      "title": "The Implications of Climate Change for Financial Stability",
+      "body": "The Implications of Climate Change for Financial Stability # 23 November 2020 The Financial Stability Board (FSB) coordinates at the international level the work of national financial authorities and international standard-setting bodies in order to develop and promote the implementation of effective regulatory, supervisory and other financial sector policies. Its mandate is set out in the FSB Charter, which governs the policymaking and related activities of the FSB. These activities, including any decisions reached in their context, shall not be binding or give rise to any legal rights or obligations. Contact the Financial Stability Board Sign up for e-mail alerts: www.fsb.org/emailalert Follow the FSB on Twitter: @FinStbBoard E-mail the FSB at: fsb@fsb.org > Copyright © 2020 Financial Stability Board. Please refer to the terms and conditions iii # Table of Contents Executive summary ................................................................................................ ............... 1 1. Introduction ................................................................................................ ..................... 3 2. Climate-related risks",
+      "source_name": "www.fsb.org",
+      "source_url": "https://www.fsb.org/uploads/P231120.pdf",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "82a61b409d5d7dff",
+      "title": "Economic Models Understating Climate Change Challenges, Study Finds",
+      "body": "[Innovation](https://www.forbes.com/innovation/)[Sustainability](https://www.forbes.com/sustainability/) # Economic Models Understating Climate Change Challenges, Study Finds By[Jamie Hailstone](https://www.forbes.com/sites/jamiehailstone/ \"https://www.forbes.com/sites/jamiehailstone/\"), Forbes contributors publish independent expert analyses and insights. Jamie Hailstone is a U.K-based reporter, who covers sustainability. --:-- / --:-- This voice experience is generated by AI. [Learn more](https://www.forbes.com/sites/forbesdigitalgroup/article/forbes-ai-audio-learn-more/). This voice experience is generated by AI. [Learn more](https://www.forbes.com/sites/forbesdigitalgroup/article/forbes-ai-audio-learn-more/). The economic models used by governments, financial institutions and investors are increasingly understating physical climate risk, according to a new analysis. The report, [published by the University of Exeter and Carbon Tracker](https://greenfuturessolutions.com/news/recalibrating-climate-risk/), warns many economic models are failing to capture extreme weather events and rising uncertainty likely to dominate impacts in a changing world. It claims climate dama",
+      "source_name": "www.forbes.com",
+      "source_url": "https://www.forbes.com/sites/jamiehailstone/2026/02/05/economic-models-understating-climate-change-challenges-study-finds/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "fe1d6d1261b83b9a",
+      "title": "The Climate Question That Economists Cannot Answer",
+      "body": "# The Climate Question That Economists Cannot Answer - The Atlantic [Skip to content](https://www.theatlantic.com/science/2026/01/climate-economics/685609/#main-content) ## Site Navigation * [](https://www.theatlantic.com/) * [Popular](https://www.theatlantic.com/most-popular/)[Latest](https://www.theatlantic.com/latest/)[Newsletters](https://www.theatlantic.com/newsletters/) ## Sections * [Ideas](https://www.theatlantic.com/ideas/) * [Politics](https://www.theatlantic.com/politics/) * [Economy](https://www.theatlantic.com/economy/) * [Global](https://www.theatlantic.com/international/) * [National Security](https://www.theatlantic.com/national-security/) * [Washington Week](https://www.theatlantic.com/category/washington-week-atlantic/) * [Features](https://www.theatlantic.com/category/features/) * [Technology](https://www.theatlantic.com/technology/) * [AI Watchdog](https://www.theatlantic.com/category/ai-watchdog/) * [Science](https://www.theatlantic.com/science/) * [Planet](https://www.theatlantic.com/projects/planet/) * [Health](https://www.theatlantic.com/health/) * [Philosophy](https",
+      "source_name": "www.theatlantic.com",
+      "source_url": "https://www.theatlantic.com/science/2026/01/climate-economics/685609/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "3d0be7f382dd95ca",
+      "title": "Economic models need to go beyond GDP to account for climate change",
+      "body": "# Economic models must go beyond GDP to account for climate - Green Central Banking ## You control your data We and our business partners use technologies, including cookies, to collect information about you for various purposes. By clicking ‘Accept’, you give your consent for all these purposes. You can read more about how we use cookies and other technologies and how we collect and process personal data by reading our [cookie policy](https://www.greencentralbanking.com/cookie-policy/). Accept all Decline all powered by: [Cookie Information](https://cookieinformation.com/) [![Image 1: Logo](https://greencentralbanking.com/wp-content/themes/greencentralbanking/assets/images/logo-horizontal.svg)](https://greencentralbanking.com/ \"Green Central Banking\") * [News](https://greencentralbanking.com/news/) * [Opinion](https://greencentralbanking.com/opinion/) * [Scorecard](https://greencentralbanking.com/scorecard/) * [Why Green Central Banking?](https://greencentralbanking.com/central-banks-green-finance/) [Subscribe](https://greencentralbanking.com/newsletter) [](https://greencentralbanking.com/2026/02/05/economic-models-need-to-go-beyond-gdp-to-account-for-climate-c",
+      "source_name": "greencentralbanking.com",
+      "source_url": "https://greencentralbanking.com/2026/02/05/economic-models-need-to-go-beyond-gdp-to-account-for-climate-change/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "7a5277e095271fa2",
+      "title": "The NGFS’s New Climate Damage Function: A Flawed Analysis With Massive Economic Consequences - Bank Policy Institute",
+      "body": "[Skip to content](#main) [Home](/ \"Bank Policy Institute Homepage\") / [Climate](/category/climate \"Climate\") / [Reports and Research Notes](/document-type/reportswhite-papers \"Reports and Research Notes\") * [Climate](https://bpi.com/category/climate/) * [Climate Stress Testing and Scenario Analysis](https://bpi.com/category/climate/climate-stress-testing/) # The NGFS’s New Climate Damage Function: A Flawed Analysis With Massive Economic Consequences [Greg Hopper](https://bpi.com/people/greg-hopper/) [Print](https://bpi.com/wp-content/uploads/2024/12/The-NGFSs-New-Climate-Damage-Function-A-Flawed-Analysis-With-Massive-Economic-Consequences-.pdf) The Network of Central Banks and Supervisors For Greening the Financial System (NGFS) is a supranational consortium of central banks and financial regulators; the United States is represented by the Federal Reserve, the OCC, the FDIC and the FHFA. The NGFS develops climate scenarios that are then used by its members to measure the resiliency of the banking system to climate risks. Thus, the Federal Reserve employed NGFS climate scenarios in its 2023 climate scenario exercise for large U.S. banks, and the ECB employed NGFS scenarios",
+      "source_name": "bpi.com",
+      "source_url": "https://bpi.com/the-ngfss-new-climate-damage-function-a-flawed-analysis-with-massive-economic-consequences/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Climate change is causing an irreversible economic crisis that current financial models cannot predict"
+    },
+    {
+      "id": "24ef1a588aa8242e",
+      "title": "Climate change - Wikipedia",
+      "body": "# Climate change - Wikipedia [Jump to content](https://en.wikipedia.org/wiki/Climate_change#bodyContent) - [x] Main menu Main menu move to sidebar hide Navigation * [Main page](https://en.wikipedia.org/wiki/Main_Page \"Visit the main page [z]\") * [Contents](https://en.wikipedia.org/wiki/Wikipedia:Contents \"Guides to browsing Wikipedia\") * [Current events](https://en.wikipedia.org/wiki/Portal:Current_events \"Articles related to current events\") * [Random article](https://en.wikipedia.org/wiki/Special:Random \"Visit a randomly selected article [x]\") * [About Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:About \"Learn about Wikipedia and how it works\") * [Contact us](https://en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\") Contribute * [Help](https://en.wikipedia.org/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\") * [Learn to edit](https://en.wikipedia.org/wiki/Help:Introduction \"Learn how to edit Wikipedia\") * [Community portal](https://en.wikipedia.org/wiki/Wikipedia:Community_portal \"The hub for editors\") * [Recent changes](https://en.wikipedia.org/wiki/Special:RecentChanges \"A list of recent changes to Wikiped",
+      "source_name": "en.wikipedia.org",
+      "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "d0339082f635c983",
+      "title": "Mitigation and Adaptation - NASA Science",
+      "body": "## Suggested Searches * [Climate Change](https://science.nasa.gov/?search=Climate%20Change) * [Artemis](https://science.nasa.gov/?search=Artemis) * [Expedition 64](https://science.nasa.gov/?search=Expedition%2064) * [Mars perseverance](https://science.nasa.gov/?search=Mars%20perseverance) * [SpaceX Crew-2](https://science.nasa.gov/?search=SpaceX%20Crew-2) * [International Space Station](https://science.nasa.gov/?search=International%20Space%20Station) * [View All Topics A-Z](https://science.nasa.gov/a-to-z-topics-listing/) * [Home](https://science.nasa.gov/) * [Missions](https://science.nasa.gov/nasa-missions/) * [Humans in Space](https://science.nasa.gov/humans-in-space/) * [Earth](https://science.nasa.gov/earth/) * [The Solar System](https://science.nasa.gov/solar-system/) * [The Universe](https://science.nasa.gov/universe/) * [Science](https://science.nasa.gov/) * [Aeronautics](https://science.nasa.gov/aeronautics/) * [Technology](https://science.nasa.gov/technology/) * [Learning Resources](https://science.nasa.gov/learning-resources/) * [About NASA](https://science.nasa.gov/about/) * [Español](https://science.nasa.gov/es/) --- * [News & Events](#) * [Multimedia](#) * [NASA+",
+      "source_name": "science.nasa.gov",
+      "source_url": "https://science.nasa.gov/climate-change/adaptation-mitigation/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "40b8e4e9ea1702e3",
+      "title": "Effects - NASA Science",
+      "body": "Effects - NASA Science =============== [![Image 1: NASA Logo](https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png)](https://www.nasa.gov/) * Explore Search [![Image 2: NASA Logo](https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png)](https://www.nasa.gov/) * News & Events [### News & Events](https://www.nasa.gov/news/) * [Recently Published](https://www.nasa.gov/news/recently-published/) * [Video Series on NASA+](https://www.nasa.gov/plus/) * [Podcasts & Audio](https://www.nasa.gov/podcasts-and-audio/) * [Blogs](https://www.nasa.gov/nasa-blogs/) * [Newsletters](https://www.nasa.gov/newsletters/) * [Social Media](https://www.nasa.gov/socialmedia/) * [Media Resources](https://www.nasa.gov/news/nasa-media-contacts/) * Multimedia [### Multimedia](https://www.nasa.gov/multimedia/) * [Images](https://www.nasa.gov/images/) * [Videos on NASA+](https://www.nasa.gov/plus/) * [Interactives](https://www.nasa.gov/nasa-interactive-features/) * [NASA Apps](https://www.nasa.gov/apps/) * [Podcasts](https://www.nasa.gov/podcasts/) * [e-Bo",
+      "source_name": "science.nasa.gov",
+      "source_url": "https://science.nasa.gov/climate-change/effects/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "cab55d41ed23bb65",
+      "title": "Causes and Effects of Climate Change | United Nations",
+      "body": "[Climate Action](/en/climatechange) # Causes and Effects of Climate Change Fossil fuels – coal, oil and gas – are by far the largest contributor to global climate change, accounting for around 68 per cent of global greenhouse gas emissions and nearly 90 per cent of all carbon dioxide emissions. As greenhouse gas emissions blanket the Earth, they trap the sun’s heat. Because of this, the planet is warming up and the climate is changing. The world is now warming faster than at any point in recorded history. Warmer temperatures over time are changing weather patterns and disrupting the usual balance of nature. This poses many risks to human beings and all other forms of life on Earth. ## [Causes of Climate Change](#collapseOne) **Generating power** A large chunk of global emissions comes from burning fossil fuels to produce electricity and heat. Most electricity is still generated by burning coal, oil, or gas, which produces carbon dioxide and nitrous oxide – powerful greenhouse gases that blanket the Earth and trap the sun’s heat. Globally, a third of electricity comes from wind, solar and other renewable sources which, as opposed to fossil fuels, emit little to no greenhouse g",
+      "source_name": "www.un.org",
+      "source_url": "https://www.un.org/en/climatechange/science/causes-effects-climate-change",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "9466c436e2ec178f",
+      "title": "What Is Climate Change? - the United Nations",
+      "body": "# What Is Climate Change? | United Nations [Skip to main content](https://www.un.org/en/climatechange/what-is-climate-change#main-content) Toggle navigation[Welcome to the United Nations](https://www.un.org/) * [العربية](https://www.un.org/ar/climatechange/what-is-climate-change \"ما هو تغير المناخ؟\") * [中文](https://www.un.org/zh/climatechange/what-is-climate-change \"什么是气候变化？\") * Nederlands * [English](https://www.un.org/en/climatechange/what-is-climate-change \"What Is Climate Change?\") * [Français](https://www.un.org/fr/climatechange/what-is-climate-change \"En quoi consistent les changements climatiques ?\") * Deutsch * Kreyòl * हिन्दी * Bahasa Indonesia * Italiano * Polski * Português * [Русский](https://www.un.org/ru/climatechange/what-is-climate-change \"Что такое изменение климата?\") * [Español](https://www.un.org/es/climatechange/what-is-climate-change \"¿Qué es el cambio climático?\") * Kiswahili * Türkçe * Українська [![Image 1: UN logo](https://www.un.org/sites/un2.un.org/themes/bootstrap_un2/logo.png)](https://www.un.org/en \"United Nations\") [Climate Action](https://www.u",
+      "source_name": "www.un.org",
+      "source_url": "https://www.un.org/en/climatechange/what-is-climate-change",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "f5f1a5dc4cd68687",
+      "title": "Climate change mitigation: reducing emissions | In-depth topics | European Environment Agency (EEA)",
+      "body": "![European Union flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAYCAYAAACfpi8JAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJISURBVHgB1ZZPSBRRHMe/MzvrjuMf1ljRXdaaFXSxMKOQOsla1smgQyBEh7oKEQjRKbJ7HvJgegqLoOi2eDGWJI91iBLWNHA31lzJtTZt/+/O+GbA1Ysz780qix8Y+PHeF+bL+/15j8P5qcfgVBnVRBFGBWIiAHABVBNbYZpHhfCcisOA2UidI1eOnbVpjN18h145Wl7jLBpjMqL9ZGQghItyBDYSJzMSfM0JuBv/6fvtrg08vDaLc20xsMJkRFU5dLaso9u7ihKJNW5MDCP4rUePN1P1uHomjK2MCFY4XJicoylWG6+gpPBoFDPYytYaah1CEbmiAKkmj3S+BuYulH7TExHtBdzr/4CRKyHdjJkJDc3EZf93TN1+BY8zCRpMjWQLdr02MkW7fiK0/Eo26an8m6qj0lOn5kihSc0JKaXn3Cr+1nUqnaERbVg9GpzB+NAbWKGvYxmTt17jLOkyMwSjTYXkeG7Jj3zJUHYg0U0XZha6sRh3m2qPT41oNIhZOKU0WJFdCWotlRGtRp4NvWUyE+hcQnB4Ar2nolR6quQ/n++DSDonmZZAy+/tBoyFBvD5p0ylpzLyKdJejnu8MXxdbTtQu7sfjnv0jxamS89V/x8v777Ak+vB8lqXO74Xt8Yxe38cl3wrYMUGz+AdUrYyjVi7wN6HT2NhzYs/ZHQ3kWE3/+AptrMivsROokDa/ONyB35stBCtA9Rw6nTF7dvlXkOO3EcriWZYhrSvtUm1j0WGOjCi4jfrYSFA4UfBlXyoJoo9sgOr078y6+MLIAAAAABJRU5ErkJggg==) All official European Union website addresses are in the **europa.eu** domain. ![language dropdown globe icon](/static/media/global-line.78e39cc7.svg) ![European Environment Agency](/static/media/eea-logo.55fb94a4.svg) ![Global",
+      "source_name": "www.eea.europa.eu",
+      "source_url": "https://www.eea.europa.eu/en/topics/in-depth/climate-change-mitigation-reducing-emissions",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "2d0ec4bda0f34c11",
+      "title": "Climate change impacts - NOAA",
+      "body": "# Climate change impacts | National Oceanic and Atmospheric Administration [Skip to main content](https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts#main) Main Menu * [Home](https://www.noaa.gov/) * [Weather](https://www.noaa.gov/weather) * [Climate](https://www.noaa.gov/climate) * [Ocean & Coasts](https://www.noaa.gov/ocean-coasts) * [Fisheries](https://www.noaa.gov/fisheries) * [Satellites](https://www.noaa.gov/satellites) * [Research](https://www.noaa.gov/research) * [Marine & Aviation](https://www.noaa.gov/marine-aviation) * [Charting](https://www.noaa.gov/charting) * [Sanctuaries](https://www.noaa.gov/sanctuaries) * [Education](https://www.noaa.gov/education) * [News and features](https://www.noaa.gov/news-features) * [Tools & resources](https://www.noaa.gov/tools-and-resources) * [About our agency](https://www.noaa.gov/about-our-agency) ![Image 1: U.S. flag](https://www.noaa.gov/themes/custom/noaa_guswds/dist/images/us_flag_small.png) An official website of the United States government Here’s how you know Here’s how you know ![Image 2: Dot gov](https://www.noaa.gov/themes/custom/noaa_guswds/dist/images/icon-d",
+      "source_name": "www.noaa.gov",
+      "source_url": "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "46bd59747615aa53",
+      "title": "Climate Change - NASA Science",
+      "body": "# Climate Change - NASA Science [![Image 1: NASA Logo](https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png)](https://www.nasa.gov/) * Explore Search [![Image 2: NASA Logo](https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png)](https://www.nasa.gov/) * News & Events ### [News & Events](https://www.nasa.gov/news/) * [Recently Published](https://www.nasa.gov/news/recently-published/) * [Video Series on NASA+](https://www.nasa.gov/plus/) * [Podcasts & Audio](https://www.nasa.gov/podcasts-and-audio/) * [Blogs](https://www.nasa.gov/nasa-blogs/) * [Newsletters](https://www.nasa.gov/newsletters/) * [Social Media](https://www.nasa.gov/socialmedia/) * [Media Resources](https://www.nasa.gov/news/nasa-media-contacts/) * Multimedia ### [Multimedia](https://www.nasa.gov/multimedia/) * [Images](https://www.nasa.gov/images/) * [Videos on NASA+](https://www.nasa.gov/plus/) * [Interactives](https://www.nasa.gov/nasa-interactive-features/) * [NASA Apps](https://www.nasa.gov/apps/) * [Podcasts](https://www.nasa.gov/podcasts/) * [e-Books](ht",
+      "source_name": "science.nasa.gov",
+      "source_url": "https://science.nasa.gov/climate-change/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change"
+    },
+    {
+      "id": "533d37a0b5da55bc",
+      "title": "Flawed economic models mean climate crisis could crash global economy, experts warn",
+      "body": "# Flawed economic models mean climate crisis could crash global economy, experts warn | Green economy | The Guardian [Skip to main content](https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn#maincontent)[Skip to navigation](https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn#navigation) Close dialogue 1/1 Next image Previous image Toggle caption [Skip to navigation](https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn#navigation) ## Support the Guardian Fund independent journalism [Support from $2.88 a week](https://support.theguardian.com/us/contribute?force-landing-page=2026-04-23_JOINED_WEEKLY_PRICING__US%3AV2_WEEKLY_ANNUAL&product=SupporterPlus&ratePlan=Annual&REFPVID=moeok5cpul528i3t7hbp&INTCMP=header_support_2026-04-23_JOINED_WEEKLY_PRICING__US_V2_WEEKLY_ANNUAL&acquisitionData=%7B%22source%22%3A%22GUARDIAN_WEB%22%2C%22componentId%22%3A%22header_support_2026-04-23_JOINED_WEEKLY_PRICING__US_V2_WEEKLY_ANNUAL%22%2C%22componentType",
+      "source_name": "www.theguardian.com",
+      "source_url": "https://www.theguardian.com/environment/2026/feb/05/flawed-economic-models-mean-climate-crisis-could-crash-global-economy-experts-warn",
+      "published_at": null,
+      "outlet_type": "mainstream",
+      "query_used": "climate change economic crisis irreversible impact"
+    },
+    {
+      "id": "395d0563df2f193f",
+      "title": "The Economic Effects of Climate Change - American Economic Association",
+      "body": "##### This website uses cookies. By clicking the \"Accept\" button or continuing to browse our site, you agree to first-party and session-only cookies being stored on your device to enhance site navigation and analyze site performance and traffic. For more information on our use of cookies, please see our [Privacy Policy](/privacypolicy). # [American Economic Association](/) 1. [Home](/) 2. [Journals](/journals) 3. [Journal of Economic Perspectives](/journals/jep) 4. [Spring 2009](/issues/101#10.1257/jep.23.2.29) 5. The Economic Effects of Climate Change [![](/assets/afc4f66/images/jep-icon.svg)](/journals/jep) [# Journal of Economic Perspectives](/journals/jep) ISSN 0895-3309 (Print) | ISSN 1944-7965 (Online) * [Editors](/journals/jep/editors) * [Editorial Policy](/journals/jep/editorial-policy) * [Annual Report of the Editor](https://pubs.aeaweb.org/doi/pdfplus/10.1257/pandp.115.776) * [Research Highlights](/journals/jep/research-highlights) * [Reading Recommendations](/journals/jep/recommendations-for-further-reading) * [JEP in the Classroom](/journals/jep/classroom) * [Contact Information](/journals/jep/contact-jep) * [Current Issue](/journals/jep/current-issue) * [All",
+      "source_name": "www.aeaweb.org",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jep.23.2.29",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change economic crisis irreversible impact"
+    },
+    {
+      "id": "b614e73a894de184",
+      "title": "The Climate Crisis – A Race We Can Win | United Nations",
+      "body": "# The Climate Crisis – A Race We Can Win | United Nations [Skip to main content](https://www.un.org/en/un75/climate-crisis-race-we-can-win#main-content) Toggle navigation[Welcome to the United Nations](https://www.un.org/) * [العربية](https://www.un.org/ar/un75/climate-crisis-race-we-can-win \"أزمة المناخ - رهان نستطيع كسبه\") * [中文](https://www.un.org/zh/un75/climate-crisis-race-we-can-win \"气候危机——我们可以赢得的比赛\") * Nederlands * [English](https://www.un.org/en/un75/climate-crisis-race-we-can-win \"The Climate Crisis – A Race We Can Win\") * [Français](https://www.un.org/fr/un75/climate-crisis-race-we-can-win \"La crise climatique - Nous pouvons gagner la course\") * Deutsch * Kreyòl * हिन्दी * Bahasa Indonesia * Italiano * Polski * Português * [Русский](https://www.un.org/ru/un75/climate-crisis-race-we-can-win \"Борьба с изменением климата — гонка, из которой мы все еще можем выйти победителями\") * [Español](https://www.un.org/es/un75/climate-crisis-race-we-can-win \"La crisis climática - una carrera que podemos ganar\") * Kiswahili * Türkçe * Українська [![Image 1: UN logo](https://www.un.o",
+      "source_name": "www.un.org",
+      "source_url": "https://www.un.org/en/un75/climate-crisis-race-we-can-win",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change economic crisis irreversible impact"
+    },
+    {
+      "id": "33fdcd67049a0d3e",
+      "title": "This is what climate change costs economies around the world | World Economic Forum",
+      "body": "[Climate Action and Waste Reduction](https://www.weforum.org/stories/climate-action/) # This is what the climate crisis is costing economies around the world ![Failure to mitigate climate change is ranked as one of the key threats in the World Economic Forum’s Global Risks Report 2023.](https://assets.weforum.org/article/image/Cn-A-oz-xVp4OuOVVOYmQl1gNMFAQUUeFvJSS5r7jZo.jpg) Failure to mitigate climate change is ranked as one of the key threats in the World Economic Forum’s Global Risks Report 2023.Image: Unsplash/Jonathan Ford ##### [Emma Charlton](https://www.weforum.org/stories/authors/emma-charlton/) Senior Writer, Forum Stories *This article was first published in October 2023 and updated in November 2023.* * The economic toll of extreme weather has grown substantially, according to a World Meteorological Organization report. * Extreme weather events and climate-related disasters have caused significant economic losses, reaching nearly $1.5 trillion in the decade to 2019. * The international system has struggled to make the required progress on climate change, according to the World Economic Forum’s *Global Risks Report 2023*. Around the world we’re counting the cost",
+      "source_name": "www.weforum.org",
+      "source_url": "https://www.weforum.org/stories/2023/11/climate-crisis-cost-global-economies/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change economic crisis irreversible impact"
+    },
+    {
+      "id": "2d459ce2eb6c4a52",
+      "title": "38 trillion dollars in damages each year: World economy already committed to income reduction of 19 % due to climate change — Potsdam Institute for Climate Impact Research",
+      "body": "[![Potsdam Institute for Climate Impact Research](/++theme++pik-plone-4.3-theme/images/logo.png) ![Logo](/++theme++pik-plone-4.3-theme/images/logo-sticky.png) Potsdam Institute for Climate Impact Research](https://www.pik-potsdam.de/en) * [en](https://www.pik-potsdam.de/@@multilingual-selector/c6196f1c2b8a44d49cd099fd75b2bcd7/en \"English\") * [de](https://www.pik-potsdam.de/@@multilingual-selector/c6196f1c2b8a44d49cd099fd75b2bcd7/de \"Deutsch\") * [Log in](https://www.pik-potsdam.de/en/login \"Log in\") [Close](#mobile-nav) [Home](https://www.pik-potsdam.de/en) › [News](https://www.pik-potsdam.de/en/news) › [Latest News](https://www.pik-potsdam.de/en/news/latest-news) › 38 trillion dollars in damages each year: World economy already committed to income reduction of 19 % due to climate change # 38 trillion dollars in damages each year: World economy already committed to income reduction of 19 % due to climate change 17.04.2024 - Even if CO2 emissions were to be drastically cut down starting today, the world economy is already committed to an income reduction of 19 % until 2050 due to climate change, a new study published in “Nature” finds. These damages are six times larger t",
+      "source_name": "www.pik-potsdam.de",
+      "source_url": "https://www.pik-potsdam.de/en/news/latest-news/38-trillion-dollars-in-damages-each-year-world-economy-already-committed-to-income-reduction-of-19-due-to-climate-change",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "climate change economic crisis irreversible impact"
+    }
+  ],
+  "anchor_articles": [],
+  "targeted_queries": [
+    {
+      "query": "climate change economic crisis irreversible impact",
+      "tool": "tavily",
+      "dimension": "causal mechanism",
+      "start_date": "2020-11-23",
+      "end_date": "2026-02-05"
+    },
+    {
+      "query": "climate change financial models limitations",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "timeline accuracy",
+      "start_date": "2020-11-23",
+      "end_date": "2026-02-05"
+    },
+    {
+      "query": "expert opinions on climate change economic crisis",
+      "tool": "scholar_wiki",
+      "dimension": "source credibility",
+      "start_date": "2020-11-23",
+      "end_date": "2026-02-05"
+    }
+  ],
+  "retrieval_loop_count": 1,
+  "retrieval_complete": false,
+  "perspective_clusters": [
+    {
+      "label": "Cluster 1: Economic models may not fully account for climate risks, potentially leading to a global financial crash. Experts highlight a significant gap in economists' ability to address key climate questions.",
+      "key_claims": [
+        "The climate crisis could cause a global financial crash as economic models fail to capture the risk.",
+        "There is a significant gap in economists' ability to answer key climate questions."
+      ],
+      "article_ids": [
+        "80f792819f3cde54",
+        "c633388ba57425dc"
+      ],
+      "domain_roots": [
+        "fsb.org",
+        "co.uk"
+      ],
+      "corroboration_count": 2,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 2: Experts warn that flawed economic models could lead to a global economic crash due to the climate crisis, emphasizing the need for more accurate modeling.",
+      "key_claims": [
+        "Flawed economic models mean the climate crisis could crash the global economy, warn experts.",
+        "The climate crisis highlights the need for more accurate economic modeling."
+      ],
+      "article_ids": [
+        "80f792819f3cde54",
+        "1175fa0c47c7b0e6"
+      ],
+      "domain_roots": [
+        "co.uk",
+        "linkedin.com"
+      ],
+      "corroboration_count": 2,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 3: The Financial Stability Board plays a role in coordinating international policies related to the financial sector.",
+      "key_claims": [
+        "The Financial Stability Board coordinates international work on financial sector policies."
+      ],
+      "article_ids": [
+        "533d37a0b5da55bc"
+      ],
+      "domain_roots": [
+        "theguardian.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 4: The NGFS's climate damage function has faced criticism for its analysis.",
+      "key_claims": [
+        "The NGFS's new climate damage function has been criticized for its flawed analysis."
+      ],
+      "article_ids": [
+        "533d37a0b5da55bc"
+      ],
+      "domain_roots": [
+        "theguardian.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 5: Research suggests that economic models may be underestimating the challenges posed by climate change.",
+      "key_claims": [
+        "Economic models are understating the challenges of climate change, according to a study."
+      ],
+      "article_ids": [
+        "c633388ba57425dc"
+      ],
+      "domain_roots": [
+        "fsb.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 6: This cluster does not contain any claims.",
+      "key_claims": [
+        "(no claim)",
+        "(no claim)",
+        "(no claim)",
+        "(no claim)",
+        "(no claim)",
+        "(no claim)",
+        "(no claim)"
+      ],
+      "article_ids": [
+        "1175fa0c47c7b0e6",
+        "82a61b409d5d7dff",
+        "fe1d6d1261b83b9a",
+        "7a5277e095271fa2"
+      ],
+      "domain_roots": [
+        "linkedin.com",
+        "forbes.com",
+        "bpi.com",
+        "theatlantic.com"
+      ],
+      "corroboration_count": 4,
+      "corroboration_level": "partial",
+      "source_scope": "secondary"
+    }
+  ],
+  "coverage_gaps": [
+    "causal mechanism",
+    "timeline accuracy",
+    "source credibility",
+    "geographical scope"
+  ],
+  "evaluation_ready": false,
+  "primary_evidence_exists": true,
+  "primary_verdict": "silent",
+  "narrative_report": {
+    "claim_snapshot": {
+      "claim": "Climate change is causing an irreversible economic crisis that current financial models cannot predict",
+      "time_period": "2026-04-25 to 2026-04-25",
+      "source_count": 21,
+      "ground_truth_tier": "unresolvable"
+    },
+    "perspective_landscape": [
+      {
+        "label": "Cluster 1: Economic models may not fully account for climate risks, potentially leading to a global financial crash. Experts highlight a significant gap in economists' ability to address key climate questions.",
+        "key_claims": [
+          "The climate crisis could cause a global financial crash as economic models fail to capture the risk.",
+          "There is a significant gap in economists' ability to answer key climate questions."
+        ],
+        "article_ids": [
+          "80f792819f3cde54",
+          "c633388ba57425dc"
+        ],
+        "domain_roots": [
+          "fsb.org",
+          "co.uk"
+        ],
+        "corroboration_count": 2,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Cluster 2: Experts warn that flawed economic models could lead to a global economic crash due to the climate crisis, emphasizing the need for more accurate modeling.",
+        "key_claims": [
+          "Flawed economic models mean the climate crisis could crash the global economy, warn experts.",
+          "The climate crisis highlights the need for more accurate economic modeling."
+        ],
+        "article_ids": [
+          "80f792819f3cde54",
+          "1175fa0c47c7b0e6"
+        ],
+        "domain_roots": [
+          "co.uk",
+          "linkedin.com"
+        ],
+        "corroboration_count": 2,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 3: The Financial Stability Board plays a role in coordinating international policies related to the financial sector.",
+        "key_claims": [
+          "The Financial Stability Board coordinates international work on financial sector policies."
+        ],
+        "article_ids": [
+          "533d37a0b5da55bc"
+        ],
+        "domain_roots": [
+          "theguardian.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Cluster 4: The NGFS's climate damage function has faced criticism for its analysis.",
+        "key_claims": [
+          "The NGFS's new climate damage function has been criticized for its flawed analysis."
+        ],
+        "article_ids": [
+          "533d37a0b5da55bc"
+        ],
+        "domain_roots": [
+          "theguardian.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 5: Research suggests that economic models may be underestimating the challenges posed by climate change.",
+        "key_claims": [
+          "Economic models are understating the challenges of climate change, according to a study."
+        ],
+        "article_ids": [
+          "c633388ba57425dc"
+        ],
+        "domain_roots": [
+          "fsb.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 6: This cluster does not contain any claims.",
+        "key_claims": [
+          "(no claim)",
+          "(no claim)",
+          "(no claim)",
+          "(no claim)",
+          "(no claim)",
+          "(no claim)",
+          "(no claim)"
+        ],
+        "article_ids": [
+          "1175fa0c47c7b0e6",
+          "82a61b409d5d7dff",
+          "fe1d6d1261b83b9a",
+          "7a5277e095271fa2"
+        ],
+        "domain_roots": [
+          "linkedin.com",
+          "forbes.com",
+          "bpi.com",
+          "theatlantic.com"
+        ],
+        "corroboration_count": 4,
+        "corroboration_level": "partial",
+        "source_scope": "secondary",
+        "article_count": 4
+      }
+    ],
+    "sentiment_timeline": [
+      {
+        "bucket_id": 0,
+        "mean_sentiment": -0.1024,
+        "delta": 0.0,
+        "dominant_entity": "climate change",
+        "article_count": 21
+      }
+    ],
+    "inflection_point_cards": [],
+    "frame_evolution_log": [
+      {
+        "bucket_id": 0,
+        "frame_type": "scientific",
+        "top_terms": [
+          "https",
+          "nasa",
+          "climate",
+          "www",
+          "gov",
+          "com",
+          "org",
+          "change",
+          "crisis",
+          "global",
+          "economic",
+          "en",
+          "economy",
+          "main",
+          "science",
+          "cookies",
+          "content",
+          "crash",
+          "models",
+          "image"
+        ],
+        "frame_changed": false
+      }
+    ],
+    "voice_composition_shifts": [
+      {
+        "bucket_id": 0,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "Cluster 6: This cluster does not contain any claims.": 4,
+          "Cluster 2: Experts warn that flawed economic models could lead to a global economic crash due to the climate crisis, emphasizing the need for more accurate modeling.": 1,
+          "Cluster 4: The NGFS's climate damage function has faced criticism for its analysis.": 2,
+          "Cluster 5: Research suggests that economic models may be underestimating the challenges posed by climate change.": 1,
+          "_unclustered": 13
+        },
+        "voice_changed": false
+      }
+    ],
+    "narrative_intelligence_summary": "The claim that climate change is causing an irreversible economic crisis that current financial models cannot predict is a complex and contentious issue. Various perspective clusters highlight the limitations of economic models in addressing climate risks, with some experts warning of a potential global financial crash due to flawed modeling. However, the evidence is insufficient and conflicting, making it impossible to reach a definitive verdict. The lack of verified information and the presence of unverified claims from multiple domains contribute to the uncertainty. Furthermore, the absence of multi-track inflection points suggests that the narrative is not yet shifting in a clear direction. As a result, it is not possible to predict with certainty how this narrative will evolve. The best forecast is that the debate will continue, with ongoing research and analysis potentially shedding more light on the relationship between climate change and economic models. Nevertheless, the current state of knowledge does not allow for a clear resolution, and the narrative is likely to remain unresolved for the time being.",
+    "ground_truth_tier": "unresolvable",
+    "time_buckets": [
+      {
+        "bucket_id": 0,
+        "start_dt": "2026-04-25T18:40:54.284541Z",
+        "end_dt": "2026-04-25T18:40:54.284541Z",
+        "article_ids": [
+          "1175fa0c47c7b0e6",
+          "80f792819f3cde54",
+          "533d37a0b5da55bc",
+          "c633388ba57425dc",
+          "82a61b409d5d7dff",
+          "fe1d6d1261b83b9a",
+          "3d0be7f382dd95ca",
+          "7a5277e095271fa2",
+          "24ef1a588aa8242e",
+          "d0339082f635c983",
+          "40b8e4e9ea1702e3",
+          "cab55d41ed23bb65",
+          "9466c436e2ec178f",
+          "f5f1a5dc4cd68687",
+          "2d0ec4bda0f34c11",
+          "46bd59747615aa53",
+          "533d37a0b5da55bc",
+          "395d0563df2f193f",
+          "b614e73a894de184",
+          "33fdcd67049a0d3e",
+          "2d459ce2eb6c4a52"
+        ]
+      }
+    ]
+  },
+  "analysis_complete": true,
+  "task": "Analyse the following claim for misinformation: Climate change is causing an irreversible economic crisis that current financial models cannot predict",
+  "plan": [],
+  "worker_outputs": [
+    "[broad_context_fetch]\nQueries (2): Climate change is causing an irreversible economic crisis that current financial models cannot predict | climate change\nArticles fetched: 16",
+    "[context_builder]\nDimensions: causal mechanism, timeline accuracy, source credibility, geographical scope\nTime window: unknown\nCompeting narratives: 0",
+    "[tavily_targeted]\nQueries (1): climate change economic crisis irreversible impact\nArticles fetched: 5",
+    "[evaluator]\nArticles: 21 → deduped: 16 → relevant: 9\nPrimary: 1 (silent) | Secondary clusters: 6 | Gaps: ['causal mechanism', 'timeline accuracy', 'source credibility', 'geographical scope'] | Ready: False",
+    "[analyst]\nBuckets: 1 | Inflection points: 0 | Ground truth tier: unresolvable | Frame sequence: scientific"
+  ],
+  "next": "evaluator",
+  "instructions": "",
+  "article_metadata_cache": {
+    "80f792819f3cde54": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The climate crisis could cause a global financial crash as economic models fail to capture the risk.",
+        "Flawed economic models mean the climate crisis could crash the global economy, warn experts."
+      ]
+    },
+    "533d37a0b5da55bc": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The Financial Stability Board coordinates international work on financial sector policies.",
+        "The NGFS's new climate damage function has been criticized for its flawed analysis."
+      ]
+    },
+    "c633388ba57425dc": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Economic models are understating the challenges of climate change, according to a study.",
+        "There is a significant gap in economists' ability to answer key climate questions."
+      ]
+    },
+    "33fdcd67049a0d3e": {
+      "_source_type": "primary"
+    },
+    "1175fa0c47c7b0e6": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The climate crisis highlights the need for more accurate economic modeling.",
+        "(no claim)"
+      ]
+    },
+    "82a61b409d5d7dff": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(no claim)",
+        "(no claim)"
+      ]
+    },
+    "fe1d6d1261b83b9a": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(no claim)",
+        "(no claim)"
+      ]
+    },
+    "7a5277e095271fa2": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(no claim)",
+        "(no claim)"
+      ]
+    }
+  },
+  "final_output": null
+}

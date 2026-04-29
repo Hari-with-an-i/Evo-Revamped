@@ -21,7 +21,7 @@ log = get_logger(__name__)
 MAX_PER_QUERY = 15
 
 
-async def _fetch_targeted(queries: list[str]) -> list[dict]:
+async def _fetch_targeted(queries: list[dict]) -> list[dict]:
     loop = asyncio.get_event_loop()
 
     async def call(fn, query: str, **kwargs) -> list[dict]:
@@ -29,8 +29,12 @@ async def _fetch_targeted(queries: list[str]) -> list[dict]:
 
     tasks = []
     for q in queries:
-        tasks.append(call(gdelt_search, q, timespan="90d", max_records=MAX_PER_QUERY))
-        tasks.append(call(common_crawl_search, q, max_results=MAX_PER_QUERY))
+        q_str = q.get("query", "")
+        start = q.get("start_date", "")
+        end = q.get("end_date", "")
+        
+        tasks.append(call(gdelt_search, q_str, timespan="90d", max_records=MAX_PER_QUERY, start_date=start, end_date=end))
+        tasks.append(call(common_crawl_search, q_str, max_results=MAX_PER_QUERY, date_from=start))
 
     results = await asyncio.gather(*tasks, return_exceptions=True)
     raw: list[dict] = []
@@ -45,7 +49,7 @@ async def _fetch_targeted(queries: list[str]) -> list[dict]:
 def gdelt_commoncrawl_targeted_node(state: AgentState) -> dict:
     """Run targeted GDELT + Common Crawl queries and append deduplicated results to state."""
     all_queries = state.get("targeted_queries", [])
-    my_queries = [q["query"] for q in all_queries if q.get("tool") == "gdelt_commoncrawl"]
+    my_queries = [q for q in all_queries if q.get("tool") == "gdelt_commoncrawl"]
 
     if not my_queries:
         log.warning("no gdelt_commoncrawl queries", extra={"node": "gdelt_commoncrawl_targeted"})
@@ -77,7 +81,7 @@ def gdelt_commoncrawl_targeted_node(state: AgentState) -> dict:
         "retrieved_articles": [a.model_dump(mode="json") for a in articles],
         "worker_outputs": [
             f"[gdelt_commoncrawl_targeted]\n"
-            f"Queries ({len(my_queries)}): {' | '.join(my_queries)}\n"
+            f"Queries ({len(my_queries)}): {' | '.join([q.get('query', '') for q in my_queries])}\n"
             f"Articles fetched: {len(articles)}"
         ],
     }

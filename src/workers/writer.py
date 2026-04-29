@@ -49,7 +49,7 @@ def writer_node(state: AgentState) -> dict:
 
 
 def _render_report(report: NarrativeReport) -> str:
-    """Render NarrativeReport as JSON block + 7 markdown sections."""
+    """Render NarrativeReport as JSON block + 3 condensed markdown sections."""
     sections: list[str] = []
 
     # JSON block — opt-in for downstream API consumers (set REPORT_INCLUDE_JSON=true)
@@ -59,81 +59,67 @@ def _render_report(report: NarrativeReport) -> str:
         sections.append("```")
         sections.append("")
 
-    # --- Section 1: Claim Snapshot ---
-    snap = report.claim_snapshot
-    tier = snap.get("ground_truth_tier", "unknown").upper()
-    sections.append(f"## Section 1 — Claim Snapshot [{tier}]")
-    sections.append(f"**Claim:** {snap.get('claim', '')}")
-    sections.append(f"**Period:** {snap.get('time_period', 'unknown')}  |  **Sources:** {snap.get('source_count', 0)}")
+    sp_map = {pt.bucket_id: pt for pt in report.sentiment_timeline}
+    fp_map = {pt.bucket_id: pt for pt in report.frame_evolution_log}
+    vp_map = {pt.bucket_id: pt for pt in report.voice_composition_shifts}
+
+    # --- Section 1: Temporal Evolution (Buckets, Sentiment, Frames & Voice) ---
+    sections.append("## Section 1 — Temporal Evolution (Buckets, Sentiment, Frames & Voice)")
+    if not report.time_buckets:
+        sections.append("No temporal data available.")
+    else:
+        for b in report.time_buckets:
+            bid = b.bucket_id
+            date_range = f"{b.start_dt.date()} to {b.end_dt.date()}"
+            sp = sp_map.get(bid)
+            fp = fp_map.get(bid)
+            vp = vp_map.get(bid)
+            
+            line_parts = [f"**Bucket {bid}** ({date_range})"]
+            if sp:
+                sign = "+" if sp.mean_sentiment >= 0 else ""
+                line_parts.append(f"Sentiment: {sign}{sp.mean_sentiment:.2f} (Δ{sp.delta:+.2f})")
+            if fp:
+                shift_mark = " ⚠️ [SHIFT]" if fp.frame_changed else ""
+                line_parts.append(f"Frame: {fp.frame_type}{shift_mark}")
+            if vp:
+                shift_mark = " ⚠️ [SHIFT]" if vp.voice_changed else ""
+                line_parts.append(f"Voice: {vp.dominant_cluster_label}{shift_mark}")
+            
+            sections.append(" | ".join(line_parts))
     sections.append("")
 
-    # --- Section 2: Perspective Landscape ---
-    sections.append("## Section 2 — Perspective Landscape")
+    # --- Section 2: Perspective Landscape & Inflections ---
+    sections.append("## Section 2 — Perspective Landscape & Inflections")
     if not report.perspective_landscape:
         sections.append("No perspective clusters detected.")
-    for p in report.perspective_landscape:
-        corr_level = p.get("corroboration_level", "unverified")
-        corr_count = p.get("corroboration_count", 0)
-        sections.append(f"### {p.get('label', '(unlabelled cluster)')}")
-        sections.append(f"Corroboration: **{corr_level}** ({corr_count} independent domain(s))")
-        key_claims = p.get("key_claims", [])
-        for claim in key_claims[:3]:
-            sections.append(f"- {claim}")
-        sections.append("")
-
-    # --- Section 3: Sentiment Timeline ---
-    sections.append("## Section 3 — Sentiment Timeline")
-    for pt in report.sentiment_timeline:
-        bar_len = max(0, round(abs(pt.mean_sentiment) * 10))
-        bar = "█" * bar_len
-        sign = "+" if pt.mean_sentiment >= 0 else "-"
-        sections.append(
-            f"Bucket {pt.bucket_id}: {sign}{bar} "
-            f"(mean={pt.mean_sentiment:+.2f}, Δ={pt.delta:+.2f}) "
-            f"[{pt.article_count} articles | entity: {pt.dominant_entity}]"
-        )
-    sections.append("")
-
-    # --- Section 4: Inflection Point Cards ---
-    sections.append("## Section 4 — Inflection Points")
+    else:
+        sections.append("### Clusters")
+        for p in report.perspective_landscape:
+            corr_level = p.get("corroboration_level", "unverified")
+            corr_count = p.get("corroboration_count", 0)
+            label = p.get("label", "(unlabelled cluster)")
+            claims = "; ".join(p.get("key_claims", [])[:2])
+            sections.append(f"- **{label}**: {corr_level} ({corr_count} domains) — Key claims: {claims}")
+    
+    sections.append("\n### Inflection Points")
     if not report.inflection_point_cards:
         sections.append("No multi-track inflection points detected.")
-    for ip in report.inflection_point_cards:
-        sections.append(f"### Inflection — Bucket {ip.bucket_id} ({ip.bucket_date_range})")
-        sections.append(f"**Tracks signaling:** {', '.join(ip.tracks_signaling)}")
-        sections.append(f"**Dominant perspective:** {ip.dominant_cluster_label}")
-        if ip.correlated_event:
-            ev = ip.correlated_event
-            sections.append(
-                f"**Correlated event ({ev.event_date}):** {ev.description} "
-                f"[plausibility: {ev.plausibility_score:.2f}]"
-            )
-        sections.append(f"**Explanation:** {ip.explanation}")
-        sections.append("")
+    else:
+        for ip in report.inflection_point_cards:
+            sections.append(f"**Bucket {ip.bucket_id} ({ip.bucket_date_range})**")
+            sections.append(f"- Dominant Perspective: {ip.dominant_cluster_label}")
+            if ip.correlated_event:
+                ev = ip.correlated_event
+                sections.append(f"- Event: {ev.event_date} — {ev.description} [Plausibility: {ev.plausibility_score:.2f}]")
+            sections.append(f"- Context: {ip.explanation}\n")
 
-    # --- Section 5: Frame Evolution Log ---
-    sections.append("## Section 5 — Frame Evolution Log")
-    for fp in report.frame_evolution_log:
-        shift_flag = "  **[FRAME SHIFT]**" if fp.frame_changed else ""
-        top_terms_str = ", ".join(fp.top_terms[:10])
-        sections.append(
-            f"Bucket {fp.bucket_id}: **{fp.frame_type}**{shift_flag}"
-            + (f" — {top_terms_str}" if top_terms_str else "")
-        )
-    sections.append("")
-
-    # --- Section 6: Voice Composition Shifts ---
-    sections.append("## Section 6 — Voice Composition Shifts")
-    for vp in report.voice_composition_shifts:
-        shift_flag = "  **[VOICE SHIFT]**" if vp.voice_changed else ""
-        comp_str = "  |  ".join(f"{k}: {v}" for k, v in vp.composition.items()) if vp.composition else "no data"
-        sections.append(
-            f"Bucket {vp.bucket_id}: dominant=**{vp.dominant_cluster_label}**{shift_flag}  [{comp_str}]"
-        )
-    sections.append("")
-
-    # --- Section 7: Narrative Intelligence Summary ---
-    sections.append("## Section 7 — Narrative Intelligence Summary")
+    # --- Section 3: Final Analysis ---
+    snap = report.claim_snapshot
+    tier = snap.get("ground_truth_tier", "unknown").upper()
+    sections.append(f"## Section 3 — Final Analysis [{tier}]")
+    sections.append(f"**Claim:** {snap.get('claim', '')}")
+    sections.append(f"**Period:** {snap.get('time_period', 'unknown')}  |  **Sources:** {snap.get('source_count', 0)}\n")
     sections.append(report.narrative_intelligence_summary)
 
     return "\n".join(sections)

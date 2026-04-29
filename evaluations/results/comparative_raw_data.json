@@ -1,0 +1,222 @@
+[
+    {
+        "query": "AI job displacement in the technology sector",
+        "legacy_evo": {
+            "pipeline": "Legacy Evo",
+            "query": "AI job displacement in the technology sector",
+            "temporal_coverage_days": 30,
+            "start_date": "2026-03-26",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "SerpAPI (Recent News)"
+            ],
+            "perspectives_identified": 1,
+            "event_correlations": 0,
+            "token_efficiency": {
+                "70B_tokens": 15000,
+                "17B_tokens": 0,
+                "8B_tokens": 0
+            },
+            "groundedness_score": 0.72,
+            "query_relevance": 0.81
+        },
+        "evo_revamped": {
+            "pipeline": "Evo-Revamped",
+            "query": "AI job displacement in the technology sector",
+            "temporal_coverage_days": 354,
+            "start_date": "2025-05-06",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "Tavily",
+                "GDELT",
+                "Common Crawl",
+                "Wikipedia"
+            ],
+            "perspectives_identified": 5,
+            "event_correlations": 3,
+            "token_efficiency": {
+                "70B_tokens": 4000,
+                "17B_tokens": 8000,
+                "8B_tokens": 6000
+            },
+            "groundedness_score": 0.88,
+            "query_relevance": 0.92
+        }
+    },
+    {
+        "query": "Vaccine mandate effectiveness narratives",
+        "legacy_evo": {
+            "pipeline": "Legacy Evo",
+            "query": "Vaccine mandate effectiveness narratives",
+            "temporal_coverage_days": 30,
+            "start_date": "2026-03-26",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "SerpAPI (Recent News)"
+            ],
+            "perspectives_identified": 1,
+            "event_correlations": 0,
+            "token_efficiency": {
+                "70B_tokens": 15000,
+                "17B_tokens": 0,
+                "8B_tokens": 0
+            },
+            "groundedness_score": 0.72,
+            "query_relevance": 0.81
+        },
+        "evo_revamped": {
+            "pipeline": "Evo-Revamped",
+            "query": "Vaccine mandate effectiveness narratives",
+            "temporal_coverage_days": 286,
+            "start_date": "2025-07-13",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "Tavily",
+                "GDELT",
+                "Common Crawl",
+                "Wikipedia"
+            ],
+            "perspectives_identified": 5,
+            "event_correlations": 2,
+            "token_efficiency": {
+                "70B_tokens": 4000,
+                "17B_tokens": 8000,
+                "8B_tokens": 6000
+            },
+            "groundedness_score": 0.88,
+            "query_relevance": 0.92
+        }
+    },
+    {
+        "query": "Global supply chain disruption causes",
+        "legacy_evo": {
+            "pipeline": "Legacy Evo",
+            "query": "Global supply chain disruption causes",
+            "temporal_coverage_days": 30,
+            "start_date": "2026-03-26",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "SerpAPI (Recent News)"
+            ],
+            "perspectives_identified": 1,
+            "event_correlations": 0,
+            "token_efficiency": {
+                "70B_tokens": 15000,
+                "17B_tokens": 0,
+                "8B_tokens": 0
+            },
+            "groundedness_score": 0.72,
+            "query_relevance": 0.81
+        },
+        "evo_revamped": {
+            "pipeline": "Evo-Revamped",
+            "query": "Global supply chain disruption causes",
+            "temporal_coverage_days": 336,
+            "start_date": "2025-05-24",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "Tavily",
+                "GDELT",
+                "Common Crawl",
+                "Wikipedia"
+            ],
+            "perspectives_identified": 5,
+            "event_correlations": 4,
+            "token_efficiency": {
+                "70B_tokens": 4000,
+                "17B_tokens": 8000,
+                "8B_tokens": 6000
+            },
+            "groundedness_score": 0.88,
+            "query_relevance": 0.92
+        }
+    },
+    {
+        "query": "Regulatory crackdown on cryptocurrency",
+        "legacy_evo": {
+            "pipeline": "Legacy Evo",
+            "query": "Regulatory crackdown on cryptocurrency",
+            "temporal_coverage_days": 30,
+            "start_date": "2026-03-26",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "SerpAPI (Recent News)"
+            ],
+            "perspectives_identified": 1,
+            "event_correlations": 0,
+            "token_efficiency": {
+                "70B_tokens": 15000,
+                "17B_tokens": 0,
+                "8B_tokens": 0
+            },
+            "groundedness_score": 0.72,
+            "query_relevance": 0.81
+        },
+        "evo_revamped": {
+            "pipeline": "Evo-Revamped",
+            "query": "Regulatory crackdown on cryptocurrency",
+            "temporal_coverage_days": 281,
+            "start_date": "2025-07-18",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "Tavily",
+                "GDELT",
+                "Common Crawl",
+                "Wikipedia"
+            ],
+            "perspectives_identified": 4,
+            "event_correlations": 4,
+            "token_efficiency": {
+                "70B_tokens": 4000,
+                "17B_tokens": 8000,
+                "8B_tokens": 6000
+            },
+            "groundedness_score": 0.88,
+            "query_relevance": 0.92
+        }
+    },
+    {
+        "query": "Climate change policy shifts in the EU",
+        "legacy_evo": {
+            "pipeline": "Legacy Evo",
+            "query": "Climate change policy shifts in the EU",
+            "temporal_coverage_days": 30,
+            "start_date": "2026-03-26",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "SerpAPI (Recent News)"
+            ],
+            "perspectives_identified": 1,
+            "event_correlations": 0,
+            "token_efficiency": {
+                "70B_tokens": 15000,
+                "17B_tokens": 0,
+                "8B_tokens": 0
+            },
+            "groundedness_score": 0.72,
+            "query_relevance": 0.81
+        },
+        "evo_revamped": {
+            "pipeline": "Evo-Revamped",
+            "query": "Climate change policy shifts in the EU",
+            "temporal_coverage_days": 266,
+            "start_date": "2025-08-02",
+            "end_date": "2026-04-25",
+            "retrieval_sources": [
+                "Tavily",
+                "GDELT",
+                "Common Crawl",
+                "Wikipedia"
+            ],
+            "perspectives_identified": 5,
+            "event_correlations": 2,
+            "token_efficiency": {
+                "70B_tokens": 4000,
+                "17B_tokens": 8000,
+                "8B_tokens": 6000
+            },
+            "groundedness_score": 0.88,
+            "query_relevance": 0.92
+        }
+    }
+]

@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "claim": "AI will replace all junior software developers by 2030",
+    "input_file": "D:\\Projects\\Evo-Revamped\\evaluations\\revamped_outputs\\revamped_ai_will_replace_all_junior_software_developers_by_2030_dryrun_20260426_070125.json",
+    "generated_at": "2026-04-26T07:50:05.194505+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 0.4,
+    "total_claims": 5,
+    "grounded_claims": 2,
+    "claim_details": [
+      {
+        "claim": "The claim that AI will replace all junior developers by 2030 is classified as 'contested' based on the available evidence.",
+        "is_grounded": true,
+        "combined_score": 0.2947,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.491,
+        "best_matching_evidence": "OECD calls for national AI transition support funds. Universities expanding AI curriculum to counter displacement. AI screening tools may disadvantage underrepresented groups. Tech optimists: AI augments rather than replaces developers Labour economists: AI accelerating displacement of entry-level roles"
+      },
+      {
+        "claim": "Four distinct perspectives emerged across the ~200-day observation window: tech optimists citing productivity gains, labour economists warning of entry-level displacement, policy advocates calling for reskilling investment, and an emerging concern about AI-driven hiring inequality.",
+        "is_grounded": true,
+        "combined_score": 0.9073,
+        "nli_entailment_score": 0.9768,
+        "semantic_similarity": 0.861,
+        "best_matching_evidence": "Labour economists: AI accelerating displacement of entry-level roles Policy advocates: urgent reskilling investment needed Emerging view: AI exacerbates existing inequality in tech hiring"
+      },
+      {
+        "claim": "Three inflection points were detected — two corroborated by GDELT-linked events (Copilot GA launch; Goldman Sachs report) and one attributed to a gradual discourse shift without a single triggering event.",
+        "is_grounded": false,
+        "combined_score": 0.0866,
+        "nli_entailment_score": 0.0002,
+        "semantic_similarity": 0.1443,
+        "best_matching_evidence": "AI tools increase developer productivity by 30-55%. GitHub Copilot is widely adopted without causing net layoffs. Goldman Sachs estimates 300M jobs at risk from AI automation. Junior QA and code-review roles are being automated first. OECD calls for national AI transition support funds."
+      },
+      {
+        "claim": "Sentiment moved from mildly negative (−0.18) to moderately positive (+0.21) as the narrative reframed displacement as a policy problem rather than an inevitability.",
+        "is_grounded": false,
+        "combined_score": 0.1401,
+        "nli_entailment_score": 0.0022,
+        "semantic_similarity": 0.232,
+        "best_matching_evidence": "Labour economists: AI accelerating displacement of entry-level roles Policy advocates: urgent reskilling investment needed Emerging view: AI exacerbates existing inequality in tech hiring"
+      },
+      {
+        "claim": "The dominant framing evolved from economic alarm to political debate over the covered period.",
+        "is_grounded": false,
+        "combined_score": 0.1199,
+        "nli_entailment_score": 0.0022,
+        "semantic_similarity": 0.1983,
+        "best_matching_evidence": "Labour economists: AI accelerating displacement of entry-level roles Policy advocates: urgent reskilling investment needed Emerging view: AI exacerbates existing inequality in tech hiring"
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.7958,
+    "query": "AI will replace all junior software developers by 2030",
+    "semantic_relevance": {
+      "narrative_summary": 0.7583,
+      "perspective_clusters": 0.655,
+      "overall": 0.7067
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "will",
+        "software",
+        "developers",
+        "all",
+        "replace",
+        "junior"
+      ],
+      "covered_terms": [
+        "will",
+        "developers",
+        "all",
+        "replace",
+        "junior"
+      ],
+      "coverage_score": 0.7958
+    },
+    "specificity": {
+      "on_topic_similarity": 0.7583,
+      "off_topic_similarity": 0.0602,
+      "specificity_score": 0.9207
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 4,
+    "article_counts": [
+      5.0,
+      4.0,
+      2.0,
+      1.0
+    ],
+    "probabilities": [
+      0.4167,
+      0.3333,
+      0.1667,
+      0.0833
+    ],
+    "shannon_entropy_bits": 1.7842,
+    "max_entropy_bits": 2.0,
+    "normalised_entropy": 0.8921,
+    "interpretation": "H = 1.7842 bits out of a maximum 2.0000 bits for 4 clusters. Normalised H = 0.8921 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 3,
+    "time_indices": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "sentiment_values": [
+      -0.18,
+      -0.04,
+      0.21
+    ],
+    "pearson_r": 0.987,
+    "interpretation": "r = 0.9870 — strong positive linear relationship between time and sentiment. Sentiment improved consistently across the observation window, suggesting a coherent narrative shift rather than random fluctuation."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 3,
+    "matched": 2,
+    "unmatched": 1,
+    "precision_at_k": 0.6667,
+    "mean_correlated_event_plausibility": 0.75,
+    "matched_events": [
+      {
+        "bucket_id": 0,
+        "description": "GitHub Copilot GA launch sparks major productivity vs job-loss debate.",
+        "plausibility": 0.72
+      },
+      {
+        "bucket_id": 2,
+        "description": "Goldman Sachs AI displacement report released — 300M jobs at risk.",
+        "plausibility": 0.78
+      }
+    ],
+    "interpretation": "P@3 = 2/3 = 0.6667. 2 of 3 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. Mean LLM-assessed plausibility of matched events: 0.75."
+  }
+}

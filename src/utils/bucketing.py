@@ -16,9 +16,10 @@ from src.schemas.narrative_report import TimeBucket
 def build_time_buckets(
     articles: list[dict],
     min_buckets: int = 3,
+    predefined_periods: list[dict] | None = None,
 ) -> tuple[list[TimeBucket], list[int]]:
     """
-    Partition articles into adaptive time buckets.
+    Partition articles into adaptive time buckets or predefined periods.
 
     Returns:
         (buckets, assignments) where assignments[i] = bucket_id for articles[i].
@@ -50,9 +51,58 @@ def build_time_buckets(
 
     corpus_start = min(known)
     corpus_end = max(known)
-
-    # Undated articles go to the oldest bucket (bucket 0)
     dates: list[datetime] = [d if d is not None else corpus_start for d in raw_dates]
+
+    if predefined_periods:
+        # Use predefined periods as buckets
+        buckets = []
+        for i, period in enumerate(predefined_periods):
+            start = parse_date(period.get("start_date"))
+            end = parse_date(period.get("end_date"))
+            # Fallback if parsing fails
+            if not start: start = corpus_start
+            if not end: end = corpus_end
+            if start.tzinfo is None: start = start.replace(tzinfo=timezone.utc)
+            if end.tzinfo is None: end = end.replace(tzinfo=timezone.utc)
+            
+            # Ensure end is strictly after start, else pad it slightly so it spans
+            if end <= start:
+                from datetime import timedelta
+                end = start + timedelta(days=1)
+
+            buckets.append(TimeBucket(
+                bucket_id=i,
+                start_dt=start,
+                end_dt=end,
+                article_ids=[],
+            ))
+
+        assignments = []
+        for i, dt in enumerate(dates):
+            # Find the best bucket for this date
+            assigned = False
+            for b_idx, b in enumerate(buckets):
+                if b.start_dt <= dt <= b.end_dt:
+                    assignments.append(b_idx)
+                    buckets[b_idx].article_ids.append(articles[i].get("id", ""))
+                    assigned = True
+                    break
+            
+            # If it didn't fit neatly into any bucket, put it in the closest one
+            if not assigned:
+                closest_b_idx = 0
+                min_dist = float('inf')
+                for b_idx, b in enumerate(buckets):
+                    dist_start = abs((dt - b.start_dt).total_seconds())
+                    dist_end = abs((dt - b.end_dt).total_seconds())
+                    dist = min(dist_start, dist_end)
+                    if dist < min_dist:
+                        min_dist = dist
+                        closest_b_idx = b_idx
+                assignments.append(closest_b_idx)
+                buckets[closest_b_idx].article_ids.append(articles[i].get("id", ""))
+                
+        return buckets, assignments
 
     # All same timestamp → single bucket
     if corpus_start == corpus_end:
@@ -71,7 +121,7 @@ def build_time_buckets(
     bucket_width = span / n
 
     # Assign each article to a bucket
-    assignments: list[int] = []
+    assignments = []
     for dt in dates:
         idx = int((dt - corpus_start) / bucket_width)
         idx = min(idx, n - 1)  # clamp edge case where dt == corpus_end
@@ -83,7 +133,7 @@ def build_time_buckets(
         art_id = articles[i].get("id", "")
         bucket_article_ids[bucket_id].append(art_id)
 
-    buckets: list[TimeBucket] = []
+    buckets = []
     for b in range(n):
         b_start = corpus_start + bucket_width * b
         b_end = corpus_start + bucket_width * (b + 1)

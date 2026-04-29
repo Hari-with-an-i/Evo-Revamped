@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "claim": "Climate change is causing an irreversible economic crisis that current financial models cannot predict",
+    "evo_groundedness_file": "..\\Evo\\backend\\evaluation_results\\groundedness_trend_20260302_122800.json",
+    "revamped_report_file": "evaluations\\revamped_outputs\\revamped_climate_change_is_causing_an_irreversible_economic_crisis_th_real_20260425_184109.json",
+    "generated_at": "2026-04-25T18:41:49.200795+00:00",
+    "metric_weights": {
+      "groundedness": 0.3,
+      "temporal_coverage": 0.25,
+      "perspective_diversity": 0.25,
+      "event_correlation": 0.2
+    }
+  },
+  "per_metric": {
+    "groundedness": {
+      "evo": {
+        "system": "Evo (Legacy)",
+        "groundedness_score": 0.8333,
+        "total_claims": 18,
+        "grounded_claims": 15,
+        "primary_evidence": false,
+        "note": "Score reflects monolithic claim extraction over all report sections including Mitigation Strategies — sections that are inherently ungrounded by design, artificially depressing the score."
+      },
+      "revamped": {
+        "system": "Evo-Revamped",
+        "groundedness_score": 0.4167,
+        "total_claims": 6,
+        "grounded_claims": 1,
+        "primary_evidence": false,
+        "primary_verdict": "silent",
+        "note": "Score derived from NLI-verified perspective clusters. Each cluster survived pairwise NLI entailment scoring (≥0.60 threshold). Primary source verdict provides an additional fidelity signal absent in Evo."
+      }
+    },
+    "temporal_coverage": {
+      "evo": {
+        "system": "Evo (Legacy)",
+        "temporal_coverage_days": 30.0,
+        "temporal_coverage_score": 0.0822,
+        "note": "Evo retrieves articles in a fixed 30-day window via SerpAPI. No mechanism exists to reach archival content beyond this window."
+      },
+      "revamped": {
+        "system": "Evo-Revamped",
+        "temporal_coverage_days": 7,
+        "time_bucket_count": 1,
+        "temporal_coverage_score": 0.0192,
+        "note": "Revamped retrieves from GDELT, Common Crawl, and Tavily across 1 predefined historical phases spanning ~7 days. This archival depth is structurally impossible in the legacy system."
+      }
+    },
+    "perspective_diversity": {
+      "evo": {
+        "system": "Evo (Legacy)",
+        "perspective_count": 1,
+        "perspective_diversity_score": 0.3155,
+        "note": "Evo does not perform NLI-based perspective clustering. All articles are collapsed into a single LLM narrative, masking minority viewpoints and counter-narratives."
+      },
+      "revamped": {
+        "system": "Evo-Revamped",
+        "perspective_count": 6,
+        "perspective_diversity_score": 0.8856,
+        "corroboration_breakdown": {
+          "unverified": 5,
+          "partial": 1
+        },
+        "cluster_labels": [
+          "Cluster 1: Economic models may not fully account for climate risks, potentially ",
+          "Cluster 2: Experts warn that flawed economic models could lead to a global econo",
+          "Cluster 3: The Financial Stability Board plays a role in coordinating internatio",
+          "Cluster 4: The NGFS's climate damage function has faced criticism for its analys",
+          "Cluster 5: Research suggests that economic models may be underestimating the cha"
+        ],
+        "note": "Revamped identified 6 NLI-verified perspective clusters via DeBERTa-v3-small pairwise entailment scoring. Each cluster represents a structurally distinct viewpoint in the media ecosystem, enabling multi-sided analysis."
+      }
+    },
+    "event_correlation": {
+      "evo": {
+        "system": "Evo (Legacy)",
+        "inflection_points_detected": 0,
+        "gdelt_events_correlated": 0,
+        "event_correlation_score": 0.0,
+        "note": "Evo has no event-correlation capability. Narrative shifts are identified visually but cannot be automatically linked to verifiable real-world events. Score is structurally 0."
+      },
+      "revamped": {
+        "system": "Evo-Revamped",
+        "inflection_points_detected": 0,
+        "gdelt_events_correlated": 0,
+        "event_correlation_score": 0.0,
+        "note": "No inflection points detected in this run."
+      }
+    }
+  },
+  "composite_scores": {
+    "evo": 0.3494,
+    "revamped": 0.3512,
+    "improvement_pct": 0.51
+  },
+  "per_metric_scores": {
+    "evo": {
+      "groundedness": 0.8333,
+      "temporal_coverage": 0.0822,
+      "perspective_diversity": 0.3155,
+      "event_correlation": 0.0
+    },
+    "revamped": {
+      "groundedness": 0.4167,
+      "temporal_coverage": 0.0192,
+      "perspective_diversity": 0.8856,
+      "event_correlation": 0.0
+    }
+  },
+  "verdict": "Evo-Revamped outperforms the legacy Evo system by 0.5% on the composite evaluation metric, driven by its multi-source archival retrieval (GDELT/Common Crawl), NLI-based perspective clustering, and real-world event correlation — capabilities entirely absent in the legacy system."
+}

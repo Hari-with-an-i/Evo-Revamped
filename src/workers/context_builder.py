@@ -25,6 +25,7 @@ Read the provided articles and the original claim, then produce a structured Con
 - who:                  Key actors or persons directly involved in the claim.
 - what:                 The core event or assertion being made.
 - when:                 Inferred time window (ISO range or natural language). Use "unknown" if unclear.
+- relevant_time_periods: A JSON-formatted string representing an array of 3-5 distinct historical periods/phases spanning the narrative's lifecycle. Each object must have start_date, end_date (YYYY-MM-DD), and a brief phase_description. Escape quotes properly since this is a string field.
 - competing_narratives: Pipe-separated alternative framings or counter-claims present across the articles.
                         Example: "WHO denies link|Telecom industry rejects claim|Blogs assert 5G activated virus"
                         Empty string if no competing narratives found.
@@ -87,8 +88,17 @@ def context_builder_node(state: AgentState) -> dict:
         "narratives": len(narratives),
     })
 
+    import json
+    summary_dict = summary.model_dump()
+    try:
+        if isinstance(summary_dict.get("relevant_time_periods"), str):
+            summary_dict["relevant_time_periods"] = json.loads(summary_dict["relevant_time_periods"])
+    except Exception as e:
+        log.warning("failed to parse relevant_time_periods JSON string", extra={"error": str(e)})
+        summary_dict["relevant_time_periods"] = []
+
     return {
-        "context_summary": summary.model_dump(),
+        "context_summary": summary_dict,
         "worker_outputs": [
             f"[context_builder]\n"
             f"Dimensions: {', '.join(dimensions)}\n"

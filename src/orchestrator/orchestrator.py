@@ -62,15 +62,16 @@ Always set next = "broad_context_fetch".
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODE B — QUERY PLANNING  (Phase 1 complete, context ready)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-You have a context_summary with who/what/when/dimensions. Generate 3–5 targeted queries,
-each assigned to one tool:
+You have a context_summary with who/what/when/dimensions and relevant_time_periods. 
+Generate targeted queries for EACH relevant time period, setting start_date and end_date on the query to match the time period.
+Assign each query to one tool:
   "tavily"            — full-text, recent web results
   "gdelt_commoncrawl" — date-filtered news corpus (GDELT) + web archive (Common Crawl/BigQuery)
   "scholar_wiki"      — Wikipedia anchoring (stored separately; used for grounding only, not cited in the final report)
 
-Cover different claim dimensions with different tools. Be specific — not generic.
+Cover different claim dimensions with different tools across the time periods. Be specific.
 Set next = "tavily_targeted" (sequential Phase 2 entry point).
-Prefer "gdelt_commoncrawl" for queries that need date-filtered or archival coverage.
+Prefer "gdelt_commoncrawl" for queries that need date-filtered or archival coverage (which should be most queries that have start/end dates).
 Set retrieval_complete to the boolean false (not the string "false").
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -221,6 +222,14 @@ def orchestrator_node(state: AgentState) -> dict:
         dimensions = [d.strip() for d in raw_dims.split("|") if d.strip()] if isinstance(raw_dims, str) else raw_dims
         raw_narr = cs.get('competing_narratives', '')
         narratives = [n.strip() for n in raw_narr.split("|") if n.strip()] if isinstance(raw_narr, str) else raw_narr
+        time_periods_info = "\n  Relevant Time Periods:\n"
+        periods = cs.get('relevant_time_periods', [])
+        if periods:
+            for i, p in enumerate(periods):
+                time_periods_info += f"    {i+1}. {p.get('start_date')} to {p.get('end_date')}: {p.get('phase_description')}\n"
+        else:
+            time_periods_info += "    None identified.\n"
+
         context_parts.append(
             f"Context Summary:\n"
             f"  Who: {cs.get('who', '')}\n"
@@ -228,6 +237,7 @@ def orchestrator_node(state: AgentState) -> dict:
             f"  When: {cs.get('when', '')}\n"
             f"  Dimensions: {', '.join(dimensions)}\n"
             f"  Competing narratives: {len(narratives)}"
+            f"{time_periods_info}"
         )
         context_parts.append(
             f"MIN_ARTICLES target: {config.MIN_ARTICLES} | "

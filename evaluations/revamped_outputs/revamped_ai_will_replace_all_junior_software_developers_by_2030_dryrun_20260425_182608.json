@@ -1,0 +1,498 @@
+{
+  "narrative_report": {
+    "claim_snapshot": {
+      "claim": "AI will replace all junior software developers by 2030",
+      "time_period": "2025-04-25 to 2026-04-25",
+      "source_count": 11,
+      "ground_truth_tier": "contested"
+    },
+    "perspective_landscape": [
+      {
+        "label": "Tech optimists: AI augments rather than replaces developers",
+        "key_claims": [
+          "AI tools increase developer productivity by 30-55%.",
+          "GitHub Copilot is widely adopted without causing net layoffs."
+        ],
+        "article_ids": [
+          "art_0_0",
+          "art_1_0",
+          "art_2_0",
+          "art_3_0",
+          "art_4_0"
+        ],
+        "domain_roots": [
+          "techcrunch.com",
+          "wired.com",
+          "theverge.com",
+          "ars.com",
+          "hbr.org"
+        ],
+        "corroboration_count": 5,
+        "corroboration_level": "corroborated",
+        "article_count": 5
+      },
+      {
+        "label": "Labour economists: AI accelerating displacement of entry-level roles",
+        "key_claims": [
+          "Goldman Sachs estimates 300M jobs at risk from AI automation.",
+          "Junior QA and code-review roles are being automated first."
+        ],
+        "article_ids": [
+          "art_0_1",
+          "art_1_1",
+          "art_2_1",
+          "art_3_1"
+        ],
+        "domain_roots": [
+          "economist.com",
+          "ft.com",
+          "bloomberg.com",
+          "wsj.com"
+        ],
+        "corroboration_count": 4,
+        "corroboration_level": "partial",
+        "article_count": 4
+      },
+      {
+        "label": "Policy advocates: urgent reskilling investment needed",
+        "key_claims": [
+          "OECD calls for national AI transition support funds.",
+          "Universities expanding AI curriculum to counter displacement."
+        ],
+        "article_ids": [
+          "art_0_2",
+          "art_1_2"
+        ],
+        "domain_roots": [
+          "oecd.org",
+          "bbc.com"
+        ],
+        "corroboration_count": 2,
+        "corroboration_level": "unverified",
+        "article_count": 2
+      }
+    ],
+    "sentiment_timeline": [
+      {
+        "bucket_id": 0,
+        "mean_sentiment": -0.15,
+        "delta": 0.0,
+        "dominant_entity": "AI",
+        "article_count": 4
+      },
+      {
+        "bucket_id": 1,
+        "mean_sentiment": -0.03,
+        "delta": 0.12,
+        "dominant_entity": "AI",
+        "article_count": 4
+      },
+      {
+        "bucket_id": 2,
+        "mean_sentiment": 0.09,
+        "delta": 0.24,
+        "dominant_entity": "AI",
+        "article_count": 4
+      },
+      {
+        "bucket_id": 3,
+        "mean_sentiment": 0.21,
+        "delta": 0.36,
+        "dominant_entity": "AI",
+        "article_count": 4
+      },
+      {
+        "bucket_id": 4,
+        "mean_sentiment": 0.33,
+        "delta": 0.48,
+        "dominant_entity": "AI",
+        "article_count": 4
+      }
+    ],
+    "inflection_point_cards": [
+      {
+        "bucket_id": 2,
+        "bucket_date_range": "2025-09-18 to 2025-11-30",
+        "tracks_signaling": [
+          "sentiment",
+          "frame"
+        ],
+        "correlated_event": {
+          "event_date": "2025-09-18",
+          "description": "GitHub Copilot GA launch sparks major productivity vs job-loss debate.",
+          "plausibility_score": 0.87,
+          "correlated_bucket": 2
+        },
+        "dominant_cluster_label": "Tech optimists: AI augments rather than replaces developers",
+        "explanation": "The media frame shifted from economic concern to political debate following the GitHub Copilot GA release. Sentiment improved as early adopters reported productivity gains, temporarily eclipsing displacement fears."
+      },
+      {
+        "bucket_id": 3,
+        "bucket_date_range": "2025-11-30 to 2026-02-11",
+        "tracks_signaling": [
+          "sentiment",
+          "voice"
+        ],
+        "correlated_event": {
+          "event_date": "2025-11-30",
+          "description": "Goldman Sachs AI displacement report released — 300M jobs at risk.",
+          "plausibility_score": 0.91,
+          "correlated_bucket": 3
+        },
+        "dominant_cluster_label": "Labour economists: AI accelerating displacement of entry-level roles",
+        "explanation": "The Goldman Sachs report triggered a voice-shift as labour economists gained media dominance over tech optimists. Sentiment climbed further as the narrative frame broadened to include policy responses."
+      }
+    ],
+    "frame_evolution_log": [
+      {
+        "bucket_id": 0,
+        "frame_type": "economic",
+        "top_terms": [
+          "ai",
+          "jobs",
+          "automation",
+          "developers",
+          "replace",
+          "productivity"
+        ],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "frame_type": "economic",
+        "top_terms": [
+          "ai",
+          "jobs",
+          "automation",
+          "developers",
+          "replace",
+          "productivity"
+        ],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 2,
+        "frame_type": "political",
+        "top_terms": [
+          "ai",
+          "jobs",
+          "automation",
+          "developers",
+          "replace",
+          "productivity"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 3,
+        "frame_type": "scientific",
+        "top_terms": [
+          "ai",
+          "jobs",
+          "automation",
+          "developers",
+          "replace",
+          "productivity"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 4,
+        "frame_type": "scientific",
+        "top_terms": [
+          "ai",
+          "jobs",
+          "automation",
+          "developers",
+          "replace",
+          "productivity"
+        ],
+        "frame_changed": false
+      }
+    ],
+    "voice_composition_shifts": [
+      {
+        "bucket_id": 0,
+        "dominant_cluster_label": "Tech optimists: AI augments rather than replaces developers",
+        "composition": {
+          "Tech optimists: AI augments rather than replaces developers": 3,
+          "Labour economists: AI accelerating displacement of entry-level roles": 2
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "dominant_cluster_label": "Tech optimists: AI augments rather than replaces developers",
+        "composition": {
+          "Tech optimists: AI augments rather than replaces developers": 3,
+          "Labour economists: AI accelerating displacement of entry-level roles": 2
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 2,
+        "dominant_cluster_label": "Tech optimists: AI augments rather than replaces developers",
+        "composition": {
+          "Tech optimists: AI augments rather than replaces developers": 3,
+          "Labour economists: AI accelerating displacement of entry-level roles": 2
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "dominant_cluster_label": "Labour economists: AI accelerating displacement of entry-level roles",
+        "composition": {
+          "Tech optimists: AI augments rather than replaces developers": 3,
+          "Labour economists: AI accelerating displacement of entry-level roles": 2
+        },
+        "voice_changed": true
+      },
+      {
+        "bucket_id": 4,
+        "dominant_cluster_label": "Labour economists: AI accelerating displacement of entry-level roles",
+        "composition": {
+          "Tech optimists: AI augments rather than replaces developers": 3,
+          "Labour economists: AI accelerating displacement of entry-level roles": 2
+        },
+        "voice_changed": false
+      }
+    ],
+    "narrative_intelligence_summary": "The claim that AI will replace all junior developers by 2030 is classified as 'contested' based on the available evidence. While productivity tools like GitHub Copilot demonstrate that AI augments development workflows, economists and the OECD warn of significant entry-level displacement particularly in QA and code-review roles. Two inflection points — coinciding with the Copilot GA release and the Goldman Sachs report — marked key sentiment and frame shifts in media coverage. The dominant narrative has evolved from alarm (economic frame) through political debate to a call for structured policy intervention, suggesting the discourse is maturing toward actionable solutions rather than binary predictions.",
+    "ground_truth_tier": "contested",
+    "time_buckets": [
+      {
+        "bucket_id": 0,
+        "start_dt": "2025-04-25T18:26:08.707103+00:00",
+        "end_dt": "2025-07-07T18:26:08.707103+00:00",
+        "article_ids": [
+          "art_0_0",
+          "art_0_1",
+          "art_0_2",
+          "art_0_3"
+        ]
+      },
+      {
+        "bucket_id": 1,
+        "start_dt": "2025-07-07T18:26:08.707103+00:00",
+        "end_dt": "2025-09-18T18:26:08.707103+00:00",
+        "article_ids": [
+          "art_1_0",
+          "art_1_1",
+          "art_1_2",
+          "art_1_3"
+        ]
+      },
+      {
+        "bucket_id": 2,
+        "start_dt": "2025-09-18T18:26:08.707103+00:00",
+        "end_dt": "2025-11-30T18:26:08.707103+00:00",
+        "article_ids": [
+          "art_2_0",
+          "art_2_1",
+          "art_2_2",
+          "art_2_3"
+        ]
+      },
+      {
+        "bucket_id": 3,
+        "start_dt": "2025-11-30T18:26:08.707103+00:00",
+        "end_dt": "2026-02-11T18:26:08.707103+00:00",
+        "article_ids": [
+          "art_3_0",
+          "art_3_1",
+          "art_3_2",
+          "art_3_3"
+        ]
+      },
+      {
+        "bucket_id": 4,
+        "start_dt": "2026-02-11T18:26:08.707103+00:00",
+        "end_dt": "2026-04-25T18:26:08.707103+00:00",
+        "article_ids": [
+          "art_4_0",
+          "art_4_1",
+          "art_4_2",
+          "art_4_3"
+        ]
+      }
+    ]
+  },
+  "primary_verdict": "silent",
+  "primary_evidence_exists": false,
+  "perspective_clusters": [
+    {
+      "label": "Tech optimists: AI augments rather than replaces developers",
+      "key_claims": [
+        "AI tools increase developer productivity by 30-55%.",
+        "GitHub Copilot is widely adopted without causing net layoffs."
+      ],
+      "article_ids": [
+        "art_0_0",
+        "art_1_0",
+        "art_2_0",
+        "art_3_0",
+        "art_4_0"
+      ],
+      "domain_roots": [
+        "techcrunch.com",
+        "wired.com",
+        "theverge.com",
+        "ars.com",
+        "hbr.org"
+      ],
+      "corroboration_count": 5,
+      "corroboration_level": "corroborated",
+      "article_count": 5
+    },
+    {
+      "label": "Labour economists: AI accelerating displacement of entry-level roles",
+      "key_claims": [
+        "Goldman Sachs estimates 300M jobs at risk from AI automation.",
+        "Junior QA and code-review roles are being automated first."
+      ],
+      "article_ids": [
+        "art_0_1",
+        "art_1_1",
+        "art_2_1",
+        "art_3_1"
+      ],
+      "domain_roots": [
+        "economist.com",
+        "ft.com",
+        "bloomberg.com",
+        "wsj.com"
+      ],
+      "corroboration_count": 4,
+      "corroboration_level": "partial",
+      "article_count": 4
+    },
+    {
+      "label": "Policy advocates: urgent reskilling investment needed",
+      "key_claims": [
+        "OECD calls for national AI transition support funds.",
+        "Universities expanding AI curriculum to counter displacement."
+      ],
+      "article_ids": [
+        "art_0_2",
+        "art_1_2"
+      ],
+      "domain_roots": [
+        "oecd.org",
+        "bbc.com"
+      ],
+      "corroboration_count": 2,
+      "corroboration_level": "unverified",
+      "article_count": 2
+    }
+  ],
+  "retrieved_articles": [
+    {
+      "id": "art_0_0",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_0_1",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_0_2",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_0_3",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_1_0",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_1_1",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_1_2",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_1_3",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_2_0",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_2_1",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_2_2",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_2_3",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_3_0",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_3_1",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_3_2",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_3_3",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_4_0",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_4_1",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_4_2",
+      "source_name": "mock",
+      "title": "mock"
+    },
+    {
+      "id": "art_4_3",
+      "source_name": "mock",
+      "title": "mock"
+    }
+  ],
+  "claim": "AI will replace all junior software developers by 2030",
+  "entities": [
+    "AI",
+    "developers",
+    "automation"
+  ],
+  "analysis_complete": true,
+  "dry_run": true
+}
