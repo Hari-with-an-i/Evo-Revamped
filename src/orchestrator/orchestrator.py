@@ -18,6 +18,7 @@ Single node, single LLM call per invocation, three operating modes determined by
     Writes: retrieval_complete (when done), targeted_queries (if looping)
     Routes: → next Phase 2 worker, or researcher, or writer, or FINISH
 """
+import json
 from typing import Any, Literal
 from pydantic import BaseModel, Field, field_validator
 from langchain_groq import ChatGroq
@@ -71,8 +72,12 @@ Assign each query to one tool:
 
 Cover different claim dimensions with different tools across the time periods. Be specific.
 Set next = "tavily_targeted" (sequential Phase 2 entry point).
-Prefer "gdelt_commoncrawl" for queries that need date-filtered or archival coverage (which should be most queries that have start/end dates).
+For any claim with a specific year, event, or named period, you MUST generate at least 2 queries with tool="gdelt_commoncrawl" and explicit start_date/end_date matching the claim's timeframe. Tavily is for current/recent coverage only (no date bounds). If the claim is entirely about events in the last 3 months, all queries may use tavily.
 Set retrieval_complete to the boolean false (not the string "false").
+
+Set new_targeted_queries_json to a valid JSON array string. Example:
+[{"query":"vaccine safety clinical trials","tool":"gdelt_commoncrawl","dimension":"causal mechanism","start_date":"2020-01-01","end_date":"2022-12-31"},{"query":"vaccine mandate policy debate","tool":"tavily","dimension":"political framing","start_date":"","end_date":""}]
+All four string fields (query, tool, dimension, start_date, end_date) must be present in each object. Use empty string for missing dates.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODE C — LOOP EVALUATION  (after Phase 2 workers or evaluator)
@@ -84,7 +89,7 @@ After Phase 2 retrieval workers have run:
 
 After evaluator + analyst have run (analysis_complete will be set):
   • evaluation_ready = False AND loop_count < MAX_LOOPS
-      → generate new_targeted_queries for the specific coverage_gaps only
+      → generate new_targeted_queries_json for the specific coverage_gaps only
       → set next = appropriate Phase 2 worker (tavily_targeted for fresh web coverage,
         gdelt_commoncrawl_targeted for archival/temporal gaps)
   • evaluation_ready = True OR loop_count >= MAX_LOOPS
@@ -135,10 +140,17 @@ class OrchestratorDecision(BaseModel):
     )
     parsed_timeframe: str = Field(default="", description="ISO date or range if present, else empty string. MODE A only.")
     claim_complexity: str = Field(default="", description="'simple' or 'complex'. MODE A only.")
-    # MODE B/C outputs
-    new_targeted_queries: list[TargetedQuery] = Field(
-        default_factory=list,
-        description="Targeted queries for Phase 2. MODE B/C only.",
+    # MODE B/C outputs — queries encoded as a JSON string to stay within 8B tool-call limits.
+    # Format: '[{"query":"...","tool":"tavily","dimension":"...","start_date":"...","end_date":"..."},...]'
+    # Empty string means no new queries this turn.
+    new_targeted_queries_json: str = Field(
+        default="",
+        description=(
+            "JSON array string of targeted queries for Phase 2. MODE B/C only. "
+            'Each item: {"query":"...","tool":"tavily|gdelt_commoncrawl|scholar_wiki",'
+            '"dimension":"...","start_date":"YYYY-MM-DD","end_date":"YYYY-MM-DD"}. '
+            "Empty string when not generating new queries."
+        ),
     )
     retrieval_complete: Any = Field(
         default=False,
@@ -162,7 +174,7 @@ def _get_llm():
         _llm = ChatGroq(
             model=config.MODEL_NAME,
             api_key=config.GROQ_API_KEY,
-            max_tokens=600,
+            max_tokens=900,
         ).with_structured_output(OrchestratorDecision)
     return _llm
 
@@ -222,22 +234,22 @@ def orchestrator_node(state: AgentState) -> dict:
         dimensions = [d.strip() for d in raw_dims.split("|") if d.strip()] if isinstance(raw_dims, str) else raw_dims
         raw_narr = cs.get('competing_narratives', '')
         narratives = [n.strip() for n in raw_narr.split("|") if n.strip()] if isinstance(raw_narr, str) else raw_narr
-        time_periods_info = "\n  Relevant Time Periods:\n"
-        periods = cs.get('relevant_time_periods', [])
-        if periods:
-            for i, p in enumerate(periods):
-                time_periods_info += f"    {i+1}. {p.get('start_date')} to {p.get('end_date')}: {p.get('phase_description')}\n"
-        else:
-            time_periods_info += "    None identified.\n"
 
+        when_str = cs.get('when', '')
+        when_note = (
+            f"\n  NOTE: 'When' contains a historical date range — use this as "
+            f"start_date/end_date for gdelt_commoncrawl queries to retrieve archived news from that period."
+            if any(str(y) in when_str for y in range(2018, 2026))
+            else ""
+        )
         context_parts.append(
             f"Context Summary:\n"
             f"  Who: {cs.get('who', '')}\n"
             f"  What: {cs.get('what', '')}\n"
-            f"  When: {cs.get('when', '')}\n"
+            f"  When: {when_str}{when_note}\n"
+            f"  Timeframe from claim: {state.get('timeframe') or 'not specified'}\n"
             f"  Dimensions: {', '.join(dimensions)}\n"
             f"  Competing narratives: {len(narratives)}"
-            f"{time_periods_info}"
         )
         context_parts.append(
             f"MIN_ARTICLES target: {config.MIN_ARTICLES} | "
@@ -272,7 +284,8 @@ def orchestrator_node(state: AgentState) -> dict:
             )
         if state.get("worker_outputs"):
             recent = state["worker_outputs"][-3:]
-            context_parts.append("Recent worker outputs:\n" + "\n---\n".join(recent))
+            truncated = [o[:400] + ("…" if len(o) > 400 else "") for o in recent]
+            context_parts.append("Recent worker outputs:\n" + "\n---\n".join(truncated))
 
     if state.get("plan"):
         context_parts.append(
@@ -292,13 +305,59 @@ def orchestrator_node(state: AgentState) -> dict:
 
     # Hard guards — override LLM if it ignores critical state
     if _mode == "C":
-        if state.get("evaluation_ready") is None and decision.next != "evaluator":
-            # Evaluator must always run before researcher — highest priority guard
+        # Guard 0: drain any unconsumed GDELT queries before running the evaluator.
+        # When MODE B generated gdelt_commoncrawl queries they sit in targeted_queries
+        # until gdelt_commoncrawl_targeted picks them up. If Tavily just ran but GDELT
+        # hasn't yet, route to gdelt_commoncrawl_targeted first.
+        gdelt_queries_pending = any(
+            q.get("tool") == "gdelt_commoncrawl"
+            for q in state.get("targeted_queries", [])
+        )
+        gdelt_ran = any(
+            o.startswith("[gdelt_commoncrawl_targeted]")
+            for o in state.get("worker_outputs", [])
+        )
+        if gdelt_queries_pending and not gdelt_ran and state.get("evaluation_ready") is None:
+            log.info("orchestrator guard: GDELT queries pending — routing to gdelt_commoncrawl_targeted")
+            decision.next = "gdelt_commoncrawl_targeted"
+
+        # Guard 1 (highest): evaluator must run before any Phase 3 action
+        elif state.get("evaluation_ready") is None and decision.next != "evaluator":
+            log.warning("orchestrator guard: forcing evaluator (evaluation_ready is None)")
             decision.next = "evaluator"
-        elif (state.get("evaluation_ready") is not None
-              and loop_count >= config.MAX_RETRIEVAL_LOOPS
-              and not decision.retrieval_complete):
-            # Loop ceiling hit after evaluator has run — force through to researcher
+
+        # Guard 2: retrieval is complete and analyst has run — advance the pipeline forward.
+        # Only fires once retrieval_complete=True so GDELT loop passes are not blocked.
+        # Determine the correct next step by inspecting which nodes have already run.
+        elif state.get("retrieval_complete") is True and decision.next not in (
+            "researcher", "writer", "FINISH"
+        ):
+            outputs = state.get("worker_outputs", [])
+            researcher_ran = any(o.startswith("[researcher]") for o in outputs)
+            writer_ran = any(o.startswith("[writer]") for o in outputs)
+            if writer_ran:
+                forced_next: WorkerName = "FINISH"
+            elif researcher_ran:
+                forced_next = "writer"
+            else:
+                forced_next = "researcher"
+            log.warning(
+                "orchestrator guard: analysis_complete=True, next=%s — forcing %s",
+                decision.next, forced_next,
+            )
+            decision.next = forced_next
+            decision.retrieval_complete = True
+
+        # Guard 3: loop ceiling hit → force advance regardless of LLM
+        elif (
+            state.get("evaluation_ready") is not None
+            and loop_count >= config.MAX_RETRIEVAL_LOOPS
+            and decision.next not in ("researcher", "writer", "FINISH")
+        ):
+            log.warning(
+                "orchestrator guard: ceiling %d/%d — forcing researcher",
+                loop_count, config.MAX_RETRIEVAL_LOOPS,
+            )
             decision.next = "researcher"
             decision.retrieval_complete = True
 
@@ -316,10 +375,24 @@ def orchestrator_node(state: AgentState) -> dict:
         update["timeframe"] = decision.parsed_timeframe or None
         update["claim_complexity"] = decision.claim_complexity or "complex"
 
-    # MODE B/C: new targeted queries — reset evaluation_ready so the hard guard
-    # reliably forces the evaluator after the next retrieval batch completes.
-    if decision.new_targeted_queries:
-        update["targeted_queries"] = [q.model_dump() for q in decision.new_targeted_queries]
+    # MODE B/C: parse targeted queries from JSON string and write to state.
+    # The JSON-string field sidesteps 8B model limitations with nested list schemas.
+    new_queries: list[TargetedQuery] = []
+    if decision.new_targeted_queries_json.strip():
+        try:
+            raw_qs = json.loads(decision.new_targeted_queries_json)
+            if isinstance(raw_qs, list):
+                for item in raw_qs:
+                    if isinstance(item, dict) and item.get("query") and item.get("tool"):
+                        try:
+                            new_queries.append(TargetedQuery(**item))
+                        except Exception:
+                            pass
+        except (json.JSONDecodeError, Exception):
+            log.warning("orchestrator: failed to parse new_targeted_queries_json")
+
+    if new_queries:
+        update["targeted_queries"] = [q.model_dump() for q in new_queries]
         update["retrieval_loop_count"] = loop_count + 1
         update["evaluation_ready"] = None
 

@@ -25,6 +25,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+from matplotlib.lines import Line2D
 import numpy as np
 
 _EVAL_DIR   = Path(__file__).resolve().parent
@@ -74,86 +75,137 @@ def chart_groundedness(data: dict, out_dir: Path) -> Path:
     grounded = data["grounded_claims"]
     total    = data["total_claims"]
 
-    # Wrap claim labels to ~40 chars so they don't eat into bar space
-    labels = []
-    for c in claims:
-        raw = c["claim"]
-        wrapped = textwrap.fill(raw, width=42)
-        # keep max 2 lines
-        lines = wrapped.split("\n")
-        label = "\n".join(lines[:2])
-        if len(lines) > 2:
-            label += "…"
-        labels.append(label)
-
     nli  = [c["nli_entailment_score"] for c in claims]
     sim  = [c["semantic_similarity"]   for c in claims]
     ok   = [c["is_grounded"]           for c in claims]
+    n    = len(claims)
 
-    n = len(claims)
-    y = np.arange(n)
-    h = 0.28
+    SPACING = 1.8
+    BAR_H   = 0.55
+    NLI_THRESHOLD = 0.30
 
-    fig, ax = plt.subplots(figsize=(13, max(5, n * 1.1 + 2.0)))
+    y = np.arange(n) * SPACING
+
+    fig_h = max(10, n * SPACING * 0.85 + 5)
+    fig, ax = plt.subplots(figsize=(20, fig_h))
     fig.patch.set_facecolor(BG)
     ax.set_facecolor(BG)
 
+    # Alternating row stripes
+    for i in range(n):
+        stripe = "#ECECEC" if i % 2 == 0 else BG
+        ax.axhspan(y[i] - SPACING / 2 + 0.06,
+                   y[i] + SPACING / 2 - 0.06,
+                   facecolor=stripe, alpha=1.0, zorder=0)
+
     for i, (ni, si, gi) in enumerate(zip(nli, sim, ok)):
-        color = TEAL if gi else RED
-        edge  = "#1A9E94" if gi else "#C03030"
+        c_main = TEAL if gi else RED
+        c_edge = "#1A9E94" if gi else "#C03030"
 
-        # Upper bar = NLI, lower bar = SIM
-        ax.barh(y[i] + h / 2, ni, height=h, color=color, alpha=0.90,
-                edgecolor=edge, linewidth=0.6, zorder=3)
-        ax.barh(y[i] - h / 2, si, height=h, color=color, alpha=0.38,
-                edgecolor=edge, linewidth=0.6, zorder=3)
+        # Primary bar: SBERT similarity
+        ax.barh(y[i], si, height=BAR_H, color=c_main, alpha=0.82,
+                edgecolor=c_edge, linewidth=1.0, zorder=3)
 
-        # Score labels just inside the right end of each bar
-        for val, offset in [(ni, h / 2), (si, -h / 2)]:
-            label_x = min(val - 0.01, val)
-            ha = "right" if val > 0.06 else "left"
-            ax.text(max(val - 0.01, 0.01), y[i] + offset,
-                    f"{val:.3f}", va="center", ha="right" if val > 0.08 else "left",
-                    fontsize=7.5, color="white" if val > 0.25 else TEXT,
-                    fontweight="bold", zorder=5)
+        # SBERT label: inside bar if wide enough, else outside to the right
+        if si >= 0.70:
+            ax.text(si - 0.025, y[i], f"SBERT: {si:.3f}",
+                    va="center", ha="right", fontsize=12,
+                    color="white", fontweight="bold", zorder=6)
+        else:
+            ax.text(si + 0.025, y[i], f"SBERT: {si:.3f}",
+                    va="center", ha="left", fontsize=12,
+                    color=TEXT, fontweight="bold", zorder=6)
 
-        # Grounded/ungrounded badge — to the right of the longest bar
-        badge_x = max(ni, si) + 0.03
-        ax.text(badge_x, y[i],
-                "✓  grounded" if gi else "✗  ungrounded",
-                va="center", ha="left", fontsize=9,
-                color=TEAL if gi else RED, fontweight="bold")
+        # NLI diamond marker — filled if ≥ threshold, hollow if below
+        nli_face  = c_edge if ni >= NLI_THRESHOLD else "white"
+        nli_color = c_edge if ni >= NLI_THRESHOLD else MUTED
+        ax.scatter(ni, y[i], marker="D", s=160,
+                   facecolors=nli_face, edgecolors=nli_color,
+                   linewidths=2.0, zorder=7, clip_on=False)
 
-    # Threshold line
-    ax.axvline(0.30, color=MUTED, linewidth=1.1, linestyle="--", zorder=4)
-    # Label the threshold above the top of the chart area
-    ax.text(0.30, n - 0.1, " threshold\n 0.30",
-            fontsize=7.5, color=MUTED, va="top", ha="left")
+        # NLI label: de-emphasised below bar when negligible, bold above when meaningful
+        NLI_LABEL_OFFSET_Y = BAR_H / 2 + 0.14
+        if ni < 0.05:
+            ax.text(max(ni, 0.015), y[i] - NLI_LABEL_OFFSET_Y,
+                    f"NLI: {ni:.3f}", va="top", ha="left",
+                    fontsize=9, color=MUTED, style="italic", zorder=6)
+        else:
+            ax.text(ni, y[i] + NLI_LABEL_OFFSET_Y,
+                    f"NLI: {ni:.3f}", va="bottom", ha="center",
+                    fontsize=11, color=nli_color, fontweight="bold", zorder=6)
+
+        # Status badge — fixed far-right, boxed
+        badge = "✓  GROUNDED" if gi else "✗  UNGROUNDED"
+        ax.text(1.08, y[i], badge,
+                va="center", ha="left", fontsize=13, fontweight="bold",
+                color=c_edge,
+                bbox=dict(boxstyle="round,pad=0.40", facecolor=c_main,
+                          edgecolor=c_edge, alpha=0.18, linewidth=1.5),
+                zorder=5)
+
+    # Threshold line — label pinned at top via axes transform (never overlaps bars)
+    ax.axvline(NLI_THRESHOLD, color="#888888", linewidth=1.8,
+               linestyle="--", zorder=4, alpha=0.85)
+    ax.text(NLI_THRESHOLD + 0.01, 0.99, "threshold = 0.30",
+            transform=ax.get_xaxis_transform(),
+            fontsize=10, color=MUTED, va="top", ha="left", fontweight="bold")
+
+    # Y-axis: full claim text, up to 3 lines
+    wrapped_labels = []
+    for c in claims:
+        lines = textwrap.fill(c["claim"], width=52).split("\n")
+        lbl = "\n".join(lines[:3])
+        if len(lines) > 3:
+            lbl += "…"
+        wrapped_labels.append(lbl)
 
     ax.set_yticks(y)
-    ax.set_yticklabels(labels, fontsize=8.5, color=TEXT,
-                       linespacing=1.3)
-    ax.set_xlim(0, 1.30)
-    ax.set_xlabel("Score  (upper bar = NLI entailment,  lower bar = SBERT similarity)",
-                  fontsize=9.5, color=TEXT, labelpad=8)
+    ax.set_yticklabels(wrapped_labels, fontsize=13, color=TEXT, linespacing=1.45)
+    ax.tick_params(axis="y", length=0, pad=14)
 
-    # Legend outside plot — bottom centre
-    handles = [
-        mpatches.Patch(facecolor=TEAL, alpha=0.90, label="Grounded claim  (meets NLI ≥ 0.30 OR similarity ≥ 0.30)"),
-        mpatches.Patch(facecolor=RED,  alpha=0.90, label="Ungrounded claim  (neither signal reaches threshold)"),
-    ]
-    fig.legend(handles=handles, fontsize=9, framealpha=0.9,
+    ax.set_ylim(y[0] - SPACING / 2 - 0.20, y[-1] + SPACING / 2 + 0.40)
+    ax.set_xlim(0, 1.55)
+    ax.set_xlabel("Score  (0.0 = no match  →  1.0 = perfect match)",
+                  fontsize=15, color=TEXT, labelpad=14)
+
+    _style(ax)
+    ax.yaxis.grid(False)
+
+    # Legend
+    sbert_g    = mpatches.Patch(facecolor=TEAL, alpha=0.82,
+                                label="SBERT Similarity — grounded claim (bar)")
+    sbert_u    = mpatches.Patch(facecolor=RED,  alpha=0.82,
+                                label="SBERT Similarity — ungrounded claim (bar)")
+    nli_strong = Line2D([0], [0], marker="D", color="w",
+                        markerfacecolor=TEAL, markeredgecolor="#1A9E94",
+                        markersize=10,
+                        label="NLI Entailment ≥ 0.30 — logically supports claim (filled ◆)")
+    nli_weak   = Line2D([0], [0], marker="D", color="w",
+                        markerfacecolor="white", markeredgecolor=MUTED,
+                        markersize=10,
+                        label="NLI Entailment < 0.30 — weak logical support (hollow ◇)")
+    fig.legend(handles=[sbert_g, sbert_u, nli_strong, nli_weak],
+               fontsize=12, framealpha=0.97,
                facecolor=BG, edgecolor=GRID,
                loc="lower center", ncol=2,
-               bbox_to_anchor=(0.5, 0.0))
+               bbox_to_anchor=(0.5, 0.0),
+               borderpad=1.0, labelspacing=0.9)
 
-    _titles(fig, ax,
-            "Groundedness Evaluation — Per-Claim Dual-Signal Breakdown",
-            f"Score: {g_score:.2f}  ({grounded}/{total} claims grounded)  |  "
-            "Grounded if NLI entailment ≥ 0.30  OR  SBERT cosine similarity ≥ 0.30")
-    plt.tight_layout(rect=[0, 0.08, 1, 0.93])
+    # Title block — three separate lines, no collision
+    fig.suptitle("Groundedness Evaluation — Per-Claim Signal Breakdown",
+                 fontsize=20, fontweight="bold", color=TEXT, y=0.99)
+    fig.text(0.5, 0.96,
+             f"Overall groundedness score: {g_score:.2f}   |   "
+             f"{grounded} of {total} claims grounded",
+             ha="center", fontsize=15, color=SUBTITLE)
+    fig.text(0.5, 0.93,
+             "Bar = SBERT cosine similarity  ·  Diamond = NLI entailment  ·  "
+             "Claim grounded if either signal ≥ 0.30",
+             ha="center", fontsize=12, color=MUTED, style="italic")
+
+    plt.tight_layout(rect=[0, 0.10, 1, 0.92])
     out = out_dir / "chart_sci1_groundedness.png"
-    plt.savefig(out, dpi=150, bbox_inches="tight", facecolor=BG)
+    plt.savefig(out, dpi=300, bbox_inches="tight", facecolor=BG)
     plt.close()
     print(f"[CHART] {out}")
     return out
@@ -484,9 +536,10 @@ def chart_event_correlation(data: dict, out_dir: Path) -> Path:
                     color=MUTED, style="italic")
 
     # P@K summary box — top right, well above all callouts
+    mean_p_str = f"{mean_p:.2f}" if mean_p is not None else "N/A"
     ax.text(0.98, 0.97,
             f"P@{K} = {data['matched']}/{K} = {pk:.4f}\n"
-            f"Mean plausibility = {mean_p:.2f}",
+            f"Mean plausibility = {mean_p_str}",
             transform=ax.transAxes, ha="right", va="top",
             fontsize=10.5, color=TEXT,
             bbox=dict(boxstyle="round,pad=0.5", facecolor="white",

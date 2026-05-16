@@ -14,7 +14,7 @@ import asyncio
 from src.logger import get_logger
 from src.state import AgentState
 from src.tools.news_tools import gdelt_search, common_crawl_search
-from src.workers._normalization import normalize_gdelt, normalize_commoncrawl, deduplicate
+from src.workers._normalization import normalize_gdelt, normalize_commoncrawl, deduplicate_dicts
 
 log = get_logger(__name__)
 
@@ -66,19 +66,24 @@ def gdelt_commoncrawl_targeted_node(state: AgentState) -> dict:
         nest_asyncio.apply()
         raw = asyncio.run(_fetch_targeted(my_queries))
 
-    articles = deduplicate([
-        a
-        for item in raw
-        for a in [
-            normalize_gdelt(item) if item.get("_tool") == "gdelt"
-            else normalize_commoncrawl(item)
-        ]
-        if a is not None and a.title
-    ])
+    article_dicts: list[dict] = []
+    for item in raw:
+        if item.get("_tool") == "gdelt":
+            a = normalize_gdelt(item)
+            if a is not None and a.title:
+                d = a.model_dump(mode="json")
+                d["_thin_content"] = True  # exclude from NLI claim extraction
+                article_dicts.append(d)
+        else:
+            a = normalize_commoncrawl(item)
+            if a is not None and a.title:
+                article_dicts.append(a.model_dump(mode="json"))
+
+    articles = deduplicate_dicts(article_dicts)
 
     log.info("gdelt_commoncrawl_targeted done", extra={"articles": len(articles)})
     return {
-        "retrieved_articles": [a.model_dump(mode="json") for a in articles],
+        "retrieved_articles": articles,
         "worker_outputs": [
             f"[gdelt_commoncrawl_targeted]\n"
             f"Queries ({len(my_queries)}): {' | '.join([q.get('query', '') for q in my_queries])}\n"

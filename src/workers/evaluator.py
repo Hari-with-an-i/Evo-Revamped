@@ -73,6 +73,8 @@ class _SourceTypeResponse(BaseModel):
     )
 
 
+_SKIP_TOKENS: frozenset[str] = frozenset({"(no claim)", "(skip)"})
+
 _llm_claims = None
 _llm_label = None
 _llm_source_type = None
@@ -166,16 +168,36 @@ def _relevance_filter(articles: list[dict], claim: str) -> tuple[list[dict], lis
 def _extract_claims(articles: list[dict]) -> list[list[str]]:
     """Extract 2 key factual claims per article via a single batch LLM call.
 
-    Returns a flat list from the LLM (2 × N strings) then regroups into pairs in Python,
-    avoiding nested-array schema issues with Groq tool-calling validation.
+    Skips articles with thin bodies (< 80 chars or flagged as _thin_content).
+    Returns a list of [claim1, claim2] pairs aligned to the input article list.
     """
-    snippets = []
-    for i, a in enumerate(articles):
-        title = a.get("title", "")
-        body = (a.get("body") or "")[:600]
-        snippets.append(f"Article {i+1}: {title}\n{body}")
+    _THIN = 80
+    # Pre-fill all slots with skip placeholders
+    result: list[list[str]] = [["(skip)", "(skip)"] for _ in articles]
 
-    n = len(articles)
+    slim: list[tuple[int, dict]] = [
+        (i, a) for i, a in enumerate(articles)
+        if len(a.get("body") or "") >= _THIN and not a.get("_thin_content")
+    ]
+    if not slim:
+        return result
+
+    def _sanitize(text: str) -> str:
+        return (
+            text
+            .replace("‘", "'").replace("’", "'")   # curly single quotes
+            .replace("“", '"').replace("”", '"')   # curly double quotes
+            .replace("–", "-").replace("—", "--")  # en/em dash
+            .encode("ascii", errors="replace").decode("ascii")
+        )
+
+    snippets = []
+    for j, (_, a) in enumerate(slim):
+        title = _sanitize(a.get("title", ""))
+        body = _sanitize((a.get("body") or "")[:600])
+        snippets.append(f"Article {j+1}: {title}\n{body}")
+
+    n = len(slim)
     prompt = (
         f"You have {n} article(s) below. For each article extract exactly 2 short factual claims "
         f"(one sentence each). Return all claims as a single flat list in strict order: "
@@ -184,19 +206,30 @@ def _extract_claims(articles: list[dict]) -> list[list[str]]:
         + "\n\n---\n\n".join(snippets)
     )
     with timer(log, "llm_call_claims_extraction", node="evaluator"):
-        result: _ArticleClaimsResponse = _get_llm_claims().invoke([
-            SystemMessage(content="You extract factual claims from news articles for NLI analysis."),
+        lm_result: _ArticleClaimsResponse = _get_llm_claims().invoke([
+            SystemMessage(content=(
+                "You extract factual claims from news articles. "
+                "Output ONLY the structured JSON tool call with no prose, explanation, or preamble."
+            )),
             HumanMessage(content=prompt),
         ])
 
-    flat = result.all_claims
-    # Regroup flat list into pairs; pad with fallback if LLM under-generates
-    claims: list[list[str]] = []
-    for i in range(n):
-        c1 = flat[i * 2]     if i * 2     < len(flat) else "(no claim)"
-        c2 = flat[i * 2 + 1] if i * 2 + 1 < len(flat) else "(no claim)"
-        claims.append([c1, c2])
-    return claims
+    flat = lm_result.all_claims
+    for j, (orig_i, _) in enumerate(slim):
+        c1 = flat[j * 2]     if j * 2     < len(flat) else "(no claim)"
+        c2 = flat[j * 2 + 1] if j * 2 + 1 < len(flat) else "(no claim)"
+        result[orig_i] = [c1, c2]
+    return result
+
+
+def _filter_garbage_clusters(clusters: list[PerspectiveCluster]) -> list[PerspectiveCluster]:
+    """Remove clusters whose key_claims are entirely skip/no-claim placeholders."""
+    kept = []
+    for c in clusters:
+        real = [cl for cl in c.key_claims if cl.strip().lower() not in _SKIP_TOKENS]
+        if real:
+            kept.append(c.model_copy(update={"key_claims": real}))
+    return kept
 
 
 def _build_clusters(articles: list[dict], claims_per_article: list[list[str]]) -> list[PerspectiveCluster]:
@@ -204,11 +237,12 @@ def _build_clusters(articles: list[dict], claims_per_article: list[list[str]]) -
     Build perspective clusters via connected-components on NLI entailment edges.
     Each cluster gets a plain-language label via one LLM call.
     """
-    # Flatten: (article_idx, claim_str) for all claims
+    # Flatten: (article_idx, claim_str) for all claims — skip placeholder tokens
     flat: list[tuple[int, str]] = []
     for art_idx, claims in enumerate(claims_per_article):
         for c in claims:
-            flat.append((art_idx, c))
+            if c.strip().lower() not in _SKIP_TOKENS:
+                flat.append((art_idx, c))
 
     n = len(flat)
     if n == 0:
@@ -304,7 +338,7 @@ def _build_clusters(articles: list[dict], claims_per_article: list[list[str]]) -
             corroboration_level=level,
         ))
 
-    return clusters
+    return _filter_garbage_clusters(clusters)
 
 
 # --- Step 4: Coverage gap detection -----------------------------------------

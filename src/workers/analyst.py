@@ -36,7 +36,7 @@ from src.utils.bucketing import build_time_buckets
 log = get_logger(__name__)
 
 SENTIMENT_DELTA_THRESHOLD: float = config.SENTIMENT_DELTA_THRESHOLD
-MIN_INFLECTION_TRACKS = 2          # minimum simultaneous track signals for an inflection point
+MIN_INFLECTION_TRACKS = 1          # minimum simultaneous track signals for an inflection point
 
 
 # ---------------------------------------------------------------------------
@@ -75,13 +75,24 @@ class _CausalPlausibility(BaseModel):
 
 
 class _BestEventPick(BaseModel):
-    best_index: int = Field(
+    best_index: str = Field(
         description="0-based index of the most causally plausible event from the list, or -1 if none are plausible."
     )
-    plausibility_score: float = Field(
-        ge=0.0, le=1.0,
-        description="Plausibility score for the chosen event (0.0–1.0).",
+    plausibility_score: str = Field(
+        description="Plausibility score for the chosen event (0.0–1.0 as a decimal string).",
     )
+
+    def parsed_index(self) -> int:
+        try:
+            return int(float(self.best_index))
+        except (ValueError, TypeError):
+            return -1
+
+    def parsed_score(self) -> float:
+        try:
+            return max(0.0, min(1.0, float(self.plausibility_score)))
+        except (ValueError, TypeError):
+            return 0.0
 
 
 class _ShiftExplanation(BaseModel):
@@ -353,6 +364,7 @@ def _track_gdelt_events(
     spike_bucket_ids: list[int],
     entities: list[str],
     claim: str,
+    frame_points: list[FramePoint] | None = None,
 ) -> list[GDELTEvent]:
     if not spike_bucket_ids:
         return []
@@ -364,9 +376,8 @@ def _track_gdelt_events(
     llm = _get_small_llm().with_structured_output(_BestEventPick)
     events: list[GDELTEvent] = []
 
-    claim_words = claim.split()[:5]
     entity_terms = " ".join(entities[:2])
-    query = f"{entity_terms} {' '.join(claim_words)}".strip()
+    fp_by_bucket = {fp.bucket_id: fp for fp in (frame_points or [])}
 
     for bid in spike_bucket_ids:
         bucket = buckets[bid]
@@ -375,11 +386,23 @@ def _track_gdelt_events(
         span_days = max(1, (window_end - window_start).days)
         timespan = f"{span_days}d"
 
+        # Build a bucket-specific query using the frame that dominated this bucket,
+        # which is more precise than raw claim words as a news search query.
+        fp = fp_by_bucket.get(bid)
+        frame_term = fp.frame_type if fp else ""
+        query = f"{entity_terms} {frame_term}".strip() or " ".join(entities[:3]) or claim.split()[0]
+
         try:
+            # Use date bounds when the bucket has real dates — GDELT timespan
+            # silently returns nothing for windows > ~90 days, so prefer explicit
+            # start/end dates whenever possible.
+            sd = window_start.strftime("%Y-%m-%d")
+            ed = window_end.strftime("%Y-%m-%d")
             raw_results: list[dict] = gdelt_search.invoke({
                 "query": query,
-                "timespan": timespan,
-                "max_records": 5,
+                "start_date": sd,
+                "end_date": ed,
+                "max_records": 10,
             })
         except Exception:
             log.warning("GDELT query failed for bucket %d spike", bid)
@@ -410,13 +433,13 @@ def _track_gdelt_events(
                         f"Candidate events:\n{event_lines}"
                     )),
                 ])
-            idx = pick.best_index
+            idx = pick.parsed_index()
             if 0 <= idx < len(candidates):
                 chosen = candidates[idx]
                 events.append(GDELTEvent(
                     event_date=chosen.get("seendate", ""),
                     description=chosen.get("title", ""),
-                    plausibility_score=round(pick.plausibility_score, 3),
+                    plausibility_score=round(pick.parsed_score(), 3),
                     correlated_bucket=bid,
                 ))
         except Exception:
@@ -685,7 +708,9 @@ def analyst_node(state: AgentState) -> dict:
 
     # Step 1: time bucketing
     context_summary = state.get("context_summary", {})
-    predefined_periods = context_summary.get("relevant_time_periods") if isinstance(context_summary, dict) else None
+    predefined_periods = (context_summary or {}).get("relevant_time_periods") or None
+    if not predefined_periods:
+        predefined_periods = None
     buckets, assignments = build_time_buckets(articles, predefined_periods=predefined_periods)
     log.info("analyst: %d time buckets created", len(buckets))
 
@@ -727,7 +752,7 @@ def analyst_node(state: AgentState) -> dict:
     # Step 5: Track 4 — GDELT events near spikes
     spike_ids = _find_spike_buckets(sentiment_curve, frame_sequence, voice_shifts)
     try:
-        gdelt_events = _track_gdelt_events(buckets, spike_ids, entities, claim)
+        gdelt_events = _track_gdelt_events(buckets, spike_ids, entities, claim, frame_points=frame_sequence)
     except Exception:
         log.exception("Track 4 (GDELT) failed — continuing without events")
         gdelt_events = []

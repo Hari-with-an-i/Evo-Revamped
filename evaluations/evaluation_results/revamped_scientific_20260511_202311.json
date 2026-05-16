@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "claim": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%",
+    "input_file": "evaluations\\revamped_outputs\\revamped_russia_s_invasion_of_ukraine_in_2022_caused_global_wheat_pri_20260511_202105.json",
+    "generated_at": "2026-05-11T20:23:11.168908+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 0.0,
+    "total_claims": 7,
+    "grounded_claims": 0,
+    "claim_details": [
+      {
+        "claim": "The claim that Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30% remains unresolved due to insufficient and conflicting evidence.",
+        "is_grounded": false,
+        "combined_score": 0.2922,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.487,
+        "best_matching_evidence": "Ukraine's Westward drift since independence has been countered by Russia. Putin's 2022 invasion of Ukraine was a violent manifestation of this tug. Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with the article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18. The Russo-Ukrainian War started with Russia's invasion of Ukraine in February 2014."
+      },
+      {
+        "claim": "Various perspective clusters highlight the complex nature of the conflict, including the historical context of the Russo-Ukrainian War, Ukraine's Westward drift, and the economic impact of the invasion.",
+        "is_grounded": false,
+        "combined_score": 0.3838,
+        "nli_entailment_score": 0.0009,
+        "semantic_similarity": 0.6391,
+        "best_matching_evidence": "Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with the article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18. The Russo-Ukrainian War started with Russia's invasion of Ukraine in February 2014. The conflict escalated into a full-scale war on February 24, 2022. Ukraine's Westward drift since independence has been countered by Russia."
+      },
+      {
+        "claim": "Key narrative shifts have occurred over time, with a focus on the scientific impact, economic consequences, and global food security.",
+        "is_grounded": false,
+        "combined_score": 0.0982,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.1637,
+        "best_matching_evidence": "Ukraine's Westward drift since independence has been countered by Russia. Putin's 2022 invasion of Ukraine was a violent manifestation of this tug. Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      },
+      {
+        "claim": "However, the most recent shift acknowledges other factors influencing global wheat prices, moving away from solely blaming Russia's invasion.",
+        "is_grounded": false,
+        "combined_score": 0.2214,
+        "nli_entailment_score": 0.0003,
+        "semantic_similarity": 0.3688,
+        "best_matching_evidence": "Ukraine's Westward drift since independence has been countered by Russia. Putin's 2022 invasion of Ukraine was a violent manifestation of this tug. Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      },
+      {
+        "claim": "A definitive verdict is not possible due to the lack of concrete evidence and the evolving nature of the narrative.",
+        "is_grounded": false,
+        "combined_score": 0.0592,
+        "nli_entailment_score": 0.0002,
+        "semantic_similarity": 0.0985,
+        "best_matching_evidence": "Ukraine's Westward drift since independence has been countered by Russia. Putin's 2022 invasion of Ukraine was a violent manifestation of this tug. Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      },
+      {
+        "claim": "As new information emerges, the narrative may continue to shift, potentially leading to a more nuanced understanding of the issue.",
+        "is_grounded": false,
+        "combined_score": 0.0909,
+        "nli_entailment_score": 0.0002,
+        "semantic_similarity": 0.1514,
+        "best_matching_evidence": "Ukraine's Westward drift since independence has been countered by Russia. Putin's 2022 invasion of Ukraine was a violent manifestation of this tug. Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      },
+      {
+        "claim": "The forecast suggests that the narrative will continue to be influenced by various factors, including market trends, scientific research, and geopolitical developments, making it challenging to reach a conclusive verdict.",
+        "is_grounded": false,
+        "combined_score": 0.1547,
+        "nli_entailment_score": 0.0002,
+        "semantic_similarity": 0.2577,
+        "best_matching_evidence": "Ukraine's Westward drift since independence has been countered by Russia. Putin's 2022 invasion of Ukraine was a violent manifestation of this tug. Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online. The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.8443,
+    "query": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%",
+    "semantic_relevance": {
+      "narrative_summary": 0.8783,
+      "perspective_clusters": 0.5481,
+      "overall": 0.7132
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "global",
+        "wheat",
+        "invasion",
+        "prices",
+        "ukraine",
+        "over",
+        "russia",
+        "rise",
+        "caused"
+      ],
+      "covered_terms": [
+        "global",
+        "wheat",
+        "invasion",
+        "prices",
+        "ukraine",
+        "over",
+        "russia",
+        "rise",
+        "caused"
+      ],
+      "coverage_score": 0.9391
+    },
+    "specificity": {
+      "on_topic_similarity": 0.8783,
+      "off_topic_similarity": 0.1088,
+      "specificity_score": 0.8761
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 6,
+    "article_counts": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "probabilities": [
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667
+    ],
+    "shannon_entropy_bits": 2.585,
+    "max_entropy_bits": 2.585,
+    "normalised_entropy": 1.0,
+    "interpretation": "H = 2.5850 bits out of a maximum 2.5850 bits for 6 clusters. Normalised H = 1.0000 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 14,
+    "n_populated_buckets": 4,
+    "time_indices": [
+      0.0,
+      9.0,
+      10.0,
+      13.0
+    ],
+    "sentiment_values": [
+      0.0042,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pearson_r": -0.9528,
+    "interpretation": "r = -0.9528 — strong negative linear relationship between time and sentiment. Sentiment declined consistently across the observation window."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 4,
+    "matched": 0,
+    "unmatched": 4,
+    "precision_at_k": 0.0,
+    "mean_correlated_event_plausibility": null,
+    "matched_events": [],
+    "interpretation": "P@4 = 0/4 = 0.0000. 0 of 4 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. "
+  }
+}

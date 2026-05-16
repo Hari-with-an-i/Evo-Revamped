@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "claim": "Cryptocurrency regulation in 2022 caused the crypto market crash",
+    "input_file": "evaluations\\revamped_outputs\\revamped_cryptocurrency_regulation_in_2022_caused_the_crypto_market_c_20260511_181841.json",
+    "generated_at": "2026-05-11T18:22:15.701229+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 1.0,
+    "total_claims": 7,
+    "grounded_claims": 7,
+    "claim_details": [
+      {
+        "claim": "The claim that cryptocurrency regulation in 2022 caused the crypto market crash is supported by the primary verdict.",
+        "is_grounded": true,
+        "combined_score": 0.4077,
+        "nli_entailment_score": 0.0,
+        "semantic_similarity": 0.6794,
+        "best_matching_evidence": "The Crypto Market experienced a dramatic surge in popularity and value through early 2022. Interest in cryptocurrencies has soared in recent years. Cryptocurrency experienced a massive loss of value in May 2022 due to Terra's crash. The expansion of virtual currencies like Bitcoin and Ethereum has put U.S. regulators to work."
+      },
+      {
+        "claim": "Although the perspective clusters are unverified, they provide context to the rise and fall of cryptocurrency values in 2022.",
+        "is_grounded": true,
+        "combined_score": 0.4711,
+        "nli_entailment_score": 0.0003,
+        "semantic_similarity": 0.785,
+        "best_matching_evidence": "Cluster 1 describes the rise in popularity and value of cryptocurrencies until early 2022. Cluster 2 mentions the significant loss of value in cryptocurrency in May 2022 due to Terra's crash. Cluster 3 discusses the expansion of virtual currencies and its impact on U.S. regulators. Cluster 4 talks about the collapses associated with the cryptocurrency bubble, including Terra-Luna and FTX."
+      },
+      {
+        "claim": "Cluster 1 describes the initial rise, while Clusters 2 and 4 highlight significant losses and collapses, including Terra's crash and the FTX collapse.",
+        "is_grounded": true,
+        "combined_score": 0.8055,
+        "nli_entailment_score": 0.9935,
+        "semantic_similarity": 0.6801,
+        "best_matching_evidence": "Cluster 1 describes the rise in popularity and value of cryptocurrencies until early 2022. Cluster 2 mentions the significant loss of value in cryptocurrency in May 2022 due to Terra's crash. Cluster 3 discusses the expansion of virtual currencies and its impact on U.S. regulators. Cluster 4 talks about the collapses associated with the cryptocurrency bubble, including Terra-Luna and FTX."
+      },
+      {
+        "claim": "The key narrative shift to an economic frame, focusing on market volatility and regulatory impacts, likely contributed to the crash.",
+        "is_grounded": true,
+        "combined_score": 0.2511,
+        "nli_entailment_score": 0.0,
+        "semantic_similarity": 0.4185,
+        "best_matching_evidence": "The Crypto Market experienced a dramatic surge in popularity and value through early 2022. Interest in cryptocurrencies has soared in recent years. Cryptocurrency experienced a massive loss of value in May 2022 due to Terra's crash. The expansion of virtual currencies like Bitcoin and Ethereum has put U.S. regulators to work."
+      },
+      {
+        "claim": "With a corroboration count of 1 domain in Clusters 2, 3, and 4, and 2 domains in Cluster 1, the evidence supports the claim.",
+        "is_grounded": true,
+        "combined_score": 0.2149,
+        "nli_entailment_score": 0.0005,
+        "semantic_similarity": 0.3578,
+        "best_matching_evidence": "Cluster 1 describes the rise in popularity and value of cryptocurrencies until early 2022. Cluster 2 mentions the significant loss of value in cryptocurrency in May 2022 due to Terra's crash. Cluster 3 discusses the expansion of virtual currencies and its impact on U.S. regulators. Cluster 4 talks about the collapses associated with the cryptocurrency bubble, including Terra-Luna and FTX."
+      },
+      {
+        "claim": "Primary evidence does not contradict the claim, and the facts suggest that regulatory impacts and market volatility played a role in the crypto market crash in 2022.",
+        "is_grounded": true,
+        "combined_score": 0.4044,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.6739,
+        "best_matching_evidence": "The Crypto Market experienced a dramatic surge in popularity and value through early 2022. Interest in cryptocurrencies has soared in recent years. Cryptocurrency experienced a massive loss of value in May 2022 due to Terra's crash. The expansion of virtual currencies like Bitcoin and Ethereum has put U.S. regulators to work."
+      },
+      {
+        "claim": "Based on these facts, it is likely that future trends will involve increased regulatory scrutiny and market volatility in the cryptocurrency space.",
+        "is_grounded": true,
+        "combined_score": 0.411,
+        "nli_entailment_score": 0.0,
+        "semantic_similarity": 0.6849,
+        "best_matching_evidence": "The Crypto Market experienced a dramatic surge in popularity and value through early 2022. Interest in cryptocurrencies has soared in recent years. Cryptocurrency experienced a massive loss of value in May 2022 due to Terra's crash. The expansion of virtual currencies like Bitcoin and Ethereum has put U.S. regulators to work."
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.8569,
+    "query": "Cryptocurrency regulation in 2022 caused the crypto market crash",
+    "semantic_relevance": {
+      "narrative_summary": 0.8101,
+      "perspective_clusters": 0.6289,
+      "overall": 0.7195
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "crash",
+        "cryptocurrency",
+        "caused",
+        "regulation",
+        "crypto",
+        "market",
+        "the"
+      ],
+      "covered_terms": [
+        "crash",
+        "cryptocurrency",
+        "caused",
+        "regulation",
+        "crypto",
+        "market",
+        "the"
+      ],
+      "coverage_score": 0.905
+    },
+    "specificity": {
+      "on_topic_similarity": 0.8101,
+      "off_topic_similarity": 0.0225,
+      "specificity_score": 0.9723
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 4,
+    "article_counts": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "shannon_entropy_bits": 2.0,
+    "max_entropy_bits": 2.0,
+    "normalised_entropy": 1.0,
+    "interpretation": "H = 2.0000 bits out of a maximum 2.0000 bits for 4 clusters. Normalised H = 1.0000 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 3,
+    "time_indices": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "sentiment_values": [
+      0.0594,
+      0.4604,
+      -0.136
+    ],
+    "pearson_r": -0.3213,
+    "interpretation": "r = -0.3213 — weak negative linear relationship between time and sentiment. No strong linear sentiment trend detected across time buckets."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 1,
+    "matched": 0,
+    "unmatched": 1,
+    "precision_at_k": 0.0,
+    "mean_correlated_event_plausibility": null,
+    "matched_events": [],
+    "interpretation": "P@1 = 0/1 = 0.0000. 0 of 1 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. "
+  }
+}

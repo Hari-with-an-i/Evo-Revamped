@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "claim": "AI will replace all junior software developers by 2030",
+    "input_file": "evaluations\\revamped_outputs\\revamped_ai_will_replace_all_junior_software_developers_by_2030_20260511_193316.json",
+    "generated_at": "2026-05-11T19:33:41.254593+00:00",
+    "metric_weights": {
+      "groundedness": 0.3,
+      "narrative_coverage": 0.2,
+      "evidence_quality": 0.25,
+      "pipeline_intelligence": 0.25
+    },
+    "is_dry_run": false
+  },
+  "groundedness": {
+    "system": "Evo-Revamped",
+    "groundedness_score": 0.4833,
+    "total_claims": 3,
+    "grounded_claims": 1,
+    "primary_evidence": false,
+    "primary_verdict": "none",
+    "note": "Score derived from NLI-verified perspective clusters. Each cluster survived pairwise NLI entailment scoring (≥0.60 threshold). Primary source verdict provides an additional fidelity signal absent in Evo."
+  },
+  "narrative_coverage": {
+    "metric": "Narrative Coverage",
+    "score": 0.8,
+    "sections_present": 7,
+    "sections_expected": 7,
+    "section_fraction": 1.0,
+    "coverage_gaps": [
+      "impact on job market",
+      "future of work"
+    ],
+    "gap_penalty": 0.8,
+    "note": "7/7 expected report sections are populated. 2 unresolved coverage gap(s) applied a 20% penalty to the section completeness score."
+  },
+  "evidence_quality": {
+    "metric": "Evidence Quality",
+    "score": 0.55,
+    "total_articles": 4,
+    "weighted_score_sum": 2.2,
+    "cluster_breakdown": [
+      {
+        "cluster_label": "Claims in this cluster discuss how AI is changing the landscape of software deve",
+        "corroboration_level": "partial",
+        "article_count": 2,
+        "weight": 0.75
+      },
+      {
+        "cluster_label": "This cluster contains a job posting for a Junior Software Developer.",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "This cluster appears to be a general discussion about the impact of AI on softwa",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      }
+    ],
+    "note": "Score is a weighted average of NLI corroboration levels across 3 clusters (4 total articles). Weights: corroborated=1.0, partial=0.75, unverified=0.35."
+  },
+  "pipeline_intelligence": {
+    "metric": "Pipeline Intelligence",
+    "score": 0.7936,
+    "components": {
+      "temporal_coverage": 1.0,
+      "source_diversity": 0.75,
+      "perspective_diversity": 0.6309
+    },
+    "note": "Equal-weighted composite of temporal coverage depth, retrieval source diversity, and NLI perspective diversity — three structural capabilities absent in legacy Evo."
+  },
+  "temporal_detail": {
+    "system": "Evo-Revamped",
+    "temporal_coverage_days": 990,
+    "time_bucket_count": 7,
+    "temporal_coverage_score": 1.0,
+    "note": "Revamped retrieves from GDELT, Common Crawl, and Tavily across 7 predefined historical phases spanning ~990 days. This archival depth is structurally impossible in the legacy system."
+  },
+  "source_detail": {
+    "system": "Evo-Revamped",
+    "distinct_source_types": 3,
+    "source_type_list": [
+      "common_crawl",
+      "gdelt",
+      "tavily"
+    ],
+    "source_diversity_score": 0.75,
+    "note": "Revamped retrieved from 3 distinct source type(s): ['common_crawl', 'gdelt', 'tavily']. Multi-source routing is a core architectural feature absent in Evo, ensuring both recency (Tavily) and archival depth (GDELT/CommonCrawl)."
+  },
+  "perspective_detail": {
+    "system": "Evo-Revamped",
+    "perspective_count": 3,
+    "perspective_diversity_score": 0.6309,
+    "corroboration_breakdown": {
+      "partial": 1,
+      "unverified": 2
+    },
+    "cluster_labels": [
+      "Claims in this cluster discuss how AI is changing the landscape of software deve",
+      "This cluster contains a job posting for a Junior Software Developer.",
+      "This cluster appears to be a general discussion about the impact of AI on softwa"
+    ],
+    "note": "Revamped identified 3 NLI-verified perspective clusters via DeBERTa-v3-small pairwise entailment scoring. Each cluster represents a structurally distinct viewpoint in the media ecosystem, enabling multi-sided analysis."
+  },
+  "per_metric_scores": {
+    "groundedness": 0.4833,
+    "narrative_coverage": 0.8,
+    "evidence_quality": 0.55,
+    "pipeline_intelligence": 0.7936
+  },
+  "composite_score": 0.6409
+}

@@ -11,7 +11,7 @@ next wakes for MODE B query planning.
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from src.config import config
-from src.llm import get_synthesis_llm
+from src.llm import get_classification_llm
 from src.logger import get_logger, timer
 from src.schemas import Article, ContextSummary
 from src.state import AgentState
@@ -25,7 +25,6 @@ Read the provided articles and the original claim, then produce a structured Con
 - who:                  Key actors or persons directly involved in the claim.
 - what:                 The core event or assertion being made.
 - when:                 Inferred time window (ISO range or natural language). Use "unknown" if unclear.
-- relevant_time_periods: A JSON-formatted string representing an array of 3-5 distinct historical periods/phases spanning the narrative's lifecycle. Each object must have start_date, end_date (YYYY-MM-DD), and a brief phase_description. Escape quotes properly since this is a string field.
 - competing_narratives: Pipe-separated alternative framings or counter-claims present across the articles.
                         Example: "WHO denies link|Telecom industry rejects claim|Blogs assert 5G activated virus"
                         Empty string if no competing narratives found.
@@ -42,7 +41,7 @@ _llm = None
 def _get_llm():
     global _llm
     if _llm is None:
-        _llm = get_synthesis_llm().with_structured_output(ContextSummary)
+        _llm = get_classification_llm().with_structured_output(ContextSummary)
     return _llm
 
 
@@ -67,7 +66,7 @@ def context_builder_node(state: AgentState) -> dict:
             "worker_outputs": ["[context_builder]\nNo broad articles — minimal context generated from claim alone."],
         }
 
-    articles = [Article(**a) for a in articles_raw[:4]]
+    articles = [Article(**a) for a in articles_raw[:8]]
     articles_text = "\n\n".join(a.to_retrieval_context() for a in articles)
 
     prompt = (
@@ -88,14 +87,7 @@ def context_builder_node(state: AgentState) -> dict:
         "narratives": len(narratives),
     })
 
-    import json
     summary_dict = summary.model_dump()
-    try:
-        if isinstance(summary_dict.get("relevant_time_periods"), str):
-            summary_dict["relevant_time_periods"] = json.loads(summary_dict["relevant_time_periods"])
-    except Exception as e:
-        log.warning("failed to parse relevant_time_periods JSON string", extra={"error": str(e)})
-        summary_dict["relevant_time_periods"] = []
 
     return {
         "context_summary": summary_dict,

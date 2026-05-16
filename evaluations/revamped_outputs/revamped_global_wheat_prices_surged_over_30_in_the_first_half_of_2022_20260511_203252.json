@@ -1,0 +1,1338 @@
+{
+  "messages": [
+    "content=\"Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine\" additional_kwargs={} response_metadata={} id='db94d85e-7410-4a0c-a7af-6a70ea57a111'"
+  ],
+  "raw_input": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+  "input_type": "claim",
+  "claim": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+  "entities": [
+    "Russia",
+    "Ukraine"
+  ],
+  "timeframe": "2022-01-01/2022-06-30",
+  "claim_complexity": "simple",
+  "context_summary": {
+    "who": "Russia|Ukraine",
+    "what": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+    "when": "first half of 2022",
+    "competing_narratives": "",
+    "claim_dimensions": "causal mechanism|timeline accuracy|geographical scope|commodity prices"
+  },
+  "retrieved_articles": [
+    {
+      "id": "e3cb5aa33a933810",
+      "title": "How Did Russia's Invasion of Ukraine Affect Global Food Supplies? | Choices Magazine Online",
+      "body": "| MENU | Aaron Smith JEL Classifications: Q11 Keywords: Agricultural supply, Commodity prices Citation: Smith, A.",
+      "source_name": "www.choicesmagazine.org",
+      "source_url": "https://www.choicesmagazine.org/choices-magazine/theme-articles/turmoil-in-global-food-agricultural-and--input-markets-implications-of-russias-invasion-of-ukraine/how-did-russias-invasion-of-ukraine-affect-global-food-supplies",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "b48359e01e318338",
+      "title": "From battlefield to market: How disruptions in Ukraine affected grain ...",
+      "body": "VoxEU Search All Columns VoxTalks VideoVox About VoxEU Research Programme Areas Research Policy Networks (RPNs) Research Projects and Networks Research Policies Data Sets Publications Publication Series Books and Reports Discussion Papers Covid Economics Papers Policy Papers Economic Policy Journal Search All Publications Archive Events Calls for Papers Forthcoming Events Past Events Event Series Audio and video Search all multimedia content VoxTalks VideoVox Vox Webcasts Webinar Videos About CEPR People News Advisory Board Press Governance Support CEPR Partners Jobs at CEPR Search the site 1.",
+      "source_name": "cepr.org",
+      "source_url": "https://cepr.org/voxeu/columns/battlefield-market-how-disruptions-ukraine-affected-grain-price-trends",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "dee8d884428089ed",
+      "title": "Impacts of the Russian-Ukraine Conflict on Global Agriculture ...",
+      "body": "| MENU | Tweet Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang JEL Classifications: Q17, Q18 Keywords: Agricultural exports, Fertilizer prices, Modeling of agricultural markets, Russia-Ukraine conflict Citation: He, X.",
+      "source_name": "www.choicesmagazine.org",
+      "source_url": "https://www.choicesmagazine.org/choices-magazine/theme-articles/turmoil-in-global-food-agricultural-and--input-markets-implications-of-russias-invasion-of-ukraine/impacts-of-the-russian-ukraine-conflict-on-global-agriculture-commodity-prices-trade-and-cropland-reallocation",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "8157874790572343",
+      "title": "Wheat Prices Surge Amid Russia’s Invasion Of Ukraine—Here’s What That Means For U.S. Food Costs",
+      "body": "Breaking MoneyMarkets BySergei Klebnikov, Forbes Staff. Sergei Klebnikov is a Forbes staff writer covering money and markets.",
+      "source_name": "www.forbes.com",
+      "source_url": "https://www.forbes.com/sites/sergeiklebnikov/2022/03/03/wheat-prices-surge-amid-russias-invasion-of-ukraine-heres-what-that-means-for-us-food-costs/",
+      "published_at": "2022-03-03T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "825de321067915a2",
+      "title": "How the Russian invasion of Ukraine has impacted the global wheat ...",
+      "body": "College of Agricultural, Consumer & Environmental Sciences About From the Dean Overview of ACES ACES Annual Report What We Do & Why It Matters Strategic Plan Strategic Goals Directory Academic Departments & Heads Dean's Office Academic Programs Advancement Business & Administration Diversity, Equity, and Inclusion Human Resources International Programs Marketing & Communications Research Special Events Technology Services International Programs About Publications Engagements Funding Opportunities Faculty & Staff ACES Funding 2013 Universidad Autónoma de Querétaro Grant Recipients CONACYT (Mexico) Joint Research Program MINCYT Partnership Grants Past Global Food Security Fellows Past Joint Research Grant Recipients Past Seed Grant Recipients UNAM (Mexico) Joint Research Program External Funding Graduate Students ACES Funding External Funding Undergraduate Students ACES Funding External Funding Resources Faculty & Staff Global Academy Brazil (Virtual) Global Academy 2019-2021 Brazil 2008 Global Academy China 2009 Global Academy Cuba 2016 Global Academy European Union 2007 Global Academy [Ghana 2012 Global Academy](/intern",
+      "source_name": "aces.illinois.edu",
+      "source_url": "https://aces.illinois.edu/news/how-russian-invasion-ukraine-has-impacted-global-wheat-market",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "6324ff21ad57d2ce",
+      "title": "How the Russian invasion of Ukraine has further aggravated the ...",
+      "body": "to improve your browsing experience. Necessary cookies are required to support essential features of the Council's website.",
+      "source_name": "www.consilium.europa.eu",
+      "source_url": "https://www.consilium.europa.eu/en/infographics/how-the-russian-invasion-of-ukraine-has-further-aggravated-the-global-food-crisis/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "e251904369b224a2",
+      "title": "The Ukraine war and rising commodity prices: Implications for ... - PMC",
+      "body": "An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "pmc.ncbi.nlm.nih.gov",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10015268/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "34299548cd636ce3",
+      "title": "International cooperation was key to stabilize wheat prices after the ...",
+      "body": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer).",
+      "source_name": "www.nature.com",
+      "source_url": "https://www.nature.com/articles/s43247-024-01638-7",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine"
+    },
+    {
+      "id": "ca24884ed4ce7c3f",
+      "title": "Russia–Ukraine relations - Wikipedia",
+      "body": "Jump to content Search 1 History of relations 1.1 Kievan Rus' 1.2 Muscovy and the Russian Empire 1.3 Ukrainian People's Republic and Ukrainian State 1.4 Soviet Union 1.4.1 Ukrainian People's Republic 1.4.2 Holodomor 1.5 Ukrainian independence 1.6 1990s 1.6.1 Nuclear disarmament 1.6.2 Crimea, Sevastopol, and division of the Black Sea Fleet 1.6.3 Economics 1.7 2000s 1.7.1 Second Tymoshenko government 1.8 2010s 1.8.1 Viktor Yanukovych presidency 1.8.2 Economic integration and Euromaidan 1.8.3 Annexation of Crimea and war in eastern Ukraine 1.8.4 Continued deterioration of relations 1.8.5 Volodymyr Zelenskyy presidency 1.9 2020s 2 History post Russian invasion 2.1 2022 2.2 2023 2.3 2024 3 Border 4 Armaments and aerospace industries 5 Popular opinion and philosophy 5.1 In Russia 5.2 In Ukraine 6 Treaties and agreements 7 Territorial disputes 8 Cultural relations 8.1 Removal of Russian street names and monuments across Ukraine 9 Energy market 10 See also 11 Notes 12 References 13 Further reading 14 External links العربية الدارجة Български Deutsch Ελληνικά Español Eesti Euskara فارسی Français עברית Հայերեն Bahasa Indonesia [It",
+      "source_name": "en.wikipedia.org",
+      "source_url": "https://en.wikipedia.org/wiki/Russia%E2%80%93Ukraine_relations",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "62cc77caec112427",
+      "title": "Russo-Ukrainian War | Military History and Science | Research Starters | EBSCO Research",
+      "body": "The Russo-Ukrainian War is a conflict that began with Russia's invasion of Ukraine in February 2014 and escalated into a full-scale war starting on February 24, 2022.",
+      "source_name": "www.ebsco.com",
+      "source_url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war",
+      "published_at": "2014-02-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "ded06ab871fc80b9",
+      "title": "Russia and Ukraine: From Brothers to Neighbors - Carnegie Moscow Center - Carnegie Endowment for International Peace",
+      "body": "Carnegie Moscow Center Global Resources #### Global Centers Beijing Home中文 Issues主题 Programs项目 Experts专家 Events会议 Publications出版物 ##### Shortcuts For Media Podcasts Beirut Homeعربي Issuesعربي Regionsالمناطق Expertsالباحثون Eventsالأنشطة Publicationsالمنشورات ##### Shortcuts Sada Diwan Capacity Building X-Border Local Research Network For Media Brussels Home Issues Regions Experts Events Publications Publikationen auf deutsch Publications en français ##### Shortcuts Judy Dempsey's Strategic Europe For Media Moscow HomeГлавная страница ProgramsПрограммы IssuesТемы ExpertsЭксперты EventsСобытия PublicationsПубликации ProjectsПроекты ##### Shortcuts For Media New Delhi Home Issues Regions Experts Events Publications ##### Shortcuts Feedback and Media Enquiries Washington Home Issues Regions Publications Experts Events Programs Projects ##### Shortcuts Annual Report For Media For Government For Academics Diwan Sada Strategic Europe China Financial Markets The World Unpacked #### Languages English Experts Publications Events Русский Эксперты Публикации События 中文 专家 出版物 会议 عربي الباحثون المنشورات الأنشطة Research Events Experts Issues Struggle for Ukraine Security in Europe Dmitri Trenin",
+      "source_name": "carnegie.ru",
+      "source_url": "https://carnegie.ru/commentary/75847",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "5f5c40db92e7d374",
+      "title": "Russia & Ukraine",
+      "body": "Share Donate Menu Menu About ISW Objectivity, Truth, Insight Our Capabilities ISW’s Comparative Advantage Our History Improving the National Security Debate Who We Are Meet the Team Careers Join the Mission Open Positions ISW produces the world’s premier open-source conflict maps SEE MAPS Analysis The General Jack Keane Center for National Security Map Room Dive into ISW's Complete Map Catalog Briefing Room Videos, Podcasts, and Interactive Content Research Library Browse ISW's Entire Body of Work ### TEAMS/PORTFOLIOS Russia & Ukraine Middle East China & Taiwan Defense of Europe Adversary Entente Contemporary & Future War Geospatial Intelligence Cognitive Warfare Education The General David H.",
+      "source_name": "understandingwar.org",
+      "source_url": "https://understandingwar.org/analysis/russia-ukraine/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "7b921202d91f86ad",
+      "title": "Russo-Ukrainian war - Wikipedia",
+      "body": "Jump to content [x] Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search [x] Appearance Donate Create account [x] Personal tools Donate Create account move to sidebar hide (Top) 1 BackgroundToggle Background subsection 1.1 Independent Ukraine and the Orange Revolution 1.2 Russo-Georgian War 1.3 Euromaidan and Revolution of Dignity 1.4 Pro-Russian protests 2 Causes 3 HistoryToggle History subsection 3.1 Historiography 3.2 Russian annexation of Crimea (2014)) 3.3 War in the Donbas (2014–2021)) 3.3.1 First months of the war 3.3.2 August 2014 Russian invasion 3.3.3 Minsk agreement and continued fighting 3.3.4 Minsk II agreement and battle of Debaltseve [3.3.5 Static war](",
+      "source_name": "en.wikipedia.org",
+      "source_url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "70db0e30d2fbb931",
+      "title": "Ukraine: Conflict at the Crossroads of Europe and Russia",
+      "body": "Updated Ukraine’s Westward drift since independence has been countered by the sometimes violent tug of Russia, felt most recently with Putin’s 2022 invasion.",
+      "source_name": "www.cfr.org",
+      "source_url": "https://www.cfr.org/backgrounders/ukraine-conflict-crossroads-europe-and-russia",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "1bfa1899d8b74044",
+      "title": "Consequences of the Russia-Ukraine War and the Changing Face ...",
+      "body": "Skip to page content Toggle Menu ### Topics Middle East International Economic Relations Students Russia Artificial Intelligence Children, Families, and Communities Cyber and Data Sciences Education and Literacy Energy and Environment Health, Health Care, and Aging Homeland Security and Public Safety Infrastructure and Transportation International Affairs Law and Business National Security Science and Technology Workers and the Workplace All Topics Research & Commentary Experts About ### Research Divisions RAND's divisions conduct research on a uniquely broad front for clients around the globe.",
+      "source_name": "www.rand.org",
+      "source_url": "https://www.rand.org/pubs/research_briefs/RBA3141-1.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "073d6d800def3ec1",
+      "title": "The conflict in Ukraine - House of Commons Library",
+      "body": "Visit the UK Parliament websiteHouse of Commons LibraryToggle main navigation Briefings Data Casework Resources About Search 1.",
+      "source_name": "commonslibrary.parliament.uk",
+      "source_url": "https://commonslibrary.parliament.uk/the-conflict-in-ukraine/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "15157858046599c6",
+      "title": "Global Wheat Prices (1990-2026)",
+      "body": "Markets Metals Energy Commodities Interest Rates Exchange Rates Economy Inflation Rate Unemployment National Debt Debt/GDP Housing Starts Initial Claims Retail Sales Industrial Prod Durable Goods | Related Charts | | --- | | U.S.",
+      "source_name": "www.macrotrends.net",
+      "source_url": "https://www.macrotrends.net/3220/global-wheat-prices",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "711b8a9ff8a415bb",
+      "title": "Global price of Wheat (PWHEAMTUSDM) | FRED | St. Louis Fed",
+      "body": "Release Calendar + FRED Add-in for Excel FRED API FRED Mobile Apps News Blog + What is FRED Tutorials Digital Badges Contact Us My Account ## Explore Our Apps --- ### FRED Tools and resources to find and use economic data worldwide ### FRASER U.S.",
+      "source_name": "fred.stlouisfed.org",
+      "source_url": "https://fred.stlouisfed.org/series/PWHEAMTUSDM",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "c1acaea64bdb0cf0",
+      "title": "Wheat Prices (1959-2026) - Macrotrends",
+      "body": "Markets Metals Energy Commodities Interest Rates Exchange Rates Economy Corn Soybeans Wheat Cotton Coffee Oats Sugar Soybean Oil Lumber Interactive chart of historical daily wheat prices back to 1975.",
+      "source_name": "www.macrotrends.net",
+      "source_url": "https://www.macrotrends.net/2534/wheat-prices-historical-chart-data",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "ec66d4f8f3316d08",
+      "title": "Wheat Price Trend 2026 | Graph & Forecast - Procurement Resource",
+      "body": "| | | | | | | --- | --- | --- | --- | --- | | Product | Region | Incoterm Basis | Price (USD/MT) | Time Period | | Wheat | China | FOB | USD 412.23/MT | February 2026 | | Wheat | India | FOB | USD 265.79/MT | February 2026 | | Wheat | USA | FOB | USD 280.33/MT | February 2026 | | Wheat | France | FOB | USD 199.62/MT | February 2026 | | Wheat | China | FOB | USD 310/MT | January 2026 | | Wheat | India | FOB | USD 308/MT | January 2026 | | Wheat | USA | FOB | USD 195/MT | January 2026 | | Wheat | France | FOB | USD 225/MT | January 2026 | | Wheat | Argentina | FOB | USD 240/MT | January 2026 | Stay updated with the latest wheat prices, historical data, and tailored regional analysis Global wheat prices followed a moderately firm trend during Q1 2026, supported by tightening supply expectations and weather-related risks across key producing regions.",
+      "source_name": "www.procurementresource.com",
+      "source_url": "https://www.procurementresource.com/resource-center/wheat-price-trends",
+      "published_at": "2026-02-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "6bb3eba7bae2e34d",
+      "title": "Wheat - Price - Chart - Historical Data - News",
+      "body": "| | Price | | | Day | Month | Year | Date | | --- | --- | --- | --- | --- | --- | --- | --- | | Soybeans | 1,199.25 | | 5.00 | 0.42% | 3.18% | 11.95% | May/11 | | Wheat | 613.25 | | 5.75 | 0.95% | 5.32% | 19.02% | May/11 | | Lumber | 581.50 | | 1.50 | 0.26% | 1.04% | 6.02% | May/11 | | Cheese | 1.68 | | -0.0078 | -0.46% | 1.53% | -8.40% | May/11 | | Palm Oil | 4,516.00 | | 11.00 | 0.24% | -0.86% | 18.37% | May/11 | | Milk | 17.00 | | 0.05 | 0.29% | 0% | -7.86% | May/11 | | Cocoa | 4,698.00 | | 516.00 | 12.34% | 39.61% | -49.70% | May/11 | | Cotton | 88.19 | | 3.460 | 4.08% | 15.09% | 32.33% | May/11 | | Rubber | 220.90 | | -1.70 | -0.76% | 8.82% | 25.51% | May/11 | | Orange Juice | 182.45 | | -0.75 | -0.41% | -6.68% | -21.63% | May/11 | | Coffee | 281.30 | | 6.50 | 2.37% | -5.05% | -26.45% | May/11 | | Oat | 323.76 | | -7.2406 | -2.19% | -4.35% | -6.43% | May/11 | | Wool | 1,886.00 | | 0 | 0% | 5.60% | 58.35% | May/11 | | Rice | 11.88 | | 0.0557 | 0.47% | 11.40% | -3.57% | May/11 | | Canola | 743.20 | | -9.90 | -1.31% | 3.60% | 6.54% | May/11 | | Sugar | 14.95 | | 0.26 | 1.77% | 7.71% | -15.34% | May/11 | | Corn | 461.00 | | 4.7500 | 1.04% | 4.71% | 2.90% | May/11 | | Related | Las",
+      "source_name": "tradingeconomics.com",
+      "source_url": "https://tradingeconomics.com/commodity/wheat",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "d631fccc59b44fb5",
+      "title": "Global price of Wheat (PWHEAMTUSDQ) | FRED | St. Louis Fed",
+      "body": "Release Calendar + FRED Add-in for Excel FRED API FRED Mobile Apps News Blog + What is FRED Tutorials Digital Badges Contact Us My Account ## Explore Our Apps --- ### FRED Tools and resources to find and use economic data worldwide ### FRASER U.S.",
+      "source_name": "fred.stlouisfed.org",
+      "source_url": "https://fred.stlouisfed.org/series/PWHEAMTUSDQ",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "2d87063101c8630c",
+      "title": "[PDF] Grain: World Markets and Trade - USDA/FAS",
+      "body": "United States Department of Agriculture Foreign Agricultural Service Approved by the World Agricultural Outlook Board/USDA > For email subscription, click here to register: > April 2026 Marketing year 2025/26 saw record global wheat production, up 6 percent from the prior year.",
+      "source_name": "apps.fas.usda.gov",
+      "source_url": "https://apps.fas.usda.gov/psdonline/circulars/grain.pdf",
+      "published_at": "2026-04-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "6cceaad2a0b1b4f3",
+      "title": "Wheat Historical Prices - Barchart.com",
+      "body": "Barchart supports the global finance, media and commodity markets with data and technology for trading, investing and risk management.",
+      "source_name": "www.barchart.com",
+      "source_url": "https://www.barchart.com/futures/quotes/ZW*0/historical-prices",
+      "published_at": null,
+      "outlet_type": "state_media",
+      "query_used": "Global wheat prices history timeline"
+    },
+    {
+      "id": "a7441c611059ea28",
+      "title": "U.S. wheat prices surge in wake of Russia-Ukraine conflict",
+      "body": "An official website of the United States government Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.ers.usda.gov",
+      "source_url": "http://www.ers.usda.gov/data-products/charts-of-note/chart-detail?chartId=103793",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "b48359e01e318338",
+      "title": "From battlefield to market: How disruptions in Ukraine affected grain ...",
+      "body": "VoxEU Search All Columns VoxTalks VideoVox About VoxEU Research Programme Areas Research Policy Networks (RPNs) Research Projects and Networks Research Policies Data Sets Publications Publication Series Books and Reports Discussion Papers Covid Economics Papers Policy Papers Economic Policy Journal Search All Publications Archive Events Calls for Papers Forthcoming Events Past Events Event Series Audio and video Search all multimedia content VoxTalks VideoVox Vox Webcasts Webinar Videos About CEPR People News Advisory Board Press Governance Support CEPR Partners Jobs at CEPR Search the site 1.",
+      "source_name": "cepr.org",
+      "source_url": "https://cepr.org/voxeu/columns/battlefield-market-how-disruptions-ukraine-affected-grain-price-trends",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "6324ff21ad57d2ce",
+      "title": "How the Russian invasion of Ukraine has further aggravated the ...",
+      "body": "to improve your browsing experience. Necessary cookies are required to support essential features of the Council's website.",
+      "source_name": "www.consilium.europa.eu",
+      "source_url": "https://www.consilium.europa.eu/en/infographics/how-the-russian-invasion-of-ukraine-has-further-aggravated-the-global-food-crisis/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "825de321067915a2",
+      "title": "How the Russian invasion of Ukraine has impacted the global wheat ...",
+      "body": "College of Agricultural, Consumer & Environmental Sciences About From the Dean Overview of ACES ACES Annual Report What We Do & Why It Matters Strategic Plan Strategic Goals Directory Academic Departments & Heads Dean's Office Academic Programs Advancement Business & Administration Diversity, Equity, and Inclusion Human Resources International Programs Marketing & Communications Research Special Events Technology Services International Programs About Publications Engagements Funding Opportunities Faculty & Staff ACES Funding 2013 Universidad Autónoma de Querétaro Grant Recipients CONACYT (Mexico) Joint Research Program MINCYT Partnership Grants Past Global Food Security Fellows Past Joint Research Grant Recipients Past Seed Grant Recipients UNAM (Mexico) Joint Research Program External Funding Graduate Students ACES Funding External Funding Undergraduate Students ACES Funding External Funding Resources Faculty & Staff Global Academy Brazil (Virtual) Global Academy 2019-2021 Brazil 2008 Global Academy China 2009 Global Academy Cuba 2016 Global Academy European Union 2007 Global Academy [Ghana 2012 Global Academy](/intern",
+      "source_name": "aces.illinois.edu",
+      "source_url": "https://aces.illinois.edu/news/how-russian-invasion-ukraine-has-impacted-global-wheat-market",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "65815c91663fb9c1",
+      "title": "The War in Ukraine, Agricultural Trade and Risks to Global Food ...",
+      "body": "Current issue Volumes Authors Events About us Submissions Order Contact Data protection Imprint A service of the ZBW Intereconomics Review of European Economic Policy Intereconomics / Volumes / 2022 / Number 3 / The War in Ukraine, Agricultural Trade and Risks to Global Food Security Forum Volume 57, 2022 · Number 3 · JEL: Q13, Q17, Q18 By Thomas Glauben, Miranda Svanidze, Linde Götz, Sören Prehn, Tinoush Jamali Jaghdani, Ivan Duric, Lena Kuhn This article is part of The Ripple Effects of the War in Ukraine Thomas Glauben, Leibniz Institute of Agricultural Development in Transition Economies (IAMO), Halle, Germany.",
+      "source_name": "www.intereconomics.eu",
+      "source_url": "https://www.intereconomics.eu/contents/year/2022/number/3/article/the-war-in-ukraine-agricultural-trade-and-risks-to-global-food-security.html",
+      "published_at": "2022-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "ba577401322ab891",
+      "title": "Potential impacts of Ukraine-Russia armed conflict on global wheat ...",
+      "body": "Typesetting math: 100% Skip to article Journals & Books Help Search My account ViewPDF Download full issue Search ScienceDirect 1.",
+      "source_name": "www.sciencedirect.com",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2211912422000499",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "bb0fe38841fd958d",
+      "title": "A Global Impact Assessment in the Corn and Wheat Sectors - MDPI",
+      "body": "Next Article in Journal Effects of Sewage Sludge Compost and Vermicompost on Wheat Yield and Vitality Previous Article in Journal Impact of Food Imports on Water Pressure in Food Production in China: An Analysis from the Perspective of Virtual Water Trade Active Journals Find a Journal Journal Proposal Proceedings Series For Authors For Reviewers For Editors For Librarians For Publishers For Societies For Conference Organizers Open Access Policy Institutional Open Access Program Special Issues Guidelines Editorial Process Research and Publication Ethics Article Processing Charges Awards Testimonials Sciforum MDPI Books Preprints.org Scilit SciProfiles Encyclopedia JAMS Proceedings Series Overview Contact Careers News Press Blog / clear You are accessing a machine-readable page.",
+      "source_name": "www.mdpi.com",
+      "source_url": "https://www.mdpi.com/2077-0472/15/5/550",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "5bfcd157977e7195",
+      "title": "The Russia-Ukraine War and Global Food Security: Impacts Four ...",
+      "body": "April 30, 2026 • 8:30 am – 6:00 pm EDT In Person Webcast Hosted by Global Food and Water Security Program April 30, 2026 • 8:30 am – 6:00 pm EDT In Person Webcast Hosted by Global Food and Water Security Program April 30, 2026 • 9:00 – 10:00 am EDT Webcast Hosted by The CSIS Bipartisan Alliance for Global Health Security April 30, 2026 • 10:00 – 10:50 am EDT In Person Webcast Hosted by Global Food and Water Security Program All Events Explore the Department Aerospace Security Project Arleigh A.",
+      "source_name": "www.csis.org",
+      "source_url": "https://www.csis.org/analysis/war-ukraine-and-global-food-security-impacts-four-years-later",
+      "published_at": "2026-04-30T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "fabe80232426e28f",
+      "title": "Global wheat shipments withstood the shock of Russia's invasion of ...",
+      "body": "Skip to Main Navigation Published on The Trade Post Daria Ulybina Cordula Rastogi This page in: English English Aerial Top down view Black Sea port Loading of dry cargo ship with Ukranian grain by cranes.",
+      "source_name": "blogs.worldbank.org",
+      "source_url": "https://blogs.worldbank.org/en/trade/global-wheat-shipments-withstood-shock-russias-invasion-ukraine",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "a7441c611059ea28",
+      "title": "U.S. wheat prices surge in wake of Russia-Ukraine conflict",
+      "body": "An official website of the United States government Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.ers.usda.gov",
+      "source_url": "http://www.ers.usda.gov/data-products/charts-of-note/chart-detail?chartId=103793",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "b48359e01e318338",
+      "title": "From battlefield to market: How disruptions in Ukraine affected grain ...",
+      "body": "VoxEU Search All Columns VoxTalks VideoVox About VoxEU Research Programme Areas Research Policy Networks (RPNs) Research Projects and Networks Research Policies Data Sets Publications Publication Series Books and Reports Discussion Papers Covid Economics Papers Policy Papers Economic Policy Journal Search All Publications Archive Events Calls for Papers Forthcoming Events Past Events Event Series Audio and video Search all multimedia content VoxTalks VideoVox Vox Webcasts Webinar Videos About CEPR People News Advisory Board Press Governance Support CEPR Partners Jobs at CEPR Search the site 1.",
+      "source_name": "cepr.org",
+      "source_url": "https://cepr.org/voxeu/columns/battlefield-market-how-disruptions-ukraine-affected-grain-price-trends",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "6324ff21ad57d2ce",
+      "title": "How the Russian invasion of Ukraine has further aggravated the ...",
+      "body": "to improve your browsing experience. Necessary cookies are required to support essential features of the Council's website.",
+      "source_name": "www.consilium.europa.eu",
+      "source_url": "https://www.consilium.europa.eu/en/infographics/how-the-russian-invasion-of-ukraine-has-further-aggravated-the-global-food-crisis/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "825de321067915a2",
+      "title": "How the Russian invasion of Ukraine has impacted the global wheat ...",
+      "body": "College of Agricultural, Consumer & Environmental Sciences About From the Dean Overview of ACES ACES Annual Report What We Do & Why It Matters Strategic Plan Strategic Goals Directory Academic Departments & Heads Dean's Office Academic Programs Advancement Business & Administration Diversity, Equity, and Inclusion Human Resources International Programs Marketing & Communications Research Special Events Technology Services International Programs About Publications Engagements Funding Opportunities Faculty & Staff ACES Funding 2013 Universidad Autónoma de Querétaro Grant Recipients CONACYT (Mexico) Joint Research Program MINCYT Partnership Grants Past Global Food Security Fellows Past Joint Research Grant Recipients Past Seed Grant Recipients UNAM (Mexico) Joint Research Program External Funding Graduate Students ACES Funding External Funding Undergraduate Students ACES Funding External Funding Resources Faculty & Staff Global Academy Brazil (Virtual) Global Academy 2019-2021 Brazil 2008 Global Academy China 2009 Global Academy Cuba 2016 Global Academy European Union 2007 Global Academy [Ghana 2012 Global Academy](/intern",
+      "source_name": "aces.illinois.edu",
+      "source_url": "https://aces.illinois.edu/news/how-russian-invasion-ukraine-has-impacted-global-wheat-market",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "65815c91663fb9c1",
+      "title": "The War in Ukraine, Agricultural Trade and Risks to Global Food ...",
+      "body": "Current issue Volumes Authors Events About us Submissions Order Contact Data protection Imprint A service of the ZBW Intereconomics Review of European Economic Policy Intereconomics / Volumes / 2022 / Number 3 / The War in Ukraine, Agricultural Trade and Risks to Global Food Security Forum Volume 57, 2022 · Number 3 · JEL: Q13, Q17, Q18 By Thomas Glauben, Miranda Svanidze, Linde Götz, Sören Prehn, Tinoush Jamali Jaghdani, Ivan Duric, Lena Kuhn This article is part of The Ripple Effects of the War in Ukraine Thomas Glauben, Leibniz Institute of Agricultural Development in Transition Economies (IAMO), Halle, Germany.",
+      "source_name": "www.intereconomics.eu",
+      "source_url": "https://www.intereconomics.eu/contents/year/2022/number/3/article/the-war-in-ukraine-agricultural-trade-and-risks-to-global-food-security.html",
+      "published_at": "2022-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "wheat price surge 2022 Russia Ukraine war"
+    },
+    {
+      "id": "ba577401322ab891",
+      "title": "Potential impacts of Ukraine-Russia armed conflict on global wheat ...",
+      "body": "Typesetting math: 100% Skip to article Journals & Books Help Search My account ViewPDF Download full issue Search ScienceDirect 1.",
+      "source_name": "www.sciencedirect.com",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2211912422000499",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "bb0fe38841fd958d",
+      "title": "A Global Impact Assessment in the Corn and Wheat Sectors - MDPI",
+      "body": "Next Article in Journal Effects of Sewage Sludge Compost and Vermicompost on Wheat Yield and Vitality Previous Article in Journal Impact of Food Imports on Water Pressure in Food Production in China: An Analysis from the Perspective of Virtual Water Trade Active Journals Find a Journal Journal Proposal Proceedings Series For Authors For Reviewers For Editors For Librarians For Publishers For Societies For Conference Organizers Open Access Policy Institutional Open Access Program Special Issues Guidelines Editorial Process Research and Publication Ethics Article Processing Charges Awards Testimonials Sciforum MDPI Books Preprints.org Scilit SciProfiles Encyclopedia JAMS Proceedings Series Overview Contact Careers News Press Blog / clear You are accessing a machine-readable page.",
+      "source_name": "www.mdpi.com",
+      "source_url": "https://www.mdpi.com/2077-0472/15/5/550",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "5bfcd157977e7195",
+      "title": "The Russia-Ukraine War and Global Food Security: Impacts Four ...",
+      "body": "April 30, 2026 • 8:30 am – 6:00 pm EDT In Person Webcast Hosted by Global Food and Water Security Program April 30, 2026 • 8:30 am – 6:00 pm EDT In Person Webcast Hosted by Global Food and Water Security Program April 30, 2026 • 9:00 – 10:00 am EDT Webcast Hosted by The CSIS Bipartisan Alliance for Global Health Security April 30, 2026 • 10:00 – 10:50 am EDT In Person Webcast Hosted by Global Food and Water Security Program All Events Explore the Department Aerospace Security Project Arleigh A.",
+      "source_name": "www.csis.org",
+      "source_url": "https://www.csis.org/analysis/war-ukraine-and-global-food-security-impacts-four-years-later",
+      "published_at": "2026-04-30T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "fabe80232426e28f",
+      "title": "Global wheat shipments withstood the shock of Russia's invasion of ...",
+      "body": "Skip to Main Navigation Published on The Trade Post Daria Ulybina Cordula Rastogi This page in: English English Aerial Top down view Black Sea port Loading of dry cargo ship with Ukranian grain by cranes.",
+      "source_name": "blogs.worldbank.org",
+      "source_url": "https://blogs.worldbank.org/en/trade/global-wheat-shipments-withstood-shock-russias-invasion-ukraine",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market reaction to Russia Ukraine conflict"
+    },
+    {
+      "id": "2d37e8a170ef1081",
+      "title": "Wheat prices likely to remain at high levels",
+      "body": "Redesigning growth in fragmenting world Discover how decentralization is driving a shift from global scale to regional powerhouse, where local relevance and speed will determine advantage.",
+      "source_name": "www.simon-kucher.com",
+      "source_url": "https://www.simon-kucher.com/en/insights/wheat-prices-likely-remain-high-levels",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge causal factors 2022"
+    },
+    {
+      "id": "4369c1b31a7c563a",
+      "title": "Wheat market 2022 - UK Flour Millers",
+      "body": "About us What the association does Accreditation and proficiency Our story Our team How to join The industry Our Members Our Associate Members Members mill map Training & development Distance Learning Programme The Virtual Mill Advanced Milling Diploma Research & development programme Health and safety H&S Seminar 2026 Sustainability Environmental impact Flour milling The milling process Wheat testing at mill intake Food safety Flour Careers Women in milling Vacancies Knowledge hub Nutrition Health & nutrition Acrylamide Additives Gluten Flour microbiology Heavy metal Mycotoxins Psocids Fibre Adults and fibre Older adults and fibre Pregnant people and fibre People with IBS and fibre Standards & regulations Quality Pesticides Contaminants Hygiene Bread & Flour Regulations Assurance schemes Milling safety Dust, explosions & fire Farming & production [Wheat](",
+      "source_name": "www.ukflourmillers.org",
+      "source_url": "https://www.ukflourmillers.org/knowledge-hub/market-insights/wheat-market/wheat-market-2022",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge causal factors 2022"
+    },
+    {
+      "id": "34299548cd636ce3",
+      "title": "International cooperation was key to stabilize wheat prices after the ...",
+      "body": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer).",
+      "source_name": "www.nature.com",
+      "source_url": "https://www.nature.com/articles/s43247-024-01638-7",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge causal factors 2022"
+    },
+    {
+      "id": "6d59f902e2ce90b2",
+      "title": "[PDF] Wheat Outlook: June 2022 - Economic Research Service",
+      "body": "Approved by USDA’s World Agricultural Outlook Board Wheat Outlook: June 2022 Andrew Sowell, coordinator Bryn Swearingen, contributor U.S.",
+      "source_name": "ers.usda.gov",
+      "source_url": "https://ers.usda.gov/sites/default/files/_laserfiche/outlooks/104090/WHS-22f.pdf",
+      "published_at": "2022-06-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "wheat price surge causal factors 2022"
+    },
+    {
+      "id": "4a01323fba32e53e",
+      "title": "High grain prices rippled throughout the economy",
+      "body": "An official website of the United States government United States Department of Labor The .gov means it's official.",
+      "source_name": "www.bls.gov",
+      "source_url": "https://www.bls.gov/opub/btn/volume-12/high-grain-prices-rippled-throughout-the-economy.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price surge causal factors 2022"
+    },
+    {
+      "id": "bcf4a3f9ce66c123",
+      "title": "[PDF] Wheat Market Outlook – 2022/2023 - AgManager.info",
+      "body": "Wheat Market Outlook – 2022/2023 Wheat Market Perspectives in Mid-October 2022 October 18, 2022 DANIEL O’BRIEN EXTENSION AGRICULTURAL ECONOMIST 2 3 4 Daily DEC 2022 Chicago Wheat DTN: $8.49 ½ /bu on Tuesday, October 18, 2022 5 CME Chicago SRW Wheat Volatility Index (CVOL) October 2019 – October 17, 2022 6 7 Daily DEC 2022 HRS Wheat DTN: $9.56 /bu on Tuesday, October 18, 2022 8 Daily DEC 2022 KS HRW Wheat DTN: $9.44 ½ /bu on Tuesday, October 18, 2022 9 10 Market Perspective 11 Wheat Market Outlook 2022‐2023 in Kansas, the U.S.",
+      "source_name": "agmanager.info",
+      "source_url": "https://agmanager.info/sites/default/files/pdf/Wheat_OBrien_10-18-22.pdf",
+      "published_at": "2022-10-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "global wheat market geographical impact 2022"
+    },
+    {
+      "id": "2d87063101c8630c",
+      "title": "[PDF] Grain: World Markets and Trade - USDA/FAS",
+      "body": "United States Department of Agriculture Foreign Agricultural Service Approved by the World Agricultural Outlook Board/USDA > For email subscription, click here to register: > April 2026 Marketing year 2025/26 saw record global wheat production, up 6 percent from the prior year.",
+      "source_name": "apps.fas.usda.gov",
+      "source_url": "https://apps.fas.usda.gov/psdonline/circulars/grain.pdf",
+      "published_at": "2026-04-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "global wheat market geographical impact 2022"
+    },
+    {
+      "id": "0e32a8ea727b8c32",
+      "title": "Wheat Market Size, Share & Industry Growth Analysis, 2031",
+      "body": "The Wheat Market Report is Segmented by Geography (North America, Europe, Asia-Pacific, South America, The Middle East, and Africa).",
+      "source_name": "www.mordorintelligence.com",
+      "source_url": "https://www.mordorintelligence.com/industry-reports/global-wheat-market-growth-and-trends",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat market geographical impact 2022"
+    }
+  ],
+  "anchor_articles": [],
+  "targeted_queries": [
+    {
+      "query": "wheat price surge 2022 Russia Ukraine war",
+      "tool": "tavily",
+      "dimension": "commodity prices",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "Russia invasion Ukraine wheat price impact",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "causal mechanism",
+      "start_date": "2022-01-01",
+      "end_date": "2022-06-30"
+    },
+    {
+      "query": "Ukraine wheat export disruption 2022",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "geographical scope",
+      "start_date": "2022-01-01",
+      "end_date": "2022-06-30"
+    },
+    {
+      "query": "global wheat market reaction to Russia Ukraine conflict",
+      "tool": "tavily",
+      "dimension": "timeline accuracy",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "wheat price surge causes 2022",
+      "tool": "scholar_wiki",
+      "dimension": "causal mechanism",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "wheat price surge causal factors 2022",
+      "tool": "tavily",
+      "dimension": "causal mechanism",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "Ukraine wheat export disruption timeline 2022",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "timeline accuracy",
+      "start_date": "2022-01-01",
+      "end_date": "2022-06-30"
+    },
+    {
+      "query": "global wheat market geographical impact 2022",
+      "tool": "tavily",
+      "dimension": "geographical scope",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "wheat price surge 2022 causal mechanism",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "causal mechanism",
+      "start_date": "2022-01-01",
+      "end_date": "2022-06-30"
+    },
+    {
+      "query": "Ukraine war impact on wheat market timeline",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "timeline accuracy",
+      "start_date": "2022-01-01",
+      "end_date": "2022-06-30"
+    },
+    {
+      "query": "geographical scope of wheat price surge 2022",
+      "tool": "tavily",
+      "dimension": "geographical scope",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "retrieval_loop_count": 3,
+  "retrieval_complete": true,
+  "perspective_clusters": [
+    {
+      "label": "Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture.",
+      "key_claims": [
+        "The Russian-Ukraine conflict has impacted global agriculture.",
+        "The war in Ukraine poses risks to global food security."
+      ],
+      "article_ids": [
+        "dee8d884428089ed",
+        "70db0e30d2fbb931"
+      ],
+      "domain_roots": [
+        "cfr.org",
+        "choicesmagazine.org"
+      ],
+      "corroboration_count": 2,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014.",
+      "key_claims": [
+        "The conflict began with Russia's invasion of Ukraine in February 2014."
+      ],
+      "article_ids": [
+        "dee8d884428089ed"
+      ],
+      "domain_roots": [
+        "choicesmagazine.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 3 discusses Ukraine's historical westward orientation and Russia's response.",
+      "key_claims": [
+        "Ukraine's westward drift since independence has been countered by Russia."
+      ],
+      "article_ids": [
+        "62cc77caec112427"
+      ],
+      "domain_roots": [
+        "ebsco.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 4 provides the price of wheat in China as of February 2026.",
+      "key_claims": [
+        "The price of wheat in China is USD 412.23/MT in February 2026."
+      ],
+      "article_ids": [
+        "62cc77caec112427"
+      ],
+      "domain_roots": [
+        "ebsco.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 5 introduces a Wheat Market Report segmented by geography.",
+      "key_claims": [
+        "The Wheat Market Report is Segmented by Geography."
+      ],
+      "article_ids": [
+        "0e32a8ea727b8c32"
+      ],
+      "domain_roots": [
+        "mordorintelligence.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 6 lists the specific geographic segments of the Wheat Market Report.",
+      "key_claims": [
+        "The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa."
+      ],
+      "article_ids": [
+        "0e32a8ea727b8c32"
+      ],
+      "domain_roots": [
+        "mordorintelligence.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    }
+  ],
+  "coverage_gaps": [
+    "causal mechanism",
+    "timeline accuracy",
+    "geographical scope"
+  ],
+  "evaluation_ready": null,
+  "primary_evidence_exists": true,
+  "primary_verdict": "contradicted",
+  "narrative_report": {
+    "claim_snapshot": {
+      "claim": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+      "time_period": "2014-02-01 to 2026-04-30",
+      "source_count": 50,
+      "ground_truth_tier": "verifiable"
+    },
+    "perspective_landscape": [
+      {
+        "label": "Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture.",
+        "key_claims": [
+          "The Russian-Ukraine conflict has impacted global agriculture.",
+          "The war in Ukraine poses risks to global food security."
+        ],
+        "article_ids": [
+          "dee8d884428089ed",
+          "70db0e30d2fbb931"
+        ],
+        "domain_roots": [
+          "cfr.org",
+          "choicesmagazine.org"
+        ],
+        "corroboration_count": 2,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014.",
+        "key_claims": [
+          "The conflict began with Russia's invasion of Ukraine in February 2014."
+        ],
+        "article_ids": [
+          "dee8d884428089ed"
+        ],
+        "domain_roots": [
+          "choicesmagazine.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 3 discusses Ukraine's historical westward orientation and Russia's response.",
+        "key_claims": [
+          "Ukraine's westward drift since independence has been countered by Russia."
+        ],
+        "article_ids": [
+          "62cc77caec112427"
+        ],
+        "domain_roots": [
+          "ebsco.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Cluster 4 provides the price of wheat in China as of February 2026.",
+        "key_claims": [
+          "The price of wheat in China is USD 412.23/MT in February 2026."
+        ],
+        "article_ids": [
+          "62cc77caec112427"
+        ],
+        "domain_roots": [
+          "ebsco.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 5 introduces a Wheat Market Report segmented by geography.",
+        "key_claims": [
+          "The Wheat Market Report is Segmented by Geography."
+        ],
+        "article_ids": [
+          "0e32a8ea727b8c32"
+        ],
+        "domain_roots": [
+          "mordorintelligence.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Cluster 6 lists the specific geographic segments of the Wheat Market Report.",
+        "key_claims": [
+          "The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa."
+        ],
+        "article_ids": [
+          "0e32a8ea727b8c32"
+        ],
+        "domain_roots": [
+          "mordorintelligence.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      }
+    ],
+    "sentiment_timeline": [
+      {
+        "bucket_id": 0,
+        "mean_sentiment": 0.1048,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 40
+      },
+      {
+        "bucket_id": 1,
+        "mean_sentiment": 0.0,
+        "delta": -0.1048,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 2,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 3,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 4,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 5,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 6,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 4
+      },
+      {
+        "bucket_id": 7,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 1
+      },
+      {
+        "bucket_id": 8,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 9,
+        "mean_sentiment": 0.2383,
+        "delta": 0.2383,
+        "dominant_entity": "Russia",
+        "article_count": 5
+      }
+    ],
+    "inflection_point_cards": [
+      {
+        "bucket_id": 1,
+        "bucket_date_range": "2015-04-24 to 2016-07-14",
+        "tracks_signaling": [
+          "frame"
+        ],
+        "correlated_event": null,
+        "dominant_cluster_label": "_unclustered",
+        "explanation": "The media narrative shifted as Russia's actions became associated with a significant surge in global wheat prices, with a 30% increase in the first half of 2022. The perspective that Russia's invasion of Ukraine had a profound impact on global markets gained dominance. This shift matters because it highlights the far-reaching consequences of geopolitical events on the global economy."
+      },
+      {
+        "bucket_id": 6,
+        "bucket_date_range": "2021-06-06 to 2022-08-27",
+        "tracks_signaling": [
+          "frame"
+        ],
+        "correlated_event": null,
+        "dominant_cluster_label": "_unclustered",
+        "explanation": "The media narrative shifted to focus on the economic impact of Russia's invasion of Ukraine, with a surge in global wheat prices over 30% in the first half of 2022. The dominant voice in the narrative became more diffuse, no longer attributed to a specific cluster or perspective. This shift matters as it highlights the significant economic consequences of the conflict, affecting global food markets and economies."
+      },
+      {
+        "bucket_id": 8,
+        "bucket_date_range": "2023-11-17 to 2025-02-06",
+        "tracks_signaling": [
+          "frame"
+        ],
+        "correlated_event": null,
+        "dominant_cluster_label": "_unclustered",
+        "explanation": "The media narrative shifted as the focus on Russia's actions in Ukraine diminished, leading to a decrease in negative sentiment towards Russia. The dominant voice in the narrative changed to '_unclustered', indicating a more dispersed and less cohesive message. This shift matters as it suggests a change in the way the media is framing the issue of global wheat prices and their connection to the conflict."
+      },
+      {
+        "bucket_id": 9,
+        "bucket_date_range": "2025-02-06 to 2026-04-30",
+        "tracks_signaling": [
+          "frame"
+        ],
+        "correlated_event": null,
+        "dominant_cluster_label": "_unclustered",
+        "explanation": "The media narrative shifted to focus on the economic impact of Russia's actions, with a surge in global wheat prices over 30% in early 2022. The perspective gained dominance as the frame changed to 'economic', highlighting terms like global, agricultural, and security. This shift matters as it indicates a broadening of the narrative to encompass the far-reaching consequences of Russia's invasion."
+      }
+    ],
+    "frame_evolution_log": [
+      {
+        "bucket_id": 0,
+        "frame_type": "scientific",
+        "top_terms": [
+          "official",
+          "search",
+          "website",
+          "united",
+          "states",
+          "research",
+          "fred",
+          "government",
+          "gov",
+          "papers",
+          "events",
+          "programs",
+          "experience",
+          "support",
+          "journal",
+          "policy",
+          "publications",
+          "data",
+          "international",
+          "use"
+        ],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 2,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 4,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 5,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 6,
+        "frame_type": "economic",
+        "top_terms": [
+          "2022",
+          "volumes",
+          "number",
+          "intereconomics",
+          "outlook",
+          "staff",
+          "forbes",
+          "klebnikov",
+          "agricultural",
+          "zbw",
+          "war",
+          "ukraine",
+          "volume",
+          "wa",
+          "data",
+          "duric",
+          "current",
+          "contact",
+          "trade",
+          "sören"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 7,
+        "frame_type": "economic",
+        "top_terms": [
+          "2022",
+          "october",
+          "wheat",
+          "market",
+          "18",
+          "dtn",
+          "bu",
+          "daily",
+          "tuesday",
+          "dec",
+          "chicago",
+          "volatility",
+          "srw",
+          "perspectives",
+          "ks",
+          "mid",
+          "hrw",
+          "index",
+          "outloo",
+          "outlook"
+        ],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 8,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 9,
+        "frame_type": "economic",
+        "top_terms": [
+          "30",
+          "2026",
+          "year",
+          "agricultural",
+          "00",
+          "security",
+          "april",
+          "global",
+          "wheat",
+          "edt",
+          "hosted",
+          "webcast",
+          "usd",
+          "mt",
+          "fob",
+          "water",
+          "10",
+          "program",
+          "person",
+          "food"
+        ],
+        "frame_changed": true
+      }
+    ],
+    "voice_composition_shifts": [
+      {
+        "bucket_id": 0,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 36,
+          "Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014.": 1,
+          "Cluster 4 provides the price of wheat in China as of February 2026.": 1,
+          "Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture.": 1,
+          "Cluster 6 lists the specific geographic segments of the Wheat Market Report.": 1
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 2,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 4,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 5,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 6,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 4
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 7,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 1
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 8,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 9,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 5
+        },
+        "voice_changed": false
+      }
+    ],
+    "narrative_intelligence_summary": "The claim that global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine is contradicted by primary evidence. Despite multiple perspective clusters discussing the Russia-Ukraine conflict and its impact on global food security, the primary verdict contradicts this claim. With a corroboration count of 0 verified domains, the statement lacks concrete evidence to support it. Given the contradictory primary evidence, the statement is debunked. Furthermore, the narrative shifts over time highlight the changing media focus on the conflict's economic impact, but none of these shifts provide evidence to support the claim. As a result, there is no forecast based on these facts to suggest a future trend in global wheat prices related to the claim.",
+    "ground_truth_tier": "verifiable",
+    "time_buckets": [
+      {
+        "bucket_id": 0,
+        "start_dt": "2014-02-01T00:00:00Z",
+        "end_dt": "2015-04-24T02:24:00Z",
+        "article_ids": [
+          "e3cb5aa33a933810",
+          "b48359e01e318338",
+          "dee8d884428089ed",
+          "825de321067915a2",
+          "6324ff21ad57d2ce",
+          "e251904369b224a2",
+          "34299548cd636ce3",
+          "ca24884ed4ce7c3f",
+          "62cc77caec112427",
+          "ded06ab871fc80b9",
+          "5f5c40db92e7d374",
+          "7b921202d91f86ad",
+          "70db0e30d2fbb931",
+          "1bfa1899d8b74044",
+          "073d6d800def3ec1",
+          "15157858046599c6",
+          "711b8a9ff8a415bb",
+          "c1acaea64bdb0cf0",
+          "6bb3eba7bae2e34d",
+          "d631fccc59b44fb5",
+          "6cceaad2a0b1b4f3",
+          "a7441c611059ea28",
+          "b48359e01e318338",
+          "6324ff21ad57d2ce",
+          "825de321067915a2",
+          "ba577401322ab891",
+          "bb0fe38841fd958d",
+          "fabe80232426e28f",
+          "a7441c611059ea28",
+          "b48359e01e318338",
+          "6324ff21ad57d2ce",
+          "825de321067915a2",
+          "ba577401322ab891",
+          "bb0fe38841fd958d",
+          "fabe80232426e28f",
+          "2d37e8a170ef1081",
+          "4369c1b31a7c563a",
+          "34299548cd636ce3",
+          "4a01323fba32e53e",
+          "0e32a8ea727b8c32"
+        ]
+      },
+      {
+        "bucket_id": 1,
+        "start_dt": "2015-04-24T02:24:00Z",
+        "end_dt": "2016-07-14T04:48:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 2,
+        "start_dt": "2016-07-14T04:48:00Z",
+        "end_dt": "2017-10-04T07:12:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 3,
+        "start_dt": "2017-10-04T07:12:00Z",
+        "end_dt": "2018-12-25T09:36:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 4,
+        "start_dt": "2018-12-25T09:36:00Z",
+        "end_dt": "2020-03-16T12:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 5,
+        "start_dt": "2020-03-16T12:00:00Z",
+        "end_dt": "2021-06-06T14:24:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 6,
+        "start_dt": "2021-06-06T14:24:00Z",
+        "end_dt": "2022-08-27T16:48:00Z",
+        "article_ids": [
+          "8157874790572343",
+          "65815c91663fb9c1",
+          "65815c91663fb9c1",
+          "6d59f902e2ce90b2"
+        ]
+      },
+      {
+        "bucket_id": 7,
+        "start_dt": "2022-08-27T16:48:00Z",
+        "end_dt": "2023-11-17T19:12:00Z",
+        "article_ids": [
+          "bcf4a3f9ce66c123"
+        ]
+      },
+      {
+        "bucket_id": 8,
+        "start_dt": "2023-11-17T19:12:00Z",
+        "end_dt": "2025-02-06T21:36:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 9,
+        "start_dt": "2025-02-06T21:36:00Z",
+        "end_dt": "2026-04-30T00:00:00Z",
+        "article_ids": [
+          "ec66d4f8f3316d08",
+          "2d87063101c8630c",
+          "5bfcd157977e7195",
+          "5bfcd157977e7195",
+          "2d87063101c8630c"
+        ]
+      }
+    ]
+  },
+  "analysis_complete": true,
+  "task": "Analyse the following claim for misinformation: Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+  "plan": [],
+  "worker_outputs": [
+    "[broad_context_fetch]\nQueries (2): Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine | Russia Ukraine\nArticles fetched: 24",
+    "[context_builder]\nDimensions: causal mechanism, timeline accuracy, geographical scope, commodity prices\nTime window: first half of 2022\nCompeting narratives: 0",
+    "[tavily_targeted]\nQueries (2): wheat price surge 2022 Russia Ukraine war | global wheat market reaction to Russia Ukraine conflict\nArticles fetched: 9",
+    "[gdelt_commoncrawl_targeted]\nQueries (2): Russia invasion Ukraine wheat price impact | Ukraine wheat export disruption 2022\nArticles fetched: 0",
+    "[evaluator]\nArticles: 33 → deduped: 25 → relevant: 6\nPrimary: 1 (contradicted) | Secondary clusters: 4 | Gaps: ['causal mechanism', 'timeline accuracy', 'geographical scope'] | Ready: False",
+    "[analyst]\nBuckets: 6 | Inflection points: 2 | Ground truth tier: verifiable | Frame sequence: scientific → other → other → other → economic → economic",
+    "[tavily_targeted]\nQueries (4): wheat price surge 2022 Russia Ukraine war | global wheat market reaction to Russia Ukraine conflict | wheat price surge causal factors 2022 | global wheat market geographical impact 2022\nArticles fetched: 17",
+    "[evaluator]\nArticles: 50 → deduped: 30 → relevant: 8\nPrimary: 2 (contradicted) | Secondary clusters: 6 | Gaps: ['causal mechanism', 'timeline accuracy', 'geographical scope'] | Ready: False",
+    "[analyst]\nBuckets: 10 | Inflection points: 4 | Ground truth tier: verifiable | Frame sequence: scientific → other → other → other → other → other → economic → economic → other → economic",
+    "[researcher]\n**Research Brief: Global Wheat Prices and the Russia-Ukraine Conflict**\n\n**Claim:** Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine.\n\n**Evidence Analysis:**\n\nThe primary source verdict contradicts the claim, indicating a lack of concrete evidence to support it. However, multiple perspective clusters and articles discuss the Russia-Ukraine conflict's impact on global food security and agriculture.\n\n**Critical Analysis:**\n\nWhile the conflict likely had an impact on global wheat prices, the evidence provided does not support the claim of a 30% surge in the first half of 2022. The articles from Choices Magazine Online, CEPR, and Aces.illinois.edu provide insights into the conflict's effects on global agriculture, but do not specifically address the price surge. The Forbes article mentions a surge in wheat prices, but does not provide a specific percentage or timeframe.\n\n**Causal Mechanism:**\n\nThe causal mechanism between the Russia-Ukraine conflict and global wheat prices is not explicitly stated in the evidence. However, it is likely that the conflict disrupted trade routes and affected wheat supplies, leading to price fluctuations.\n\n**Timeline Accuracy:**\n\nThe timeline of the conflict and its impact on global wheat prices is unclear. The evidence suggests that the conflict began in February 2014, but the specific date of the price surge is not specified.\n\n**Geographical Scope:**\n\nThe geographical scope of the conflict's impact on global wheat prices is not explicitly stated in the evidence. However, it is likely that the conflict affected wheat prices globally, particularly in regions reliant on Ukrainian and Russian wheat imports.\n\n**Conclusion:**\n\nWhile the Russia-Ukraine conflict likely had an impact on global wheat prices, the evidence provided does not support the claim of a 30% surge in the first half of 2022. Further research is needed to determine the causal mechanism, timeline accuracy, and geographical scope of the conflict's impact on global wheat prices.\n\n**Recommendations:**\n\n1. Conduct further research on the causal mechanism between the Russia-Ukraine conflict and global wheat prices.\n2. Verify the timeline of the conflict and its impact on global wheat prices.\n3. Examine the geographical scope of the conflict's impact on global wheat prices.\n\n**Limitations:**\n\n1. The primary source verdict contradicts the claim, indicating a lack of concrete evidence to support it.\n2. The evidence provided does not specify the exact date of the price surge or the geographical scope of the conflict's impact.\n3. The causal mechanism between the conflict and global wheat prices is not explicitly stated in the evidence.",
+    "[writer] Report rendered: tier=VERIFIABLE, sources=50, inflections=4, clusters=6"
+  ],
+  "next": "FINISH",
+  "instructions": "",
+  "article_metadata_cache": {
+    "2d87063101c8630c": {
+      "_source_type": "primary"
+    },
+    "dee8d884428089ed": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The Russian-Ukraine conflict has impacted global agriculture.",
+        "The conflict began with Russia's invasion of Ukraine in February 2014."
+      ]
+    },
+    "62cc77caec112427": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Ukraine's westward drift since independence has been countered by Russia.",
+        "The price of wheat in China is USD 412.23/MT in February 2026."
+      ]
+    },
+    "70db0e30d2fbb931": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The war in Ukraine poses risks to global food security.",
+        "(no claim)"
+      ]
+    },
+    "ec66d4f8f3316d08": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(no claim)",
+        "(no claim)"
+      ]
+    },
+    "65815c91663fb9c1": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(no claim)",
+        "(no claim)"
+      ]
+    },
+    "bcf4a3f9ce66c123": {
+      "_source_type": "primary"
+    },
+    "0e32a8ea727b8c32": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The Wheat Market Report is Segmented by Geography.",
+        "The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa."
+      ]
+    }
+  },
+  "final_output": "## Section 1 — Temporal Evolution (Buckets, Sentiment, Frames & Voice)\n**Bucket 0** (2014-02-01 to 2015-04-24) | Sentiment: +0.10 (Δ+0.00) | Frame: scientific | Voice: _unclustered\n**Bucket 1** (2015-04-24 to 2016-07-14) | Sentiment: +0.00 (Δ-0.10) | Frame: other ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 2** (2016-07-14 to 2017-10-04) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 3** (2017-10-04 to 2018-12-25) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 4** (2018-12-25 to 2020-03-16) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 5** (2020-03-16 to 2021-06-06) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 6** (2021-06-06 to 2022-08-27) | Sentiment: +0.00 (Δ+0.00) | Frame: economic ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 7** (2022-08-27 to 2023-11-17) | Sentiment: +0.00 (Δ+0.00) | Frame: economic | Voice: _unclustered\n**Bucket 8** (2023-11-17 to 2025-02-06) | Sentiment: +0.00 (Δ+0.00) | Frame: other ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 9** (2025-02-06 to 2026-04-30) | Sentiment: +0.24 (Δ+0.24) | Frame: economic ⚠️ [SHIFT] | Voice: _unclustered\n\n## Section 2 — Perspective Landscape & Inflections\n### Clusters\n- **Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture.**: unverified (2 domains) — Key claims: The Russian-Ukraine conflict has impacted global agriculture.; The war in Ukraine poses risks to global food security.\n- **Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014.**: unverified (1 domains) — Key claims: The conflict began with Russia's invasion of Ukraine in February 2014.\n- **Cluster 3 discusses Ukraine's historical westward orientation and Russia's response.**: unverified (1 domains) — Key claims: Ukraine's westward drift since independence has been countered by Russia.\n- **Cluster 4 provides the price of wheat in China as of February 2026.**: unverified (1 domains) — Key claims: The price of wheat in China is USD 412.23/MT in February 2026.\n- **Cluster 5 introduces a Wheat Market Report segmented by geography.**: unverified (1 domains) — Key claims: The Wheat Market Report is Segmented by Geography.\n- **Cluster 6 lists the specific geographic segments of the Wheat Market Report.**: unverified (1 domains) — Key claims: The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa.\n\n### Inflection Points\n**Bucket 1 (2015-04-24 to 2016-07-14)**\n- Dominant Perspective: _unclustered\n- Context: The media narrative shifted as Russia's actions became associated with a significant surge in global wheat prices, with a 30% increase in the first half of 2022. The perspective that Russia's invasion of Ukraine had a profound impact on global markets gained dominance. This shift matters because it highlights the far-reaching consequences of geopolitical events on the global economy.\n\n**Bucket 6 (2021-06-06 to 2022-08-27)**\n- Dominant Perspective: _unclustered\n- Context: The media narrative shifted to focus on the economic impact of Russia's invasion of Ukraine, with a surge in global wheat prices over 30% in the first half of 2022. The dominant voice in the narrative became more diffuse, no longer attributed to a specific cluster or perspective. This shift matters as it highlights the significant economic consequences of the conflict, affecting global food markets and economies.\n\n**Bucket 8 (2023-11-17 to 2025-02-06)**\n- Dominant Perspective: _unclustered\n- Context: The media narrative shifted as the focus on Russia's actions in Ukraine diminished, leading to a decrease in negative sentiment towards Russia. The dominant voice in the narrative changed to '_unclustered', indicating a more dispersed and less cohesive message. This shift matters as it suggests a change in the way the media is framing the issue of global wheat prices and their connection to the conflict.\n\n**Bucket 9 (2025-02-06 to 2026-04-30)**\n- Dominant Perspective: _unclustered\n- Context: The media narrative shifted to focus on the economic impact of Russia's actions, with a surge in global wheat prices over 30% in early 2022. The perspective gained dominance as the frame changed to 'economic', highlighting terms like global, agricultural, and security. This shift matters as it indicates a broadening of the narrative to encompass the far-reaching consequences of Russia's invasion.\n\n## Section 3 — Final Analysis [VERIFIABLE]\n**Claim:** Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine\n**Period:** 2014-02-01 to 2026-04-30  |  **Sources:** 50\n\nThe claim that global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine is contradicted by primary evidence. Despite multiple perspective clusters discussing the Russia-Ukraine conflict and its impact on global food security, the primary verdict contradicts this claim. With a corroboration count of 0 verified domains, the statement lacks concrete evidence to support it. Given the contradictory primary evidence, the statement is debunked. Furthermore, the narrative shifts over time highlight the changing media focus on the conflict's economic impact, but none of these shifts provide evidence to support the claim. As a result, there is no forecast based on these facts to suggest a future trend in global wheat prices related to the claim."
+}

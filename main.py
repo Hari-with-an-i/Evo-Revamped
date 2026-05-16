@@ -72,22 +72,19 @@ def run(raw_input: str, input_type: str = "claim") -> dict:
 if __name__ == "__main__":
     import sys
 
-    raw = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else (
-        "The WHO confirmed that 5G towers spread COVID-19 in densely populated cities."
-    )
-    itype = "claim"
+    raw = " ".join(sys.argv[1:])
+    itype = "raw_text" if len(raw)>300 else "claim"
 
     result = run(raw, itype)
 
     final = result.get("final_output")
     if final:
         print("\n=== REPORT ===")
-        print(final)
+        sys.stdout.buffer.write((final + "\n").encode("utf-8", errors="replace"))
     else:
         print("\n=== WORKER OUTPUTS ===")
         for output in result.get("worker_outputs", []):
-            print(output)
-            print("---")
+            sys.stdout.buffer.write((output + "\n---\n").encode("utf-8", errors="replace"))
 
     articles = result.get("retrieved_articles", [])
     print(f"\n=== CORPUS: {len(articles)} articles ===")

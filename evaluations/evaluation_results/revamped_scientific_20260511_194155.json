@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "claim": "AI will replace all junior software developers by 2030",
+    "input_file": "evaluations\\revamped_outputs\\revamped_ai_will_replace_all_junior_software_developers_by_2030_20260511_193316.json",
+    "generated_at": "2026-05-11T19:41:55.280313+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 0.7143,
+    "total_claims": 7,
+    "grounded_claims": 5,
+    "claim_details": [
+      {
+        "claim": "The claim that AI will replace all junior software developers by 2030 is contradicted by the primary verdict.",
+        "is_grounded": true,
+        "combined_score": 0.7649,
+        "nli_entailment_score": 0.9908,
+        "semantic_similarity": 0.6143,
+        "best_matching_evidence": "Despite predictions that AI would replace 90% of developers by 2030, companies are now quietly rehiring software engineers. The author questions whether investing in software development is worthwhile due to the potential impact of AI. AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'. AI has changed the career pathway for junior developers. AI is reshaping software engineering workflows."
+      },
+      {
+        "claim": "The perspective clusters provide a nuanced view of the impact of AI on software development, with some arguing against the idea of replacement.",
+        "is_grounded": true,
+        "combined_score": 0.7733,
+        "nli_entailment_score": 0.9237,
+        "semantic_similarity": 0.673,
+        "best_matching_evidence": "A Junior Software Developer is being sought to join a growing team. The article discusses the impact of AI on software development and careers. Claims in this cluster discuss how AI is changing the landscape of software development and the role of developers, with some arguing against the idea that AI will replace human developers. This cluster contains a job posting for a Junior Software Developer. This cluster appears to be a general discussion about the impact of AI on software development an"
+      },
+      {
+        "claim": "The key narrative shifts indicate a change in sentiment towards junior software developers, with a growing recognition of their value in the industry.",
+        "is_grounded": true,
+        "combined_score": 0.7539,
+        "nli_entailment_score": 0.9918,
+        "semantic_similarity": 0.5954,
+        "best_matching_evidence": "A Junior Software Developer is being sought to join a growing team. The article discusses the impact of AI on software development and careers. Claims in this cluster discuss how AI is changing the landscape of software development and the role of developers, with some arguing against the idea that AI will replace human developers. This cluster contains a job posting for a Junior Software Developer. This cluster appears to be a general discussion about the impact of AI on software development an"
+      },
+      {
+        "claim": "The corroboration count and specific domain roots support this view, with 4 domains in the first perspective cluster providing evidence against the claim.",
+        "is_grounded": false,
+        "combined_score": 0.1675,
+        "nli_entailment_score": 0.0006,
+        "semantic_similarity": 0.2787,
+        "best_matching_evidence": "This cluster appears to be a general discussion about the impact of AI on software development and careers."
+      },
+      {
+        "claim": "Based on the facts, it is unlikely that AI will replace all junior software developers by 2030.",
+        "is_grounded": true,
+        "combined_score": 0.4905,
+        "nli_entailment_score": 0.1116,
+        "semantic_similarity": 0.7431,
+        "best_matching_evidence": "Despite predictions that AI would replace 90% of developers by 2030, companies are now quietly rehiring software engineers. The author questions whether investing in software development is worthwhile due to the potential impact of AI. AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'. AI has changed the career pathway for junior developers. AI is reshaping software engineering workflows."
+      },
+      {
+        "claim": "Instead, AI is likely to augment the work of junior software developers, changing the nature of their roles and increasing their productivity.",
+        "is_grounded": true,
+        "combined_score": 0.8132,
+        "nli_entailment_score": 0.9397,
+        "semantic_similarity": 0.7288,
+        "best_matching_evidence": "AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'. AI has changed the career pathway for junior developers. AI is reshaping software engineering workflows. Artificial intelligence is now an influential factor in reshaping software development. A Junior Software Developer is being sought to join a growing team."
+      },
+      {
+        "claim": "Forecast: By 2030, junior software developers will work alongside AI systems, focusing on high-level tasks that require creativity, problem-solving, and human judgment, while AI handles routine and repetitive tasks.",
+        "is_grounded": false,
+        "combined_score": 0.4497,
+        "nli_entailment_score": 0.0034,
+        "semantic_similarity": 0.7473,
+        "best_matching_evidence": "A Junior Software Developer is being sought to join a growing team. The article discusses the impact of AI on software development and careers. Claims in this cluster discuss how AI is changing the landscape of software development and the role of developers, with some arguing against the idea that AI will replace human developers. This cluster contains a job posting for a Junior Software Developer. This cluster appears to be a general discussion about the impact of AI on software development an"
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.9145,
+    "query": "AI will replace all junior software developers by 2030",
+    "semantic_relevance": {
+      "narrative_summary": 0.8955,
+      "perspective_clusters": 0.7892,
+      "overall": 0.8423
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "replace",
+        "software",
+        "junior",
+        "developers",
+        "will",
+        "all"
+      ],
+      "covered_terms": [
+        "replace",
+        "software",
+        "junior",
+        "developers",
+        "will",
+        "all"
+      ],
+      "coverage_score": 0.9477
+    },
+    "specificity": {
+      "on_topic_similarity": 0.8955,
+      "off_topic_similarity": 0.0335,
+      "specificity_score": 0.9626
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 3,
+    "article_counts": [
+      2.0,
+      1.0,
+      1.0
+    ],
+    "probabilities": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "shannon_entropy_bits": 1.5,
+    "max_entropy_bits": 1.585,
+    "normalised_entropy": 0.9464,
+    "interpretation": "H = 1.5000 bits out of a maximum 1.5850 bits for 3 clusters. Normalised H = 0.9464 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 7,
+    "n_populated_buckets": 4,
+    "time_indices": [
+      0.0,
+      2.0,
+      5.0,
+      6.0
+    ],
+    "sentiment_values": [
+      0.0568,
+      0.8575,
+      0.4259,
+      0.0
+    ],
+    "pearson_r": -0.1562,
+    "interpretation": "r = -0.1562 — weak negative linear relationship between time and sentiment. No strong linear sentiment trend detected across time buckets."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 2,
+    "matched": 0,
+    "unmatched": 2,
+    "precision_at_k": 0.0,
+    "mean_correlated_event_plausibility": null,
+    "matched_events": [],
+    "interpretation": "P@2 = 0/2 = 0.0000. 0 of 2 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. "
+  }
+}

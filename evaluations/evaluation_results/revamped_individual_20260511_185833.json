@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "claim": "AI will replace all junior software developers by 2030",
+    "input_file": "evaluations\\revamped_outputs\\revamped_ai_will_replace_all_junior_software_developers_by_2030_20260511_185719.json",
+    "generated_at": "2026-05-11T18:58:33.037551+00:00",
+    "metric_weights": {
+      "groundedness": 0.3,
+      "narrative_coverage": 0.2,
+      "evidence_quality": 0.25,
+      "pipeline_intelligence": 0.25
+    },
+    "is_dry_run": false
+  },
+  "groundedness": {
+    "system": "Evo-Revamped",
+    "groundedness_score": 0.35,
+    "total_claims": 12,
+    "grounded_claims": 0,
+    "primary_evidence": false,
+    "primary_verdict": "none",
+    "note": "Score derived from NLI-verified perspective clusters. Each cluster survived pairwise NLI entailment scoring (≥0.60 threshold). Primary source verdict provides an additional fidelity signal absent in Evo."
+  },
+  "narrative_coverage": {
+    "metric": "Narrative Coverage",
+    "score": 0.6,
+    "sections_present": 7,
+    "sections_expected": 7,
+    "section_fraction": 1.0,
+    "coverage_gaps": [
+      "causal mechanism",
+      "timeline accuracy",
+      "source credibility",
+      "geographical scope"
+    ],
+    "gap_penalty": 0.6,
+    "note": "7/7 expected report sections are populated. 4 unresolved coverage gap(s) applied a 40% penalty to the section completeness score."
+  },
+  "evidence_quality": {
+    "metric": "Evidence Quality",
+    "score": 0.35,
+    "total_articles": 7,
+    "weighted_score_sum": 2.45,
+    "cluster_breakdown": [
+      {
+        "cluster_label": "Microsoft CTO Kevin Scott predicts 95% of programming code will be AI-generated ",
+        "corroboration_level": "unverified",
+        "article_count": 0,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "AI Speaker, Trainer and Coach Aditya Guthey summarized this prediction from Micr",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "Epoch AI published a report on AI in 2030 commissioned by Google DeepMind.",
+        "corroboration_level": "unverified",
+        "article_count": 0,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "The report was authored by Epoch AI and reflects their views, not necessarily Go",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "Demand for entry-level programmers is declining due to AI competition.",
+        "corroboration_level": "unverified",
+        "article_count": 0,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "New evidence suggests AI is impacting job opportunities for young programmers.",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "The growing use of AI coding assistants is driving down demand for junior develo",
+        "corroboration_level": "unverified",
+        "article_count": 0,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "Companies are looking to cut costs by reducing junior developer hires.",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "Junior Software Developers assist with all aspects of software design and coding",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "The average salary for a Junior Software Developer in the US is $76,712 per year",
+        "corroboration_level": "unverified",
+        "article_count": 0,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "This salary is $12,264 less than the national average.",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      },
+      {
+        "cluster_label": "Junior developers remain essential in the industry despite increasing use of AI ",
+        "corroboration_level": "unverified",
+        "article_count": 1,
+        "weight": 0.35
+      }
+    ],
+    "note": "Score is a weighted average of NLI corroboration levels across 12 clusters (7 total articles). Weights: corroborated=1.0, partial=0.75, unverified=0.35."
+  },
+  "pipeline_intelligence": {
+    "metric": "Pipeline Intelligence",
+    "score": 0.7091,
+    "components": {
+      "temporal_coverage": 0.6274,
+      "source_diversity": 0.5,
+      "perspective_diversity": 1.0
+    },
+    "note": "Equal-weighted composite of temporal coverage depth, retrieval source diversity, and NLI perspective diversity — three structural capabilities absent in legacy Evo."
+  },
+  "temporal_detail": {
+    "system": "Evo-Revamped",
+    "temporal_coverage_days": 229,
+    "time_bucket_count": 7,
+    "temporal_coverage_score": 0.6274,
+    "note": "Revamped retrieves from GDELT, Common Crawl, and Tavily across 7 predefined historical phases spanning ~229 days. This archival depth is structurally impossible in the legacy system."
+  },
+  "source_detail": {
+    "system": "Evo-Revamped",
+    "distinct_source_types": 1,
+    "source_type_list": [
+      "tavily"
+    ],
+    "source_diversity_score": 0.5,
+    "note": "Revamped retrieved from 1 distinct source type(s): ['tavily']. Multi-source routing is a core architectural feature absent in Evo, ensuring both recency (Tavily) and archival depth (GDELT/CommonCrawl)."
+  },
+  "perspective_detail": {
+    "system": "Evo-Revamped",
+    "perspective_count": 12,
+    "perspective_diversity_score": 1.0,
+    "corroboration_breakdown": {
+      "unverified": 12
+    },
+    "cluster_labels": [
+      "Microsoft CTO Kevin Scott predicts 95% of programming code will be AI-generated ",
+      "AI Speaker, Trainer and Coach Aditya Guthey summarized this prediction from Micr",
+      "Epoch AI published a report on AI in 2030 commissioned by Google DeepMind.",
+      "The report was authored by Epoch AI and reflects their views, not necessarily Go",
+      "Demand for entry-level programmers is declining due to AI competition."
+    ],
+    "note": "Revamped identified 12 NLI-verified perspective clusters via DeBERTa-v3-small pairwise entailment scoring. Each cluster represents a structurally distinct viewpoint in the media ecosystem, enabling multi-sided analysis."
+  },
+  "per_metric_scores": {
+    "groundedness": 0.35,
+    "narrative_coverage": 0.6,
+    "evidence_quality": 0.35,
+    "pipeline_intelligence": 0.7091
+  },
+  "composite_score": 0.4898
+}

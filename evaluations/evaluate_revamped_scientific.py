@@ -115,16 +115,24 @@ def compute_shannon_entropy(clusters: list[dict]) -> dict:
 # =============================================================================
 
 def compute_sentiment_pearson(sentiment_timeline: list[dict]) -> dict:
-    if len(sentiment_timeline) < 2:
+    # Only include buckets that actually contain articles — empty buckets
+    # default to 0.0 sentiment, which introduces artificial oscillation and
+    # corrupts the linear trend signal.
+    populated = [b for b in sentiment_timeline if b.get("article_count", 0) > 0]
+
+    if len(populated) < 2:
         return {
             "metric": "Sentiment Trend Coherence (Pearson r)",
             "n_buckets": len(sentiment_timeline),
             "pearson_r": None,
-            "interpretation": "Insufficient data points for correlation (need ≥ 2 buckets).",
+            "interpretation": (
+                "Insufficient populated buckets for correlation "
+                f"(need ≥ 2 non-empty buckets, found {len(populated)})."
+            ),
         }
 
-    t = np.array([b["bucket_id"] for b in sentiment_timeline], dtype=float)
-    s = np.array([b["mean_sentiment"] for b in sentiment_timeline], dtype=float)
+    t = np.array([b["bucket_id"] for b in populated], dtype=float)
+    s = np.array([b["mean_sentiment"] for b in populated], dtype=float)
 
     # Pearson r from numpy
     r = float(np.corrcoef(t, s)[0, 1])
@@ -142,7 +150,8 @@ def compute_sentiment_pearson(sentiment_timeline: list[dict]) -> dict:
 
     return {
         "metric": "Sentiment Trend Coherence (Pearson r)",
-        "n_buckets": len(t),
+        "n_buckets": len(sentiment_timeline),
+        "n_populated_buckets": len(t),
         "time_indices": t.tolist(),
         "sentiment_values": s.tolist(),
         "pearson_r": round(r, 4),
@@ -270,7 +279,8 @@ def run_scientific_evaluation(revamped_path: Path) -> dict:
     print("\n" + "="*60)
     print("METRIC 1 — Groundedness (Hybrid NLI + SBERT)")
     print("="*60)
-    g_eval  = GroundednessEvaluator(threshold=0.30, nli_weight=0.4, sim_weight=0.6)
+    g_eval  = GroundednessEvaluator(threshold=0.30, nli_weight=0.4, sim_weight=0.6,
+                                     min_nli_score=0.10)
     g_result = g_eval.evaluate(summary, evidence_snippets)
 
     # ── Metric 2: Query Relevance (same evaluator as Evo, local fallback) ─────

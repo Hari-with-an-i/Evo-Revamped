@@ -1,0 +1,847 @@
+{
+  "messages": [
+    "content='AI will replace all junior software developers by 2030' additional_kwargs={} response_metadata={} id='9e388ada-ca37-4897-9f0f-ca3232a20b94'"
+  ],
+  "raw_input": "AI will replace all junior software developers by 2030",
+  "input_type": "claim",
+  "claim": "AI will replace all junior software developers by 2030",
+  "entities": [
+    "AI",
+    "junior software developers"
+  ],
+  "timeframe": "2030",
+  "claim_complexity": "complex",
+  "context_summary": {
+    "who": "AI, junior software developers, Microsoft CTO Kevin Scott",
+    "what": "AI replacing junior software developers",
+    "when": "by 2030",
+    "relevant_time_periods": [
+      {
+        "start_date": "2020-01-01",
+        "end_date": "2020-12-31",
+        "phase_description": "Initial article publication"
+      },
+      {
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "phase_description": "Stack Overflow article published"
+      },
+      {
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "phase_description": "Softteco article published"
+      },
+      {
+        "start_date": "2025-01-01",
+        "end_date": "2030-12-31",
+        "phase_description": "Claims of AI replacing developers by 2030"
+      }
+    ],
+    "competing_narratives": "Damco group disagrees, AI will augment not replace developers|Softteco suggests AI will change but not replace developer roles",
+    "claim_dimensions": "causal mechanism|timeline accuracy|source credibility|geographical scope"
+  },
+  "retrieved_articles": [
+    {
+      "id": "66a6e50390062cd9",
+      "title": "Will AI Replace Software Engineers by 2030? | Trends & Insights",
+      "body": "+16096320350 Thanks for stopping by! Know how Damco can help you drive business success with its powerful technology solutions and services.",
+      "source_name": "www.damcogroup.com",
+      "source_url": "https://www.damcogroup.com/blogs/will-ai-replace-developers",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "01197aabfed21973",
+      "title": "AI vs Gen Z: How AI has changed the career pathway for junior ...",
+      "body": "Stack Overflow Business Stack Internal: the knowledge intelligence layer that powers enterprise AI.Stack Data Licensing: decades of verified, technical knowledge to boost AI performance and trust.Stack Ads: engage developers where it matters — in their daily workflow.",
+      "source_name": "stackoverflow.blog",
+      "source_url": "https://stackoverflow.blog/2025/12/26/ai-vs-gen-z/",
+      "published_at": "2025-12-26T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "be5e6b5c8afba05d",
+      "title": "Will AI Replace Software Engineers by 2030? 🤖",
+      "body": "All Services Software Development Software Development Software development service details End-to-End development Software Consulting Custom Software Development MVP Development Kiosk Software Development Application Modernization Software Maintenance and Support Code Review Vibe Coding Cleanup Database Development API Development Custom CRM Development Engagement Models Software Development Outsourcing Dedicated Development Team Nearshore Software Development IT Staff Augmentation Who we serve Enterprise Software Development Software Development for Startups Software Product Development Web Development Web Development Web development service details Web Development Consulting Web Design Web Portal Development B2B Portal Development WordPress Development Drupal Development Mobile Development Mobile Development Mobile app development service details iOS App Development Hire iOS Developers Android App Development Cross-Platform App Development Mobile App Design App Support and Maintenance UI/UX Design UI/UX Design UI/UX design service details UI Design UX Design Web Design Mobile App Design UX Consulting Testing & QA Testing & QA Our software testing & QA services Test Automation St",
+      "source_name": "softteco.com",
+      "source_url": "https://softteco.com/blog/will-ai-replace-software-engineers",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "8449c63ae1f3fc3c",
+      "title": "AI will replace 95% of coding by 2030, predicts Microsoft CTO | Aditya Guthey, AI Speaker, Trainer and Coach posted on the topic | LinkedIn",
+      "body": "This title was summarized by AI from the post below. Aditya Guthey, AI Speaker, Trainer and Coach Delivered Talks at 100+ Events Worldwide| Coached 100s of Leaders to Build and Scale High Impact Tech Teams| Spent Over a Decade Building Data and AI Systems Report this post 95% of programming code will be AI-generated by 2030 predicts Microsoft CTO Kevin Scott.",
+      "source_name": "www.linkedin.com",
+      "source_url": "https://www.linkedin.com/posts/adityaguthey_futureofcoding-airevolution-careergrowth-activity-7339041692630605825-jg9n",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "3710cf8b8f2ee8f6",
+      "title": "[PDF] AI in 2030 | Epoch AI",
+      "body": "AI in 2030 Extrapolating current trends This Epoch AI report was commissioned by Google DeepMind. All points of views and conclusions expressed are those of the authors and do not necessarily reflect the position or endorsement of Google DeepMind.",
+      "source_name": "epoch.ai",
+      "source_url": "https://epoch.ai/files/AI_2030.pdf",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "4e439536a2eac7a4",
+      "title": "How AI Will Transform Software Engineering Jobs by 2030: Insights from Industry Experts - DEV Community",
+      "body": "Posted on Sep 15, 2025 • Edited on Apr 8 As a software engineer with over a decade of experience, I’ve witnessed firsthand how AI is reshaping software engineering workflows.",
+      "source_name": "dev.to",
+      "source_url": "https://dev.to/m-a-h-b-u-b/how-ai-will-transform-software-engineering-jobs-by-2030-insights-from-a-software-engineer-with-10-2jh2",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "80a75d83532e6e79",
+      "title": "New evidence strongly suggests AI is killing jobs for young programmers",
+      "body": "Last fall, I started hearing that demand for entry-level programmers was in free fall thanks to competition from AI.",
+      "source_name": "www.understandingai.org",
+      "source_url": "https://www.understandingai.org/p/new-evidence-strongly-suggest-ai",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "60b49578d97586c5",
+      "title": "Demand for junior developers softens as AI takes over | CIO",
+      "body": "Growing use of AI coding assistants and low-code development tools appears to be driving down demand for junior developers as many companies look to cut workforce expenses.",
+      "source_name": "www.cio.com",
+      "source_url": "https://www.cio.com/article/4062024/demand-for-junior-developers-softens-as-ai-takes-over.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI will replace all junior software developers by 2030"
+    },
+    {
+      "id": "45ae6eb640f87e32",
+      "title": "How AI is Reshaping Training for the Next Generation of Developers",
+      "body": "Learn how AI for developers is shaping the future of coding, making it easier for newcomers to learn and grow in their careers.",
+      "source_name": "trainingmag.com",
+      "source_url": "https://trainingmag.com/how-ai-is-reshaping-training-for-the-next-generation-of-developers/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI junior software developers"
+    },
+    {
+      "id": "05c4237283853bd6",
+      "title": "The Future of Junior Software Developers in the Age of AI/ML",
+      "body": "Sitemap Open in app Get app Write Search Daniel Gwerzman Follow 5 min read · Jan 31, 2023 35 1 Listen Share Press enter or click to view image in full size The software development industry is constantly evolving, and with the rise of Artificial Intelligence (AI), the landscape is changing faster than ever before.",
+      "source_name": "medium.com",
+      "source_url": "https://medium.com/@zps270/the-future-of-junior-software-developers-in-the-age-of-ai-ml-8532288e7055",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI junior software developers"
+    },
+    {
+      "id": "8ebfed3f75e8f61f",
+      "title": "Generative AI in Software Development - Coursera",
+      "body": "This course is part of Amazon Junior Software Developer Professional Certificate Instructor: Amazon 8,821 already enrolled Included with •Learn more 3 modules Gain insight into a topic and learn the fundamentals.",
+      "source_name": "www.coursera.org",
+      "source_url": "https://www.coursera.org/learn/generative-ai-in-software-development",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI junior software developers"
+    },
+    {
+      "id": "d5f2d60e36a858ef",
+      "title": "Entry-Level AI Jobs: Launching Your Career in Artificial Intelligence",
+      "body": "Written by Coursera Staff • Updated on Many businesses use AI, opening up opportunities for various options to get an entry-level job in this exciting field.",
+      "source_name": "www.coursera.org",
+      "source_url": "https://www.coursera.org/articles/entry-level-ai-jobs",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI junior software developers"
+    },
+    {
+      "id": "d605ea7a4e8bb3c6",
+      "title": "AI is a death trap for many junior devs. How do I mentor them out of it?",
+      "body": "AI is a death trap for many junior devs. How do I mentor them out of it? : r/ExperiencedDevs Open menu Open navigationGo to Reddit Home r/ExperiencedDevs Get App Get the Reddit app to Reddit Expand user menu Open settings menu Go to ExperiencedDevs r/ExperiencedDevs•5mo ago MoltenMirrors I'm noticing a pattern with many recent grads (yes, my company still hires them).",
+      "source_name": "www.reddit.com",
+      "source_url": "https://www.reddit.com/r/ExperiencedDevs/comments/1po21hq/ai_is_a_death_trap_for_many_junior_devs_how_do_i/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI junior software developers"
+    },
+    {
+      "id": "dbc509062908ac81",
+      "title": "What AI means for junior software engineers - Inventitech.com",
+      "body": "Used to be amateur cyclist, now pro software engineering researcher at a large social network company.",
+      "source_name": "inventitech.com",
+      "source_url": "https://inventitech.com/blog/what-ai-means-for-juniors/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI junior software developers"
+    },
+    {
+      "id": "66a6e50390062cd9",
+      "title": "Will AI Replace Software Engineers by 2030? | Trends & Insights",
+      "body": "+16096320350 Thanks for stopping by! Know how Damco can help you drive business success with its powerful technology solutions and services.",
+      "source_name": "www.damcogroup.com",
+      "source_url": "https://www.damcogroup.com/blogs/will-ai-replace-developers",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI replacing junior software developers by 2030"
+    },
+    {
+      "id": "e077f7591eb4b37a",
+      "title": "The Future of AI by 2030: What Experts Predict (And What to Do Now)",
+      "body": "AI News & Trends | AI Tools ByAlex Roberts > By 2030, AI will be embedded in nearly every sector of the global economy.",
+      "source_name": "aiautomationhacks.com",
+      "source_url": "https://aiautomationhacks.com/the-future-of-ai-by-2030/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI replacing junior software developers by 2030"
+    },
+    {
+      "id": "6a95df18ecd08240",
+      "title": "AWS CEO says replacing junior devs with AI is 'one of the dumbest ...",
+      "body": "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas' (finalroundai.com) 1073 points by birdculture4 months ago | hide | past | favorite | 532 comments alexgotoi4 months ago | next[[–]](javascript:void(0)) The thing people miss in these “replace juniors with AI” takes is that juniors were never mainly about cheap hands on keyboards.",
+      "source_name": "news.ycombinator.com",
+      "source_url": "https://news.ycombinator.com/item?id=46302267",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI replacing junior software developers by 2030"
+    },
+    {
+      "id": "d42329f3ac35909a",
+      "title": "Future of AI & Automation 2030 | TopTech Trend Forecasting",
+      "body": "Contact Us By Toptech Facebook Twitter Linkedin Artificial Intelligence and automation are no longer buzzwords they’re shaping the future of how businesses operate, grow, and serve customers.",
+      "source_name": "www.toptech.team",
+      "source_url": "https://www.toptech.team/blogs/future-of-ai-automation-2030-toptech-trend-forecasting/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI replacing junior software developers by 2030"
+    },
+    {
+      "id": "3710cf8b8f2ee8f6",
+      "title": "[PDF] AI in 2030 | Epoch AI",
+      "body": "AI in 2030 Extrapolating current trends This Epoch AI report was commissioned by Google DeepMind. All points of views and conclusions expressed are those of the authors and do not necessarily reflect the position or endorsement of Google DeepMind.",
+      "source_name": "epoch.ai",
+      "source_url": "https://epoch.ai/files/AI_2030.pdf",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "AI replacing junior software developers by 2030"
+    }
+  ],
+  "anchor_articles": [],
+  "targeted_queries": [
+    {
+      "query": "AI replacing junior software developers by 2030",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "timeline accuracy",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31"
+    },
+    {
+      "query": "AI replacing junior software developers by 2030",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "causal mechanism",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31"
+    },
+    {
+      "query": "AI replacing junior software developers by 2030",
+      "tool": "tavily",
+      "dimension": "geographical scope",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "Microsoft CTO Kevin Scott on AI replacing junior software developers",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "source credibility",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31"
+    },
+    {
+      "query": "AI replacing junior software developers by 2030",
+      "tool": "scholar_wiki",
+      "dimension": "causal mechanism",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "AI replacement of junior software developers causal mechanism",
+      "tool": "tavily",
+      "dimension": "causal mechanism",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "AI replacement of junior software developers timeline accuracy",
+      "tool": "tavily",
+      "dimension": "timeline accuracy",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "AI replacement of junior software developers source credibility",
+      "tool": "tavily",
+      "dimension": "source credibility",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "AI replacement of junior software developers geographical scope",
+      "tool": "tavily",
+      "dimension": "geographical scope",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "retrieval_loop_count": 2,
+  "retrieval_complete": true,
+  "perspective_clusters": [
+    {
+      "label": "Microsoft CTO predicts AI will generate 95% of programming code by 2030.",
+      "key_claims": [
+        "95% of programming code will be AI-generated by 2030 predicts Microsoft CTO Kevin Scott"
+      ],
+      "article_ids": [
+        "8449c63ae1f3fc3c"
+      ],
+      "domain_roots": [
+        "linkedin.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Similar claim that AI will replace 95% of coding by 2030.",
+      "key_claims": [
+        "AI will replace 95% of coding by 2030"
+      ],
+      "article_ids": [
+        "8449c63ae1f3fc3c"
+      ],
+      "domain_roots": [
+        "linkedin.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Report by Epoch AI and Google DeepMind on AI trends in 2030.",
+      "key_claims": [
+        "Epoch AI published a report commissioned by Google DeepMind on AI trends in 2030",
+        "The report was titled 'AI in 2030'"
+      ],
+      "article_ids": [
+        "3710cf8b8f2ee8f6"
+      ],
+      "domain_roots": [
+        "epoch.ai"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "AI threatens job prospects for young programmers.",
+      "key_claims": [
+        "Demand for entry-level programmers is in free fall due to AI",
+        "AI is killing jobs for young programmers",
+        "AI can be a death trap for many junior developers"
+      ],
+      "article_ids": [
+        "80a75d83532e6e79",
+        "d605ea7a4e8bb3c6"
+      ],
+      "domain_roots": [
+        "reddit.com",
+        "understandingai.org"
+      ],
+      "corroboration_count": 2,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "AI coding assistants reduce demand for junior developers.",
+      "key_claims": [
+        "Growing use of AI coding assistants is driving down demand for junior developers"
+      ],
+      "article_ids": [
+        "60b49578d97586c5"
+      ],
+      "domain_roots": [
+        "cio.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Companies are cutting junior developer hires to save costs.",
+      "key_claims": [
+        "Many companies look to cut workforce expenses by reducing junior developer hires"
+      ],
+      "article_ids": [
+        "60b49578d97586c5"
+      ],
+      "domain_roots": [
+        "cio.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "AI makes coding easier for newcomers and changes training approaches.",
+      "key_claims": [
+        "AI is shaping the future of coding and making it easier for newcomers to learn",
+        "AI for developers is changing how training is approached for the next generation"
+      ],
+      "article_ids": [
+        "45ae6eb640f87e32"
+      ],
+      "domain_roots": [
+        "trainingmag.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Mentoring is necessary for junior developers to navigate AI.",
+      "key_claims": [
+        "Mentoring is necessary to help junior developers navigate AI"
+      ],
+      "article_ids": [
+        "d605ea7a4e8bb3c6"
+      ],
+      "domain_roots": [
+        "reddit.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "AI will be ubiquitous in the global economy by 2030.",
+      "key_claims": [
+        "By 2030, AI will be embedded in nearly every sector of the global economy",
+        "Experts predict AI will have a significant impact on the global economy by 2030"
+      ],
+      "article_ids": [
+        "e077f7591eb4b37a"
+      ],
+      "domain_roots": [
+        "aiautomationhacks.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    }
+  ],
+  "coverage_gaps": [
+    "causal mechanism",
+    "timeline accuracy",
+    "source credibility",
+    "geographical scope"
+  ],
+  "evaluation_ready": null,
+  "primary_evidence_exists": true,
+  "primary_verdict": "silent",
+  "narrative_report": {
+    "claim_snapshot": {
+      "claim": "AI will replace all junior software developers by 2030",
+      "time_period": "2020-01-01 to 2030-12-31",
+      "source_count": 19,
+      "ground_truth_tier": "unresolvable"
+    },
+    "perspective_landscape": [
+      {
+        "label": "Microsoft CTO predicts AI will generate 95% of programming code by 2030.",
+        "key_claims": [
+          "95% of programming code will be AI-generated by 2030 predicts Microsoft CTO Kevin Scott"
+        ],
+        "article_ids": [
+          "8449c63ae1f3fc3c"
+        ],
+        "domain_roots": [
+          "linkedin.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Similar claim that AI will replace 95% of coding by 2030.",
+        "key_claims": [
+          "AI will replace 95% of coding by 2030"
+        ],
+        "article_ids": [
+          "8449c63ae1f3fc3c"
+        ],
+        "domain_roots": [
+          "linkedin.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Report by Epoch AI and Google DeepMind on AI trends in 2030.",
+        "key_claims": [
+          "Epoch AI published a report commissioned by Google DeepMind on AI trends in 2030",
+          "The report was titled 'AI in 2030'"
+        ],
+        "article_ids": [
+          "3710cf8b8f2ee8f6"
+        ],
+        "domain_roots": [
+          "epoch.ai"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "AI threatens job prospects for young programmers.",
+        "key_claims": [
+          "Demand for entry-level programmers is in free fall due to AI",
+          "AI is killing jobs for young programmers",
+          "AI can be a death trap for many junior developers"
+        ],
+        "article_ids": [
+          "80a75d83532e6e79",
+          "d605ea7a4e8bb3c6"
+        ],
+        "domain_roots": [
+          "reddit.com",
+          "understandingai.org"
+        ],
+        "corroboration_count": 2,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "AI coding assistants reduce demand for junior developers.",
+        "key_claims": [
+          "Growing use of AI coding assistants is driving down demand for junior developers"
+        ],
+        "article_ids": [
+          "60b49578d97586c5"
+        ],
+        "domain_roots": [
+          "cio.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Companies are cutting junior developer hires to save costs.",
+        "key_claims": [
+          "Many companies look to cut workforce expenses by reducing junior developer hires"
+        ],
+        "article_ids": [
+          "60b49578d97586c5"
+        ],
+        "domain_roots": [
+          "cio.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "AI makes coding easier for newcomers and changes training approaches.",
+        "key_claims": [
+          "AI is shaping the future of coding and making it easier for newcomers to learn",
+          "AI for developers is changing how training is approached for the next generation"
+        ],
+        "article_ids": [
+          "45ae6eb640f87e32"
+        ],
+        "domain_roots": [
+          "trainingmag.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Mentoring is necessary for junior developers to navigate AI.",
+        "key_claims": [
+          "Mentoring is necessary to help junior developers navigate AI"
+        ],
+        "article_ids": [
+          "d605ea7a4e8bb3c6"
+        ],
+        "domain_roots": [
+          "reddit.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "AI will be ubiquitous in the global economy by 2030.",
+        "key_claims": [
+          "By 2030, AI will be embedded in nearly every sector of the global economy",
+          "Experts predict AI will have a significant impact on the global economy by 2030"
+        ],
+        "article_ids": [
+          "e077f7591eb4b37a"
+        ],
+        "domain_roots": [
+          "aiautomationhacks.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      }
+    ],
+    "sentiment_timeline": [
+      {
+        "bucket_id": 0,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "AI",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 1,
+        "mean_sentiment": 0.2528,
+        "delta": 0.2528,
+        "dominant_entity": "AI",
+        "article_count": 19
+      },
+      {
+        "bucket_id": 2,
+        "mean_sentiment": 0.0,
+        "delta": -0.2528,
+        "dominant_entity": "AI",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 3,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "AI",
+        "article_count": 0
+      }
+    ],
+    "inflection_point_cards": [],
+    "frame_evolution_log": [
+      {
+        "bucket_id": 0,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "frame_type": "scientific",
+        "top_terms": [
+          "ai",
+          "software",
+          "development",
+          "learn",
+          "deepmind",
+          "google",
+          "thanks",
+          "2030",
+          "business",
+          "stack",
+          "trends",
+          "fall",
+          "services",
+          "powerful",
+          "solutions",
+          "success",
+          "drive",
+          "damco",
+          "stopping",
+          "technology"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 2,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 3,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      }
+    ],
+    "voice_composition_shifts": [
+      {
+        "bucket_id": 0,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 11,
+          "Similar claim that AI will replace 95% of coding by 2030.": 1,
+          "Report by Epoch AI and Google DeepMind on AI trends in 2030.": 2,
+          "AI threatens job prospects for young programmers.": 1,
+          "Companies are cutting junior developer hires to save costs.": 1,
+          "AI makes coding easier for newcomers and changes training approaches.": 1,
+          "Mentoring is necessary for junior developers to navigate AI.": 1,
+          "AI will be ubiquitous in the global economy by 2030.": 1
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 2,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      }
+    ],
+    "narrative_intelligence_summary": "The claim that AI will replace all junior software developers by 2030 remains unresolvable due to insufficient and conflicting evidence. Perspectives from various sources, including Microsoft CTO and reports from Epoch AI and Google DeepMind, suggest AI may generate a significant portion of programming code by 2030, potentially replacing some junior developer roles. However, other perspectives highlight the need for mentoring and the potential for AI to make coding easier for newcomers, changing training approaches. With no multi-track inflection points detected, a definitive verdict is not possible. The narrative is expected to evolve as more verified information becomes available, potentially shifting towards a more nuanced understanding of AI's impact on junior software developer roles. As the use of AI in coding becomes more widespread, the demand for human developers may decrease, but the need for skilled professionals to navigate and mentor AI systems may increase. The forecast suggests that the narrative will continue to be shaped by emerging trends and technologies, ultimately leading to a more complex and multifaceted understanding of the relationship between AI and junior software developers.",
+    "ground_truth_tier": "unresolvable",
+    "time_buckets": [
+      {
+        "bucket_id": 0,
+        "start_dt": "2020-01-01T00:00:00Z",
+        "end_dt": "2020-12-31T00:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 1,
+        "start_dt": "2025-01-01T00:00:00Z",
+        "end_dt": "2025-12-31T00:00:00Z",
+        "article_ids": [
+          "66a6e50390062cd9",
+          "01197aabfed21973",
+          "be5e6b5c8afba05d",
+          "8449c63ae1f3fc3c",
+          "3710cf8b8f2ee8f6",
+          "4e439536a2eac7a4",
+          "80a75d83532e6e79",
+          "60b49578d97586c5",
+          "45ae6eb640f87e32",
+          "05c4237283853bd6",
+          "8ebfed3f75e8f61f",
+          "d5f2d60e36a858ef",
+          "d605ea7a4e8bb3c6",
+          "dbc509062908ac81",
+          "66a6e50390062cd9",
+          "e077f7591eb4b37a",
+          "6a95df18ecd08240",
+          "d42329f3ac35909a",
+          "3710cf8b8f2ee8f6"
+        ]
+      },
+      {
+        "bucket_id": 2,
+        "start_dt": "2025-01-01T00:00:00Z",
+        "end_dt": "2025-12-31T00:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 3,
+        "start_dt": "2025-01-01T00:00:00Z",
+        "end_dt": "2030-12-31T00:00:00Z",
+        "article_ids": []
+      }
+    ]
+  },
+  "analysis_complete": true,
+  "task": "Analyse the following claim for misinformation: AI will replace all junior software developers by 2030",
+  "plan": [],
+  "worker_outputs": [
+    "[broad_context_fetch]\nQueries (2): AI will replace all junior software developers by 2030 | AI junior software developers\nArticles fetched: 14",
+    "[context_builder]\nDimensions: causal mechanism, timeline accuracy, source credibility, geographical scope\nTime window: by 2030\nCompeting narratives: 2",
+    "[tavily_targeted]\nQueries (1): AI replacing junior software developers by 2030\nArticles fetched: 5",
+    "[evaluator]\nArticles: 19 → deduped: 16 → relevant: 13\nPrimary: 1 (silent) | Secondary clusters: 9 | Gaps: ['causal mechanism', 'timeline accuracy', 'source credibility', 'geographical scope'] | Ready: False",
+    "[analyst]\nBuckets: 4 | Inflection points: 0 | Ground truth tier: unresolvable | Frame sequence: other → scientific → other → other",
+    "[researcher]\n**Research Brief: AI Replacing Junior Software Developers by 2030**\n\n**Claim:** AI will replace all junior software developers by 2030.\n\n**Analysis:**\n\nThe available evidence suggests that AI may significantly impact junior software developer roles, but the claim that AI will replace all junior software developers by 2030 remains unsubstantiated. While some sources, including Microsoft CTO Kevin Scott, predict that AI will generate a substantial portion of programming code by 2030 (95%), others highlight the potential benefits of AI in making coding easier for newcomers and changing training approaches.\n\n**Key Findings:**\n\n1. **Uncertainty and Conflicting Evidence:** Sources, such as Epoch AI and Google DeepMind, and independent reports, like those from Stack Overflow and Understanding AI, provide conflicting perspectives on the impact of AI on junior software developer roles.\n2. **Limited Credibility:** The credibility of some sources, including unverified claims and social media posts, raises concerns about the reliability of the evidence.\n3. **Lack of Clear Causal Mechanism:** The evidence does not provide a clear understanding of how AI will replace junior software developers or when this replacement will occur.\n4. **Geographical Scope:** The available evidence focuses primarily on the global software development industry, with limited information on regional or local impacts.\n\n**Conclusion:**\n\nThe claim that AI will replace all junior software developers by 2030 remains unverified due to insufficient and conflicting evidence. While AI may significantly impact junior software developer roles, the available evidence does not support a definitive forecast of complete replacement by 2030. Further research is needed to understand the complex relationship between AI, junior software developers, and the software development industry as a whole.\n\n**Recommendations:**\n\n1. **Verify Evidence:** Verify the credibility and reliability of sources and evidence to ensure the accuracy of the analysis.\n2. **Conduct Further Research:** Conduct in-depth research to understand the causal mechanisms and potential impacts of AI on junior software developer roles.\n3. **Consider Geographical Scope:** Examine regional and local differences in the impact of AI on junior software developer roles.\n4. **Develop a Nuanced Understanding:** Develop a nuanced understanding of the relationship between AI, junior software developers, and the software development industry to inform future predictions and forecasts.",
+    "[writer] Report rendered: tier=UNRESOLVABLE, sources=19, inflections=0, clusters=9"
+  ],
+  "next": "FINISH",
+  "instructions": "",
+  "article_metadata_cache": {
+    "8449c63ae1f3fc3c": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "95% of programming code will be AI-generated by 2030 predicts Microsoft CTO Kevin Scott",
+        "AI will replace 95% of coding by 2030"
+      ]
+    },
+    "3710cf8b8f2ee8f6": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Epoch AI published a report commissioned by Google DeepMind on AI trends in 2030",
+        "The report was titled 'AI in 2030'"
+      ]
+    },
+    "4e439536a2eac7a4": {
+      "_source_type": "primary"
+    },
+    "80a75d83532e6e79": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Demand for entry-level programmers is in free fall due to AI",
+        "AI is killing jobs for young programmers"
+      ]
+    },
+    "60b49578d97586c5": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Growing use of AI coding assistants is driving down demand for junior developers",
+        "Many companies look to cut workforce expenses by reducing junior developer hires"
+      ]
+    },
+    "45ae6eb640f87e32": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "AI is shaping the future of coding and making it easier for newcomers to learn",
+        "AI for developers is changing how training is approached for the next generation"
+      ]
+    },
+    "d605ea7a4e8bb3c6": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "AI can be a death trap for many junior developers",
+        "Mentoring is necessary to help junior developers navigate AI"
+      ]
+    },
+    "e077f7591eb4b37a": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "By 2030, AI will be embedded in nearly every sector of the global economy",
+        "Experts predict AI will have a significant impact on the global economy by 2030"
+      ]
+    }
+  },
+  "final_output": "## Section 1 — Temporal Evolution (Buckets, Sentiment, Frames & Voice)\n**Bucket 0** (2020-01-01 to 2020-12-31) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 1** (2025-01-01 to 2025-12-31) | Sentiment: +0.25 (Δ+0.25) | Frame: scientific ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 2** (2025-01-01 to 2025-12-31) | Sentiment: +0.00 (Δ-0.25) | Frame: other ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 3** (2025-01-01 to 2030-12-31) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n\n## Section 2 — Perspective Landscape & Inflections\n### Clusters\n- **Microsoft CTO predicts AI will generate 95% of programming code by 2030.**: unverified (1 domains) — Key claims: 95% of programming code will be AI-generated by 2030 predicts Microsoft CTO Kevin Scott\n- **Similar claim that AI will replace 95% of coding by 2030.**: unverified (1 domains) — Key claims: AI will replace 95% of coding by 2030\n- **Report by Epoch AI and Google DeepMind on AI trends in 2030.**: unverified (1 domains) — Key claims: Epoch AI published a report commissioned by Google DeepMind on AI trends in 2030; The report was titled 'AI in 2030'\n- **AI threatens job prospects for young programmers.**: unverified (2 domains) — Key claims: Demand for entry-level programmers is in free fall due to AI; AI is killing jobs for young programmers\n- **AI coding assistants reduce demand for junior developers.**: unverified (1 domains) — Key claims: Growing use of AI coding assistants is driving down demand for junior developers\n- **Companies are cutting junior developer hires to save costs.**: unverified (1 domains) — Key claims: Many companies look to cut workforce expenses by reducing junior developer hires\n- **AI makes coding easier for newcomers and changes training approaches.**: unverified (1 domains) — Key claims: AI is shaping the future of coding and making it easier for newcomers to learn; AI for developers is changing how training is approached for the next generation\n- **Mentoring is necessary for junior developers to navigate AI.**: unverified (1 domains) — Key claims: Mentoring is necessary to help junior developers navigate AI\n- **AI will be ubiquitous in the global economy by 2030.**: unverified (1 domains) — Key claims: By 2030, AI will be embedded in nearly every sector of the global economy; Experts predict AI will have a significant impact on the global economy by 2030\n\n### Inflection Points\nNo multi-track inflection points detected.\n## Section 3 — Final Analysis [UNRESOLVABLE]\n**Claim:** AI will replace all junior software developers by 2030\n**Period:** 2020-01-01 to 2030-12-31  |  **Sources:** 19\n\nThe claim that AI will replace all junior software developers by 2030 remains unresolvable due to insufficient and conflicting evidence. Perspectives from various sources, including Microsoft CTO and reports from Epoch AI and Google DeepMind, suggest AI may generate a significant portion of programming code by 2030, potentially replacing some junior developer roles. However, other perspectives highlight the need for mentoring and the potential for AI to make coding easier for newcomers, changing training approaches. With no multi-track inflection points detected, a definitive verdict is not possible. The narrative is expected to evolve as more verified information becomes available, potentially shifting towards a more nuanced understanding of AI's impact on junior software developer roles. As the use of AI in coding becomes more widespread, the demand for human developers may decrease, but the need for skilled professionals to navigate and mentor AI systems may increase. The forecast suggests that the narrative will continue to be shaped by emerging trends and technologies, ultimately leading to a more complex and multifaceted understanding of the relationship between AI and junior software developers."
+}

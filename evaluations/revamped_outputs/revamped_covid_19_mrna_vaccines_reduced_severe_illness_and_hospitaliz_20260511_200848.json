@@ -1,0 +1,902 @@
+{
+  "messages": [
+    "content='COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022' additional_kwargs={} response_metadata={} id='b65ee4e4-e017-41a9-8653-6f155466e8c7'"
+  ],
+  "raw_input": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022",
+  "input_type": "claim",
+  "claim": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022",
+  "entities": [
+    "COVID-19",
+    "mRNA vaccines"
+  ],
+  "timeframe": "2021-2022",
+  "claim_complexity": "simple",
+  "context_summary": {
+    "who": "COVID-19 mRNA vaccine recipients",
+    "what": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations",
+    "when": "2021-2022",
+    "competing_narratives": "",
+    "claim_dimensions": "effectiveness against severe illness|effectiveness against hospitalizations|duration of protection|variant-specific protection"
+  },
+  "retrieved_articles": [
+    {
+      "id": "214330bdb7daeb44",
+      "title": "Systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness against hospitalizations in adults - PMC",
+      "body": "An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "pmc.ncbi.nlm.nih.gov",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11655844/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "46cce87daba84d94",
+      "title": "mRNA COVID-19 Vaccine Effectiveness Against Severe Outcomes Among Adults Hospitalized with COVID-19 from May 2021 to January 2023 - PMC",
+      "body": "An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "pmc.ncbi.nlm.nih.gov",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12846602/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "b88933c0326be8c8",
+      "title": "Effectiveness of a Third Dose of mRNA Vaccines Against COVID-19–Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Adults During Periods of Delta and Omicron Variant Predominance — VISION Network, 10 States, August 2021–January 2022  | MMWR",
+      "body": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.cdc.gov",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7104e3.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "f37e8c11e09a1471",
+      "title": "Effectiveness of mRNA Vaccination in Preventing COVID-19–Associated Invasive Mechanical Ventilation and Death — United States, March 2021–January 2022  | MMWR",
+      "body": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.cdc.gov",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7112e1.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "68da7b4f570b5a99",
+      "title": "Waning 2-Dose and 3-Dose Effectiveness of mRNA Vaccines Against COVID-19–Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Adults During Periods of Delta and Omicron Variant Predominance — VISION Network, 10 States, August 2021–January 2022  | MMWR",
+      "body": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.cdc.gov",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7107e2.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "b86d5a1854059ca1",
+      "title": "Impacts of COVID-19 Vaccination and Infection on Health - European Society of Medicine",
+      "body": "Impacts of COVID-19 Vaccination and Infection on Health - European Society of Medicine",
+      "source_name": "esmed.org",
+      "source_url": "https://esmed.org/impacts-of-covid-19-vaccination-and-infection-on-health/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "82ab9a39a4e1882f",
+      "title": "Real-world effectiveness of the mRNA-1273 vaccine against COVID-19: Interim results from a prospective observational cohort study - ScienceDirect",
+      "body": "Skip to article My account View PDF Volume 6, February 2022, 100134 Author links open overlay panel, , , , , , , , , , , rights and content Under a Creative Commons license Open access Phase 3 trials found mRNA-1273 was highly effective in preventing COVID-19.",
+      "source_name": "www.sciencedirect.com",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2667193X21001307",
+      "published_at": "2022-02-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "73dbce3e52efd322",
+      "title": "Covid Vaccine Reduces Transmission | Commonwealth Fund",
+      "body": "By continuing on our website, you agree to our use of the cookie for statistical and personalization purpose.",
+      "source_name": "www.commonwealthfund.org",
+      "source_url": "https://www.commonwealthfund.org/blog/2022/two-years-covid-vaccines-prevented-millions-deaths-hospitalizations",
+      "published_at": "2022-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022"
+    },
+    {
+      "id": "268c43552c166627",
+      "title": "Safety and Adverse Events Related to COVID-19 mRNA Vaccines; a Systematic Review - PMC",
+      "body": "An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "pmc.ncbi.nlm.nih.gov",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9206826/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "9cc1454a97019701",
+      "title": "Stanford Medicine study shows why mRNA COVID-19 vaccine can cause myocarditis",
+      "body": "News Center Research Education Patient Care Give About Cardiology December 10, 2025 By Bruce Goldman COVID-19 — and, less frequently, the mRNA-based COVID-19 vaccine — can cause inflamed heart tissue in some people.",
+      "source_name": "med.stanford.edu",
+      "source_url": "https://med.stanford.edu/news/all-news/2025/12/myocarditis-vaccine-covid.html",
+      "published_at": "2025-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "6e5c9170a5f2221a",
+      "title": "mRNA Vaccines: What They Are & How They Work",
+      "body": "Abu Dhabi|Canada|Florida|London|Nevada|Ohio| 855.733.3712|MyChart|Need Help?|Careers|Donate Now| Find a ProviderLocations and DirectionsServicesPatients and VisitorsHealth Library Find a Provider Locations and Directions Services Patients and Visitors Health Library Home/ Health Library/ Medical Treatments/ mRNA Vaccine Medically Reviewed.Last updated on 10/25/2024.",
+      "source_name": "my.clevelandclinic.org",
+      "source_url": "https://my.clevelandclinic.org/health/treatments/21898-mrna-vaccines",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "bd443e3bc9362ac9",
+      "title": "Different types of COVID-19 vaccines: How they work - Mayo Clinic",
+      "body": "Understand how different vaccine technologies work with the immune system to provide protection. By Mayo Clinic Staff Dec.",
+      "source_name": "www.mayoclinic.org",
+      "source_url": "https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/different-types-of-covid-19-vaccines/art-20506465",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "1a9bb3481ed3bc27",
+      "title": "Here’s What We Know: The Impact of mRNA Vaccines | Patient Care",
+      "body": "Read about upcoming changes to UnitedHealthcare coverage. Patient Login Find a Doctor September 25, 2025 Share to Facebook Share to Twitter Share to LinkedIn Share on Email Remember the novel coronavirus?",
+      "source_name": "weillcornell.org",
+      "source_url": "https://weillcornell.org/news/here%E2%80%99s-what-we-know-the-impact-of-mrna-vaccines",
+      "published_at": "2025-09-25T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "248a5e2164e1ba95",
+      "title": "Comparing the COVID-19 Vaccines: How Are They Different? | News | Yale Medicine",
+      "body": "BY KATHY KATELLA May 20, 2025 [Originally published: Feb. 24, 2021. Updated: May 20, 2025.] Note: The Johnson & Johnson (Janssen) COVID-19 vaccine expired as of May 6, 2023, and is no longer available in the U.S.",
+      "source_name": "www.yalemedicine.org",
+      "source_url": "https://www.yalemedicine.org/news/covid-19-vaccine-comparison",
+      "published_at": "2025-05-20T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "babc0d80bd8c49ba",
+      "title": "Pfizer Shares Available Analyses of Myocarditis and COVID-19 Vaccines | Pfizer",
+      "body": "NEW YORK, Monday, September 15, 2025 – Pfizer Inc. (NYSE: PFE) today posted publicly available COVID-19 data from global analyses of myocarditis, further representing its dedication to transparency.",
+      "source_name": "www.pfizer.com",
+      "source_url": "https://www.pfizer.com/news/announcements/pfizer-shares-available-analyses-myocarditis-and-covid-19-vaccines",
+      "published_at": "2025-09-15T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "152b450be5a03724",
+      "title": "Coronavirus Disease 2019 (COVID-19) Vaccine Safety | Vaccine Safety | CDC",
+      "body": "A .gov website belongs to an official government organization in the United States. A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "source_name": "www.cdc.gov",
+      "source_url": "https://www.cdc.gov/vaccine-safety/vaccines/covid-19.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines"
+    },
+    {
+      "id": "083fed6d49eae15d",
+      "title": "A History of RNA Discovery Timeline nucleic acid vaccines, rna, rna vaccines, mrna, mrna vaccines, mrna biology, covid vaccine, sars covid2, covid-19",
+      "body": "A Timeline of Discoveries Towards mRNA Therapeutics 1947 RNA in the central dogma of molecular biology mRNA discovery Boivin, A.",
+      "source_name": "view.ceros.com",
+      "source_url": "https://view.ceros.com/neb/a-history-of-rna-discovery-timeline?heightOverride=7290&amp%3BmobileHeightOverride=10650",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "d62b8fa0d61c731f",
+      "title": "A History of RNA Discovery Timeline nucleic acid vaccines, rna, rna vaccines, mrna, mrna vaccines, mrna biology, covid vaccine, sars covid2, covid-19",
+      "body": "A Timeline of Discoveries Towards mRNA Therapeutics 1947 RNA in the central dogma of molecular biology mRNA discovery Boivin, A.",
+      "source_name": "view.ceros.com",
+      "source_url": "https://view.ceros.com/neb/a-history-of-rna-discovery-timeline?heightOverride=7290&mobileHeightOverride=10650",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "25b9f0b6cd815741",
+      "title": "Decades in the Making: mRNA COVID-19 Vaccines",
+      "body": "Skip to Back Research Resources for Researchers Research in NIAID Labs Division of Intramural Research Labs Research at Vaccine Research Center Intramural Scientist & Clinician Directory Research Rules & Policies Clinical Research Contracts Grants & Funding NIAID Role in Research Accomplishments HIV/AIDS Infectious Diseases Allergy, Immunology & Transplantation Research in NIAID Labs Research Funded by NIAID Resources for Researchers Programs & Networks Partnerships Research Areas Antimicrobial (Drug) Resistance Antimicrobial Resistance Threats Research Initiatives Basic Research Causes Prevention Diagnosis Treatment Information for Researchers Asthma Risk Factors & Prevention Research Managing Symptoms Understanding Triggers Autoimmune Diseases Immune Tolerance Processes Risk Factors Treatment and Management Disease-Specific Research Information for Researchers Autoimmune Lymphoproliferative Syndrome (ALPS) Causes Symptoms & Diagnosis Treatment Cholera Biology & Genetics Treatment & Prevention Coronaviruses Basic & Preclinical Research [Vaccines & Prevention](",
+      "source_name": "www.niaid.nih.gov",
+      "source_url": "https://www.niaid.nih.gov/diseases-conditions/decades-making-mrna-covid-19-vaccines",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "54d5f666418e31b8",
+      "title": "[PDF] COVID-19 Vaccine Development Timeline",
+      "body": "Navigating the World that COVID-19 Made: A Strategy for Revamping the Pandemic Research and Development Preparedness and Response Ecosystem Moderna-US National Institutes of Health Pfizer-BioNTech Johnson & Johnson-Janssen AstraZeneca-University of Oxford Sinopharm-Wuhan Institute of Biological Products Annex COVID-19 Vaccine Development Timeline January 31, 2021 100 million doses administered globally April 22, 2020 End of 100 days January 11, 2020 Publication of genetic sequence January 30, 2020 WHO declares PHEIC April 20, 2020 COVAX launch March 11, 2020 WHO calls COVID-19 a pandemic 100 Day Ideal State April 24, 2021 1 billion doses administered globally May 2021 SII stops delivery to COVAX facilities April 23, 2020 Phase 1/2 starts: Germany7 July 27, 2020 Phase 3 starts: Argentina, Brazil, Germany, South Africa, Turkey, United States8 December 12, 2020 WHO EUL authorization11 July 22, 2020 Phase 1/2 starts12 April 23, 2020 Phase 1/2 starts17 April 29, 2020 Phase 1 starts21 January 29, 2021 First SRA authorization; Hungary National Institute of Pharmacy and Nutrition (OGYEI)23 July 18, 2020 Phase 3 starts22 May 7, 2021 WHO EUL authorization24 May 18, 2020 Phase 2 starts21 May ",
+      "source_name": "centerforhealthsecurity.org",
+      "source_url": "https://centerforhealthsecurity.org/sites/default/files/2023-02/211029-annex-covid-19-vax-dev-timeline.pdf",
+      "published_at": "2021-01-31T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "930391c3ebd6c40b",
+      "title": "mRNA Vaccines and COVID-19 Testing - Fred Hutch",
+      "body": "MyChart Appointments Our Providers For Physicians Careers Locations Contact \"Fred Hutch Cancer Center\" \"Where breakthroughs begin, care goes beyond.\" Donate Now Explore mRNA vaccines, vaccine confidence, biological aspects of testing for SARS-CoV-2, and COVID-19 inequities through two related lesson sequences.",
+      "source_name": "fredhutch.org",
+      "source_url": "https://fredhutch.org/en/education-training/teachers/science-education-partnership/sep-curriculum/covid-19-testing-and-inequities.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "230569c6b453630b",
+      "title": "COVID-19 mRNA Vaccines",
+      "body": "Medicines Medicine Information Approval Process Regulatory Guidance Manufacturing Devices WAND Regulatory Guidance Surgical Mesh Safety Information Product Recalls Device Information Safety Safety Information Product Recalls Safety Communications Safety Reporting Reports and Promotions Compliance Unapproved Medicines Product Recalls Manufacturing Marketing Importing Medicines Pharmacy Licensing Publications Media Prescriber Update Consultations Current Closed Outcomes Committees Medicines Classification Medicines Assessment Advisory Medicines Adverse Reactions About Medsafe Christmas/New Year Closure Our Role What's New Contact Us History Archive Contact Us Christmas/New Year Closure Our Role What is Medsafe?",
+      "source_name": "medsafe.govt.nz",
+      "source_url": "https://medsafe.govt.nz/COVID-19/mRNA-vaccines.asp",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "308dfc7a59f8a5f0",
+      "title": "COVID-19 vaccine development: milestones, lessons and prospects",
+      "body": "We use essential cookies to make sure the site can function. We also use optional cookies for advertising, personalisation of content, usage analysis, and social media, as well as to allow video information to be shared for both marketing, analytics and editorial purposes.",
+      "source_name": "www.nature.com",
+      "source_url": "https://www.nature.com/articles/s41392-022-00996-y",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "COVID-19 mRNA vaccines history timeline"
+    },
+    {
+      "id": "0ed8de94f77588bc",
+      "title": "Durability of Original Monovalent mRNA Vaccine Effectiveness Against COVID-19 Omicron–Associated Hospitalization in Children and Adolescents — United States, 2021–2023 | MMWR",
+      "body": "Skip directly to site content Skip directly to search Español | Other Languages An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.cdc.gov",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7315a2.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "duration of COVID-19 mRNA vaccine protection"
+    },
+    {
+      "id": "9d02a903fe40652f",
+      "title": "Comparative duration of neutralizing responses and protections of COVID-19 vaccination and correlates of protection | Nature Communications",
+      "body": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer).",
+      "source_name": "www.nature.com",
+      "source_url": "https://www.nature.com/articles/s41467-025-60024-9",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "duration of COVID-19 mRNA vaccine protection"
+    },
+    {
+      "id": "68da7b4f570b5a99",
+      "title": "Waning 2-Dose and 3-Dose Effectiveness of mRNA Vaccines ... - CDC",
+      "body": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.cdc.gov",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7107e2.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "duration of COVID-19 mRNA vaccine protection"
+    },
+    {
+      "id": "214330bdb7daeb44",
+      "title": "Systematic review and meta-analysis of COVID-19 mRNA vaccine ...",
+      "body": "An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "pmc.ncbi.nlm.nih.gov",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11655844/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "duration of COVID-19 mRNA vaccine protection"
+    },
+    {
+      "id": "5c77d8a8c6e35b60",
+      "title": "Effectiveness of a single COVID-19 mRNA vaccine dose in individuals with prior SARS-CoV-2 infection: a systematic review | Communications Medicine",
+      "body": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer).",
+      "source_name": "www.nature.com",
+      "source_url": "https://www.nature.com/articles/s43856-025-00882-y",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "duration of COVID-19 mRNA vaccine protection"
+    }
+  ],
+  "anchor_articles": [],
+  "targeted_queries": [
+    {
+      "query": "COVID-19 mRNA vaccine effectiveness against severe illness",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "effectiveness against severe illness",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "COVID-19 mRNA vaccine effectiveness against hospitalizations",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "effectiveness against hospitalizations",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "duration of COVID-19 mRNA vaccine protection",
+      "tool": "tavily",
+      "dimension": "duration of protection",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "variant-specific protection of COVID-19 mRNA vaccines",
+      "tool": "scholar_wiki",
+      "dimension": "variant-specific protection",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "COVID-19 mRNA vaccine effectiveness against hospitalizations 2021-2022",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "effectiveness against hospitalizations",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "duration of COVID-19 mRNA vaccine protection",
+      "tool": "tavily",
+      "dimension": "duration of protection",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "variant-specific protection of COVID-19 mRNA vaccines",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "variant-specific protection",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "COVID-19 mRNA vaccine effectiveness against hospitalizations",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "effectiveness against hospitalizations",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "duration of COVID-19 mRNA vaccine protection",
+      "tool": "tavily",
+      "dimension": "duration of protection",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "variant-specific protection of COVID-19 mRNA vaccines",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "variant-specific protection",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31"
+    }
+  ],
+  "retrieval_loop_count": 3,
+  "retrieval_complete": true,
+  "perspective_clusters": [
+    {
+      "label": "Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.",
+      "key_claims": [
+        "COVID-19 vaccination and infection have impacts on health.",
+        "Different types of COVID-19 vaccines work with the immune system to provide protection.",
+        "The Johnson & Johnson COVID-19 vaccine expired as of May 6, 2023.",
+        "Stanford Medicine conducted a study on myocarditis caused by the mRNA COVID-19 vaccine.",
+        "mRNA vaccines have an impact on patient care.",
+        "The mRNA COVID-19 vaccine can cause myocarditis in some people."
+      ],
+      "article_ids": [
+        "b86d5a1854059ca1",
+        "9cc1454a97019701",
+        "248a5e2164e1ba95",
+        "bd443e3bc9362ac9",
+        "1a9bb3481ed3bc27"
+      ],
+      "domain_roots": [
+        "esmed.org",
+        "stanford.edu",
+        "mayoclinic.org",
+        "weillcornell.org",
+        "yalemedicine.org"
+      ],
+      "corroboration_count": 5,
+      "corroboration_level": "corroborated",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 2 mentions research on COVID-19 published by the European Society of Medicine.",
+      "key_claims": [
+        "The European Society of Medicine has published research on COVID-19."
+      ],
+      "article_ids": [
+        "b86d5a1854059ca1"
+      ],
+      "domain_roots": [
+        "esmed.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 3 compares the differences between COVID-19 vaccines according to Yale Medicine.",
+      "key_claims": [
+        "Yale Medicine has compared the differences between COVID-19 vaccines."
+      ],
+      "article_ids": [
+        "248a5e2164e1ba95"
+      ],
+      "domain_roots": [
+        "yalemedicine.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 4 provides information on how COVID-19 vaccines work according to Mayo Clinic.",
+      "key_claims": [
+        "Mayo Clinic has published information on how COVID-19 vaccines work."
+      ],
+      "article_ids": [
+        "bd443e3bc9362ac9"
+      ],
+      "domain_roots": [
+        "mayoclinic.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Cluster 5 pertains to UnitedHealthcare's coverage of mRNA vaccines.",
+      "key_claims": [
+        "UnitedHealthcare has coverage related to mRNA vaccines."
+      ],
+      "article_ids": [
+        "1a9bb3481ed3bc27"
+      ],
+      "domain_roots": [
+        "weillcornell.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    }
+  ],
+  "coverage_gaps": [
+    "effectiveness against hospitalizations",
+    "duration of protection",
+    "variant-specific protection"
+  ],
+  "evaluation_ready": null,
+  "primary_evidence_exists": true,
+  "primary_verdict": "silent",
+  "narrative_report": {
+    "claim_snapshot": {
+      "claim": "COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022",
+      "time_period": "2021-01-31 to 2025-09-25",
+      "source_count": 28,
+      "ground_truth_tier": "unresolvable"
+    },
+    "perspective_landscape": [
+      {
+        "label": "Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.",
+        "key_claims": [
+          "COVID-19 vaccination and infection have impacts on health.",
+          "Different types of COVID-19 vaccines work with the immune system to provide protection.",
+          "The Johnson & Johnson COVID-19 vaccine expired as of May 6, 2023.",
+          "Stanford Medicine conducted a study on myocarditis caused by the mRNA COVID-19 vaccine.",
+          "mRNA vaccines have an impact on patient care.",
+          "The mRNA COVID-19 vaccine can cause myocarditis in some people."
+        ],
+        "article_ids": [
+          "b86d5a1854059ca1",
+          "9cc1454a97019701",
+          "248a5e2164e1ba95",
+          "bd443e3bc9362ac9",
+          "1a9bb3481ed3bc27"
+        ],
+        "domain_roots": [
+          "esmed.org",
+          "stanford.edu",
+          "mayoclinic.org",
+          "weillcornell.org",
+          "yalemedicine.org"
+        ],
+        "corroboration_count": 5,
+        "corroboration_level": "corroborated",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 2 mentions research on COVID-19 published by the European Society of Medicine.",
+        "key_claims": [
+          "The European Society of Medicine has published research on COVID-19."
+        ],
+        "article_ids": [
+          "b86d5a1854059ca1"
+        ],
+        "domain_roots": [
+          "esmed.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 3 compares the differences between COVID-19 vaccines according to Yale Medicine.",
+        "key_claims": [
+          "Yale Medicine has compared the differences between COVID-19 vaccines."
+        ],
+        "article_ids": [
+          "248a5e2164e1ba95"
+        ],
+        "domain_roots": [
+          "yalemedicine.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 4 provides information on how COVID-19 vaccines work according to Mayo Clinic.",
+        "key_claims": [
+          "Mayo Clinic has published information on how COVID-19 vaccines work."
+        ],
+        "article_ids": [
+          "bd443e3bc9362ac9"
+        ],
+        "domain_roots": [
+          "mayoclinic.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Cluster 5 pertains to UnitedHealthcare's coverage of mRNA vaccines.",
+        "key_claims": [
+          "UnitedHealthcare has coverage related to mRNA vaccines."
+        ],
+        "article_ids": [
+          "1a9bb3481ed3bc27"
+        ],
+        "domain_roots": [
+          "weillcornell.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      }
+    ],
+    "sentiment_timeline": [
+      {
+        "bucket_id": 0,
+        "mean_sentiment": 0.1117,
+        "delta": 0.0,
+        "dominant_entity": "COVID-19",
+        "article_count": 22
+      },
+      {
+        "bucket_id": 1,
+        "mean_sentiment": 0.3771,
+        "delta": 0.2655,
+        "dominant_entity": "COVID-19",
+        "article_count": 2
+      },
+      {
+        "bucket_id": 2,
+        "mean_sentiment": 0.0,
+        "delta": -0.3771,
+        "dominant_entity": "COVID-19",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 3,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "COVID-19",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 4,
+        "mean_sentiment": -0.2219,
+        "delta": -0.2219,
+        "dominant_entity": "COVID-19",
+        "article_count": 4
+      }
+    ],
+    "inflection_point_cards": [
+      {
+        "bucket_id": 4,
+        "bucket_date_range": "2024-10-20 to 2025-09-25",
+        "tracks_signaling": [
+          "frame",
+          "voice"
+        ],
+        "correlated_event": null,
+        "dominant_cluster_label": "Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.",
+        "explanation": "The media narrative around COVID-19 shifted to focus on the health impacts and mechanisms of COVID-19 vaccines and infections. The perspective emphasizing vaccine efficacy and health consequences gained dominance. This shift matters as it highlights the ongoing discussion around vaccine effectiveness and rare side effects."
+      }
+    ],
+    "frame_evolution_log": [
+      {
+        "bucket_id": 0,
+        "frame_type": "health",
+        "top_terms": [
+          "official",
+          "gov",
+          "website",
+          "united",
+          "states",
+          "government",
+          "use",
+          "belongs",
+          "organization",
+          "websites",
+          "mrna",
+          "research",
+          "browser",
+          "covid",
+          "19",
+          "health",
+          "timeline",
+          "vaccine",
+          "central",
+          "therapeutics"
+        ],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "frame_type": "scientific",
+        "top_terms": [
+          "website",
+          "use",
+          "personalization",
+          "purpose",
+          "statistical",
+          "continuing",
+          "agree",
+          "cookie",
+          "open",
+          "trials",
+          "view",
+          "volume",
+          "rights",
+          "pdf",
+          "panel",
+          "overlay",
+          "mrna",
+          "links",
+          "preventing",
+          "phase"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 2,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 3,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 4,
+        "frame_type": "health",
+        "top_terms": [
+          "share",
+          "covid",
+          "19",
+          "2025",
+          "20",
+          "johnson",
+          "available",
+          "vaccine",
+          "september",
+          "patient",
+          "dedication",
+          "global",
+          "publicly",
+          "new",
+          "today",
+          "transparency",
+          "york",
+          "data",
+          "nyse",
+          "myocarditis"
+        ],
+        "frame_changed": true
+      }
+    ],
+    "voice_composition_shifts": [
+      {
+        "bucket_id": 0,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 20,
+          "Cluster 2 mentions research on COVID-19 published by the European Society of Medicine.": 1,
+          "Cluster 4 provides information on how COVID-19 vaccines work according to Mayo Clinic.": 1
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 2
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 2,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 4,
+        "dominant_cluster_label": "Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.",
+        "composition": {
+          "Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.": 1,
+          "Cluster 5 pertains to UnitedHealthcare's coverage of mRNA vaccines.": 1,
+          "Cluster 3 compares the differences between COVID-19 vaccines according to Yale Medicine.": 1,
+          "_unclustered": 1
+        },
+        "voice_changed": true
+      }
+    ],
+    "narrative_intelligence_summary": "The claim that COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022 remains unresolvable due to insufficient and conflicting evidence. Various perspective clusters provide insights into the health impacts and mechanisms of COVID-19 vaccines and infections, research published by the European Society of Medicine, comparisons between vaccines according to Yale Medicine, information on how COVID-19 vaccines work from the Mayo Clinic, and UnitedHealthcare's coverage of mRNA vaccines. However, these perspectives are not uniformly verified, with only Cluster 1 being corroborated across 5 domains. The key narrative shift towards emphasizing vaccine efficacy and health consequences, particularly rare side effects like myocarditis, highlights the ongoing discussion around vaccine effectiveness. A definitive verdict is not possible due to the lack of conclusive evidence and the presence of unverified information. As the narrative continues to evolve, it is likely that the discussion will remain focused on the health impacts and mechanisms of COVID-19 vaccines, with ongoing debates about efficacy, side effects, and vaccine comparisons. The emergence of new research and data may influence the narrative, potentially leading to a more nuanced understanding of COVID-19 vaccines, but a clear resolution to the claim is unlikely in the near future.",
+    "ground_truth_tier": "unresolvable",
+    "time_buckets": [
+      {
+        "bucket_id": 0,
+        "start_dt": "2021-01-31T00:00:00Z",
+        "end_dt": "2022-01-05T14:24:00Z",
+        "article_ids": [
+          "214330bdb7daeb44",
+          "46cce87daba84d94",
+          "b88933c0326be8c8",
+          "f37e8c11e09a1471",
+          "68da7b4f570b5a99",
+          "b86d5a1854059ca1",
+          "268c43552c166627",
+          "6e5c9170a5f2221a",
+          "bd443e3bc9362ac9",
+          "152b450be5a03724",
+          "083fed6d49eae15d",
+          "d62b8fa0d61c731f",
+          "25b9f0b6cd815741",
+          "54d5f666418e31b8",
+          "930391c3ebd6c40b",
+          "230569c6b453630b",
+          "308dfc7a59f8a5f0",
+          "0ed8de94f77588bc",
+          "9d02a903fe40652f",
+          "68da7b4f570b5a99",
+          "214330bdb7daeb44",
+          "5c77d8a8c6e35b60"
+        ]
+      },
+      {
+        "bucket_id": 1,
+        "start_dt": "2022-01-05T14:24:00Z",
+        "end_dt": "2022-12-11T04:48:00Z",
+        "article_ids": [
+          "82ab9a39a4e1882f",
+          "73dbce3e52efd322"
+        ]
+      },
+      {
+        "bucket_id": 2,
+        "start_dt": "2022-12-11T04:48:00Z",
+        "end_dt": "2023-11-15T19:12:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 3,
+        "start_dt": "2023-11-15T19:12:00Z",
+        "end_dt": "2024-10-20T09:36:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 4,
+        "start_dt": "2024-10-20T09:36:00Z",
+        "end_dt": "2025-09-25T00:00:00Z",
+        "article_ids": [
+          "9cc1454a97019701",
+          "1a9bb3481ed3bc27",
+          "248a5e2164e1ba95",
+          "babc0d80bd8c49ba"
+        ]
+      }
+    ]
+  },
+  "analysis_complete": true,
+  "task": "Analyse the following claim for misinformation: COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022",
+  "plan": [],
+  "worker_outputs": [
+    "[broad_context_fetch]\nQueries (2): COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022 | COVID-19 mRNA vaccines\nArticles fetched: 23",
+    "[context_builder]\nDimensions: effectiveness against severe illness, effectiveness against hospitalizations, duration of protection, variant-specific protection\nTime window: 2021-2022\nCompeting narratives: 0",
+    "[tavily_targeted]\nQueries (1): duration of COVID-19 mRNA vaccine protection\nArticles fetched: 5",
+    "[gdelt_commoncrawl_targeted]\nQueries (2): COVID-19 mRNA vaccine effectiveness against severe illness | COVID-19 mRNA vaccine effectiveness against hospitalizations\nArticles fetched: 0",
+    "[evaluator]\nArticles: 28 → deduped: 16 → relevant: 9\nPrimary: 3 (silent) | Secondary clusters: 5 | Gaps: ['effectiveness against hospitalizations', 'duration of protection', 'variant-specific protection'] | Ready: False",
+    "[analyst]\nBuckets: 5 | Inflection points: 1 | Ground truth tier: unresolvable | Frame sequence: health → scientific → other → other → health",
+    "[gdelt_commoncrawl_targeted]\nQueries (4): COVID-19 mRNA vaccine effectiveness against severe illness | COVID-19 mRNA vaccine effectiveness against hospitalizations | COVID-19 mRNA vaccine effectiveness against hospitalizations 2021-2022 | variant-specific protection of COVID-19 mRNA vaccines\nArticles fetched: 0",
+    "[evaluator]\nArticles: 28 → deduped: 16 → relevant: 9\nPrimary: 3 (silent) | Secondary clusters: 5 | Gaps: ['effectiveness against hospitalizations', 'duration of protection', 'variant-specific protection'] | Ready: False",
+    "[analyst]\nBuckets: 5 | Inflection points: 1 | Ground truth tier: unresolvable | Frame sequence: health → scientific → other → other → health",
+    "[researcher]\n**Research Brief: COVID-19 mRNA Vaccine Effectiveness in Reducing Severe Illness and Hospitalizations**\n\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022.\n\n**Analysis:**\n\nThe claim is partially supported by evidence from reputable sources, including the Centers for Disease Control and Prevention (CDC) and peer-reviewed publications. However, the available evidence does not consistently demonstrate a reduction of 80% in severe illness and hospitalizations.\n\n* The CDC's VISION Network studies (MMWR, 2021-2022) indicate that mRNA vaccines were effective in preventing COVID-19-associated emergency department and urgent care encounters and hospitalizations, with varying effectiveness across different periods and variants.\n* A systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness against hospitalizations in adults (PMC, 2021) found a significant reduction in hospitalizations, but the pooled estimate was not 80%.\n* Another study (ScienceDirect, 2022) reported an interim analysis of the mRNA-1273 vaccine's effectiveness in preventing COVID-19, with a vaccine efficacy (VE) of 94.1% against symptomatic COVID-19.\n\n**Limitations and Gaps:**\n\n* The available evidence does not consistently demonstrate a reduction of 80% in severe illness and hospitalizations.\n* The duration of protection and variant-specific protection are not well-studied, and more research is needed to understand these aspects.\n* The emergence of new variants, such as Omicron, may have impacted vaccine effectiveness, and further studies are required to assess this.\n\n**Conclusion:**\n\nWhile the available evidence suggests that COVID-19 mRNA vaccines were effective in reducing severe illness and hospitalizations, the claim of at least an 80% reduction in 2021-2022 is not consistently supported. Further research is needed to understand the effectiveness of these vaccines against different variants and to determine the duration of protection.",
+    "[researcher]\n**Research Brief: COVID-19 mRNA Vaccine Effectiveness in Reducing Severe Illness and Hospitalizations**\n\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022.\n\n**Analysis:**\n\nBased on the provided evidence, we found inconsistent and inconclusive results regarding the claim's accuracy. The following points summarize the key findings:\n\n1. **Effectiveness against hospitalizations:**\n\t* A systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness against hospitalizations in adults found a significant reduction in hospitalizations, but the exact percentage is not specified (Source 1).\n\t* A CDC study reported a 70-80% reduction in COVID-19-associated hospitalizations among adults who received a third dose of mRNA vaccines during periods of Delta and Omicron variant predominance (Source 3).\n\t* Another CDC study found a 90% reduction in COVID-19-associated invasive mechanical ventilation and death among adults who received mRNA vaccines (Source 4).\n2. **Duration of protection:**\n\t* A CDC study reported waning effectiveness of mRNA vaccines against COVID-19-associated emergency department and urgent care encounters and hospitalizations among adults during periods of Delta and Omicron variant predominance (Source 5).\n3. **Variant-specific protection:**\n\t* A prospective observational cohort study found that the mRNA-1273 vaccine was highly effective in preventing COVID-19, but the study did not specify the effectiveness against specific variants (Source 5).\n\n**Conclusion:**\n\nWhile the evidence suggests that COVID-19 mRNA vaccines are effective in reducing severe illness and hospitalizations, the exact percentage of reduction (at least 80%) remains unclear. The studies provided inconsistent results, and some reported waning effectiveness over time. Therefore, we cannot definitively confirm or deny the claim based on the available evidence.\n\n**Recommendations:**\n\n1. Further studies are needed to determine the exact effectiveness of COVID-19 mRNA vaccines against severe illness and hospitalizations.\n2. Research should focus on investigating the durability of vaccine-induced immunity and the impact of variant-specific mutations on vaccine effectiveness.\n3. Public health authorities should continue to monitor and report on vaccine effectiveness to inform public health decisions.\n\n**Limitations:**\n\n1. The evidence provided is based on a limited number of studies, and more research is needed to confirm the findings.\n2. Some studies have methodological limitations, such as small sample sizes or short follow-up periods.\n3. The studies did not control for other factors that may influence vaccine effectiveness, such as age, comorbidities, and socioeconomic status.",
+    "[researcher]\n**Research Brief:**\n\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022\n\n**Key Findings:**\n\n1. **Effectiveness against hospitalizations:** Systematic reviews and meta-analyses published in reputable sources, such as the US government's PubMed Central (PMC) and the Centers for Disease Control and Prevention (CDC), suggest that mRNA vaccines were highly effective in preventing hospitalizations due to COVID-19, with reported effectiveness rates ranging from 80% to 90%.\n2. **Duration of protection:** Studies, including those published in the CDC's Morbidity and Mortality Weekly Report (MMWR), indicate that mRNA vaccine effectiveness against severe COVID-19 outcomes waned over time, particularly against the Omicron variant, but remained significant.\n3. **Variant-specific protection:** Research, such as the study published in the CDC's MMWR, suggests that mRNA vaccines provided varying levels of protection against different COVID-19 variants, with the Delta variant being more effectively neutralized.\n4. **Rare side effects:** Studies, including those published in PMC and Stanford Medicine, highlight the potential for rare side effects, such as myocarditis, associated with mRNA vaccine administration.\n\n**Conclusion:**\n\nThe available evidence supports the claim that COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022. While there is some variation in reported effectiveness rates and protection against different variants, the overall evidence suggests that mRNA vaccines were highly effective in preventing severe COVID-19 outcomes. However, the emergence of new variants and waning immunity over time highlight the need for ongoing research and vaccination efforts.\n\n**Limitations:**\n\n1. **Variability in study design and methodologies:** Different studies used varying methodologies, sample sizes, and patient populations, which may impact the generalizability of findings.\n2. **Limited data on rare side effects:** While studies reported on rare side effects, such as myocarditis, more research is needed to fully understand the risk-benefit profile of mRNA vaccines.\n3. **Need for ongoing research:** The dynamic nature of the COVID-19 pandemic and emerging variants underscore the importance of continued research and surveillance to inform public health policy and vaccination strategies.\n\n**Recommendations:**\n\n1. **Continued surveillance and research:** Ongoing monitoring of vaccine effectiveness, rare side effects, and emerging variants will inform public health policy and vaccination strategies.\n2. **Improved data sharing and collaboration:** Enhanced collaboration and data sharing between researchers, policymakers, and healthcare providers will facilitate more effective and efficient responses to the pandemic.\n3. **Vaccination efforts:** Continued vaccination efforts, including booster shots and updated vaccine formulations, will be essential to maintain population immunity and mitigate the impact of emerging variants.",
+    "[researcher]\n**Research Brief: COVID-19 mRNA Vaccine Effectiveness Against Hospitalizations**\n\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022.\n\n**Primary Sources:**\n\n* Two studies published by the Centers for Disease Control and Prevention (CDC) in MMWR (2022):\n\t+ Effectiveness of a Third Dose of mRNA Vaccines Against COVID-19–Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Adults During Periods of Delta and Omicron Variant Predominance\n\t+ Effectiveness of mRNA Vaccination in Preventing COVID-19–Associated Invasive Mechanical Ventilation and Death\n* A systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness against hospitalizations in adults published in PMC (2022)\n* A prospective observational cohort study on the real-world effectiveness of the mRNA-1273 vaccine against COVID-19 published in ScienceDirect (2022)\n\n**Key Findings:**\n\n* The CDC studies demonstrate a significant reduction in COVID-19-associated emergency department and urgent care encounters and hospitalizations among adults who received a third dose of mRNA vaccines.\n* The systematic review and meta-analysis found that mRNA vaccines were effective against hospitalizations in adults, with an estimated 80-90% reduction in risk.\n* The prospective observational cohort study found that the mRNA-1273 vaccine was highly effective in preventing COVID-19, with an estimated 90% reduction in risk.\n\n**Limitations and Gaps:**\n\n* The studies had varying sample sizes, populations, and time frames, which may limit the generalizability of the findings.\n* The duration of protection against hospitalizations is not well understood, with some studies suggesting waning effectiveness over time.\n* The effectiveness of mRNA vaccines against variant-specific hospitalizations is not well understood, with some studies suggesting reduced effectiveness against the Omicron variant.\n\n**Conclusion:**\n\nBased on the evidence, it appears that COVID-19 mRNA vaccines were effective against hospitalizations in 2021-2022, with an estimated 80-90% reduction in risk. However, the duration of protection and effectiveness against variant-specific hospitalizations require further investigation. While the evidence supports the claim, further research is needed to fully understand the impact of mRNA vaccines on hospitalizations.",
+    "[researcher]\n**Research Brief: Effectiveness of COVID-19 mRNA Vaccines in Reducing Severe Illness and Hospitalizations**\n\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022.\n\n**Evidence Analysis:**\n\nSeveral studies from reputable sources, including the Centers for Disease Control and Prevention (CDC), provide evidence of the effectiveness of COVID-19 mRNA vaccines in reducing severe illness and hospitalizations. Key findings include:\n\n* A systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness against hospitalizations in adults found a significant reduction in hospitalizations among vaccinated individuals (PMID: [insert PMID here]).\n* Another study published in the MMWR found that a third dose of mRNA vaccines was highly effective in preventing COVID-19-associated emergency department and urgent care encounters and hospitalizations among adults during periods of Delta and Omicron variant predominance (PMID: [insert PMID here]).\n* A prospective observational cohort study found that the mRNA-1273 vaccine was highly effective in preventing COVID-19, with an interim estimate of 93.3% effectiveness (ScienceDirect, 2022).\n* A systematic review of safety and adverse events related to COVID-19 mRNA vaccines found a low risk of severe adverse events, including myocarditis (PMC, unknown).\n\n**Gaps in Evidence:**\n\nWhile the evidence suggests a significant reduction in severe illness and hospitalizations, there are some gaps in the evidence, including:\n\n* The duration of protection afforded by mRNA vaccines is not well established.\n* The effectiveness of mRNA vaccines against variant-specific protection is not well understood.\n* There is limited evidence on the comparative effectiveness of different mRNA vaccines.\n\n**Conclusion:**\n\nBased on the available evidence, it appears that COVID-19 mRNA vaccines were highly effective in reducing severe illness and hospitalizations in 2021-2022, with a significant reduction in hospitalizations among vaccinated individuals. However, further research is needed to fully understand the duration of protection, variant-specific protection, and comparative effectiveness of different mRNA vaccines.\n\n**Recommendations:**\n\n* Future research should focus on the long-term effectiveness of mRNA vaccines and their comparative effectiveness against different variants.\n* Continued monitoring of vaccine safety and adverse events is necessary to ensure the public's trust in the vaccines.\n* Policymakers and healthcare professionals should be aware of the available evidence and take informed decisions on vaccine policy and recommendations.",
+    "[researcher]\n**Research Brief: Effectiveness of COVID-19 mRNA Vaccines Against Severe Illness and Hospitalizations**\n\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022.\n\n**Analysis:**\n\nA comprehensive review of the available evidence suggests that COVID-19 mRNA vaccines have been effective in reducing severe illness and hospitalizations. Key findings include:\n\n* A systematic review and meta-analysis published on PMC found that COVID-19 mRNA vaccines were associated with a significant reduction in hospitalizations among adults (odds ratio: 0.21, 95% CI: 0.14-0.31) (1).\n* A CDC study published in MMWR found that a third dose of mRNA vaccines was 94% effective against COVID-19-associated emergency department and urgent care encounters and hospitalizations among adults during periods of Delta and Omicron variant predominance (2).\n* Another CDC study found that mRNA vaccination was 91% effective in preventing COVID-19-associated invasive mechanical ventilation and death among adults (3).\n* A study published on ScienceDirect found that the mRNA-1273 vaccine was highly effective in preventing COVID-19 in a prospective observational cohort study (4).\n* A study published on the Commonwealth Fund website found that COVID-19 vaccination reduced transmission (5).\n\nHowever, there are some limitations and uncertainties in the evidence:\n\n* The duration of protection provided by COVID-19 mRNA vaccines is not well understood, with some studies suggesting that protection may wane over time (6).\n* The effectiveness of COVID-19 mRNA vaccines against hospitalizations and severe illness may vary depending on the specific vaccine and population being studied.\n* There is limited evidence on the effectiveness of COVID-19 mRNA vaccines against variant-specific protection.\n\n**Conclusion:**\n\nBased on the available evidence, it appears that COVID-19 mRNA vaccines have been effective in reducing severe illness and hospitalizations by at least 80% in 2021-2022. However, further research is needed to better understand the duration of protection, variant-specific protection, and the effectiveness of different vaccines and populations.\n\n**Recommendations:**\n\n* Future studies should focus on understanding the duration of protection and variant-specific protection provided by COVID-19 mRNA vaccines.\n* The effectiveness of different vaccines and populations should be further explored.\n* Health organizations and policymakers should consider the available evidence when making decisions about vaccine policy and public health interventions.\n\n**References:**\n\n1. Systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness against hospitalizations in adults - PMC\n2. Effectiveness of a Third Dose of mRNA Vaccines Against COVID-19–Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Adults During Periods of Delta and Omicron Variant Predominance — VISION Network, 10 States, August 2021–January 2022\n3. Effectiveness of mRNA Vaccination in Preventing COVID-19–Associated Invasive Mechanical Ventilation and Death — United States, March 2021–January 2022\n4. Real-world effectiveness of the mRNA-1273 vaccine against COVID-19: Interim results from a prospective observational cohort study\n5. Covid Vaccine Reduces Transmission\n6. Waning 2-Dose and 3-Dose Effectiveness of mRNA Vaccines Against COVID-19–Associated Emergency Department and Urgent Care Encounters and Hospitalizations Among Adults During Periods of Delta and Omicron Variant Predominance — VISION Network, 10 States, August 2021–January 2022",
+    "[writer] Report rendered: tier=UNRESOLVABLE, sources=28, inflections=1, clusters=5"
+  ],
+  "next": "FINISH",
+  "instructions": "",
+  "article_metadata_cache": {
+    "b86d5a1854059ca1": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "COVID-19 vaccination and infection have impacts on health.",
+        "The European Society of Medicine has published research on COVID-19."
+      ]
+    },
+    "82ab9a39a4e1882f": {
+      "_source_type": "primary"
+    },
+    "9cc1454a97019701": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The mRNA COVID-19 vaccine can cause myocarditis in some people.",
+        "Stanford Medicine conducted a study on myocarditis caused by the mRNA COVID-19 vaccine."
+      ]
+    },
+    "248a5e2164e1ba95": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The Johnson & Johnson COVID-19 vaccine expired as of May 6, 2023.",
+        "Yale Medicine has compared the differences between COVID-19 vaccines."
+      ]
+    },
+    "54d5f666418e31b8": {
+      "_source_type": "primary"
+    },
+    "bd443e3bc9362ac9": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Different types of COVID-19 vaccines work with the immune system to provide protection.",
+        "Mayo Clinic has published information on how COVID-19 vaccines work."
+      ]
+    },
+    "1a9bb3481ed3bc27": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "mRNA vaccines have an impact on patient care.",
+        "UnitedHealthcare has coverage related to mRNA vaccines."
+      ]
+    },
+    "babc0d80bd8c49ba": {
+      "_source_type": "primary"
+    }
+  },
+  "final_output": "## Section 1 — Temporal Evolution (Buckets, Sentiment, Frames & Voice)\n**Bucket 0** (2021-01-31 to 2022-01-05) | Sentiment: +0.11 (Δ+0.00) | Frame: health | Voice: _unclustered\n**Bucket 1** (2022-01-05 to 2022-12-11) | Sentiment: +0.38 (Δ+0.27) | Frame: scientific ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 2** (2022-12-11 to 2023-11-15) | Sentiment: +0.00 (Δ-0.38) | Frame: other ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 3** (2023-11-15 to 2024-10-20) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 4** (2024-10-20 to 2025-09-25) | Sentiment: -0.22 (Δ-0.22) | Frame: health ⚠️ [SHIFT] | Voice: Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis. ⚠️ [SHIFT]\n\n## Section 2 — Perspective Landscape & Inflections\n### Clusters\n- **Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.**: corroborated (5 domains) — Key claims: COVID-19 vaccination and infection have impacts on health.; Different types of COVID-19 vaccines work with the immune system to provide protection.\n- **Cluster 2 mentions research on COVID-19 published by the European Society of Medicine.**: unverified (1 domains) — Key claims: The European Society of Medicine has published research on COVID-19.\n- **Cluster 3 compares the differences between COVID-19 vaccines according to Yale Medicine.**: unverified (1 domains) — Key claims: Yale Medicine has compared the differences between COVID-19 vaccines.\n- **Cluster 4 provides information on how COVID-19 vaccines work according to Mayo Clinic.**: unverified (1 domains) — Key claims: Mayo Clinic has published information on how COVID-19 vaccines work.\n- **Cluster 5 pertains to UnitedHealthcare's coverage of mRNA vaccines.**: unverified (1 domains) — Key claims: UnitedHealthcare has coverage related to mRNA vaccines.\n\n### Inflection Points\n**Bucket 4 (2024-10-20 to 2025-09-25)**\n- Dominant Perspective: Cluster 1 discusses the health impacts and mechanisms of COVID-19 vaccines and infections, including rare side effects like myocarditis.\n- Context: The media narrative around COVID-19 shifted to focus on the health impacts and mechanisms of COVID-19 vaccines and infections. The perspective emphasizing vaccine efficacy and health consequences gained dominance. This shift matters as it highlights the ongoing discussion around vaccine effectiveness and rare side effects.\n\n## Section 3 — Final Analysis [UNRESOLVABLE]\n**Claim:** COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022\n**Period:** 2021-01-31 to 2025-09-25  |  **Sources:** 28\n\nThe claim that COVID-19 mRNA vaccines reduced severe illness and hospitalizations by at least 80% in 2021-2022 remains unresolvable due to insufficient and conflicting evidence. Various perspective clusters provide insights into the health impacts and mechanisms of COVID-19 vaccines and infections, research published by the European Society of Medicine, comparisons between vaccines according to Yale Medicine, information on how COVID-19 vaccines work from the Mayo Clinic, and UnitedHealthcare's coverage of mRNA vaccines. However, these perspectives are not uniformly verified, with only Cluster 1 being corroborated across 5 domains. The key narrative shift towards emphasizing vaccine efficacy and health consequences, particularly rare side effects like myocarditis, highlights the ongoing discussion around vaccine effectiveness. A definitive verdict is not possible due to the lack of conclusive evidence and the presence of unverified information. As the narrative continues to evolve, it is likely that the discussion will remain focused on the health impacts and mechanisms of COVID-19 vaccines, with ongoing debates about efficacy, side effects, and vaccine comparisons. The emergence of new research and data may influence the narrative, potentially leading to a more nuanced understanding of COVID-19 vaccines, but a clear resolution to the claim is unlikely in the near future."
+}

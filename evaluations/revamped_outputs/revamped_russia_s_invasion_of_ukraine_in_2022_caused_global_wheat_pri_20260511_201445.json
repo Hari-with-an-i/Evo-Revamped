@@ -1,0 +1,1540 @@
+{
+  "messages": [
+    "content=\"Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%\" additional_kwargs={} response_metadata={} id='8fdbe7e7-caf6-4d3b-aaf3-c04c3c7b2a32'"
+  ],
+  "raw_input": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%",
+  "input_type": "claim",
+  "claim": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%",
+  "entities": [
+    "Russia",
+    "Ukraine"
+  ],
+  "timeframe": "2022",
+  "claim_complexity": "complex",
+  "context_summary": {
+    "who": "Russia|Ukraine",
+    "what": "Russia's invasion of Ukraine caused global wheat prices to rise over 30%",
+    "when": "2022",
+    "competing_narratives": "Global food security impacts mitigated through international cooperation|Wheat price surge attributed to various market factors",
+    "claim_dimensions": "causal mechanism|timeline accuracy|source credibility|geographical scope|market impact"
+  },
+  "retrieved_articles": [
+    {
+      "id": "34299548cd636ce3",
+      "title": "International cooperation was key to stabilize wheat prices after the Russian Invasion of Ukraine | Communications Earth & Environment",
+      "body": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer).",
+      "source_name": "www.nature.com",
+      "source_url": "https://www.nature.com/articles/s43247-024-01638-7",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "a7441c611059ea28",
+      "title": "U.S. wheat prices surge in wake of Russia-Ukraine conflict | Economic Research Service",
+      "body": "An official website of the United States government Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.ers.usda.gov",
+      "source_url": "http://www.ers.usda.gov/data-products/charts-of-note/chart-detail?chartId=103793",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "dee8d884428089ed",
+      "title": "| Choices Magazine Online",
+      "body": "| MENU | Tweet Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang JEL Classifications: Q17, Q18 Keywords: Agricultural exports, Fertilizer prices, Modeling of agricultural markets, Russia-Ukraine conflict Citation: He, X.",
+      "source_name": "www.choicesmagazine.org",
+      "source_url": "https://www.choicesmagazine.org/choices-magazine/theme-articles/turmoil-in-global-food-agricultural-and--input-markets-implications-of-russias-invasion-of-ukraine/impacts-of-the-russian-ukraine-conflict-on-global-agriculture-commodity-prices-trade-and-cropland-reallocation",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "b48359e01e318338",
+      "title": "From battlefield to market: How disruptions in Ukraine affected grain price trends | CEPR",
+      "body": "VoxEU Search All Columns VoxTalks VideoVox About VoxEU Research Programme Areas Research Policy Networks (RPNs) Research Projects and Networks Research Policies Data Sets Publications Publication Series Books and Reports Discussion Papers Covid Economics Papers Policy Papers Economic Policy Journal Search All Publications Archive Events Calls for Papers Forthcoming Events Past Events Event Series Audio and video Search all multimedia content VoxTalks VideoVox Vox Webcasts Webinar Videos About CEPR People News Advisory Board Press Governance Support CEPR Partners Jobs at CEPR Search the site 1.",
+      "source_name": "cepr.org",
+      "source_url": "https://cepr.org/voxeu/columns/battlefield-market-how-disruptions-ukraine-affected-grain-price-trends",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "6324ff21ad57d2ce",
+      "title": "How the Russian invasion of Ukraine has further aggravated the ...",
+      "body": "to improve your browsing experience. Necessary cookies are required to support essential features of the Council's website.",
+      "source_name": "www.consilium.europa.eu",
+      "source_url": "https://www.consilium.europa.eu/en/infographics/how-the-russian-invasion-of-ukraine-has-further-aggravated-the-global-food-crisis/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "5bfcd157977e7195",
+      "title": "The Russia-Ukraine War and Global Food Security: Impacts Four Years Later",
+      "body": "April 30, 2026 • 8:30 am – 6:00 pm EDT In Person Webcast Hosted by Global Food and Water Security Program April 30, 2026 • 8:30 am – 6:00 pm EDT In Person Webcast Hosted by Global Food and Water Security Program April 30, 2026 • 9:00 – 10:00 am EDT Webcast Hosted by The CSIS Bipartisan Alliance for Global Health Security April 30, 2026 • 10:00 – 10:50 am EDT In Person Webcast Hosted by Global Food and Water Security Program All Events Explore the Department Aerospace Security Project Arleigh A.",
+      "source_name": "www.csis.org",
+      "source_url": "https://www.csis.org/analysis/war-ukraine-and-global-food-security-impacts-four-years-later",
+      "published_at": "2026-04-30T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "65815c91663fb9c1",
+      "title": "The War in Ukraine, Agricultural Trade and Risks to Global Food Security - Intereconomics",
+      "body": "Current issue Volumes Authors Events About us Submissions Order Contact Data protection Imprint A service of the ZBW Intereconomics Review of European Economic Policy Intereconomics / Volumes / 2022 / Number 3 / The War in Ukraine, Agricultural Trade and Risks to Global Food Security Forum Volume 57, 2022 · Number 3 · JEL: Q13, Q17, Q18 By Thomas Glauben, Miranda Svanidze, Linde Götz, Sören Prehn, Tinoush Jamali Jaghdani, Ivan Duric, Lena Kuhn This article is part of The Ripple Effects of the War in Ukraine Thomas Glauben, Leibniz Institute of Agricultural Development in Transition Economies (IAMO), Halle, Germany.",
+      "source_name": "www.intereconomics.eu",
+      "source_url": "https://www.intereconomics.eu/contents/year/2022/number/3/article/the-war-in-ukraine-agricultural-trade-and-risks-to-global-food-security.html",
+      "published_at": "2022-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "e251904369b224a2",
+      "title": "The Ukraine war and rising commodity prices: Implications for ... - PMC",
+      "body": "An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "pmc.ncbi.nlm.nih.gov",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10015268/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%"
+    },
+    {
+      "id": "ca24884ed4ce7c3f",
+      "title": "Russia–Ukraine relations - Wikipedia",
+      "body": "Jump to content Search 1 History of relations 1.1 Kievan Rus' 1.2 Muscovy and the Russian Empire 1.3 Ukrainian People's Republic and Ukrainian State 1.4 Soviet Union 1.4.1 Ukrainian People's Republic 1.4.2 Holodomor 1.5 Ukrainian independence 1.6 1990s 1.6.1 Nuclear disarmament 1.6.2 Crimea, Sevastopol, and division of the Black Sea Fleet 1.6.3 Economics 1.7 2000s 1.7.1 Second Tymoshenko government 1.8 2010s 1.8.1 Viktor Yanukovych presidency 1.8.2 Economic integration and Euromaidan 1.8.3 Annexation of Crimea and war in eastern Ukraine 1.8.4 Continued deterioration of relations 1.8.5 Volodymyr Zelenskyy presidency 1.9 2020s 2 History post Russian invasion 2.1 2022 2.2 2023 2.3 2024 3 Border 4 Armaments and aerospace industries 5 Popular opinion and philosophy 5.1 In Russia 5.2 In Ukraine 6 Treaties and agreements 7 Territorial disputes 8 Cultural relations 8.1 Removal of Russian street names and monuments across Ukraine 9 Energy market 10 See also 11 Notes 12 References 13 Further reading 14 External links العربية الدارجة Български Deutsch Ελληνικά Español Eesti Euskara فارسی Français עברית Հայերեն Bahasa Indonesia [It",
+      "source_name": "en.wikipedia.org",
+      "source_url": "https://en.wikipedia.org/wiki/Russia%E2%80%93Ukraine_relations",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "62cc77caec112427",
+      "title": "Russo-Ukrainian War | Military History and Science | Research Starters | EBSCO Research",
+      "body": "The Russo-Ukrainian War is a conflict that began with Russia's invasion of Ukraine in February 2014 and escalated into a full-scale war starting on February 24, 2022.",
+      "source_name": "www.ebsco.com",
+      "source_url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war",
+      "published_at": "2014-02-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "ded06ab871fc80b9",
+      "title": "Russia and Ukraine: From Brothers to Neighbors - Carnegie Moscow Center - Carnegie Endowment for International Peace",
+      "body": "Carnegie Moscow Center Global Resources #### Global Centers Beijing Home中文 Issues主题 Programs项目 Experts专家 Events会议 Publications出版物 ##### Shortcuts For Media Podcasts Beirut Homeعربي Issuesعربي Regionsالمناطق Expertsالباحثون Eventsالأنشطة Publicationsالمنشورات ##### Shortcuts Sada Diwan Capacity Building X-Border Local Research Network For Media Brussels Home Issues Regions Experts Events Publications Publikationen auf deutsch Publications en français ##### Shortcuts Judy Dempsey's Strategic Europe For Media Moscow HomeГлавная страница ProgramsПрограммы IssuesТемы ExpertsЭксперты EventsСобытия PublicationsПубликации ProjectsПроекты ##### Shortcuts For Media New Delhi Home Issues Regions Experts Events Publications ##### Shortcuts Feedback and Media Enquiries Washington Home Issues Regions Publications Experts Events Programs Projects ##### Shortcuts Annual Report For Media For Government For Academics Diwan Sada Strategic Europe China Financial Markets The World Unpacked #### Languages English Experts Publications Events Русский Эксперты Публикации События 中文 专家 出版物 会议 عربي الباحثون المنشورات الأنشطة Research Events Experts Issues Struggle for Ukraine Security in Europe Dmitri Trenin",
+      "source_name": "carnegie.ru",
+      "source_url": "https://carnegie.ru/commentary/75847",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "5f5c40db92e7d374",
+      "title": "Russia & Ukraine",
+      "body": "Share Donate Menu Menu About ISW Objectivity, Truth, Insight Our Capabilities ISW’s Comparative Advantage Our History Improving the National Security Debate Who We Are Meet the Team Careers Join the Mission Open Positions ISW produces the world’s premier open-source conflict maps SEE MAPS Analysis The General Jack Keane Center for National Security Map Room Dive into ISW's Complete Map Catalog Briefing Room Videos, Podcasts, and Interactive Content Research Library Browse ISW's Entire Body of Work ### TEAMS/PORTFOLIOS Russia & Ukraine Middle East China & Taiwan Defense of Europe Adversary Entente Contemporary & Future War Geospatial Intelligence Cognitive Warfare Education The General David H.",
+      "source_name": "understandingwar.org",
+      "source_url": "https://understandingwar.org/analysis/russia-ukraine/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "7b921202d91f86ad",
+      "title": "Russo-Ukrainian war - Wikipedia",
+      "body": "Jump to content [x] Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search [x] Appearance Donate Create account [x] Personal tools Donate Create account move to sidebar hide (Top) 1 BackgroundToggle Background subsection 1.1 Independent Ukraine and the Orange Revolution 1.2 Russo-Georgian War 1.3 Euromaidan and Revolution of Dignity 1.4 Pro-Russian protests 2 Causes 3 HistoryToggle History subsection 3.1 Historiography 3.2 Russian annexation of Crimea (2014)) 3.3 War in the Donbas (2014–2021)) 3.3.1 First months of the war 3.3.2 August 2014 Russian invasion 3.3.3 Minsk agreement and continued fighting 3.3.4 Minsk II agreement and battle of Debaltseve [3.3.5 Static war](",
+      "source_name": "en.wikipedia.org",
+      "source_url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "70db0e30d2fbb931",
+      "title": "Ukraine: Conflict at the Crossroads of Europe and Russia",
+      "body": "Updated Ukraine’s Westward drift since independence has been countered by the sometimes violent tug of Russia, felt most recently with Putin’s 2022 invasion.",
+      "source_name": "www.cfr.org",
+      "source_url": "https://www.cfr.org/backgrounders/ukraine-conflict-crossroads-europe-and-russia",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "1bfa1899d8b74044",
+      "title": "Consequences of the Russia-Ukraine War and the Changing Face ...",
+      "body": "Skip to page content Toggle Menu ### Topics Middle East International Economic Relations Students Russia Artificial Intelligence Children, Families, and Communities Cyber and Data Sciences Education and Literacy Energy and Environment Health, Health Care, and Aging Homeland Security and Public Safety Infrastructure and Transportation International Affairs Law and Business National Security Science and Technology Workers and the Workplace All Topics Research & Commentary Experts About ### Research Divisions RAND's divisions conduct research on a uniquely broad front for clients around the globe.",
+      "source_name": "www.rand.org",
+      "source_url": "https://www.rand.org/pubs/research_briefs/RBA3141-1.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "073d6d800def3ec1",
+      "title": "The conflict in Ukraine - House of Commons Library",
+      "body": "Visit the UK Parliament websiteHouse of Commons LibraryToggle main navigation Briefings Data Casework Resources About Search 1.",
+      "source_name": "commonslibrary.parliament.uk",
+      "source_url": "https://commonslibrary.parliament.uk/the-conflict-in-ukraine/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia Ukraine"
+    },
+    {
+      "id": "85a669698303df1d",
+      "title": "Timeline - Russian invasion of Ukraine - LibGuides at Cairn University",
+      "body": "1. Masland Library Home Page 2. LibGuides 3. Russian invasion of Ukraine 4. Timeline Search this Guide Search Home Timeline History of Ukraine 9th Century - Founding of Kievan Rus, the first major Eastern Slavonic state.",
+      "source_name": "libguides.cairn.edu",
+      "source_url": "https://libguides.cairn.edu/ukraine/timeline",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "d9dfeef56e218b3a",
+      "title": "The Long History of Russia and War | Tufts Now",
+      "body": "The Long History of Russia and War Exit Activism & Social Justice Animal Health & Medicine Arts & Humanities Business & Economics Campus Life Climate & Sustainability Food & Nutrition Global Affairs Health Point of View Politics & Voting Science & Technology Addiction Aging Alzheimer’s Disease Artificial Intelligence Biomedical Science Books Cancer Cellular Agriculture Cognitive Science Computer Science COVID-19 Cybersecurity Diabetes Education Entrepreneurship Farming & Agriculture Film & Media Fitness Gender Genetics Health Care Heart Disease Humanitarian Aid Immigration Infectious Disease Life Science Lyme Disease Mental Health Neuroscience Obesity Oral Health Performing Arts Pollution Psychology Public Health Race Refugees Religion Sports Stress University News Urban Planning Visual Arts War Water Youth Voting Cummings School of Veterinary Medicine Friedman School of Nutrition Science and Policy The Fletcher School Graduate School of Arts and Sciences Graduate School of Biomedical Sciences Jean Mayer USDA Human Nutrition Research Center on Aging Jonathan M.",
+      "source_name": "now.tufts.edu",
+      "source_url": "https://now.tufts.edu/2022/03/31/long-history-russia-and-war",
+      "published_at": "2022-03-31T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "f099645c3f641be4",
+      "title": "A Timeline of the Russia-Ukraine Conflict",
+      "body": "How did the two countries, once tied together by the Soviet Union, get to this point? By Elliott Davis Jr.",
+      "source_name": "www.usnews.com",
+      "source_url": "https://www.usnews.com/news/best-countries/slideshows/a-timeline-of-the-russia-ukraine-conflict",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "9fdd62950c7ab027",
+      "title": "Russia's wars for the last 30 years and their consequences • Ukraїner",
+      "body": "War Restoration History Resistance Listen to the voice of Mariupol Voices of occupation Interviews: → Ukraine through the eyes of others → Decolonisation → How come Russia’s crimes Women at war Mutual assistance in the war Culture during the war Global context of war and more on different platforms view all Regions Bessarabia Bukovyna Volyn Halychyna Zakarpattia The Carpathians Donechchyna Kyiv Naddniprianshchyna Podillia Podniprovia and Zaporizhzhia Polissia Poltavshchyna Pryazovia Prychornomoria Sivershchyna Slobozhanshchyna Tavria Ukraine See map Topics Ambassadors Exporters Railway Nature Protection Explainers Ukrainians abroad Holodomor Art Music National Minorities Education Tourist Attractions Space Transformation Professions Crafts Communities Traditions Farming Photostories We are Crimea Christmas & Malanka Discover breathtaking stories about Ukraine View all About Our story Ukraїner International Languages & Platforms Shop The Movie Publishing House Donate en (UA) Українська (EN) English (DE) Deutsch (FR) Français (ES) Español (TR) Türkçe (PT) Português (PL) Polski (CS) Čeština (EL) Ελληνικά (KA) ქართული (JA) 日本語 (RU) Русский (CRH) Qırımtatarca Russia's crimes The history",
+      "source_name": "www.ukrainer.net",
+      "source_url": "https://www.ukrainer.net/en/russian-wars/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "f625586dab5b9101",
+      "title": "Conflict in Ukraine: A timeline (2014 - eve of 2022 invasion)",
+      "body": "We use essential cookies to make our site work. We'd like to use additional cookies to understand how you use the site and improve our services.",
+      "source_name": "commonslibrary.parliament.uk",
+      "source_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9476/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "b284782cd25e95ef",
+      "title": "Timeline of Crisis and Updates - Russia - Ukraine Crisis - LibGuides at Moreno Valley College",
+      "body": "A collection of articles, opinion pieces, books, news sources and other Information on the current conflict in Ukraine.",
+      "source_name": "researchguides.mvc.edu",
+      "source_url": "https://researchguides.mvc.edu/c.php?g=1223582&p=8950228",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "d785c0d0209eeb06",
+      "title": "Timeline of the Russo-Ukrainian war (2022–present) - Wikipedia",
+      "body": "| Timeline of the Russo-Ukrainian war (2022–present) | | | --- | --- | | Prelude (up to 23 February 2022) Initial invasion (24 February – 7 April 2022) Southeastern front \"Timeline of the Russo-Ukrainian war (8 April – 28 August 2022)\") (8 April – 28 August 2022) 2022 Ukrainian counteroffensives \"Timeline of the Russo-Ukrainian war (29 August – 11 November 2022)\") (29 August – 11 November 2022) Second stalemate \"Timeline of the Russo-Ukrainian war (12 November 2022 – 7 June 2023)\") (12 November 2022 – 7 June 2023) 2023 Ukrainian counteroffensive \"Timeline of the Russo-Ukrainian war (8 June 2023 – 31 August 2023)\") (8 June 2023 – 31 August 2023) 2023 Ukrainian counteroffensive, cont.",
+      "source_name": "en.wikipedia.org",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
+      "published_at": "2022-02-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "52706e5c5d68fefa",
+      "title": "Russia-Ukraine War | Map, Casualties, Timeline, Death Toll, Causes ...",
+      "body": "Home History & Society Science & Tech Biographies Animals & Nature Geography & Travel Arts & Culture ProCon Money Games & Quizzes Videos On This Day One Good Fact Dictionary New Articles History & Society Lifestyles & Social Issues Philosophy & Religion Politics, Law & Government World History Science & Tech Health & Medicine Science Technology Biographies Browse Biographies Animals & Nature Birds, Reptiles & Other Vertebrates Environment Fossils & Geologic Time Insects & Other Invertebrates Mammals Plants Geography & Travel Geography & Travel Arts & Culture Entertainment & Pop Culture Literature Sports & Recreation Visual Arts Image Galleries Podcasts Summaries Top Questions Lists and Stories Britannica Kids Ask the Chatbot Games & Quizzes History & Society Science & Tech Biographies Animals & Nature Geography & Travel Arts & Culture ProCon Money Videos Russia-Ukraine War Introduction & Top Questions The toppling of the Yanukovych government and the invasion of Crimea The war in the Donbas The Russian proxy war and the Poroshenko administration Minsk II and the election of Volodymyr Zelensky The Russian invasion of Ukraine The Russian buildup and Putin’s “special military operatio",
+      "source_name": "www.britannica.com",
+      "source_url": "https://www.britannica.com/event/Russia-Ukraine-War",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "Russia's invasion of history timeline"
+    },
+    {
+      "id": "4369c1b31a7c563a",
+      "title": "UK Flour Millers | Wheat market 2022",
+      "body": "About us What the association does Accreditation and proficiency Our story Our team How to join The industry Our Members Our Associate Members Members mill map Training & development Distance Learning Programme The Virtual Mill Advanced Milling Diploma Research & development programme Health and safety H&S Seminar 2026 Sustainability Environmental impact Flour milling The milling process Wheat testing at mill intake Food safety Flour Careers Women in milling Vacancies Knowledge hub Nutrition Health & nutrition Acrylamide Additives Gluten Flour microbiology Heavy metal Mycotoxins Psocids Fibre Adults and fibre Older adults and fibre Pregnant people and fibre People with IBS and fibre Standards & regulations Quality Pesticides Contaminants Hygiene Bread & Flour Regulations Assurance schemes Milling safety Dust, explosions & fire Farming & production [Wheat](",
+      "source_name": "www.ukflourmillers.org",
+      "source_url": "https://www.ukflourmillers.org/knowledge-hub/market-insights/wheat-market/wheat-market-2022",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat price rise 2022"
+    },
+    {
+      "id": "89222357cf3f3c4d",
+      "title": "Wheat Prices Critical for 2022 - The Strategic Funds",
+      "body": "Home » Wheat Prices Critical for 2022 By Admin In Strategic Perspective Wheat Prices Critical for 20222021-12-162021-12-16 Strategic Funds Since launching our ambitious series on commodities, we have spent a significant amount of time on energy.",
+      "source_name": "www.thestrategicfunds.com.pr",
+      "source_url": "https://www.thestrategicfunds.com.pr/wheat-prices-critical-for-2022/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat price rise 2022"
+    },
+    {
+      "id": "6d59f902e2ce90b2",
+      "title": "[PDF] Wheat Outlook: June 2022 - ERS USDA",
+      "body": "Approved by USDA’s World Agricultural Outlook Board Wheat Outlook: June 2022 Andrew Sowell, coordinator Bryn Swearingen, contributor U.S.",
+      "source_name": "ers.usda.gov",
+      "source_url": "https://ers.usda.gov/sites/default/files/_laserfiche/outlooks/104090/WHS-22f.pdf",
+      "published_at": "2022-06-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "global wheat price rise 2022"
+    },
+    {
+      "id": "6bb3eba7bae2e34d",
+      "title": "Wheat - Price - Chart - Historical Data - News",
+      "body": "| | Price | | | Day | Month | Year | Date | | --- | --- | --- | --- | --- | --- | --- | --- | | Soybeans | 1,194.25 | | 17.25 | 1.47% | 2.49% | 13.55% | May/08 | | Wheat | 607.50 | | 5.75 | 0.96% | 5.74% | 16.44% | May/08 | | Lumber | 580.00 | | 3.50 | 0.61% | -0.17% | 6.48% | May/08 | | Cheese | 1.68 | | -0.0150 | -0.88% | 3.12% | -7.78% | May/08 | | Palm Oil | 4,541.00 | | 14.00 | 0.31% | -0.98% | 19.47% | May/07 | | Milk | 16.95 | | -0.10 | -0.59% | -0.53% | -7.98% | May/08 | | Cocoa | 4,182.00 | | -245.00 | -5.53% | 29.07% | -55.45% | May/08 | | Cotton | 84.73 | | 1.730 | 2.08% | 12.49% | 26.99% | May/08 | | Rubber | 222.60 | | 3.00 | 1.37% | 7.80% | 29.95% | May/08 | | Orange Juice | 183.20 | | 10.00 | 5.77% | -5.47% | -28.49% | May/08 | | Coffee | 274.80 | | 1.55 | 0.57% | -5.09% | -30.54% | May/08 | | Oat | 331.00 | | 5.5000 | 1.69% | -0.45% | -3.71% | May/08 | | Wool | 1,886.00 | | 0 | 0% | 5.60% | 58.35% | May/08 | | Rice | 11.82 | | 0.1550 | 1.33% | 8.39% | -4.72% | May/08 | | Canola | 753.10 | | 13.90 | 1.88% | 6.27% | 7.72% | May/08 | | Sugar | 14.69 | | 0.15 | 1.03% | 5.53% | -17.51% | May/08 | | Corn | 456.25 | | 3.5000 | 0.77% | 2.76% | 1.45% | May/08 | | Related | L",
+      "source_name": "tradingeconomics.com",
+      "source_url": "https://tradingeconomics.com/commodity/wheat",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "global wheat price rise 2022"
+    },
+    {
+      "id": "bcf4a3f9ce66c123",
+      "title": "[PDF] Wheat Market Outlook – 2022/2023 - AgManager.info",
+      "body": "Wheat Market Outlook – 2022/2023 Wheat Market Perspectives in Mid-October 2022 October 18, 2022 DANIEL O’BRIEN EXTENSION AGRICULTURAL ECONOMIST 2 3 4 Daily DEC 2022 Chicago Wheat DTN: $8.49 ½ /bu on Tuesday, October 18, 2022 5 CME Chicago SRW Wheat Volatility Index (CVOL) October 2019 – October 17, 2022 6 7 Daily DEC 2022 HRS Wheat DTN: $9.56 /bu on Tuesday, October 18, 2022 8 Daily DEC 2022 KS HRW Wheat DTN: $9.44 ½ /bu on Tuesday, October 18, 2022 9 10 Market Perspective 11 Wheat Market Outlook 2022‐2023 in Kansas, the U.S.",
+      "source_name": "agmanager.info",
+      "source_url": "https://agmanager.info/sites/default/files/pdf/Wheat_OBrien_10-18-22.pdf",
+      "published_at": "2022-10-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "global wheat price rise 2022"
+    },
+    {
+      "id": "ec66d4f8f3316d08",
+      "title": "Wheat Price Trend 2026 | Graph & Forecast",
+      "body": "| | | | | | | --- | --- | --- | --- | --- | | Product | Region | Incoterm Basis | Price (USD/MT) | Time Period | | Wheat | China | FOB | USD 412.23/MT | February 2026 | | Wheat | India | FOB | USD 265.79/MT | February 2026 | | Wheat | USA | FOB | USD 280.33/MT | February 2026 | | Wheat | France | FOB | USD 199.62/MT | February 2026 | | Wheat | China | FOB | USD 310/MT | January 2026 | | Wheat | India | FOB | USD 308/MT | January 2026 | | Wheat | USA | FOB | USD 195/MT | January 2026 | | Wheat | France | FOB | USD 225/MT | January 2026 | | Wheat | Argentina | FOB | USD 240/MT | January 2026 | Stay updated with the latest wheat prices, historical data, and tailored regional analysis Global wheat prices followed a moderately firm trend during Q1 2026, supported by tightening supply expectations and weather-related risks across key producing regions.",
+      "source_name": "www.procurementresource.com",
+      "source_url": "https://www.procurementresource.com/resource-center/wheat-price-trends",
+      "published_at": "2026-02-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "wheat price increase cause 2022"
+    },
+    {
+      "id": "4a01323fba32e53e",
+      "title": "High grain prices rippled throughout the economy : Beyond the Numbers : U.S. Bureau of Labor Statistics",
+      "body": "An official website of the United States government United States Department of Labor The .gov means it's official.",
+      "source_name": "www.bls.gov",
+      "source_url": "https://www.bls.gov/opub/btn/volume-12/high-grain-prices-rippled-throughout-the-economy.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price increase cause 2022"
+    },
+    {
+      "id": "914e3ea8493f76b0",
+      "title": "Food Price Outlook - Summary Findings",
+      "body": "An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "source_name": "www.ers.usda.gov",
+      "source_url": "http://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "wheat price increase cause 2022"
+    },
+    {
+      "id": "96e70f2d3af6160d",
+      "title": "ATFX ： 黑海运粮遭俄暂停 ， 小麦期货开盘跳涨",
+      "body": "[20221101T051500Z] ATFX ： 黑海运粮遭俄暂停 ， 小麦期货开盘跳涨. Source: forex.jrj.com.cn.",
+      "source_name": "forex.jrj.com.cn",
+      "source_url": "http://forex.jrj.com.cn/2022/11/01104137102304.shtml",
+      "published_at": "2022-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "213463e53373c8af",
+      "title": "Importet e drithërave ranë me 25 % në nëntor , Serbia i zë vendin Rusisë",
+      "body": "[20221222T124500Z] Importet e drithërave ranë me 25 % në nëntor , Serbia i zë vendin Rusisë. Source: kohajone.com.",
+      "source_name": "kohajone.com",
+      "source_url": "https://kohajone.com/importet-e-dritherave-rane-me-25-ne-nentor-serbia-i-ze-vendin-rusise/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "2764cce4819f8de7",
+      "title": "国际谷物价格走势趋强|玉米 _ 新浪财经 _ 新浪网",
+      "body": "[20221026T010000Z] 国际谷物价格走势趋强|玉米 _ 新浪财经 _ 新浪网. Source: finance.sina.com.cn.",
+      "source_name": "finance.sina.com.cn",
+      "source_url": "https://finance.sina.com.cn/money/future/fmnews/2022-10-26/doc-imqmmthc2108725.shtml",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "2da5049635202d32",
+      "title": "粮食创纪录丰收之后 ， 俄罗斯农民有了新的问题",
+      "body": "[20221020T153000Z] 粮食创纪录丰收之后 ， 俄罗斯农民有了新的问题. Source: yicai.com.",
+      "source_name": "yicai.com",
+      "source_url": "https://www.yicai.com/news/101568372.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "e8bc6c14253d848e",
+      "title": "Importet e drithërave ranë me 25 % në 11 - mujor , Serbia i zë vendin Rusisë",
+      "body": "[20221222T094500Z] Importet e drithërave ranë me 25 % në 11 - mujor , Serbia i zë vendin Rusisë. Source: balkanweb.com.",
+      "source_name": "balkanweb.com",
+      "source_url": "https://www.balkanweb.com/importet-e-dritherave-rane-me-25-ne-11-mujor-serbia-i-ze-vendin-rusise/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "03646214c7e01cbf",
+      "title": "2023 : la Russie , arbitre du marché céréalier mondial ? ",
+      "body": "[20230101T014500Z] 2023 : la Russie , arbitre du marché céréalier mondial ? . Source: bamada.net.",
+      "source_name": "bamada.net",
+      "source_url": "http://bamada.net/2023-la-russie-arbitre-du-marche-cerealier-mondial",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "0ba17e0503fc02d7",
+      "title": "Ukraine assures world of steady supply of wheat",
+      "body": "[20221112T050000Z] Ukraine assures world of steady supply of wheat. Source: mb.com.ph.",
+      "source_name": "mb.com.ph",
+      "source_url": "https://mb.com.ph/2022/11/12/ukraine-assures-world-of-steady-supply-of-wheat/",
+      "published_at": "2022-11-12T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "c501350a717607b5",
+      "title": "RASTU CENE PŠENICA : Haos na tržištu nakon što se Rusija povukla iz sporazuma o izvozu žitarica",
+      "body": "[20221031T134500Z] RASTU CENE PŠENICA : Haos na tržištu nakon što se Rusija povukla iz sporazuma o izvozu žitarica. Source: novosti.rs.",
+      "source_name": "novosti.rs",
+      "source_url": "https://www.novosti.rs/ekonomija/vesti/1168355/rastu-cene-psenica-haos-trzistu-nakon-sto-rusija-povukla-sporazuma-izvozu-zitarica",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "da2b659c7e3b55fa",
+      "title": "美 백악관 北 러시아에 무기 제공 첩보 … 유엔서 책임 물을 것",
+      "body": "[20221102T233000Z] 美 백악관 北 러시아에 무기 제공 첩보 … 유엔서 책임 물을 것. Source: hankyung.com.",
+      "source_name": "hankyung.com",
+      "source_url": "https://www.hankyung.com/international/article/2022110228081",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "1ebab35d534a4ce6",
+      "title": "Wheat Prices Up Amid War , Expanding Drought",
+      "body": "[20221103T171500Z] Wheat Prices Up Amid War , Expanding Drought. Source: today.tamu.edu.",
+      "source_name": "today.tamu.edu",
+      "source_url": "https://today.tamu.edu/2022/11/03/wheat-prices-up-amid-war-expanding-drought/",
+      "published_at": "2022-11-03T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "f9fd892352ebd684",
+      "title": "Wheat and Corn Prices Jump After Russia Nixes Export Deal",
+      "body": "[20221102T201500Z] Wheat and Corn Prices Jump After Russia Nixes Export Deal. Source: etftrends.com.",
+      "source_name": "etftrends.com",
+      "source_url": "https://www.etftrends.com/commodities-channel/wheat-and-corn-prices-jump-after-russia-nixes-export-deal/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "19f825f368f03e9f",
+      "title": "الخرطوم تقول إن روسيا لم تعترض على شحنة القمح الأوكرانية للسودان",
+      "body": "[20221229T200000Z] الخرطوم تقول إن روسيا لم تعترض على شحنة القمح الأوكرانية للسودان. Source: sudantribune.net.",
+      "source_name": "sudantribune.net",
+      "source_url": "https://sudantribune.net/article268818/",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "cc0fd229f0ab185d",
+      "title": "Wheat prices up amid war , expanding drought",
+      "body": "[20221104T153000Z] Wheat prices up amid war , expanding drought. Source: phys.org.",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2022-11-wheat-prices-war-drought.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "74335c4cbb11b314",
+      "title": "普京迎来好消息 ， 西方利用种子卡脖俄罗斯 ， 俄方果断找中国帮忙 _ 军事频道 _ 中华网",
+      "body": "[20221010T040000Z] 普京迎来好消息 ， 西方利用种子卡脖俄罗斯 ， 俄方果断找中国帮忙 _ 军事频道 _ 中华网. Source: military.china.com.",
+      "source_name": "military.china.com",
+      "source_url": "https://military.china.com/xuelang/13004590/20221010/43610046.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "5cf72e6bc7b7e5b7",
+      "title": "面粉涨价 日本食品行业推动消费米粉制品",
+      "body": "[20221009T091500Z] 面粉涨价 日本食品行业推动消费米粉制品. Source: news.sina.com.cn.",
+      "source_name": "news.sina.com.cn",
+      "source_url": "https://news.sina.com.cn/w/2022-10-09/doc-imqmmthc0252708.shtml",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "ukraine russia conflict wheat market",
+      "_thin_content": true
+    },
+    {
+      "id": "608e31bf6602e2a0",
+      "title": "युद्ध के दौर में रूस में अनाज की रिकॉर्ड उपज – DW – 15 . 12 . 2022",
+      "body": "[20221215T121500Z] युद्ध के दौर में रूस में अनाज की रिकॉर्ड उपज – DW – 15 . 12 . 2022. Source: dw.com.",
+      "source_name": "dw.com",
+      "source_url": "https://www.dw.com/hi/russia-claims-record-grain-harvest-including-from-occupied-ukraine/a-64099441",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "dca3fbc81af62c3f",
+      "title": "युद्ध के दौर में रूस में अनाज की रिकॉर्ड उपज",
+      "body": "[20221218T044500Z] युद्ध के दौर में रूस में अनाज की रिकॉर्ड उपज. Source: hindi.webdunia.com.",
+      "source_name": "hindi.webdunia.com",
+      "source_url": "https://hindi.webdunia.com/latest-deutsche-welle-news/russia-claims-record-grain-harvest-122121800005_1.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "42d61350e7910883",
+      "title": "الفا بيتا | تاريخ تجارة القمح",
+      "body": "[20221004T060000Z] الفا بيتا | تاريخ تجارة القمح. Source: alphabeta.argaam.com.",
+      "source_name": "alphabeta.argaam.com",
+      "source_url": "https://alphabeta.argaam.com/article/detail/108997/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D9%85%D8%AD",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "121253d0cea165b1",
+      "title": "Сирия вывозит пшеницу из аннексированного Россией Крыма тремя подсанкционными кораблями Мир tsn . ua",
+      "body": "[20221219T171500Z] Сирия вывозит пшеницу из аннексированного Россией Крыма тремя подсанкционными кораблями Мир tsn . ua. Source: tsn.ua.",
+      "source_name": "tsn.ua",
+      "source_url": "https://tsn.ua/ru/svit/siriya-rezko-uvelichila-import-pshenicy-iz-anneksirovannogo-rossiey-kryma-s-pomoschyu-podsankcionnyh-korabley-2226355.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "7749941e2af3dd81",
+      "title": "인플레 둔화에 급등한 금 가격 … 전망도 긍정적 원자재 포커스",
+      "body": "[20221214T034500Z] 인플레 둔화에 급등한 금 가격 … 전망도 긍정적 원자재 포커스. Source: hankyung.com.",
+      "source_name": "hankyung.com",
+      "source_url": "https://www.hankyung.com/international/article/202212144734i",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "0d38c078f6cf9c80",
+      "title": "입맛 바뀐 아시아 … 밀 소비량 급증에 글로벌 식량안보  위태  ",
+      "body": "[20221113T091500Z] 입맛 바뀐 아시아 … 밀 소비량 급증에 글로벌 식량안보  위태  . Source: etoday.co.kr.",
+      "source_name": "etoday.co.kr",
+      "source_url": "https://www.etoday.co.kr/news/view/2191888",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "5b0dbb043095a02d",
+      "title": "Війна в Україні - Росія вкрала на окупованих територіях пшениці на $1 мільярд – NASA",
+      "body": "[20221204T124500Z] Війна в Україні - Росія вкрала на окупованих територіях пшениці на $1 мільярд – NASA. Source: news.obozrevatel.com.",
+      "source_name": "news.obozrevatel.com",
+      "source_url": "https://news.obozrevatel.com/ukr/economics/rosiya-vkrala-na-okupovanih-teritoriyah-ukraini-pshenitsi-na-1-milyard-nasa.htm",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "192ce4492f995cbe",
+      "title": "ارتفاع أسعار القمح قرب مستواها القياسي",
+      "body": "[20221011T151500Z] ارتفاع أسعار القمح قرب مستواها القياسي. Source: 24.ae.",
+      "source_name": "24.ae",
+      "source_url": "https://24.ae/article/724994/127/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D9%82%D8%B1%D8%A8-%D9%85%D8%B3%D8%AA%D9%88%D8%A7%D9%87%D8%A7-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%B3%D9%8A",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "169d3e5aba84bee7",
+      "title": "ارتفاع أسعار القمح قرب مستواها القياسي",
+      "body": "[20221011T101500Z] ارتفاع أسعار القمح قرب مستواها القياسي. Source: 24.ae.",
+      "source_name": "24.ae",
+      "source_url": "https://24.ae/article/724994/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D9%82%D8%B1%D8%A8-%D9%85%D8%B3%D8%AA%D9%88%D8%A7%D9%87%D8%A7-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%B3%D9%8A",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "450ccef25b283214",
+      "title": "За половину осени из Украины отправлено более 10 миллионов тонн агропродукции",
+      "body": "[20221019T141500Z] За половину осени из Украины отправлено более 10 миллионов тонн агропродукции. Source: unian.net.",
+      "source_name": "unian.net",
+      "source_url": "https://www.unian.net/economics/agro/za-polovinu-oseni-iz-ukrainy-otpravleno-bolee-10-millionov-tonn-agroprodukcii-12016905.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "ca996d5af7a9014c",
+      "title": "سلاح القمح ينفجر مجدداً في وجه العالم",
+      "body": "[20221102T191500Z] سلاح القمح ينفجر مجدداً في وجه العالم. Source: alaraby.co.uk.",
+      "source_name": "alaraby.co.uk",
+      "source_url": "https://www.alaraby.co.uk/economy/%D8%B3%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D9%82%D9%85%D8%AD-%D9%8A%D9%86%D9%81%D8%AC%D8%B1-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7%D9%8B-%D9%81%D9%8A-%D9%88%D8%AC%D9%87-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "0a16f6ef725ae3de",
+      "title": "Egypt buys first Ukrainian wheat shipment since Russian war began",
+      "body": "[20221203T093000Z] Egypt buys first Ukrainian wheat shipment since Russian war began. Source: al-monitor.com.",
+      "source_name": "al-monitor.com",
+      "source_url": "https://www.al-monitor.com/originals/2022/12/egypt-buys-first-ukrainian-wheat-shipment-russian-war-began",
+      "published_at": "2022-07-01T00:00:00Z",
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "94fb7396020374ca",
+      "title": "Ukraine agricultural export earnings to fall by 16 % this yr",
+      "body": "[20221228T103000Z] Ukraine agricultural export earnings to fall by 16 % this yr. Source: prokerala.com.",
+      "source_name": "prokerala.com",
+      "source_url": "https://www.prokerala.com/news/articles/a1376208.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "e8f9b4a84d79801e",
+      "title": "Сирія вивозить пшеницю з анексованого Росією Криму трьома підсанкційними кораблями Світ tsn . ua",
+      "body": "[20221219T163000Z] Сирія вивозить пшеницю з анексованого Росією Криму трьома підсанкційними кораблями Світ tsn . ua. Source: tsn.ua.",
+      "source_name": "tsn.ua",
+      "source_url": "https://tsn.ua/svit/siriya-rizko-zbilshila-import-pshenici-z-aneksovanogo-rosiyeyu-krimu-za-dopomogoyu-pidsankciynih-korabliv-2226355.html",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    },
+    {
+      "id": "c532d73080fd3d0a",
+      "title": "רוסיה חוזרת להסכם המזון ; ארה  ב :  צפון קוריאה מעבירה בחשאי נשק לפוטין  ",
+      "body": "[20221102T174500Z] רוסיה חוזרת להסכם המזון ; ארה  ב :  צפון קוריאה מעבירה בחשאי נשק לפוטין  . Source: ynet.co.il.",
+      "source_name": "ynet.co.il",
+      "source_url": "https://www.ynet.co.il/news/article/sj7gazxso",
+      "published_at": null,
+      "outlet_type": "independent",
+      "query_used": "russia ukraine war wheat export",
+      "_thin_content": true
+    }
+  ],
+  "anchor_articles": [],
+  "targeted_queries": [
+    {
+      "query": "russia invasion ukraine wheat price impact",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "causal mechanism",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "ukraine russia conflict wheat market",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "market impact",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "global wheat price rise 2022",
+      "tool": "tavily",
+      "dimension": "timeline accuracy",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "russia ukraine war wheat export",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "geographical scope",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "wheat price increase cause 2022",
+      "tool": "tavily",
+      "dimension": "source credibility",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "russia ukraine conflict wheat price increase causal mechanism",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "causal mechanism",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "ukraine russia invasion wheat market impact timeline",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "timeline accuracy",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "russia ukraine war wheat export source credibility",
+      "tool": "tavily",
+      "dimension": "source credibility",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "global wheat price rise geographical scope",
+      "tool": "tavily",
+      "dimension": "geographical scope",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "wheat market impact russia ukraine conflict",
+      "tool": "gdelt_commoncrawl",
+      "dimension": "market impact",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31"
+    },
+    {
+      "query": "russia ukraine conflict wheat price increase causal mechanism recent updates",
+      "tool": "tavily",
+      "dimension": "causal mechanism",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "ukraine russia invasion wheat market impact recent developments",
+      "tool": "tavily",
+      "dimension": "market impact",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "russia ukraine war wheat export recent news",
+      "tool": "tavily",
+      "dimension": "geographical scope",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "wheat market impact russia ukraine conflict recent analysis",
+      "tool": "tavily",
+      "dimension": "source credibility",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "query": "russia ukraine invasion wheat price increase recent timeline",
+      "tool": "tavily",
+      "dimension": "timeline accuracy",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "retrieval_loop_count": 3,
+  "retrieval_complete": true,
+  "perspective_clusters": [
+    {
+      "label": "The Russo-Ukrainian War started with Russia's invasion of Ukraine in February 2014.",
+      "key_claims": [
+        "The Russo-Ukrainian War began with Russia's invasion of Ukraine in February 2014."
+      ],
+      "article_ids": [
+        "dee8d884428089ed"
+      ],
+      "domain_roots": [
+        "choicesmagazine.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "The conflict escalated into a full-scale war on February 24, 2022.",
+      "key_claims": [
+        "The conflict escalated into a full-scale war starting on February 24, 2022."
+      ],
+      "article_ids": [
+        "dee8d884428089ed"
+      ],
+      "domain_roots": [
+        "choicesmagazine.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Ukraine's Westward drift since independence has been countered by Russia.",
+      "key_claims": [
+        "Ukraine's Westward drift since independence has been countered by Russia."
+      ],
+      "article_ids": [
+        "62cc77caec112427"
+      ],
+      "domain_roots": [
+        "ebsco.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Putin's 2022 invasion of Ukraine was a violent manifestation of this tug.",
+      "key_claims": [
+        "Putin's 2022 invasion of Ukraine was a violent manifestation of this tug."
+      ],
+      "article_ids": [
+        "62cc77caec112427"
+      ],
+      "domain_roots": [
+        "ebsco.com"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online.",
+      "key_claims": [
+        "Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with the article in Choices Magazine Online."
+      ],
+      "article_ids": [
+        "70db0e30d2fbb931"
+      ],
+      "domain_roots": [
+        "cfr.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    },
+    {
+      "label": "The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18.",
+      "key_claims": [
+        "The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      ],
+      "article_ids": [
+        "70db0e30d2fbb931"
+      ],
+      "domain_roots": [
+        "cfr.org"
+      ],
+      "corroboration_count": 1,
+      "corroboration_level": "unverified",
+      "source_scope": "secondary"
+    }
+  ],
+  "coverage_gaps": [
+    "causal mechanism",
+    "timeline accuracy",
+    "source credibility",
+    "geographical scope",
+    "market impact"
+  ],
+  "evaluation_ready": null,
+  "primary_evidence_exists": false,
+  "primary_verdict": "none",
+  "narrative_report": {
+    "claim_snapshot": {
+      "claim": "Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%",
+      "time_period": "2014-02-01 to 2026-04-30",
+      "source_count": 62,
+      "ground_truth_tier": "unresolvable"
+    },
+    "perspective_landscape": [
+      {
+        "label": "The Russo-Ukrainian War started with Russia's invasion of Ukraine in February 2014.",
+        "key_claims": [
+          "The Russo-Ukrainian War began with Russia's invasion of Ukraine in February 2014."
+        ],
+        "article_ids": [
+          "dee8d884428089ed"
+        ],
+        "domain_roots": [
+          "choicesmagazine.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "The conflict escalated into a full-scale war on February 24, 2022.",
+        "key_claims": [
+          "The conflict escalated into a full-scale war starting on February 24, 2022."
+        ],
+        "article_ids": [
+          "dee8d884428089ed"
+        ],
+        "domain_roots": [
+          "choicesmagazine.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Ukraine's Westward drift since independence has been countered by Russia.",
+        "key_claims": [
+          "Ukraine's Westward drift since independence has been countered by Russia."
+        ],
+        "article_ids": [
+          "62cc77caec112427"
+        ],
+        "domain_roots": [
+          "ebsco.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "Putin's 2022 invasion of Ukraine was a violent manifestation of this tug.",
+        "key_claims": [
+          "Putin's 2022 invasion of Ukraine was a violent manifestation of this tug."
+        ],
+        "article_ids": [
+          "62cc77caec112427"
+        ],
+        "domain_roots": [
+          "ebsco.com"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      },
+      {
+        "label": "Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online.",
+        "key_claims": [
+          "Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with the article in Choices Magazine Online."
+        ],
+        "article_ids": [
+          "70db0e30d2fbb931"
+        ],
+        "domain_roots": [
+          "cfr.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 0
+      },
+      {
+        "label": "The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18.",
+        "key_claims": [
+          "The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+        ],
+        "article_ids": [
+          "70db0e30d2fbb931"
+        ],
+        "domain_roots": [
+          "cfr.org"
+        ],
+        "corroboration_count": 1,
+        "corroboration_level": "unverified",
+        "source_scope": "secondary",
+        "article_count": 1
+      }
+    ],
+    "sentiment_timeline": [
+      {
+        "bucket_id": 0,
+        "mean_sentiment": 0.0031,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 51
+      },
+      {
+        "bucket_id": 1,
+        "mean_sentiment": 0.0,
+        "delta": -0.0031,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 2,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 3,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 4,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 5,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 6,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 7,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 2
+      },
+      {
+        "bucket_id": 8,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 7
+      },
+      {
+        "bucket_id": 9,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 10,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 0
+      },
+      {
+        "bucket_id": 11,
+        "mean_sentiment": 0.0,
+        "delta": 0.0,
+        "dominant_entity": "Russia",
+        "article_count": 2
+      }
+    ],
+    "inflection_point_cards": [],
+    "frame_evolution_log": [
+      {
+        "bucket_id": 0,
+        "frame_type": "political",
+        "top_terms": [
+          "source",
+          "com",
+          "القمح",
+          "official",
+          "net",
+          "united",
+          "states",
+          "ukraine",
+          "website",
+          "war",
+          "government",
+          "ua",
+          "tsn",
+          "gov",
+          "use",
+          "search",
+          "prices",
+          "russia",
+          "news",
+          "uk"
+        ],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 2,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 4,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 5,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 6,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 7,
+        "frame_type": "health",
+        "top_terms": [
+          "2022",
+          "science",
+          "ukrainian",
+          "war",
+          "november",
+          "russo",
+          "august",
+          "timeline",
+          "agriculture",
+          "health",
+          "april",
+          "11",
+          "12",
+          "28",
+          "29",
+          "february",
+          "technology",
+          "voting",
+          "view",
+          "activism"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 8,
+        "frame_type": "economic",
+        "top_terms": [
+          "wheat",
+          "2022",
+          "source",
+          "com",
+          "war",
+          "world",
+          "outlook",
+          "october",
+          "ukraine",
+          "forex",
+          "黑海运粮遭俄暂停",
+          "小麦期货开盘跳涨",
+          "jrj",
+          "cn",
+          "20221101t051500z",
+          "atfx",
+          "20221112t050000z",
+          "steady",
+          "ph",
+          "supply"
+        ],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 9,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": true
+      },
+      {
+        "bucket_id": 10,
+        "frame_type": "other",
+        "top_terms": [],
+        "frame_changed": false
+      },
+      {
+        "bucket_id": 11,
+        "frame_type": "economic",
+        "top_terms": [
+          "2026",
+          "wheat",
+          "mt",
+          "usd",
+          "30",
+          "fob",
+          "00",
+          "security",
+          "edt",
+          "april",
+          "global",
+          "hosted",
+          "webcast",
+          "february",
+          "food",
+          "person",
+          "water",
+          "program",
+          "10",
+          "january"
+        ],
+        "frame_changed": true
+      }
+    ],
+    "voice_composition_shifts": [
+      {
+        "bucket_id": 0,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 48,
+          "The conflict escalated into a full-scale war on February 24, 2022.": 1,
+          "Putin's 2022 invasion of Ukraine was a violent manifestation of this tug.": 1,
+          "The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18.": 1
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 1,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 2,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 3,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 4,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 5,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 6,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 7,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 2
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 8,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 7
+        },
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 9,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 10,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {},
+        "voice_changed": false
+      },
+      {
+        "bucket_id": 11,
+        "dominant_cluster_label": "_unclustered",
+        "composition": {
+          "_unclustered": 2
+        },
+        "voice_changed": false
+      }
+    ],
+    "narrative_intelligence_summary": "The claim that Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30% is currently unresolvable due to insufficient and conflicting evidence. Various perspectives exist, including the escalation of the Russo-Ukrainian War in 2022 and Ukraine's historical Westward drift countered by Russia. However, without further verification and concrete data, it is impossible to reach a definitive verdict on the claim. The lack of multi-track inflection points and unverified information from single domains limits the ability to make an informed decision. As the situation continues to unfold, it is likely that new evidence will emerge, potentially shedding more light on the relationship between the invasion and wheat prices. Nevertheless, for now, the narrative remains inconclusive, and a forecast suggests that the discussion will persist without resolution until more substantial and verified information becomes available.",
+    "ground_truth_tier": "unresolvable",
+    "time_buckets": [
+      {
+        "bucket_id": 0,
+        "start_dt": "2014-02-01T00:00:00Z",
+        "end_dt": "2015-02-08T14:00:00Z",
+        "article_ids": [
+          "34299548cd636ce3",
+          "a7441c611059ea28",
+          "dee8d884428089ed",
+          "b48359e01e318338",
+          "6324ff21ad57d2ce",
+          "e251904369b224a2",
+          "ca24884ed4ce7c3f",
+          "62cc77caec112427",
+          "ded06ab871fc80b9",
+          "5f5c40db92e7d374",
+          "7b921202d91f86ad",
+          "70db0e30d2fbb931",
+          "1bfa1899d8b74044",
+          "073d6d800def3ec1",
+          "85a669698303df1d",
+          "f099645c3f641be4",
+          "9fdd62950c7ab027",
+          "f625586dab5b9101",
+          "b284782cd25e95ef",
+          "52706e5c5d68fefa",
+          "4369c1b31a7c563a",
+          "89222357cf3f3c4d",
+          "6bb3eba7bae2e34d",
+          "4a01323fba32e53e",
+          "914e3ea8493f76b0",
+          "213463e53373c8af",
+          "2764cce4819f8de7",
+          "2da5049635202d32",
+          "e8bc6c14253d848e",
+          "03646214c7e01cbf",
+          "c501350a717607b5",
+          "da2b659c7e3b55fa",
+          "f9fd892352ebd684",
+          "19f825f368f03e9f",
+          "cc0fd229f0ab185d",
+          "74335c4cbb11b314",
+          "5cf72e6bc7b7e5b7",
+          "608e31bf6602e2a0",
+          "dca3fbc81af62c3f",
+          "42d61350e7910883",
+          "121253d0cea165b1",
+          "7749941e2af3dd81",
+          "0d38c078f6cf9c80",
+          "5b0dbb043095a02d",
+          "192ce4492f995cbe",
+          "169d3e5aba84bee7",
+          "450ccef25b283214",
+          "ca996d5af7a9014c",
+          "94fb7396020374ca",
+          "e8f9b4a84d79801e",
+          "c532d73080fd3d0a"
+        ]
+      },
+      {
+        "bucket_id": 1,
+        "start_dt": "2015-02-08T14:00:00Z",
+        "end_dt": "2016-02-16T04:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 2,
+        "start_dt": "2016-02-16T04:00:00Z",
+        "end_dt": "2017-02-22T18:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 3,
+        "start_dt": "2017-02-22T18:00:00Z",
+        "end_dt": "2018-03-02T08:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 4,
+        "start_dt": "2018-03-02T08:00:00Z",
+        "end_dt": "2019-03-09T22:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 5,
+        "start_dt": "2019-03-09T22:00:00Z",
+        "end_dt": "2020-03-16T12:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 6,
+        "start_dt": "2020-03-16T12:00:00Z",
+        "end_dt": "2021-03-24T02:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 7,
+        "start_dt": "2021-03-24T02:00:00Z",
+        "end_dt": "2022-03-31T16:00:00Z",
+        "article_ids": [
+          "d9dfeef56e218b3a",
+          "d785c0d0209eeb06"
+        ]
+      },
+      {
+        "bucket_id": 8,
+        "start_dt": "2022-03-31T16:00:00Z",
+        "end_dt": "2023-04-08T06:00:00Z",
+        "article_ids": [
+          "65815c91663fb9c1",
+          "6d59f902e2ce90b2",
+          "bcf4a3f9ce66c123",
+          "96e70f2d3af6160d",
+          "0ba17e0503fc02d7",
+          "1ebab35d534a4ce6",
+          "0a16f6ef725ae3de"
+        ]
+      },
+      {
+        "bucket_id": 9,
+        "start_dt": "2023-04-08T06:00:00Z",
+        "end_dt": "2024-04-14T20:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 10,
+        "start_dt": "2024-04-14T20:00:00Z",
+        "end_dt": "2025-04-22T10:00:00Z",
+        "article_ids": []
+      },
+      {
+        "bucket_id": 11,
+        "start_dt": "2025-04-22T10:00:00Z",
+        "end_dt": "2026-04-30T00:00:00Z",
+        "article_ids": [
+          "5bfcd157977e7195",
+          "ec66d4f8f3316d08"
+        ]
+      }
+    ]
+  },
+  "analysis_complete": true,
+  "task": "Analyse the following claim for misinformation: Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%",
+  "plan": [],
+  "worker_outputs": [
+    "[broad_context_fetch]\nQueries (2): Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30% | Russia Ukraine\nArticles fetched: 24",
+    "[context_builder]\nDimensions: causal mechanism, timeline accuracy, source credibility, geographical scope, market impact\nTime window: 2022\nCompeting narratives: 2",
+    "[tavily_targeted]\nQueries (2): global wheat price rise 2022 | wheat price increase cause 2022\nArticles fetched: 8",
+    "[gdelt_commoncrawl_targeted]\nQueries (3): russia invasion ukraine wheat price impact | ukraine russia conflict wheat market | russia ukraine war wheat export\nArticles fetched: 30",
+    "[evaluator]\nArticles: 62 → deduped: 52 → relevant: 16\nPrimary: 0 (none) | Secondary clusters: 6 | Gaps: ['causal mechanism', 'timeline accuracy', 'source credibility', 'geographical scope', 'market impact'] | Ready: False",
+    "[analyst]\nBuckets: 12 | Inflection points: 0 | Ground truth tier: unresolvable | Frame sequence: political → other → other → other → other → other → other → health → economic → other → other → economic",
+    "[gdelt_commoncrawl_targeted]\nQueries (6): russia invasion ukraine wheat price impact | ukraine russia conflict wheat market | russia ukraine war wheat export | russia ukraine conflict wheat price increase causal mechanism | ukraine russia invasion wheat market impact timeline | wheat market impact russia ukraine conflict\nArticles fetched: 0",
+    "[evaluator]\nArticles: 62 → deduped: 52 → relevant: 16\nPrimary: 0 (none) | Secondary clusters: 6 | Gaps: ['causal mechanism', 'timeline accuracy', 'source credibility', 'geographical scope', 'market impact'] | Ready: False",
+    "[analyst]\nBuckets: 12 | Inflection points: 0 | Ground truth tier: unresolvable | Frame sequence: political → other → other → other → other → other → other → health → economic → other → other → economic",
+    "[researcher]\n**Research Brief: Impact of Russia's 2022 Invasion of Ukraine on Global Wheat Prices**\n\n**Claim:** Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%.\n\n**Analysis:**\n\nThe available evidence suggests that the claim has some basis, but the relationship between the invasion and wheat price increases is complex and influenced by various factors.\n\n*   Several articles from independent sources, including the Economic Research Service (ERS) and the Centre for Economic Policy Research (CEPR), indicate that the Russia-Ukraine conflict led to disruptions in wheat exports and price surges in the global market.\n*   The article in Communications Earth & Environment highlights the importance of international cooperation in stabilizing wheat prices after the invasion.\n*   However, other sources, such as the Choices Magazine Online article, provide a broader context, emphasizing the historical background of the conflict and its impact on global food security.\n\n**Coverage gaps:**\n\n1.  **Causal mechanism:** While the evidence suggests a link between the invasion and wheat price increases, it does not fully explain the underlying mechanisms driving this relationship.\n2.  **Timeline accuracy:** The start date of the conflict is mentioned in multiple sources, but the timeline of events leading up to the price surges is not consistently reported.\n3.  **Source credibility:** While the sources are generally independent, some may be more authoritative or up-to-date than others.\n4.  **Geographical scope:** The focus is primarily on global wheat prices, but the impact on regional markets and local economies is not thoroughly explored.\n5.  **Market impact:** The evidence highlights price surges, but it does not provide a comprehensive analysis of the market's overall impact on the global food system.\n\n**Conclusion:**\n\nThe available evidence suggests that Russia's 2022 invasion of Ukraine contributed to a significant increase in global wheat prices. However, the relationship between the invasion and price surges is complex, and further research is needed to fully understand the underlying mechanisms and the impact on the global food system.\n\n**Recommendations:**\n\n1.  **Conduct a more in-depth analysis of the causal mechanism:** Investigate the specific factors driving the relationship between the invasion and wheat price increases.\n2.  **Improve the accuracy of the timeline:** Consolidate the available information to create a clear and consistent timeline of events.\n3.  **Enhance source credibility:** Verify the credibility and authority of the sources and consider incorporating additional sources for a more comprehensive understanding.\n4.  **Explore the geographical scope:** Examine the impact of the invasion on regional markets and local economies in addition to the global market.\n5.  **Assess the market impact:** Conduct a more thorough analysis of the market's overall impact on the global food system.",
+    "[writer] Report rendered: tier=UNRESOLVABLE, sources=62, inflections=0, clusters=6"
+  ],
+  "next": "FINISH",
+  "instructions": "Assess the quality of the evidence retrieved so far and identify any gaps in coverage",
+  "article_metadata_cache": {
+    "dee8d884428089ed": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "The Russo-Ukrainian War began with Russia's invasion of Ukraine in February 2014.",
+        "The conflict escalated into a full-scale war starting on February 24, 2022."
+      ]
+    },
+    "62cc77caec112427": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Ukraine's Westward drift since independence has been countered by Russia.",
+        "Putin's 2022 invasion of Ukraine was a violent manifestation of this tug."
+      ]
+    },
+    "70db0e30d2fbb931": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with the article in Choices Magazine Online.",
+        "The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18."
+      ]
+    },
+    "0ba17e0503fc02d7": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(skip)",
+        "(skip)"
+      ]
+    },
+    "1ebab35d534a4ce6": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(skip)",
+        "(skip)"
+      ]
+    },
+    "f9fd892352ebd684": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(skip)",
+        "(skip)"
+      ]
+    },
+    "cc0fd229f0ab185d": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(skip)",
+        "(skip)"
+      ]
+    },
+    "0a16f6ef725ae3de": {
+      "_source_type": "secondary",
+      "_cached_claims": [
+        "(skip)",
+        "(skip)"
+      ]
+    }
+  },
+  "final_output": "## Section 1 — Temporal Evolution (Buckets, Sentiment, Frames & Voice)\n**Bucket 0** (2014-02-01 to 2015-02-08) | Sentiment: +0.00 (Δ+0.00) | Frame: political | Voice: _unclustered\n**Bucket 1** (2015-02-08 to 2016-02-16) | Sentiment: +0.00 (Δ-0.00) | Frame: other ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 2** (2016-02-16 to 2017-02-22) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 3** (2017-02-22 to 2018-03-02) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 4** (2018-03-02 to 2019-03-09) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 5** (2019-03-09 to 2020-03-16) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 6** (2020-03-16 to 2021-03-24) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 7** (2021-03-24 to 2022-03-31) | Sentiment: +0.00 (Δ+0.00) | Frame: health ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 8** (2022-03-31 to 2023-04-08) | Sentiment: +0.00 (Δ+0.00) | Frame: economic ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 9** (2023-04-08 to 2024-04-14) | Sentiment: +0.00 (Δ+0.00) | Frame: other ⚠️ [SHIFT] | Voice: _unclustered\n**Bucket 10** (2024-04-14 to 2025-04-22) | Sentiment: +0.00 (Δ+0.00) | Frame: other | Voice: _unclustered\n**Bucket 11** (2025-04-22 to 2026-04-30) | Sentiment: +0.00 (Δ+0.00) | Frame: economic ⚠️ [SHIFT] | Voice: _unclustered\n\n## Section 2 — Perspective Landscape & Inflections\n### Clusters\n- **The Russo-Ukrainian War started with Russia's invasion of Ukraine in February 2014.**: unverified (1 domains) — Key claims: The Russo-Ukrainian War began with Russia's invasion of Ukraine in February 2014.\n- **The conflict escalated into a full-scale war on February 24, 2022.**: unverified (1 domains) — Key claims: The conflict escalated into a full-scale war starting on February 24, 2022.\n- **Ukraine's Westward drift since independence has been countered by Russia.**: unverified (1 domains) — Key claims: Ukraine's Westward drift since independence has been countered by Russia.\n- **Putin's 2022 invasion of Ukraine was a violent manifestation of this tug.**: unverified (1 domains) — Key claims: Putin's 2022 invasion of Ukraine was a violent manifestation of this tug.\n- **Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with an article in Choices Magazine Online.**: unverified (1 domains) — Key claims: Xi He, Miguel Carriquiry, Amani Elobeid, Dermot Hayes, and Wendong Zhang are associated with the article in Choices Magazine Online.\n- **The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18.**: unverified (1 domains) — Key claims: The article in Choices Magazine Online is classified under JEL Classifications: Q17, Q18.\n\n### Inflection Points\nNo multi-track inflection points detected.\n## Section 3 — Final Analysis [UNRESOLVABLE]\n**Claim:** Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30%\n**Period:** 2014-02-01 to 2026-04-30  |  **Sources:** 62\n\nThe claim that Russia's invasion of Ukraine in 2022 caused global wheat prices to rise over 30% is currently unresolvable due to insufficient and conflicting evidence. Various perspectives exist, including the escalation of the Russo-Ukrainian War in 2022 and Ukraine's historical Westward drift countered by Russia. However, without further verification and concrete data, it is impossible to reach a definitive verdict on the claim. The lack of multi-track inflection points and unverified information from single domains limits the ability to make an informed decision. As the situation continues to unfold, it is likely that new evidence will emerge, potentially shedding more light on the relationship between the invasion and wheat prices. Nevertheless, for now, the narrative remains inconclusive, and a forecast suggests that the discussion will persist without resolution until more substantial and verified information becomes available."
+}

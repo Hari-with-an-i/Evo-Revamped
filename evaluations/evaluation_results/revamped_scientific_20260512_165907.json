@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "claim": "AI will replace all junior software developers by 2030",
+    "input_file": "evaluations\\revamped_outputs\\revamped_ai_will_replace_all_junior_software_developers_by_2030_20260512_165744.json",
+    "generated_at": "2026-05-12T16:59:07.377597+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 0.1667,
+    "total_claims": 6,
+    "grounded_claims": 1,
+    "claim_details": [
+      {
+        "claim": "The claim that AI will replace all junior software developers by 2030 remains unresolved due to insufficient and conflicting evidence.",
+        "is_grounded": false,
+        "combined_score": 0.3987,
+        "nli_entailment_score": 0.0021,
+        "semantic_similarity": 0.6631,
+        "best_matching_evidence": "AI is reshaping software engineering workflows. Their role is evolving rather than disappearing. Companies continue to hire AI talent to stay competitive in 2025. Juniors were never mainly about cheap hands on keyboards. Junior developers remain essential in an industry increasingly using AI for coding."
+      },
+      {
+        "claim": "Various perspectives suggest that junior developers are essential to the industry, while others highlight the impact of AI on their careers and demand.",
+        "is_grounded": true,
+        "combined_score": 0.9076,
+        "nli_entailment_score": 0.9976,
+        "semantic_similarity": 0.8476,
+        "best_matching_evidence": "Claims that junior developers remain essential in the industry despite the rise of AI in coding. A software engineer's personal experience. The impact of AI on junior developers' careers and demand. Analysis of AI's impact on the 2025 software engineering job market. Key findings on AI's impact on software engineering jobs are available in a blog."
+      },
+      {
+        "claim": "The media narrative has shifted over time, with a focus on the economic implications, the role of AI in powering enterprise technology, and the skills required for future developers.",
+        "is_grounded": false,
+        "combined_score": 0.3807,
+        "nli_entailment_score": 0.0005,
+        "semantic_similarity": 0.6343,
+        "best_matching_evidence": "Companies look to cut workforce expenses. Stack Overflow's role in powering enterprise AI. The uncertainty of job futures with AI and ChatGPT. The implications of AI on the future of jobs."
+      },
+      {
+        "claim": "A definitive verdict is not possible due to the lack of concrete data and the diverse range of opinions.",
+        "is_grounded": false,
+        "combined_score": 0.1361,
+        "nli_entailment_score": 0.0076,
+        "semantic_similarity": 0.2219,
+        "best_matching_evidence": "The uncertainty of job futures with AI and ChatGPT. The implications of AI on the future of jobs."
+      },
+      {
+        "claim": "As the narrative continues to evolve, it is likely that the discussion will focus on the adaptability of workers to technological advancements and the potential disruption AI may cause in the job market.",
+        "is_grounded": false,
+        "combined_score": 0.406,
+        "nli_entailment_score": 0.0022,
+        "semantic_similarity": 0.6753,
+        "best_matching_evidence": "Companies look to cut workforce expenses. Stack Overflow's role in powering enterprise AI. The uncertainty of job futures with AI and ChatGPT. The implications of AI on the future of jobs."
+      },
+      {
+        "claim": "The forecast suggests that the narrative will continue to shift, with a growing emphasis on the implications of AI on employment and the need for workers to develop new skills to remain relevant in the industry.",
+        "is_grounded": false,
+        "combined_score": 0.3656,
+        "nli_entailment_score": 0.0004,
+        "semantic_similarity": 0.609,
+        "best_matching_evidence": "Key findings on AI's impact on software engineering jobs are available in a March 2026 blog. Top AI developer skills for 2025 are outlined in a hiring guide. Many companies look to cut workforce expenses. Stack Overflow provides knowledge intelligence layers that power enterprise AI. The future of jobs is uncertain with the rise of AI and ChatGPT."
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.8799,
+    "query": "AI will replace all junior software developers by 2030",
+    "semantic_relevance": {
+      "narrative_summary": 0.8252,
+      "perspective_clusters": 0.7508,
+      "overall": 0.788
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "developers",
+        "junior",
+        "replace",
+        "all",
+        "will",
+        "software"
+      ],
+      "covered_terms": [
+        "developers",
+        "junior",
+        "replace",
+        "all",
+        "will",
+        "software"
+      ],
+      "coverage_score": 0.9126
+    },
+    "specificity": {
+      "on_topic_similarity": 0.8252,
+      "off_topic_similarity": 0.036,
+      "specificity_score": 0.9564
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 10,
+    "article_counts": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "probabilities": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "shannon_entropy_bits": 3.3219,
+    "max_entropy_bits": 3.3219,
+    "normalised_entropy": 1.0,
+    "interpretation": "H = 3.3219 bits out of a maximum 3.3219 bits for 10 clusters. Normalised H = 1.0000 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 6,
+    "n_populated_buckets": 5,
+    "time_indices": [
+      0.0,
+      1.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "sentiment_values": [
+      0.194,
+      0.8575,
+      0.5481,
+      0.2935,
+      0.1489
+    ],
+    "pearson_r": -0.3635,
+    "interpretation": "r = -0.3635 — weak negative linear relationship between time and sentiment. No strong linear sentiment trend detected across time buckets."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 5,
+    "matched": 0,
+    "unmatched": 5,
+    "precision_at_k": 0.0,
+    "mean_correlated_event_plausibility": null,
+    "matched_events": [],
+    "interpretation": "P@5 = 0/5 = 0.0000. 0 of 5 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. "
+  }
+}

@@ -30,9 +30,12 @@ def broad_context_fetch_node(state: AgentState) -> dict:
     queries = [claim]
     if entities:
         queries.append(" ".join(entities[:3]))
+    # Timeline query surfaces historical articles so context_builder can extract
+    # a real past date range, giving the orchestrator concrete bounds for GDELT.
+    queries.append(f"{' '.join(claim.split()[:3])} history timeline")
 
     raw_results: list[dict] = []
-    for q in queries[:2]:
+    for q in queries[:3]:
         log.debug("tavily query", extra={"query": q})
         results = tavily_search.invoke({"query": q, "max_results": MAX_RESULTS_PER_QUERY})
         if isinstance(results, list):

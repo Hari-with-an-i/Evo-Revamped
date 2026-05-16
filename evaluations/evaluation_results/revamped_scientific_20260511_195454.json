@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "claim": "AI will replace all junior software developers by 2030",
+    "input_file": "evaluations\\revamped_outputs\\revamped_ai_will_replace_all_junior_software_developers_by_2030_20260511_195134.json",
+    "generated_at": "2026-05-11T19:54:54.402611+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 0.2,
+    "total_claims": 5,
+    "grounded_claims": 1,
+    "claim_details": [
+      {
+        "claim": "The claim that AI will replace all junior software developers by 2030 remains unresolvable due to insufficient and conflicting evidence.",
+        "is_grounded": false,
+        "combined_score": 0.3835,
+        "nli_entailment_score": 0.0016,
+        "semantic_similarity": 0.6382,
+        "best_matching_evidence": "Despite predictions that AI would replace 90% of developers by 2030, companies are now quietly rehiring software engineers. AI is reshaping software engineering workflows. As a software engineer with over a decade of experience, I've witnessed firsthand how AI is reshaping software engineering workflows. Companies are rehiring software engineers despite previous predictions that AI would replace them. AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'."
+      },
+      {
+        "claim": "Various perspective clusters offer differing views on the impact of AI on junior developers, including concerns about replacement, the value of junior developers beyond coding skills, and the positive impact of AI on coding.",
+        "is_grounded": true,
+        "combined_score": 0.882,
+        "nli_entailment_score": 0.9938,
+        "semantic_similarity": 0.8075,
+        "best_matching_evidence": "Cluster 2 highlights concerns about AI automation affecting junior developers, potentially replacing them and reducing demand for entry-level coding positions. Cluster 3 offers a counterpoint, suggesting that junior developers' value lies beyond just coding skills, implying that AI replacement may overlook their broader contributions. Cluster 4 emphasizes the positive impact of AI on coding, making it easier for newcomers to learn and grow in their careers, and shaping the future of coding."
+      },
+      {
+        "claim": "Key narrative shifts have emphasized the scientific and economic aspects of AI, reflecting a more nuanced discussion and growing concern about the future of work in the tech industry.",
+        "is_grounded": false,
+        "combined_score": 0.3169,
+        "nli_entailment_score": 0.0021,
+        "semantic_similarity": 0.5268,
+        "best_matching_evidence": "As a software engineer with over a decade of experience, I've witnessed firsthand how AI is reshaping software engineering workflows. Companies are rehiring software engineers despite previous predictions that AI would replace them. AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'. AI automation affects entry-level coding and junior dev tasks. Today's new grads, especially aspiring software engineers, are hurt by AI automation."
+      },
+      {
+        "claim": "A definitive verdict is not possible due to the lack of consensus among the perspective clusters and the evolving nature of the narrative.",
+        "is_grounded": false,
+        "combined_score": 0.1187,
+        "nli_entailment_score": 0.0014,
+        "semantic_similarity": 0.197,
+        "best_matching_evidence": "Cluster 2 highlights concerns about AI automation affecting junior developers, potentially replacing them and reducing demand for entry-level coding positions. Cluster 3 offers a counterpoint, suggesting that junior developers' value lies beyond just coding skills, implying that AI replacement may overlook their broader contributions. Cluster 4 emphasizes the positive impact of AI on coding, making it easier for newcomers to learn and grow in their careers, and shaping the future of coding."
+      },
+      {
+        "claim": "As the discussion continues to unfold, it is likely that the narrative will shift further, with potential emphasis on the adaptability of junior developers, the development of new job roles, and the ongoing interplay between AI and human capabilities in the software development industry.",
+        "is_grounded": false,
+        "combined_score": 0.4036,
+        "nli_entailment_score": 0.0029,
+        "semantic_similarity": 0.6707,
+        "best_matching_evidence": "As a software engineer with over a decade of experience, I've witnessed firsthand how AI is reshaping software engineering workflows. Companies are rehiring software engineers despite previous predictions that AI would replace them. AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'. AI automation affects entry-level coding and junior dev tasks. Today's new grads, especially aspiring software engineers, are hurt by AI automation."
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.848,
+    "query": "AI will replace all junior software developers by 2030",
+    "semantic_relevance": {
+      "narrative_summary": 0.7994,
+      "perspective_clusters": 0.6823,
+      "overall": 0.7409
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "software",
+        "developers",
+        "junior",
+        "will",
+        "all",
+        "replace"
+      ],
+      "covered_terms": [
+        "software",
+        "developers",
+        "junior",
+        "will",
+        "all",
+        "replace"
+      ],
+      "coverage_score": 0.8997
+    },
+    "specificity": {
+      "on_topic_similarity": 0.7994,
+      "off_topic_similarity": 0.0677,
+      "specificity_score": 0.9153
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 4,
+    "article_counts": [
+      2.0,
+      3.0,
+      1.0,
+      1.0
+    ],
+    "probabilities": [
+      0.2857,
+      0.4286,
+      0.1429,
+      0.1429
+    ],
+    "shannon_entropy_bits": 1.8424,
+    "max_entropy_bits": 2.0,
+    "normalised_entropy": 0.9212,
+    "interpretation": "H = 1.8424 bits out of a maximum 2.0000 bits for 4 clusters. Normalised H = 0.9212 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 10,
+    "n_populated_buckets": 5,
+    "time_indices": [
+      0.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0
+    ],
+    "sentiment_values": [
+      0.0639,
+      0.6061,
+      0.0,
+      0.2842,
+      0.0
+    ],
+    "pearson_r": 0.0503,
+    "interpretation": "r = 0.0503 — weak positive linear relationship between time and sentiment. No strong linear sentiment trend detected across time buckets."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 2,
+    "matched": 0,
+    "unmatched": 2,
+    "precision_at_k": 0.0,
+    "mean_correlated_event_plausibility": null,
+    "matched_events": [],
+    "interpretation": "P@2 = 0/2 = 0.0000. 0 of 2 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. "
+  }
+}

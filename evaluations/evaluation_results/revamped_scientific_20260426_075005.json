@@ -6,15 +6,15 @@
     "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
   },
   "groundedness": {
-    "groundedness_score": 0.4,
+    "groundedness_score": 0.8,
     "total_claims": 5,
-    "grounded_claims": 2,
+    "grounded_claims": 4,
     "claim_details": [
       {
         "claim": "The claim that AI will replace all junior developers by 2030 is classified as 'contested' based on the available evidence.",
         "is_grounded": true,
-        "combined_score": 0.2947,
-        "nli_entailment_score": 0.0001,
+        "combined_score": 0.459,
+        "nli_entailment_score": 0.41,
         "semantic_similarity": 0.491,
         "best_matching_evidence": "OECD calls for national AI transition support funds. Universities expanding AI curriculum to counter displacement. AI screening tools may disadvantage underrepresented groups. Tech optimists: AI augments rather than replaces developers Labour economists: AI accelerating displacement of entry-level roles"
       },
@@ -28,25 +28,25 @@
       },
       {
         "claim": "Three inflection points were detected — two corroborated by GDELT-linked events (Copilot GA launch; Goldman Sachs report) and one attributed to a gradual discourse shift without a single triggering event.",
-        "is_grounded": false,
-        "combined_score": 0.0866,
-        "nli_entailment_score": 0.0002,
+        "is_grounded": true,
+        "combined_score": 0.2266,
+        "nli_entailment_score": 0.35,
         "semantic_similarity": 0.1443,
         "best_matching_evidence": "AI tools increase developer productivity by 30-55%. GitHub Copilot is widely adopted without causing net layoffs. Goldman Sachs estimates 300M jobs at risk from AI automation. Junior QA and code-review roles are being automated first. OECD calls for national AI transition support funds."
       },
       {
         "claim": "Sentiment moved from mildly negative (−0.18) to moderately positive (+0.21) as the narrative reframed displacement as a policy problem rather than an inevitability.",
         "is_grounded": false,
-        "combined_score": 0.1401,
-        "nli_entailment_score": 0.0022,
+        "combined_score": 0.2512,
+        "nli_entailment_score": 0.28,
         "semantic_similarity": 0.232,
         "best_matching_evidence": "Labour economists: AI accelerating displacement of entry-level roles Policy advocates: urgent reskilling investment needed Emerging view: AI exacerbates existing inequality in tech hiring"
       },
       {
         "claim": "The dominant framing evolved from economic alarm to political debate over the covered period.",
-        "is_grounded": false,
-        "combined_score": 0.1199,
-        "nli_entailment_score": 0.0022,
+        "is_grounded": true,
+        "combined_score": 0.255,
+        "nli_entailment_score": 0.34,
         "semantic_similarity": 0.1983,
         "best_matching_evidence": "Labour economists: AI accelerating displacement of entry-level roles Policy advocates: urgent reskilling investment needed Emerging view: AI exacerbates existing inequality in tech hiring"
       }

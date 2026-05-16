@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "claim": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+    "input_file": "evaluations\\revamped_outputs\\revamped_global_wheat_prices_surged_over_30_in_the_first_half_of_2022_20260511_203252.json",
+    "generated_at": "2026-05-11T20:33:38.295276+00:00",
+    "evaluation_note": "Metrics 1-2 use identical evaluators to Evo's evaluation pipeline. Metrics 3-5 use standard NLP/IR measures: Shannon Entropy (Shannon 1948), Pearson correlation (Pearson 1895), and Precision@K (Manning et al. 2008)."
+  },
+  "groundedness": {
+    "groundedness_score": 0.0,
+    "total_claims": 6,
+    "grounded_claims": 0,
+    "claim_details": [
+      {
+        "claim": "The claim that global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine is contradicted by primary evidence.",
+        "is_grounded": false,
+        "combined_score": 0.3788,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.6313,
+        "best_matching_evidence": "The conflict began with Russia's invasion of Ukraine in February 2014. Ukraine's westward drift since independence has been countered by Russia. The price of wheat in China is USD 412.23/MT in February 2026. The Wheat Market Report is Segmented by Geography. The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa."
+      },
+      {
+        "claim": "Despite multiple perspective clusters discussing the Russia-Ukraine conflict and its impact on global food security, the primary verdict contradicts this claim.",
+        "is_grounded": false,
+        "combined_score": 0.3753,
+        "nli_entailment_score": 0.0002,
+        "semantic_similarity": 0.6253,
+        "best_matching_evidence": "The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa. Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture. Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014. Cluster 3 discusses Ukraine's historical westward orientation and Russia's response. Cluster 4 provides the price of wheat in China as of February 2026."
+      },
+      {
+        "claim": "With a corroboration count of 0 verified domains, the statement lacks concrete evidence to support it.",
+        "is_grounded": false,
+        "combined_score": 0.0341,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.0568,
+        "best_matching_evidence": "The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa. Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture. Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014. Cluster 3 discusses Ukraine's historical westward orientation and Russia's response. Cluster 4 provides the price of wheat in China as of February 2026."
+      },
+      {
+        "claim": "Given the contradictory primary evidence, the statement is debunked.",
+        "is_grounded": false,
+        "combined_score": 0.0501,
+        "nli_entailment_score": 0.0002,
+        "semantic_similarity": 0.0834,
+        "best_matching_evidence": "The Russian-Ukraine conflict has impacted global agriculture. The war in Ukraine poses risks to global food security. The conflict began with Russia's invasion of Ukraine in February 2014. Ukraine's westward drift since independence has been countered by Russia. The price of wheat in China is USD 412.23/MT in February 2026."
+      },
+      {
+        "claim": "Furthermore, the narrative shifts over time highlight the changing media focus on the conflict's economic impact, but none of these shifts provide evidence to support the claim.",
+        "is_grounded": false,
+        "combined_score": 0.2093,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.3487,
+        "best_matching_evidence": "The Russian-Ukraine conflict has impacted global agriculture. The war in Ukraine poses risks to global food security. The conflict began with Russia's invasion of Ukraine in February 2014. Ukraine's westward drift since independence has been countered by Russia. The price of wheat in China is USD 412.23/MT in February 2026."
+      },
+      {
+        "claim": "As a result, there is no forecast based on these facts to suggest a future trend in global wheat prices related to the claim.",
+        "is_grounded": false,
+        "combined_score": 0.302,
+        "nli_entailment_score": 0.0001,
+        "semantic_similarity": 0.5033,
+        "best_matching_evidence": "The price of wheat in China is USD 412.23/MT in February 2026. The Wheat Market Report is Segmented by Geography. The segments include North America, Europe, Asia-Pacific, South America, The Middle East, and Africa. Cluster 1 describes how the Russia-Ukraine conflict affects global food security and agriculture. Cluster 2 mentions the start of the Russia-Ukraine conflict in February 2014."
+      }
+    ]
+  },
+  "query_relevance": {
+    "query_relevance_score": 0.8362,
+    "query": "Global wheat prices surged over 30% in the first half of 2022 following Russia's invasion of Ukraine",
+    "semantic_relevance": {
+      "narrative_summary": 0.7785,
+      "perspective_clusters": 0.6791,
+      "overall": 0.7288
+    },
+    "coverage": {
+      "method": "local",
+      "terms": [
+        "first",
+        "half",
+        "surged",
+        "following",
+        "ukraine",
+        "over",
+        "prices",
+        "wheat",
+        "global",
+        "russia",
+        "invasion",
+        "the"
+      ],
+      "covered_terms": [
+        "first",
+        "half",
+        "surged",
+        "following",
+        "ukraine",
+        "over",
+        "prices",
+        "wheat",
+        "global",
+        "russia",
+        "invasion",
+        "the"
+      ],
+      "coverage_score": 0.8893
+    },
+    "specificity": {
+      "on_topic_similarity": 0.7785,
+      "off_topic_similarity": 0.0765,
+      "specificity_score": 0.9017
+    }
+  },
+  "perspective_diversity": {
+    "metric": "Perspective Diversity (Shannon Entropy)",
+    "cluster_count": 6,
+    "article_counts": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "probabilities": [
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667
+    ],
+    "shannon_entropy_bits": 2.585,
+    "max_entropy_bits": 2.585,
+    "normalised_entropy": 1.0,
+    "interpretation": "H = 2.5850 bits out of a maximum 2.5850 bits for 6 clusters. Normalised H = 1.0000 — a value of 1.0 would indicate perfectly equal article distribution across all clusters (maximum diversity); a value approaching 0.0 would indicate a single dominant cluster."
+  },
+  "sentiment_trend": {
+    "metric": "Sentiment Trend Coherence (Pearson r)",
+    "n_buckets": 10,
+    "n_populated_buckets": 4,
+    "time_indices": [
+      0.0,
+      6.0,
+      7.0,
+      9.0
+    ],
+    "sentiment_values": [
+      0.1048,
+      0.0,
+      0.0,
+      0.2383
+    ],
+    "pearson_r": 0.1962,
+    "interpretation": "r = 0.1962 — weak positive linear relationship between time and sentiment. No strong linear sentiment trend detected across time buckets."
+  },
+  "event_correlation": {
+    "metric": "Event Correlation Precision (P@K)",
+    "K": 4,
+    "matched": 0,
+    "unmatched": 4,
+    "precision_at_k": 0.0,
+    "mean_correlated_event_plausibility": null,
+    "matched_events": [],
+    "interpretation": "P@4 = 0/4 = 0.0000. 0 of 4 detected inflection points were successfully linked to a verifiable real-world event via GDELT query. "
+  }
+}
