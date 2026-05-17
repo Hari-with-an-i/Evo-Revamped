@@ -4844,3 +4844,283 @@ NameError: name 'frame_points' is not defined. Did you mean: 'FramePoint'?
 2026-05-16T13:55:30 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.581s
 2026-05-16T13:55:30 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=evaluator — forcing FINISH
 2026-05-16T13:55:30 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:22:08 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:22:09 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.615s
+2026-05-17T00:22:09 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:22:22 [INFO] evo.workers/broad_context_fetch — broad_context_fetch done
+2026-05-17T00:22:22 [INFO] evo.workers/context_builder — context_builder entered
+2026-05-17T00:22:22 [INFO] evo.workers/context_builder — llm_call completed in 0.887s
+2026-05-17T00:22:22 [INFO] evo.workers/context_builder — context_builder done
+2026-05-17T00:22:22 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:22:24 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.839s
+2026-05-17T00:22:24 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:22:29 [INFO] evo.workers/tavily_targeted — tavily_targeted done
+2026-05-17T00:22:29 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:22:29 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.496s
+2026-05-17T00:22:29 [INFO] evo.orchestrator/orchestrator — orchestrator guard: GDELT queries pending — routing to gdelt_commoncrawl_targeted
+2026-05-17T00:22:29 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:22:29 [INFO] evo.workers/gdelt_commoncrawl_targeted — fetching gdelt+commoncrawl
+2026-05-17T00:22:57 [INFO] evo.workers/gdelt_commoncrawl_targeted — gdelt_commoncrawl_targeted done
+2026-05-17T00:22:57 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:22:58 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.569s
+2026-05-17T00:22:58 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:22:58 [INFO] evo.workers/evaluator — evaluator entered
+2026-05-17T00:23:33 [INFO] evo.workers/evaluator — evaluator step1 dedup
+2026-05-17T00:23:33 [INFO] evo.workers/evaluator — evaluator step2 filter
+2026-05-17T00:23:34 [INFO] evo.workers/evaluator — llm_call_source_classify completed in 0.842s
+2026-05-17T00:23:34 [INFO] evo.workers/evaluator — evaluator step2b source_types
+2026-05-17T00:23:34 [INFO] evo.workers/evaluator — evaluator step3a primary
+2026-05-17T00:23:35 [INFO] evo.workers/evaluator — llm_call_claims_extraction completed in 1.019s
+2026-05-17T00:25:09 [INFO] evo.workers/evaluator — llm_call_cluster_labels_batch completed in 0.931s
+2026-05-17T00:25:09 [INFO] evo.workers/evaluator — evaluator step3b claims
+2026-05-17T00:25:09 [INFO] evo.workers/evaluator — evaluator step3b secondary_clusters
+2026-05-17T00:25:09 [INFO] evo.workers/evaluator — evaluator step4 coverage
+2026-05-17T00:25:09 [INFO] evo.workers/analyst — analyst starting — 19 articles, 4 clusters
+2026-05-17T00:25:09 [INFO] evo.workers/analyst — analyst: 3 time buckets created
+2026-05-17T00:26:51 [INFO] evo.workers/analyst — frame_llm_batch completed in 0.586s
+2026-05-17T00:26:51 [INFO] evo.workers/analyst — analyst: 0 inflection candidates detected
+2026-05-17T00:26:51 [INFO] evo.workers/analyst — analyst: ground_truth_tier=unresolvable
+2026-05-17T00:26:53 [INFO] evo.workers/analyst — narrative_summary completed in 1.653s
+2026-05-17T00:26:53 [INFO] evo.workers/analyst — analyst complete — buckets=3, inflections=0, tier=unresolvable
+2026-05-17T00:26:53 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:26:55 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.963s
+2026-05-17T00:26:55 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:27:08 [INFO] evo.workers/tavily_targeted — tavily_targeted done
+2026-05-17T00:27:08 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:27:17 [INFO] evo.orchestrator/orchestrator — llm_call completed in 9.473s
+2026-05-17T00:27:17 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:27:17 [INFO] evo.workers/evaluator — evaluator entered
+2026-05-17T00:27:18 [INFO] evo.workers/evaluator — evaluator step1 dedup
+2026-05-17T00:27:18 [INFO] evo.workers/evaluator — evaluator step2 filter
+2026-05-17T00:27:18 [INFO] evo.workers/evaluator — evaluator step2b source_types
+2026-05-17T00:27:18 [INFO] evo.workers/evaluator — evaluator step3a primary
+2026-05-17T00:27:21 [INFO] evo.workers/evaluator — llm_call_cluster_labels_batch completed in 3.503s
+2026-05-17T00:27:21 [INFO] evo.workers/evaluator — evaluator step3b claims
+2026-05-17T00:27:21 [INFO] evo.workers/evaluator — evaluator step3b secondary_clusters
+2026-05-17T00:27:22 [INFO] evo.workers/evaluator — evaluator step4 coverage
+2026-05-17T00:27:22 [INFO] evo.workers/analyst — analyst starting — 28 articles, 4 clusters
+2026-05-17T00:27:22 [INFO] evo.workers/analyst — analyst: 5 time buckets created
+2026-05-17T00:27:27 [INFO] evo.workers/analyst — frame_llm_batch completed in 1.488s
+2026-05-17T00:27:27 [INFO] evo.workers/analyst — analyst: 0 inflection candidates detected
+2026-05-17T00:27:27 [INFO] evo.workers/analyst — analyst: ground_truth_tier=unresolvable
+2026-05-17T00:27:30 [INFO] evo.workers/analyst — narrative_summary completed in 2.306s
+2026-05-17T00:27:30 [INFO] evo.workers/analyst — analyst complete — buckets=5, inflections=0, tier=unresolvable
+2026-05-17T00:27:30 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:27:31 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.871s
+2026-05-17T00:27:31 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:27:33 [INFO] evo.workers/researcher — llm_call completed in 1.454s
+2026-05-17T00:27:33 [INFO] evo.workers/researcher — researcher completed
+2026-05-17T00:27:33 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:27:34 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.943s
+2026-05-17T00:27:34 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:27:36 [INFO] evo.workers/researcher — llm_call completed in 1.215s
+2026-05-17T00:27:36 [INFO] evo.workers/researcher — researcher completed
+2026-05-17T00:27:36 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:27:36 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.555s
+2026-05-17T00:27:36 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:27:51 [INFO] evo.workers/researcher — llm_call completed in 14.172s
+2026-05-17T00:27:51 [INFO] evo.workers/researcher — researcher completed
+2026-05-17T00:27:51 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:27:52 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.828s
+2026-05-17T00:27:52 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=tavily_targeted — forcing writer
+2026-05-17T00:27:52 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:27:52 [INFO] evo.workers/writer — writer: rendered NarrativeReport (2875 chars)
+2026-05-17T00:27:52 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:27:52 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.548s
+2026-05-17T00:27:52 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=evaluator — forcing FINISH
+2026-05-17T00:27:52 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:44:35 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:44:37 [INFO] evo.orchestrator/orchestrator — llm_call completed in 2.632s
+2026-05-17T00:44:37 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:45:01 [INFO] evo.workers/broad_context_fetch — broad_context_fetch done
+2026-05-17T00:45:01 [INFO] evo.workers/context_builder — context_builder entered
+2026-05-17T00:45:03 [INFO] evo.workers/context_builder — llm_call completed in 1.661s
+2026-05-17T00:45:03 [INFO] evo.workers/context_builder — context_builder done
+2026-05-17T00:45:03 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:45:04 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.172s
+2026-05-17T00:45:04 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:45:20 [INFO] evo.workers/tavily_targeted — tavily_targeted done
+2026-05-17T00:45:20 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:45:21 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.552s
+2026-05-17T00:45:21 [INFO] evo.orchestrator/orchestrator — orchestrator guard: GDELT queries pending — routing to gdelt_commoncrawl_targeted
+2026-05-17T00:45:21 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:45:21 [INFO] evo.workers/gdelt_commoncrawl_targeted — fetching gdelt+commoncrawl
+2026-05-17T00:46:06 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:46:09 [INFO] evo.orchestrator/orchestrator — llm_call completed in 3.198s
+2026-05-17T00:46:09 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:46:16 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:46:16 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.917s
+2026-05-17T00:46:16 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:46:35 [INFO] evo.workers/broad_context_fetch — broad_context_fetch done
+2026-05-17T00:46:35 [INFO] evo.workers/context_builder — context_builder entered
+2026-05-17T00:46:36 [INFO] evo.workers/broad_context_fetch — broad_context_fetch done
+2026-05-17T00:46:36 [INFO] evo.workers/context_builder — context_builder entered
+2026-05-17T00:46:37 [INFO] evo.workers/context_builder — llm_call completed in 1.999s
+2026-05-17T00:46:37 [INFO] evo.workers/context_builder — context_builder done
+2026-05-17T00:46:37 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:46:38 [INFO] evo.workers/context_builder — llm_call completed in 2.009s
+2026-05-17T00:46:38 [INFO] evo.workers/context_builder — context_builder done
+2026-05-17T00:46:38 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:46:38 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.991s
+2026-05-17T00:46:38 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:46:40 [INFO] evo.orchestrator/orchestrator — llm_call completed in 2.065s
+2026-05-17T00:46:40 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:46:54 [INFO] evo.workers/tavily_targeted — tavily_targeted done
+2026-05-17T00:46:54 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:46:55 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.495s
+2026-05-17T00:46:55 [INFO] evo.orchestrator/orchestrator — orchestrator guard: GDELT queries pending — routing to gdelt_commoncrawl_targeted
+2026-05-17T00:46:55 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:46:55 [INFO] evo.workers/gdelt_commoncrawl_targeted — fetching gdelt+commoncrawl
+2026-05-17T00:47:03 [INFO] evo.workers/tavily_targeted — tavily_targeted done
+2026-05-17T00:47:03 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:47:04 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.842s
+2026-05-17T00:47:04 [INFO] evo.orchestrator/orchestrator — orchestrator guard: GDELT queries pending — routing to gdelt_commoncrawl_targeted
+2026-05-17T00:47:04 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:47:04 [INFO] evo.workers/gdelt_commoncrawl_targeted — fetching gdelt+commoncrawl
+2026-05-17T00:47:11 [INFO] evo.workers/gdelt_commoncrawl_targeted — gdelt_commoncrawl_targeted done
+2026-05-17T00:47:11 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:47:11 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.582s
+2026-05-17T00:47:11 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:47:11 [INFO] evo.workers/evaluator — evaluator entered
+2026-05-17T00:47:25 [INFO] evo.workers/gdelt_commoncrawl_targeted — gdelt_commoncrawl_targeted done
+2026-05-17T00:47:25 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:47:25 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.852s
+2026-05-17T00:47:25 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:47:25 [INFO] evo.workers/evaluator — evaluator entered
+2026-05-17T00:47:29 [INFO] evo.workers/evaluator — evaluator step1 dedup
+2026-05-17T00:47:30 [INFO] evo.workers/evaluator — evaluator step2 filter
+2026-05-17T00:47:31 [INFO] evo.workers/evaluator — llm_call_source_classify completed in 0.912s
+2026-05-17T00:47:31 [INFO] evo.workers/evaluator — evaluator step2b source_types
+2026-05-17T00:47:31 [INFO] evo.workers/evaluator — evaluator step3a primary
+2026-05-17T00:47:32 [INFO] evo.workers/evaluator — llm_call_claims_extraction completed in 1.129s
+2026-05-17T00:47:33 [INFO] evo.workers/evaluator — evaluator step1 dedup
+2026-05-17T00:47:33 [INFO] evo.workers/evaluator — evaluator step2 filter
+2026-05-17T00:47:34 [INFO] evo.workers/evaluator — llm_call_source_classify completed in 0.27s
+2026-05-17T00:47:34 [INFO] evo.workers/evaluator — evaluator step2b source_types
+2026-05-17T00:47:40 [INFO] evo.workers/evaluator — llm_call_cluster_labels_batch completed in 1.324s
+2026-05-17T00:47:40 [INFO] evo.workers/evaluator — evaluator step3b claims
+2026-05-17T00:47:40 [INFO] evo.workers/evaluator — evaluator step3b secondary_clusters
+2026-05-17T00:47:40 [INFO] evo.workers/evaluator — evaluator step4 coverage
+2026-05-17T00:47:40 [INFO] evo.workers/analyst — analyst starting — 29 articles, 6 clusters
+2026-05-17T00:47:40 [INFO] evo.workers/analyst — analyst: 5 time buckets created
+2026-05-17T00:47:41 [INFO] evo.workers/evaluator — nli_primary_track completed in 7.029s
+2026-05-17T00:47:41 [INFO] evo.workers/evaluator — evaluator step3a primary
+2026-05-17T00:47:41 [INFO] evo.workers/evaluator — llm_call_claims_extraction completed in 0.679s
+2026-05-17T00:47:43 [INFO] evo.workers/evaluator — llm_call_cluster_labels_batch completed in 0.515s
+2026-05-17T00:47:43 [INFO] evo.workers/evaluator — evaluator step3b claims
+2026-05-17T00:47:43 [INFO] evo.workers/evaluator — evaluator step3b secondary_clusters
+2026-05-17T00:47:43 [INFO] evo.workers/evaluator — evaluator step4 coverage
+2026-05-17T00:47:43 [INFO] evo.workers/analyst — analyst starting — 34 articles, 8 clusters
+2026-05-17T00:47:43 [INFO] evo.workers/analyst — analyst: 6 time buckets created
+2026-05-17T00:47:51 [INFO] evo.workers/analyst — frame_llm_batch completed in 0.434s
+2026-05-17T00:47:52 [INFO] evo.workers/analyst — frame_llm_batch completed in 0.377s
+2026-05-17T00:48:30 [ERROR] evo.workers/analyst — gdelt_plausibility_batch failed after 0.499s
+2026-05-17T00:48:30 [WARNING] evo.workers/analyst — GDELT plausibility LLM failed for bucket 1
+2026-05-17T00:48:32 [ERROR] evo.workers/analyst — gdelt_plausibility_batch failed after 0.409s
+2026-05-17T00:48:32 [WARNING] evo.workers/analyst — GDELT plausibility LLM failed for bucket 1
+2026-05-17T00:48:53 [INFO] evo.workers/analyst — analyst: 3 inflection candidates detected
+2026-05-17T00:48:54 [INFO] evo.workers/analyst — shift_characterizer completed in 0.437s
+2026-05-17T00:48:55 [INFO] evo.workers/analyst — shift_characterizer completed in 0.419s
+2026-05-17T00:48:55 [INFO] evo.workers/analyst — shift_characterizer completed in 0.358s
+2026-05-17T00:48:55 [INFO] evo.workers/analyst — analyst: ground_truth_tier=unresolvable
+2026-05-17T00:48:56 [INFO] evo.workers/analyst — narrative_summary completed in 0.873s
+2026-05-17T00:48:56 [INFO] evo.workers/analyst — analyst complete — buckets=5, inflections=3, tier=unresolvable
+2026-05-17T00:48:56 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:48:57 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.013s
+2026-05-17T00:48:57 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:48:57 [INFO] evo.workers/gdelt_commoncrawl_targeted — fetching gdelt+commoncrawl
+2026-05-17T00:48:57 [INFO] evo.workers/analyst — gdelt_plausibility_batch completed in 1.391s
+2026-05-17T00:49:28 [ERROR] evo.workers/analyst — gdelt_plausibility_batch failed after 0.583s
+2026-05-17T00:49:28 [WARNING] evo.workers/analyst — GDELT plausibility LLM failed for bucket 4
+2026-05-17T00:49:28 [INFO] evo.workers/analyst — analyst: 3 inflection candidates detected
+2026-05-17T00:49:29 [INFO] evo.workers/analyst — shift_characterizer completed in 0.521s
+2026-05-17T00:49:30 [INFO] evo.workers/analyst — shift_characterizer completed in 0.41s
+2026-05-17T00:49:30 [INFO] evo.workers/analyst — shift_characterizer completed in 0.408s
+2026-05-17T00:49:30 [INFO] evo.workers/analyst — analyst: ground_truth_tier=unresolvable
+2026-05-17T00:49:32 [INFO] evo.workers/analyst — narrative_summary completed in 1.028s
+2026-05-17T00:49:32 [INFO] evo.workers/analyst — analyst complete — buckets=6, inflections=3, tier=unresolvable
+2026-05-17T00:49:32 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:49:33 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.848s
+2026-05-17T00:49:33 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:49:33 [INFO] evo.workers/gdelt_commoncrawl_targeted — gdelt_commoncrawl_targeted done
+2026-05-17T00:49:33 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:49:34 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.386s
+2026-05-17T00:49:34 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:49:34 [INFO] evo.workers/evaluator — evaluator entered
+2026-05-17T00:49:34 [INFO] evo.workers/evaluator — evaluator step1 dedup
+2026-05-17T00:49:35 [INFO] evo.workers/evaluator — evaluator step2 filter
+2026-05-17T00:49:35 [INFO] evo.workers/evaluator — llm_call_source_classify completed in 0.275s
+2026-05-17T00:49:35 [INFO] evo.workers/evaluator — evaluator step2b source_types
+2026-05-17T00:49:35 [INFO] evo.workers/evaluator — evaluator step3a primary
+2026-05-17T00:49:36 [INFO] evo.workers/evaluator — llm_call_cluster_labels_batch completed in 0.825s
+2026-05-17T00:49:36 [INFO] evo.workers/evaluator — evaluator step3b claims
+2026-05-17T00:49:36 [INFO] evo.workers/evaluator — evaluator step3b secondary_clusters
+2026-05-17T00:49:36 [INFO] evo.workers/evaluator — evaluator step4 coverage
+2026-05-17T00:49:36 [INFO] evo.workers/analyst — analyst starting — 69 articles, 6 clusters
+2026-05-17T00:49:36 [INFO] evo.workers/analyst — analyst: 13 time buckets created
+2026-05-17T00:49:53 [INFO] evo.workers/analyst — frame_llm_batch completed in 0.321s
+2026-05-17T00:50:04 [INFO] evo.workers/tavily_targeted — tavily_targeted done
+2026-05-17T00:50:04 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:50:04 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.693s
+2026-05-17T00:50:04 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:50:04 [INFO] evo.workers/evaluator — evaluator entered
+2026-05-17T00:50:06 [INFO] evo.workers/evaluator — evaluator step1 dedup
+2026-05-17T00:50:08 [INFO] evo.workers/evaluator — evaluator step2 filter
+2026-05-17T00:50:08 [INFO] evo.workers/evaluator — llm_call_source_classify completed in 0.292s
+2026-05-17T00:50:08 [INFO] evo.workers/evaluator — evaluator step2b source_types
+2026-05-17T00:50:08 [INFO] evo.workers/evaluator — nli_primary_track completed in 0.378s
+2026-05-17T00:50:08 [INFO] evo.workers/evaluator — evaluator step3a primary
+2026-05-17T00:50:09 [INFO] evo.workers/evaluator — llm_call_claims_extraction completed in 0.524s
+2026-05-17T00:50:13 [INFO] evo.workers/evaluator — llm_call_cluster_labels_batch completed in 0.758s
+2026-05-17T00:50:13 [INFO] evo.workers/evaluator — evaluator step3b claims
+2026-05-17T00:50:13 [INFO] evo.workers/evaluator — evaluator step3b secondary_clusters
+2026-05-17T00:50:14 [INFO] evo.workers/evaluator — evaluator step4 coverage
+2026-05-17T00:50:14 [INFO] evo.workers/analyst — analyst starting — 54 articles, 11 clusters
+2026-05-17T00:50:14 [INFO] evo.workers/analyst — analyst: 10 time buckets created
+2026-05-17T00:50:30 [INFO] evo.workers/analyst — analyst: 3 inflection candidates detected
+2026-05-17T00:50:33 [INFO] evo.workers/analyst — shift_characterizer completed in 0.439s
+2026-05-17T00:50:33 [INFO] evo.workers/analyst — shift_characterizer completed in 0.345s
+2026-05-17T00:50:33 [INFO] evo.workers/analyst — shift_characterizer completed in 0.371s
+2026-05-17T00:50:33 [INFO] evo.workers/analyst — analyst: ground_truth_tier=unresolvable
+2026-05-17T00:50:37 [INFO] evo.workers/analyst — narrative_summary completed in 0.974s
+2026-05-17T00:50:37 [INFO] evo.workers/analyst — analyst complete — buckets=13, inflections=3, tier=unresolvable
+2026-05-17T00:50:37 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:50:38 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.269s
+2026-05-17T00:50:38 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: ceiling 2/2 — forcing researcher
+2026-05-17T00:50:38 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:50:42 [INFO] evo.workers/researcher — llm_call completed in 1.248s
+2026-05-17T00:50:42 [INFO] evo.workers/researcher — researcher completed
+2026-05-17T00:50:42 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:50:43 [INFO] evo.workers/analyst — frame_llm_batch completed in 0.587s
+2026-05-17T00:50:44 [INFO] evo.orchestrator/orchestrator — llm_call completed in 1.66s
+2026-05-17T00:50:44 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=evaluator — forcing writer
+2026-05-17T00:50:44 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:50:44 [INFO] evo.workers/writer — writer: rendered NarrativeReport (6123 chars)
+2026-05-17T00:50:44 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:50:44 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.502s
+2026-05-17T00:50:44 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=evaluator — forcing FINISH
+2026-05-17T00:50:44 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:51:52 [INFO] evo.workers/analyst — analyst: 5 inflection candidates detected
+2026-05-17T00:51:54 [INFO] evo.workers/analyst — shift_characterizer completed in 0.408s
+2026-05-17T00:51:54 [INFO] evo.workers/analyst — shift_characterizer completed in 0.43s
+2026-05-17T00:51:54 [INFO] evo.workers/analyst — shift_characterizer completed in 0.475s
+2026-05-17T00:51:55 [INFO] evo.workers/analyst — shift_characterizer completed in 0.422s
+2026-05-17T00:51:55 [INFO] evo.workers/analyst — shift_characterizer completed in 0.438s
+2026-05-17T00:51:55 [INFO] evo.workers/analyst — analyst: ground_truth_tier=unresolvable
+2026-05-17T00:51:57 [INFO] evo.workers/analyst — narrative_summary completed in 0.939s
+2026-05-17T00:51:57 [INFO] evo.workers/analyst — analyst complete — buckets=10, inflections=5, tier=unresolvable
+2026-05-17T00:51:57 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:51:58 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.79s
+2026-05-17T00:51:58 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: ceiling 2/2 — forcing researcher
+2026-05-17T00:51:58 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:52:01 [INFO] evo.workers/researcher — llm_call completed in 1.374s
+2026-05-17T00:52:01 [INFO] evo.workers/researcher — researcher completed
+2026-05-17T00:52:01 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:52:01 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.423s
+2026-05-17T00:52:01 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=evaluator — forcing writer
+2026-05-17T00:52:01 [INFO] evo.orchestrator/orchestrator — orchestrator routing
+2026-05-17T00:52:01 [INFO] evo.workers/writer — writer: rendered NarrativeReport (7762 chars)
+2026-05-17T00:52:01 [INFO] evo.orchestrator/orchestrator — orchestrator entered
+2026-05-17T00:52:02 [INFO] evo.orchestrator/orchestrator — llm_call completed in 0.628s
+2026-05-17T00:52:02 [WARNING] evo.orchestrator/orchestrator — orchestrator guard: analysis_complete=True, next=evaluator — forcing FINISH
+2026-05-17T00:52:02 [INFO] evo.orchestrator/orchestrator — orchestrator routing
