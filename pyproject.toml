@@ -22,7 +22,9 @@ dependencies = [
     # Async support in sync contexts (e.g. Jupyter)
     "nest-asyncio>=1.6.0",
     # Wikipedia anchor retrieval (no API key needed)
-    "wikipedia>=1.4.0",
+    # FastAPI API endpoints
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
 ]
 
 [project.optional-dependencies]
